@@ -30,15 +30,20 @@ public func configure(_ app: Application) throws {
         password: Environment.get("DATABASE_PASSWORD") ?? "vapor_password",
         database: Environment.get("DATABASE_NAME") ?? databaseName
     ), as: .psql)
+    
 
     app.migrations.add(CreateUser())
-    app.migrations.add(AddPasswordToUserWithDefaultValue())
-    app.migrations.add(CreateRecipe())
     app.migrations.add(CreateCategory())
+    app.migrations.add(CreateRecipe())
+    app.migrations.add(CreateRecipeCategoryPivot())
     app.migrations.add(CreateUserConnectionPivot())
     app.migrations.add(CreateUserLikesRecipePivot())
     app.migrations.add(CreateUserRatesRecipePivot())
-    app.migrations.add(CreateRecipeCategoryPivot())
+    
+    if app.environment != .testing {
+        app.migrations.add(AddPasswordToUserWithDefaultValue())
+    }
+    
 
     app.logger.logLevel = .debug
     try app.autoMigrate().wait()

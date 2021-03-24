@@ -62,7 +62,7 @@ final class UserConnectionTests: XCTestCase {
         })
         
         try app.test(.GET, "\(usersConnectionsURI)\(followedUser.id!)/followers", afterResponse: { response in
-            let followedUsers = try response.content.decode([User].self)
+            let followedUsers = try response.content.decode([User.Public].self)
             XCTAssertEqual(followedUsers.count, 1)
             XCTAssertEqual(followedUsers[0].name, followerUser.name)
             XCTAssertEqual(followedUsers[0].username, followerUser.username)
@@ -76,7 +76,7 @@ final class UserConnectionTests: XCTestCase {
         })
         
         try app.test(.GET, "\(usersConnectionsURI)\(followedUser.id!)/followers", afterResponse: { response in
-            let followedUsers = try response.content.decode([User].self)
+            let followedUsers = try response.content.decode([User.Public].self)
             XCTAssertEqual(followedUsers.count, 2)
         })
     }
@@ -90,7 +90,7 @@ final class UserConnectionTests: XCTestCase {
         })
         
         try app.test(.GET, "\(usersConnectionsURI)\(followerUser.id!)/follows", afterResponse: { response in
-            let usersAUserFollows = try response.content.decode([User].self)
+            let usersAUserFollows = try response.content.decode([User.Public].self)
             XCTAssertEqual(usersAUserFollows.count, 1)
             XCTAssertEqual(usersAUserFollows[0].name, followedUser.name)
             XCTAssertEqual(usersAUserFollows[0].username, followedUser.username)

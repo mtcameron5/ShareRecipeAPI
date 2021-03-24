@@ -125,7 +125,7 @@ final class RecipeTests: XCTestCase {
             let recipe = try Recipe.create(user: user, on: app.db)
 
             try app.test(.GET, "\(recipesURI)\(recipe.id!)/user", afterResponse: { response in
-                let recipesUser = try response.content.decode(User.self)
+                let recipesUser = try response.content.decode(User.Public.self)
                 XCTAssertEqual(recipesUser.id, user.id)
                 XCTAssertEqual(recipesUser.name, user.name)
                 XCTAssertEqual(recipesUser.username, user.username)

@@ -41,7 +41,7 @@ final class UserLikesRecipeTests: XCTestCase {
         })
         
         try app.test(.GET, "\(recipesURI)\(recipe.id!)/likedby/users", afterResponse: { response in
-            let usersWhoLikeRecipe = try response.content.decode([User].self)
+            let usersWhoLikeRecipe = try response.content.decode([User.Public].self)
             XCTAssertEqual(usersWhoLikeRecipe.count, 1)
             XCTAssertEqual(usersWhoLikeRecipe[0].name, user.name)
             XCTAssertEqual(usersWhoLikeRecipe[0].username, user.username)

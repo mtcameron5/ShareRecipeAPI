@@ -113,7 +113,7 @@ final class UserRatesRecipeTests: XCTestCase {
         let _ = try UserRatesRecipePivot.create(user: anotherUser, recipe: recipe, on: app.db)
         
         try app.test(.GET, "\(userRatingsURI)recipes/\(recipe.id!)/users", afterResponse: { response in
-            let users = try response.content.decode([User].self)
+            let users = try response.content.decode([User.Public].self)
             XCTAssertEqual(users.count, 2)
             XCTAssertEqual(users[0].id, user.id)
             XCTAssertEqual(users[1].id, anotherUser.id)

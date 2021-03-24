@@ -31,7 +31,7 @@ final class UserTests: XCTestCase {
         
         try app.test(.GET, usersURI, afterResponse: { response in
             XCTAssertEqual(response.status, .ok)
-            let users = try response.content.decode([User].self)
+            let users = try response.content.decode([User.Public].self)
             
             XCTAssertEqual(users.count, 2)
             XCTAssertEqual(users[0].name, usersName)
@@ -46,14 +46,14 @@ final class UserTests: XCTestCase {
         try app.test(.POST, usersURI, beforeRequest: { req in
             try req.content.encode(user)
         }, afterResponse: { response in
-            let receivedUser = try response.content.decode(User.self)
+            let receivedUser = try response.content.decode(User.Public.self)
             XCTAssertEqual(receivedUser.name, usersName)
             XCTAssertEqual(receivedUser.username, usersUsername)
             XCTAssertNotNil(receivedUser.id)
             
             try app.test(.GET, usersURI,
                          afterResponse: { secondResponse in
-                            let users = try secondResponse.content.decode([User].self)
+                            let users = try secondResponse.content.decode([User.Public].self)
                             XCTAssertEqual(users.count, 1)
                             XCTAssertEqual(users[0].name, usersName)
                             XCTAssertEqual(users[0].username, usersUsername)
@@ -68,7 +68,7 @@ final class UserTests: XCTestCase {
         try app.test(.POST, usersURI, beforeRequest: { req in
             try req.content.encode(user)
         }, afterResponse: { response in
-            let receivedUser = try response.content.decode(User.self)
+            let receivedUser = try response.content.decode(User.Public.self)
             try app.test(.DELETE, "\(usersURI)\(receivedUser.id!)", afterResponse: { deleteResponse in
                 XCTAssertEqual(deleteResponse.status, .noContent)
             })
@@ -84,7 +84,7 @@ final class UserTests: XCTestCase {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         
         try app.test(.GET, "\(usersURI)\(user.id!)", afterResponse: { response in
-            let receivedUser = try response.content.decode(User.self)
+            let receivedUser = try response.content.decode(User.Public.self)
             XCTAssertEqual(receivedUser.name, usersName)
             XCTAssertEqual(receivedUser.username, usersUsername)
             XCTAssertEqual(receivedUser.id, user.id)

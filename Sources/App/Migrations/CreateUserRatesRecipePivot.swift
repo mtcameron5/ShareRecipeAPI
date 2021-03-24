@@ -7,17 +7,18 @@
 
 import Fluent
 
-struct CreateUserLikesRecipePivot: Migration {
+struct CreateUserRatesRecipePivot: Migration {
     func prepare(on database: Database) -> EventLoopFuture<Void> {
-        return database.schema("user-likes-recipe-pivot")
+        return database.schema("user-rates-recipe-pivot")
             .id()
             .field("userID", .uuid, .required, .references("users", "id", onDelete: .cascade))
             .field("recipeID", .uuid, .required, .references("recipes", "id", onDelete: .cascade))
+            .field("rating", .float, .required)
             .unique(on: "userID", "recipeID")
             .create()
     }
     
     func revert(on database: Database) -> EventLoopFuture<Void> {
-        return database.schema("user-likes-recipe-pivot").delete()
+        return database.schema("user-rates-recipe-pivot").delete()
     }
 }

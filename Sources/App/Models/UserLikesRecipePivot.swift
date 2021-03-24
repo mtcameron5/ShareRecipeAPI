@@ -8,14 +8,11 @@
 import Vapor
 import Fluent
 
-final class UserRatesRecipePivot: Model, Content {
-    static let schema = "user-rates-recipe-pivot"
+final class UserLikesRecipePivot: Model, Content {
+    static let schema = "user-likes-recipe-pivot"
     
     @ID
     var id: UUID?
-    
-    @Field(key: "rating")
-    var rating: Float
     
     @Parent(key: "userID")
     var user: User
@@ -25,11 +22,10 @@ final class UserRatesRecipePivot: Model, Content {
     
     init() { }
     
-    init(id: UUID? = nil, user: User, recipe: Recipe, rating: Float) throws {
+    init(id: UUID? = nil, user: User, recipe: Recipe) throws {
         self.id = id
         self.$user.id = try user.requireID()
         self.$recipe.id = try recipe.requireID()
-        self.rating = rating
     }
 
 }

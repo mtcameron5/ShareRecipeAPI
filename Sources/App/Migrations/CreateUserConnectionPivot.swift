@@ -8,6 +8,7 @@
 import Fluent
 
 struct CreateUserConnectionPivot: Migration {
+    
     func prepare(on database: Database) -> EventLoopFuture<Void> {
         return database.schema("user-connection-pivot")
             .id()
@@ -20,4 +21,5 @@ struct CreateUserConnectionPivot: Migration {
     func revert(on database: Database) -> EventLoopFuture<Void> {
         return database.schema("user-connection-pivot").delete()
     }
+    
 }

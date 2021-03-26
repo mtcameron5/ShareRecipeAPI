@@ -24,26 +24,21 @@ final class RecipeTests: XCTestCase {
     func testRecipesCanBeRetrievedFromAPI() throws {
         user = try User.create(on: app.db)
         let recipe1 = try Recipe.create(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, user: user, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, on: app.db)
-        _ = try Recipe.create(on: app.db)
+        _ = try Recipe.create(user: user, on: app.db)
         
-        try app.test(.GET, recipesURI, afterResponse: { response in
+        try app.test(.GET, recipesURI, loggedInUser: user, afterResponse: { response in
             let recipes = try response.content.decode([Recipe].self)
             XCTAssertEqual(recipes.count, 2)
-            XCTAssertEqual(recipes[0].name, recipeName)
-            XCTAssertEqual(recipes[0].ingredients, recipeIngredients)
-            XCTAssertEqual(recipes[0].directions, recipeDirections)
-            XCTAssertEqual(recipes[0].cookTime, recipeCookTime)
-            XCTAssertEqual(recipes[0].prepTime, recipePrepTime)
-            XCTAssertEqual(recipes[0].servings, recipeServings)
+            testRecipeProperties(recipe: recipes[0])
             XCTAssertEqual(recipes[0].id, recipe1.id)
         })
     }
     
     func testRecipeCanBeSavedWithAPI() throws {
         user = try User.create(on: app.db)
-        let createRecipeData = CreateRecipeData(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, userID: user.id!, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime)
+        let createRecipeData = CreateRecipeData(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime)
         
-        try app.test(.POST, recipesURI, beforeRequest: { request in
+        try app.test(.POST, recipesURI, loggedInUser: user, beforeRequest: { request in
             try request.content.encode(createRecipeData)
         }, afterResponse: { response in
             let receivedRecipe = try response.content.decode(Recipe.self)
@@ -65,26 +60,52 @@ final class RecipeTests: XCTestCase {
         })
     }
     
-    func testGettingASingleRecipeFromApi() throws {
+    func testMustBeLoggedInToSaveToAPI() throws {
+        let user = try User.create(on: app.db)
+        let recipe = Recipe(name: recipeName, ingredients: recipeIngredients, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, directions: recipeDirections, userID: user.id!)
+        
+        try app.test(.POST, recipesURI, beforeRequest: { request in
+            (try request.content.encode(recipe))
+        }, afterResponse: { response in
+            XCTAssertEqual(response.status, .unauthorized)
+            XCTAssertThrowsError(try response.content.decode(Recipe.self))
+        })
+        
+        try app.test(.GET, recipesURI, afterResponse: { response in
+            let recipes = try response.content.decode([Recipe].self)
+            
+            // MARK: Learning: response can be decoded to [Recipe] despite no recipes being returned from response. type(of: recipes) returns Array<Recipe>
+            print("+++++++++++++++++++++++++++++++")
+            print("Recipes: ", type(of: recipes))
+            print("+++++++++++++++++++++++++++++++")
+            
+            XCTAssertEqual(recipes.count, 0)
+        })
+    }
+    
+    
+    func testGettingASingleRecipeFromAPI() throws {
         let recipe = try Recipe.create(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, user: user, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, on: app.db)
 
         try app.test(.GET, "\(recipesURI)\(recipe.id!)", afterResponse: { response in
+            XCTAssert(response.status == .ok)
             let receivedRecipe = try response.content.decode(Recipe.self)
             testRecipeProperties(recipe: receivedRecipe)
         })
     }
-    
 
     
-    func testDeletingRecipe() throws {
+    func testAdminUserCanDeleteRecipe() throws {
+        let adminUser = try User.create(admin: true, on: app.db)
         let recipe = try Recipe.create(on: app.db)
         
         try app.test(.GET, recipesURI, afterResponse: { response in
+            XCTAssert(response.status == .ok)
             let recipes = try response.content.decode([Recipe].self)
             XCTAssertEqual(recipes.count, 1)
         })
         
-        try app.test(.DELETE, "\(recipesURI)\(recipe.id!)")
+        try app.test(.DELETE, "\(recipesURI)\(recipe.id!)", loggedInUser: adminUser)
         
         try app.test(.GET, recipesURI, afterResponse: { response in
             let newRecipes = try response.content.decode([Recipe].self)
@@ -92,55 +113,97 @@ final class RecipeTests: XCTestCase {
         })
     }
     
-    func testUpdatingARecipe() throws {
-        user = try User.create(on: app.db)
+    func testCreatorOfRecipeCanDeleteRecipe() throws {
+        let creatorOfRecipeUser = try User.create(on: app.db)
+        let recipe = try Recipe.create(user: creatorOfRecipeUser, on: app.db)
         
-        let recipe = try Recipe.create(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, user: user, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, on: app.db)
-        
-        try app.test(.GET, "\(recipesURI)\(recipe.id!)", afterResponse: { response in
-            let originalRecipe = try response.content.decode(Recipe.self)
-            testRecipeProperties(recipe: originalRecipe)
+        try app.test(.GET, recipesURI, afterResponse: { response in
+            let recipes = try response.content.decode([Recipe].self)
+            XCTAssertEqual(recipes.count, 1)
         })
         
-        let updatedRecipe = CreateRecipeData(name: "Gourmet Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], userID: user.id!, servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes")
-        
-        try app.test(.PUT, "\(recipesURI)\(recipe.id!)", beforeRequest: { request in
-            try request.content.encode(updatedRecipe)
+        try app.test(.DELETE, "\(recipesURI)\(recipe.id!)", loggedInUser: creatorOfRecipeUser, afterResponse: { response in
+            XCTAssertEqual(response.status, .noContent)
         })
         
-        try app.test(.GET, "\(recipesURI)\(recipe.id!)", afterResponse: { response in
-            let newRecipe = try response.content.decode(Recipe.self)
-            print(newRecipe)
-            XCTAssertEqual(newRecipe.name, updatedRecipe.name)
-            XCTAssertEqual(newRecipe.ingredients, updatedRecipe.ingredients)
-            XCTAssertEqual(newRecipe.directions, updatedRecipe.directions)
-            XCTAssertEqual(newRecipe.servings, updatedRecipe.servings)
-            XCTAssertEqual(newRecipe.cookTime, updatedRecipe.cookTime)
-            XCTAssertEqual(newRecipe.prepTime, updatedRecipe.prepTime)
+        try app.test(.GET, recipesURI, afterResponse: { response in
+            let recipes = try response.content.decode([Recipe].self)
+            XCTAssertEqual(recipes.count, 0)
+        })
+        
+    }
+    
+    func testNonCreatorAndNonAdminCannotDeleteRecipe() throws {
+        let normalUser = try User.create(admin: false, on: app.db)
+        let creatorOfRecipeUser = try User.create(on: app.db)
+        let recipe = try Recipe.create(user: creatorOfRecipeUser, on: app.db)
+        
+        try app.test(.GET, recipesURI, afterResponse: { response in
+            let recipes = try response.content.decode([Recipe].self)
+            XCTAssertEqual(recipes.count, 1)
+        })
+        
+        try app.test(.DELETE, "\(recipesURI)\(recipe.id!)", loggedInUser: normalUser, afterResponse: { response in
+            XCTAssert(response.status == .forbidden)
+        })
+        
+        try app.test(.GET, recipesURI, afterResponse: { response in
+            let recipes = try response.content.decode([Recipe].self)
+            XCTAssertEqual(recipes.count, 1)
         })
     }
     
-        func testGettingARecipesUser() throws {
-            let user = try User.create(on: app.db)
-            let recipe = try Recipe.create(user: user, on: app.db)
+    func testCreatorOfRecipeCanUpdateRecipe() throws {
+        let userWhoCreatedRecipe = try User.create(on: app.db)
+        let recipe = try Recipe.create(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, user: userWhoCreatedRecipe, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, on: app.db)
+        
+        // Test cases written in function below
+        try updateRecipe(recipe: recipe, user: userWhoCreatedRecipe)
+    }
+    
+    func testAdminCanUpdateRecipe() throws {
+        let adminUser = try User.create(admin: true, on: app.db)
+        let recipe = try Recipe.create(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, user: user, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, on: app.db)
+        
+        // Test cases written in function below
+        try updateRecipe(recipe: recipe, user: adminUser)
+        
+    }
+    
+    func testNonCreatorAndNonAdminCannotUpdateRecipe() throws {
+        let someUser = try User.create(username: "noncreator", admin: false, on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+        
+        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes")
+        try app.test(.PUT, "\(recipesURI)\(recipe.id!)", loggedInUser: someUser, beforeRequest: { request in
+            try request.content.encode(updatedRecipe)
+        }, afterResponse: { response in
+            XCTAssert(response.status == .forbidden)
+        })
+        
+    }
+    
+    func testGettingARecipesUser() throws {
+        let user = try User.create(on: app.db)
+        let recipe = try Recipe.create(user: user, on: app.db)
 
-            try app.test(.GET, "\(recipesURI)\(recipe.id!)/user", afterResponse: { response in
-                let recipesUser = try response.content.decode(User.Public.self)
-                XCTAssertEqual(recipesUser.id, user.id)
-                XCTAssertEqual(recipesUser.name, user.name)
-                XCTAssertEqual(recipesUser.username, user.username)
-            })
-        }
+        try app.test(.GET, "\(recipesURI)\(recipe.id!)/user", afterResponse: { response in
+            let recipesUser = try response.content.decode(User.Public.self)
+            XCTAssertEqual(recipesUser.id, user.id)
+            XCTAssertEqual(recipesUser.name, user.name)
+            XCTAssertEqual(recipesUser.username, user.username)
+        })
+    }
     
-        func testSearchRecipeName() throws {
-            _ = try Recipe.create(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, user: user, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, on: app.db)
-    
-            try app.test(.GET, "\(recipesURI)search?term=Chicken+Curry", afterResponse: { response in
-                let recipes = try response.content.decode([Recipe].self)
-                XCTAssertEqual(recipes.count, 1)
-                testRecipeProperties(recipe: recipes[0])
-            })
-        }
+    func testSearchRecipeName() throws {
+        _ = try Recipe.create(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, user: user, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, on: app.db)
+
+        try app.test(.GET, "\(recipesURI)search?term=Chicken+Curry", afterResponse: { response in
+            let recipes = try response.content.decode([Recipe].self)
+            XCTAssertEqual(recipes.count, 1)
+            testRecipeProperties(recipe: recipes[0])
+        })
+    }
 
     func testGetFirstRecipe() throws {
         let recipe = try Recipe.create(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, user: user, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, on: app.db)
@@ -167,32 +230,6 @@ final class RecipeTests: XCTestCase {
         })
     }
 
-//    func testRecipesCategories() throws {
-//        let category = try Category.create(on: app.db)
-//        let category2 = try Category.create(name: "Funny", on: app.db)
-//        let acronym = try Acronym.create(on: app.db)
-//
-//        try app.test(.POST, "\(acronymsURI)\(acronym.id!)/categories/\(category.id!)")
-//        try app.test(.POST, "\(acronymsURI)\(acronym.id!)/categories/\(category2.id!)")
-//
-//        try app.test(.GET, "\(acronymsURI)\(acronym.id!)/categories", afterResponse: { response in
-//            let categories = try response.content.decode([App.Category].self)
-//            XCTAssertEqual(categories.count, 2)
-//            XCTAssertEqual(categories[0].id, category.id)
-//            XCTAssertEqual(categories[0].name, category.name)
-//            XCTAssertEqual(categories[1].id, category2.id)
-//            XCTAssertEqual(categories[1].name, category2.name)
-//        })
-//
-//        try app.test(.DELETE, "\(acronymsURI)\(acronym.id!)/categories/\(category.id!)")
-//
-//        try app.test(.GET, "\(acronymsURI)\(acronym.id!)/categories", afterResponse: { response in
-//            let newCategories = try response.content.decode([App.Category].self)
-//            XCTAssertEqual(newCategories.count, 1)
-//        })
-//
-//    }
-    
     func testRecipeProperties(recipe: Recipe) {
         XCTAssertEqual(recipe.name, recipeName)
         XCTAssertEqual(recipe.ingredients, recipeIngredients)
@@ -203,4 +240,31 @@ final class RecipeTests: XCTestCase {
         XCTAssertNotNil(recipe.id)
     }
     
+    func updateRecipe(recipe: Recipe, user: User) throws {
+        try app.test(.GET, "\(recipesURI)\(recipe.id!)", afterResponse: { response in
+            XCTAssert(response.status == .ok)
+            let originalRecipe = try response.content.decode(Recipe.self)
+            testRecipeProperties(recipe: originalRecipe)
+        })
+
+        
+        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes")
+        
+        try app.test(.PUT, "\(recipesURI)\(recipe.id!)", loggedInUser: user,  beforeRequest: { request in
+            try request.content.encode(updatedRecipe)
+        }, afterResponse: { response in
+            XCTAssert(response.status == .ok)
+        })
+        
+        try app.test(.GET, "\(recipesURI)\(recipe.id!)", afterResponse: { response in
+            let newRecipe = try response.content.decode(Recipe.self)
+            print(newRecipe)
+            XCTAssertEqual(newRecipe.name, updatedRecipe.name)
+            XCTAssertEqual(newRecipe.ingredients, updatedRecipe.ingredients)
+            XCTAssertEqual(newRecipe.directions, updatedRecipe.directions)
+            XCTAssertEqual(newRecipe.servings, updatedRecipe.servings)
+            XCTAssertEqual(newRecipe.cookTime, updatedRecipe.cookTime)
+            XCTAssertEqual(newRecipe.prepTime, updatedRecipe.prepTime)
+        })
+    }
 }

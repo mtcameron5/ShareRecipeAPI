@@ -7,16 +7,26 @@
 
 @testable import App
 import Fluent
-
+import Vapor
 
 extension User {
     static func create(
         name: String = "Cameron",
-        username: String = "wacameron5",
+        username: String? = nil,
         password: String = "password",
+        admin: Bool = false,
         on database: Database
     ) throws -> User {
-        let user = User(name: name, username: username, password: password)
+        let createUsername: String
+        
+        if let suppliedUsername = username {
+            createUsername  = suppliedUsername
+        } else {
+            createUsername = UUID().uuidString
+        }
+        
+        let hashedPassword = try Bcrypt.hash(password)
+        let user = User(name: name, username: createUsername, password: hashedPassword, admin: admin)
         try user.save(on: database).wait()
         return user
     }
@@ -52,15 +62,16 @@ extension UserRatesRecipePivot {
         rating: Float = 5.0,
         on database: Database
     ) throws -> UserRatesRecipePivot {
-        var ratingUser = user
-        if ratingUser == nil {
-            ratingUser = try User.create(name: "Cameron", username: "mtcameron5", on: database)
+        var userRatingRecipe = user
+        if userRatingRecipe == nil {
+            userRatingRecipe = try User.create(name: "Cameron", username: "mtcameron5", on: database)
         }
-        var ratedRecipe = recipe
-        if ratedRecipe == nil {
-            ratedRecipe = try Recipe.create(name: "Chicken Curry", ingredients: ["Curry Powder"], directions: ["Cook Food"], user: ratingUser, servings: 5, prepTime: "20 Minutes", cookTime: "30 Minutes", on: database)
+        var recipeBeingRated = recipe
+        if recipeBeingRated == nil {
+            recipeBeingRated = try Recipe.create(name: "Chicken Curry", ingredients: ["Curry Powder"], directions: ["Cook Food"], user: userRatingRecipe, servings: 5, prepTime: "20 Minutes", cookTime: "30 Minutes", on: database)
         }
-        let userRating = try UserRatesRecipePivot(user: ratingUser!, recipe: ratedRecipe!, rating: rating)
+        
+        let userRating = try UserRatesRecipePivot(user: userRatingRecipe!, recipe: recipeBeingRated!, rating: rating)
         try userRating.save(on: database).wait()
         return userRating
     }
@@ -88,9 +99,16 @@ extension UserLikesRecipePivot {
     }
 }
 
-extension Category {
-    static func create(on database: Database) throws -> Category {
-        let category = Category(name: "Indian")
+extension App.Category {
+    static func create(name: String? = nil, on database: Database) throws -> App.Category {
+        var categoryName: String
+        if let suppliedName = name {
+            categoryName = suppliedName
+        } else {
+            categoryName = "Indian"
+        }
+        
+        let category = Category(name: categoryName)
         try category.save(on: database).wait()
         return category
     }

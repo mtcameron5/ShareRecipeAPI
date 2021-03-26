@@ -7,7 +7,6 @@ public func configure(_ app: Application) throws {
     // uncomment to serve files from /Public folder
     // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
     app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
-    app.middleware.use(app.sessions.middleware)
 
     let databaseName: String
     let databasePort: Int
@@ -39,11 +38,14 @@ public func configure(_ app: Application) throws {
     app.migrations.add(CreateUserConnectionPivot())
     app.migrations.add(CreateUserLikesRecipePivot())
     app.migrations.add(CreateUserRatesRecipePivot())
+    app.migrations.add(CreateTokenMigration())
+
     
     if app.environment != .testing {
-        app.migrations.add(AddPasswordToUserWithDefaultValue())
+        app.migrations.add(AddAdminToUsers())
+        app.migrations.add(CreateAdminUser())
+//        app.migrations.add(AddPasswordToUserWithDefaultValue())
     }
-    
 
     app.logger.logLevel = .debug
     try app.autoMigrate().wait()

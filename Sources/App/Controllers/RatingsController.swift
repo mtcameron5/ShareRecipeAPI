@@ -11,18 +11,25 @@ import Fluent
 struct RatingsController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
         let ratingsRoutes = routes.grouped("api", "ratings")
-        ratingsRoutes.post(":userID", "rates", ":recipeID", use: createUserRatesRecipeHandler)
-        ratingsRoutes.put(":ratingID", use: updateRatingHandler)
         ratingsRoutes.get(use: getRatingsHandler)
         ratingsRoutes.get("recipes", ":recipeID", use: getRecipesRatings)
         ratingsRoutes.get("recipes", ":recipeID", "stripped", use: getRecipesRatingsStripped)
         ratingsRoutes.get("user", ":userID", use: getUsersRatings)
         ratingsRoutes.get("user", ":userID", "recipes", use: getRecipesAUserRatedHandler)
         ratingsRoutes.get("recipes", ":recipeID", "users", use: getUsersThatRatedRecipe)
-        ratingsRoutes.delete(":ratingID", use: deleteHandler)
+        
+        
+        let tokenAuthMiddleWare = Token.authenticator()
+        let guardAuthMiddleware = User.guardMiddleware()
+        let tokenAuthGroup = ratingsRoutes.grouped(tokenAuthMiddleWare, guardAuthMiddleware)
+        
+        tokenAuthGroup.post(":userID", "rates", ":recipeID", use: createUserRatesRecipeHandler)
+        tokenAuthGroup.put(":ratingID", use: updateRatingHandler)
+        tokenAuthGroup.delete(":ratingID", use: deleteHandler)
     }
     
     func createUserRatesRecipeHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
+        let loggedInUser = try req.auth.require(User.self)
         let userQuery = User.find(req.parameters.get("userID"), on: req.db)
             .unwrap(or: Abort(.notFound))
         let recipeQuery = Recipe.find(req.parameters.get("recipeID"), on: req.db)
@@ -31,18 +38,30 @@ struct RatingsController: RouteCollection {
         
         return recipeQuery.and(userQuery)
             .flatMap { recipe, user in
-                let recipeRating = try! UserRatesRecipePivot(user: user, recipe: recipe, rating: data.rating)
-                return recipeRating.save(on: req.db).transform(to: .created)
+                if loggedInUser.id! == user.id! || loggedInUser.admin! {
+                    let recipeRating = try! UserRatesRecipePivot(user: user, recipe: recipe, rating: data.rating)
+                    return recipeRating.save(on: req.db).transform(to: .created)
+                } else {
+                    return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenRateRecipeRequest.rawValue))
+                }
+
             }
     }
     
     func updateRatingHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
+        let loggedInUser = try req.auth.require(User.self)
         let updateData = try req.content.decode(Rating.self)
         
         return UserRatesRecipePivot.find(req.parameters.get("ratingID"), on: req.db)
             .unwrap(or: Abort(.notFound)).flatMap { recipeRating in
-                recipeRating.rating = updateData.rating
-                return recipeRating.save(on: req.db).transform(to: .noContent)
+                return recipeRating.$user.$id.value.flatMap( { userWhoCreatedRecipeID in
+                    if userWhoCreatedRecipeID == loggedInUser.id! || loggedInUser.admin! {
+                        recipeRating.rating = updateData.rating
+                        return recipeRating.save(on: req.db).transform(to: .noContent)
+                    } else {
+                        return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenUpdateRecipeRequest.rawValue))
+                    }
+                })!
             }
     }
     
@@ -109,13 +128,20 @@ struct RatingsController: RouteCollection {
     }
     
     func deleteHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
-        UserRatesRecipePivot.find(req.parameters.get("ratingID"), on: req.db)
+        let loggedInUser = try req.auth.require(User.self)
+        
+        return UserRatesRecipePivot.find(req.parameters.get("ratingID"), on: req.db)
             .unwrap(or: Abort(.notFound))
             .flatMap({ recipeRating in
-                recipeRating.delete(on: req.db).transform(to: .noContent)
+                return recipeRating.$user.$id.value.flatMap({ recipeWhoRatedRecipeUserID in
+                    if recipeWhoRatedRecipeUserID == loggedInUser.id! || loggedInUser.admin! {
+                        return recipeRating.delete(on: req.db).transform(to: .noContent)
+                    } else {
+                        return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenDeleteRatingRequest.rawValue))
+                    }
+                })!
             })
     }
-    
 }
 
 

@@ -23,6 +23,9 @@ final class User: Model, Content {
     @Field(key: "password")
     var password: String
     
+    @Field(key: "admin")
+    var admin: Bool?
+    
     @Children(for: \.$user)
     var recipes: [Recipe]
     
@@ -40,10 +43,11 @@ final class User: Model, Content {
     
     init() {}
     
-    init(id: UUID? = nil, name: String, username: String, password: String) {
+    init(id: UUID? = nil, name: String, username: String, password: String, admin: Bool? = false) {
         self.name = name
         self.username = username
         self.password = password
+        self.admin = admin
     }
     
     final class Public: Content {
@@ -97,5 +101,14 @@ extension EventLoopFuture where Value == Array<User> {
         return self.map { users in
             users.convertToPublic()
         }
+    }
+}
+
+extension User: ModelAuthenticatable {
+    static let usernameKey = \User.$username
+    static let passwordHashKey = \User.$password
+    
+    func verify(password: String) throws -> Bool {
+        try Bcrypt.verify(password, created: self.password)
     }
 }

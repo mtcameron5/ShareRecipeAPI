@@ -15,13 +15,20 @@ struct RecipesController: RouteCollection {
         recipeRoutes.get(use: getAllHandler)
         recipeRoutes.get(":recipeID", use: getHandler)
         recipeRoutes.get(":recipeID", "user", use: getUserHandler)
-        recipeRoutes.post(use: createHandler)
-        recipeRoutes.put(":recipeID", use: updateHandler)
-        recipeRoutes.delete(":recipeID", use: deleteHandler)
         recipeRoutes.get("first", use: getFirstHandler)
         recipeRoutes.get("search", use: getSearchHandler)
         recipeRoutes.get("sorted", use: getSortedHandler)
+        recipeRoutes.get(":recipeID", "categories", use: getCategoriesOfRecipe)
+        
+        let tokenAuthMiddleWare = Token.authenticator()
+        let guardAuthMiddleware = User.guardMiddleware()
+        let tokenAuthGroup = recipeRoutes.grouped(tokenAuthMiddleWare, guardAuthMiddleware)
 
+        tokenAuthGroup.post(use: createHandler)
+        tokenAuthGroup.put(":recipeID", use: updateHandler)
+        tokenAuthGroup.delete(":recipeID", use: deleteHandler)
+        tokenAuthGroup.post(":recipeID", "categories", ":categoryID", use: addCategoryHandler)
+        tokenAuthGroup.delete(":recipeID", "categories", ":categoryID", use: removeCategoryHandler)
     }
     
     func getAllHandler(_ req: Request) throws -> EventLoopFuture<[Recipe]> {
@@ -43,36 +50,55 @@ struct RecipesController: RouteCollection {
     
     func createHandler(_ req: Request) throws -> EventLoopFuture<Recipe> {
         let data = try req.content.decode(CreateRecipeData.self)
-        let recipe = Recipe(name: data.name, ingredients: data.ingredients, servings: data.servings, prepTime: data.prepTime, cookTime: data.cookTime, directions: data.directions, userID: data.userID)
+        let user = try req.auth.require(User.self)
+        let recipe = try Recipe(name: data.name, ingredients: data.ingredients, servings: data.servings, prepTime: data.prepTime, cookTime: data.cookTime, directions: data.directions, userID: user.requireID())
         return recipe.save(on: req.db).map { recipe }
     }
     
     func updateHandler(_ req: Request) throws -> EventLoopFuture<Recipe> {
         let updateData = try req.content.decode(CreateRecipeData.self)
+        let user = try req.auth.require(User.self)
+        let userID = try user.requireID()
         
         return Recipe.find(req.parameters.get("recipeID"), on: req.db)
             .unwrap(or: Abort(.notFound)).flatMap { recipe in
-                recipe.name = updateData.name
-                recipe.ingredients = updateData.ingredients
-                recipe.directions = updateData.directions
-                recipe.servings = updateData.servings
-                recipe.cookTime = updateData.cookTime
-                recipe.prepTime = updateData.prepTime
-                recipe.$user.id = updateData.userID
-                return recipe.save(on: req.db).map { recipe }
+                return recipe.$user.$id.value.flatMap({ recipeUserID in
+                    if recipeUserID == user.id! || user.admin! {
+                        recipe.name = updateData.name
+                        recipe.ingredients = updateData.ingredients
+                        recipe.directions = updateData.directions
+                        recipe.servings = updateData.servings
+                        recipe.cookTime = updateData.cookTime
+                        recipe.prepTime = updateData.prepTime
+                        recipe.$user.id = userID
+                        return recipe.save(on: req.db).map { recipe }
+                    } else {
+                        return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenUpdateRecipeRequest.rawValue))
+                    }
+                })!
             }
     }
     
     func deleteHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
-        Recipe.find(req.parameters.get("recipeID"), on: req.db)
+        let user = try req.auth.require(User.self)
+        
+        return Recipe.find(req.parameters.get("recipeID"), on: req.db)
             .unwrap(or: Abort(.notFound))
             .flatMap { recipe in
-                recipe.delete(on: req.db).transform(to: .noContent)
+                return recipe.$user.$id.value.flatMap({ recipeUserID in
+                    // recipeUserID == user.id! Checks if the creator of the recipe is the user who logged in via Bearer Token
+                    if recipeUserID == user.id! || user.admin! {
+                        return recipe.delete(on: req.db).transform(to: .noContent)
+                    } else {
+                        return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenDeleteRecipeRequest.rawValue))
+                    }
+                })!
             }
     }
     
     func getSearchHandler(_ req: Request) throws -> EventLoopFuture<[Recipe]> {
         guard let searchTerm = req.query[String.self, at: "term"] else {
+
             throw Abort(.badRequest)
         }
         
@@ -93,13 +119,49 @@ struct RecipesController: RouteCollection {
             .unwrap(or: Abort(.notFound))
     }
     
+    func getCategoriesOfRecipe(_ req: Request) throws -> EventLoopFuture<[Category]> {
+        return Recipe.find(req.parameters.get("recipeID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+            .flatMap { recipe in
+                return recipe.$categories.get(on: req.db)
+            }
+    }
+    
+    func addCategoryHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
+        let user = try req.auth.require(User.self)
+        let recipeToAdd = Recipe.find(req.parameters.get("recipeID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+        let categoryToAddRecipeTo = Category.find(req.parameters.get("categoryID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+        
+        return recipeToAdd.and(categoryToAddRecipeTo).flatMap { recipe, category in
+            return recipe.$user.$id.value.flatMap({ recipeUserID in
+                if recipeUserID == user.id! || user.admin!  {
+                    return recipe.$categories.attach(category, on: req.db).transform(to: .created)
+                } else {
+                    return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenCategoryToRecipeRequest.rawValue))
+                }
+            })!
+        }
+
+    }
+    
+    func removeCategoryHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
+        let recipeToAdd = Recipe.find(req.parameters.get("recipeID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+        let categoryToAddRecipeTo = Category.find(req.parameters.get("categoryID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+        return recipeToAdd.and(categoryToAddRecipeTo).flatMap { recipe, category in
+            recipe.$categories.detach(category, on: req.db).transform(to: .noContent)
+        }
+    }
+    
 }
 
 struct CreateRecipeData: Content {
     let name: String
     let ingredients: [String]
     let directions: [String]
-    let userID: UUID
     let servings: Int
     let prepTime: String
     let cookTime: String

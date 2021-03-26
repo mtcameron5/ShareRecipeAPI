@@ -1,7 +1,7 @@
 import Fluent
 import Vapor
 
-final class Recipe: Model, Content {
+final class Recipe: Model {
     static let schema = "recipes"
     
     @ID(key: .id)
@@ -58,3 +58,5 @@ final class Recipe: Model, Content {
         self.cookTime = cookTime
     }
 }
+
+extension Recipe: Content { }

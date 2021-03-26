@@ -16,6 +16,10 @@ struct UsersController: RouteCollection {
         userRoutes.get(":userID", "recipes", use: getRecipesHandler)
         userRoutes.post(use: createHandler)
         userRoutes.delete(":userID", use: deleteHandler)
+        
+        let basicAuthMiddleware = User.authenticator()
+        let basicAuthGroup = userRoutes.grouped(basicAuthMiddleware)
+        basicAuthGroup.post("login", use: loginHandler)
     }
     
     func getAllHandler(_ req: Request) throws -> EventLoopFuture<[User.Public]> {
@@ -28,7 +32,8 @@ struct UsersController: RouteCollection {
     }
     
     func createHandler(_ req: Request) throws -> EventLoopFuture<User.Public> {
-        let user = try req.content.decode(User.self)
+        let userData = try req.content.decode(CreateUserData.self)
+        let user = User(name: userData.name, username: userData.username, password: userData.password, admin: false)
         user.password = try Bcrypt.hash(user.password)
         return user.save(on: req.db).map { user.convertToPublic() }
     }
@@ -47,8 +52,18 @@ struct UsersController: RouteCollection {
             .flatMap { user in
                 user.delete(on: req.db).transform(to: .noContent)
             }
-    }   
+    }
+    
+    func loginHandler(_ req: Request) throws -> EventLoopFuture<Token> {
+        let user = try req.auth.require(User.self)
+        let token = try Token.generate(for: user)
+        return token.save(on: req.db).map { token }
+    }
     
 }
 
-
+struct CreateUserData: Content {
+    let name: String
+    let username: String
+    let password: String
+}

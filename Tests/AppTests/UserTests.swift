@@ -8,6 +8,7 @@
 import XCTVapor
 
 final class UserTests: XCTestCase {
+    
     let usersName = "Alice"
     let usersUsername = "alicea"
     let usersPassword = "password"
@@ -26,13 +27,13 @@ final class UserTests: XCTestCase {
         let user = try User.create(
             name: usersName,
             username: usersUsername,
+            password: usersPassword,
             on: app.db)
         _ = try User.create(on: app.db)
         
         try app.test(.GET, usersURI, afterResponse: { response in
             XCTAssertEqual(response.status, .ok)
             let users = try response.content.decode([User.Public].self)
-            
             XCTAssertEqual(users.count, 2)
             XCTAssertEqual(users[0].name, usersName)
             XCTAssertEqual(users[0].username, usersUsername)

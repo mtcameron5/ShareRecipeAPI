@@ -9,7 +9,7 @@ import Fluent
 import Foundation
 
 final class RecipeCategoryPivot: Model {
-    static let schema = "acronym-category-pivot"
+    static let schema = "recipe-category-pivot"
     
     @ID
     var id: UUID?

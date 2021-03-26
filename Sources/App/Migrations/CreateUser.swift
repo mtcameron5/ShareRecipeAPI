@@ -15,7 +15,8 @@ struct CreateUser: Migration {
             .field("name", .string, .required)
             .field("username", .string, .required)
             .field("password", .string, .required)
-            .unique(on: "username")
+            .field("admin", .bool, .required)
+//            .unique(on: "username")
             .create()
     }
     
@@ -34,5 +35,16 @@ struct AddPasswordToUserWithDefaultValue: Migration {
         return database.schema("users").delete()
     }
     
+}
+
+struct AddAdminToUsers: Migration {
+    func prepare(on database: Database) -> EventLoopFuture<Void> {
+        let sql = database as! SQLDatabase
+        return sql.raw("ALTER TABLE users ADD COLUMN admin boolean DEFAULT false NOT NULL").run()
+    }
+    
+    func revert(on database: Database) -> EventLoopFuture<Void> {
+        return database.schema("users").delete()
+    }
 }
 

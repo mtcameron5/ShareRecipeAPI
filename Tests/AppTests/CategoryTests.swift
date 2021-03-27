@@ -53,8 +53,18 @@ final class CategoryTests: XCTestCase {
         })
     }
     
+    func testMustBeLoggedInToMakeDestructiveAction() throws {
+        let category = App.Category(name: "Indian")
+        
+        try app.test(.POST, categoriesURI, beforeRequest: { request in
+            try request.content.encode(category)
+        }, afterResponse: { response in
+            XCTAssert(response.status == .unauthorized)
+        })
+    }
+    
     func testNonAdminCannotSaveCategoryToAPI() throws {
-        let category = try App.Category.create(on: app.db)
+        let category = App.Category(name: "Indian")
         let user = try User.create(admin: false, on: app.db)
 
         try app.test(.POST, categoriesURI, loggedInUser: user, beforeRequest: { request in
@@ -63,28 +73,36 @@ final class CategoryTests: XCTestCase {
             XCTAssertEqual(response.status, .forbidden)
             XCTAssertThrowsError(try response.content.decode(App.Category.self))
         })
+        
+        try app.test(.GET, categoriesURI, afterResponse: { response in
+            XCTAssert(response.status == .ok)
+            let categories = try response.content.decode([App.Category].self)
+            XCTAssertEqual(categories.count, 0)
+        })
+        
     }
     
-    func testCreaterOfRecipeCanAddCategoriesToTheirRecipe() throws {
-        let user = try User.create(on: app.db)
-        let recipe = try Recipe.create(user: user, on: app.db)
+    func testRecipeCreatorCanAddCategoriesToTheirRecipe() throws {
+        let userThatCreatedRecipe = try User.create(on: app.db)
+        let recipe = try Recipe.create(user: userThatCreatedRecipe, on: app.db)
         let category = try Category.create(on: app.db)
         
-        try app.test(.POST, "/api/recipes/\(recipe.id!)/categories/\(category.id!)", loggedInUser: user, afterResponse: { response in
+        try app.test(.POST, "/api/recipes/\(recipe.id!)/categories/\(category.id!)", loggedInUser: userThatCreatedRecipe, afterResponse: { response in
             XCTAssert(response.status == .created)
         })
         
         try app.test(.GET, "\(categoriesURI)\(category.id!)/recipes", afterResponse: { response in
+            XCTAssert(response.status == .ok)
             let recipesInCategory = try response.content.decode([Recipe].self)
             XCTAssertEqual(recipesInCategory.count, 1)
             XCTAssertEqual(recipesInCategory[0].id, recipe.id)
-            XCTAssertEqual(recipesInCategory[0].$user.id, user.id)
+            XCTAssertEqual(recipesInCategory[0].$user.id, userThatCreatedRecipe.id)
         })
     }
     
     func testAdminCanAddCategoryToRecipe() throws {
-        let userWhoCreatedRecipe = try User.create(on: app.db)
-        let recipe = try Recipe.create(user: userWhoCreatedRecipe, on: app.db)
+        let userThatCreatedRecipe = try User.create(on: app.db)
+        let recipe = try Recipe.create(user: userThatCreatedRecipe, on: app.db)
         
         let adminUser = try User.create(admin: true, on: app.db)
         let category = try App.Category.create(name: "Chinese", on: app.db)
@@ -111,14 +129,23 @@ final class CategoryTests: XCTestCase {
         
     }
     
+    func testMustBeLoggedInToAddCategoryToRecipe() throws {
+        let category = try App.Category.create(on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+        
+        try app.test(.POST, "/api/recipes/\(recipe.id!)/categories/\(category.id!)", afterResponse: { response in
+            XCTAssert(response.status == .unauthorized)
+        })
+    }
+    
     func testNonAdminOrNonCreatorCannotAddCategoryToRecipe() throws {
-        let nonCreatorUser = try User.create(username: "mtcameron6", admin: false, on: app.db)
+        let nonAdminAndNonCreator = try User.create(username: "mtcameron6", admin: false, on: app.db)
         let creatorUser = try User.create(on: app.db)
         
         let category = try App.Category.create(on: app.db)
         let recipe = try Recipe.create(user: creatorUser, on: app.db)
         
-        try app.test(.POST, "/api/recipes/\(recipe.id!)/categories/\(category.id!)", loggedInUser: nonCreatorUser, afterResponse: { response in
+        try app.test(.POST, "/api/recipes/\(recipe.id!)/categories/\(category.id!)", loggedInUser: nonAdminAndNonCreator, afterResponse: { response in
             XCTAssert(response.status == .forbidden)
         })
         

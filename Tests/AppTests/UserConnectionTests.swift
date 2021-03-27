@@ -26,13 +26,9 @@ final class UserConnectionTests: XCTestCase {
         let followedUser = try User.create(name: usersName, username: usersUsername, on: app.db)
         let followerUser = try User.create(on: app.db)
         
-        try app.test(.POST,
-                     "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)",
-                     loggedInUser: followerUser,
-                     afterResponse:
-                                    { response in
-                                        XCTAssert(response.status == .created)
-                                    })
+        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", loggedInUser: followerUser, afterResponse: { response in
+            XCTAssert(response.status == .created)
+        })
     }
     
     func testUserCannotFollowIfNotLoggedIn() throws {
@@ -41,6 +37,17 @@ final class UserConnectionTests: XCTestCase {
         
         try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", afterResponse: { response in
             XCTAssertEqual(response.status, .unauthorized)
+        })
+    }
+    
+    func testUserCannotFollowFromADifferentAccount() throws {
+        let followedUser = try User.create(name: usersName, username: usersUsername, on: app.db)
+        let followerUser = try User.create(on: app.db)
+        
+        let anotherUser = try User.create(on: app.db)
+        
+        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", loggedInUser: anotherUser, afterResponse: { response in
+            XCTAssertEqual(response.status, .forbidden)
         })
     }
     
@@ -63,15 +70,33 @@ final class UserConnectionTests: XCTestCase {
             let userConnections = try response.content.decode([UserConnectionPivot].self)
             XCTAssertEqual(userConnections.count, 0)
         })
-
+    }
+    
+    // This test is when a user is logged into an account, but they are trying to make an unfollow action for a different account. The DELETE request should return a forbidden response
+    func testUserCannotUnfollowPeopleFromDifferentAccount() throws {
+        let followedUser = try User.create(name: usersName, username: usersUsername, on: app.db)
+        let followerUser = try User.create(on: app.db)
+        
+        let someUser = try User.create(on: app.db)
+        
+        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", loggedInUser: followerUser, afterResponse: { response in
+            XCTAssertEqual(response.status, .created)
+        })
+        
+        try app.test(.GET, usersConnectionsURI, loggedInUser: followerUser, afterResponse: { response in
+            let userConnections = try response.content.decode([UserConnectionPivot].self)
+            try app.test(.DELETE, "\(usersConnectionsURI)\(userConnections[0].id!)", loggedInUser: someUser, afterResponse: { response in
+                XCTAssertEqual(response.status, .forbidden)
+            })
+        })
     }
     
     func testGetFollowersOfUserFromAPI() throws {
         let followedUser = try User.create(name: usersName, username: usersUsername, on: app.db)
         let followerUser = try User.create(on: app.db)
         
-        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", afterResponse: { response in
-            XCTAssertEqual(response.status, .created)
+        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", loggedInUser: followerUser, afterResponse: { response in
+            XCTAssert(response.status == .created)
         })
         
         try app.test(.GET, "\(usersConnectionsURI)\(followedUser.id!)/followers", afterResponse: { response in
@@ -84,7 +109,7 @@ final class UserConnectionTests: XCTestCase {
         
         let anotherFollower = try User.create(name: "Cameron", username: "mtcameron5", on: app.db)
         
-        try app.test(.POST, "\(usersConnectionsURI)\(anotherFollower.id!)/follows/\(followedUser.id!)", afterResponse: { response in
+        try app.test(.POST, "\(usersConnectionsURI)\(anotherFollower.id!)/follows/\(followedUser.id!)", loggedInUser: anotherFollower, afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         
@@ -98,7 +123,7 @@ final class UserConnectionTests: XCTestCase {
         let followedUser = try User.create(name: usersName, username: usersUsername, on: app.db)
         let followerUser = try User.create(on: app.db)
         
-        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", afterResponse: { response in
+        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", loggedInUser: followerUser, afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         

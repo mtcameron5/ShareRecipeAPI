@@ -59,8 +59,8 @@ extension XCTApplicationTester {
             request.headers.bearerAuthorization = .init(token: token.value)
         }
         
-        
         try beforeRequest(&request)
+//        try beforeRequest(&request)
         
         do {
             let response = try performTest(request: request)

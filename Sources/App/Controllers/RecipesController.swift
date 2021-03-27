@@ -83,8 +83,7 @@ struct RecipesController: RouteCollection {
         let user = try req.auth.require(User.self)
         
         return Recipe.find(req.parameters.get("recipeID"), on: req.db)
-            .unwrap(or: Abort(.notFound))
-            .flatMap { recipe in
+            .unwrap(or: Abort(.notFound)).flatMap { recipe in
                 return recipe.$user.$id.value.flatMap({ recipeUserID in
                     // recipeUserID == user.id! Checks if the creator of the recipe is the user who logged in via Bearer Token
                     if recipeUserID == user.id! || user.admin! {

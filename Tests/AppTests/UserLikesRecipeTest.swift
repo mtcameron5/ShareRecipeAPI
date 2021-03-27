@@ -22,25 +22,43 @@ final class UserLikesRecipeTests: XCTestCase {
         app.shutdown()
     }
     
-    func testSaveUserLikesRecipeToAPI() throws {
+    func testUserLoggedIntoAccountCanLikeRecipe() throws {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         let recipe = try Recipe.create(user: user, on: app.db)
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", afterResponse: { response in
-            XCTAssertEqual(response.status, .created)
+        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", loggedInUser: user,  afterResponse: { response in
+            XCTAssert(response.status == .created)
         })
     }
     
-
+    func testUserMustBeLoggedInToLikeRecipe() throws {
+        let user = try User.create(name: usersName, username: usersUsername, on: app.db)
+        let recipe = try Recipe.create(user: user, on: app.db)
+        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)",  afterResponse: { response in
+            XCTAssert(response.status == .unauthorized)
+        })
+    }
+    
+    // Someone logged into another account cannot request to like a recipe for another user, they must be logged into that account
+    func testAnotherUserCannotLikeRecipeForUser() throws {
+        let anotherUser = try User.create(on: app.db)
+        let targetUser = try User.create(on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+        
+        try app.test(.POST, "/api/users/\(targetUser.id!)/likes/\(recipe.id!)", loggedInUser: anotherUser, afterResponse: { response in
+            XCTAssert(response.status == .forbidden)
+        })
+    }
     
     func testGetUsersWhoLikeRecipeFromAPI() throws {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         let recipe = try Recipe.create(user: user, on: app.db)
         
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", afterResponse: { response in
+        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", loggedInUser: user,  afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         
         try app.test(.GET, "\(recipesURI)\(recipe.id!)/likedby/users", afterResponse: { response in
+            XCTAssert(response.status == .ok)
             let usersWhoLikeRecipe = try response.content.decode([User.Public].self)
             XCTAssertEqual(usersWhoLikeRecipe.count, 1)
             XCTAssertEqual(usersWhoLikeRecipe[0].name, user.name)
@@ -53,7 +71,7 @@ final class UserLikesRecipeTests: XCTestCase {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         let recipe = try Recipe.create(user: user, on: app.db)
         
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", afterResponse: { response in
+        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", loggedInUser: user, afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         
@@ -70,7 +88,7 @@ final class UserLikesRecipeTests: XCTestCase {
         
         let anotherRecipe = try Recipe.create(user: user, on: app.db)
         
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(anotherRecipe.id!)", afterResponse: { response in
+        try app.test(.POST, "/api/users/\(user.id!)/likes/\(anotherRecipe.id!)", loggedInUser: user, afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         
@@ -86,16 +104,56 @@ final class UserLikesRecipeTests: XCTestCase {
         let userLikesRecipeObject = try UserLikesRecipePivot.create(user: user, recipe: recipe, on: app.db)
         
         try app.test(.GET, "\(recipesURI)likes", afterResponse: { response in
+            XCTAssert(response.status == .ok)
             let userLikesRecipeObjects = try response.content.decode([UserLikesRecipePivot].self)
             XCTAssertEqual(userLikesRecipeObjects.count, 1)
         })
 
-        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", afterResponse: { response in
-            XCTAssertEqual(response.status, .noContent)
+        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", loggedInUser: user, afterResponse: { response in
+            XCTAssert(response.status == .noContent)
             try app.test(.GET, "\(recipesURI)likes", afterResponse: { response in
                 let userLikesRecipeObjects = try response.content.decode([UserLikesRecipePivot].self)
                 XCTAssertEqual(userLikesRecipeObjects.count, 0)
             })
         })        
+    }
+    
+    func testUserMustBeLoggedInToUnlikeRecipe() throws {
+        let recipe = try Recipe.create(on: app.db)
+        let user = try User.create(on: app.db)
+        let userLikesRecipeObject = try UserLikesRecipePivot.create(user: user, recipe: recipe, on: app.db)
+        
+        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", afterResponse: { response in
+            XCTAssert(response.status == .unauthorized)
+        })
+    }
+    
+    // Someone logged into another account cannot request to unlike a recipe for another user, they must be logged into that account
+    func testAnotherUserCannotUnlikeRecipeForUser() throws {
+        let anotherUser = try User.create(on: app.db)
+        let targetUser = try User.create(on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+        let userLikesRecipeObject = try UserLikesRecipePivot.create(user: targetUser, recipe: recipe, on: app.db)
+        
+        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", loggedInUser: anotherUser, afterResponse: { response in
+            XCTAssert(response.status == .forbidden)
+        })
+    }
+    
+    func testAdminCanUnlikeRecipeOfUser() throws {
+        let adminUser = try User.create(admin: true, on: app.db)
+        let targetUser = try User.create(on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+        let userLikesRecipeObject = try UserLikesRecipePivot.create(user: targetUser, recipe: recipe, on: app.db)
+        
+        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", loggedInUser: adminUser, afterResponse: { response in
+            XCTAssert(response.status == .noContent)
+        })
+        
+        try app.test(.GET, "\(recipesURI)likes", afterResponse: { response in
+            XCTAssert(response.status == .ok)
+            let userLikesRecipeObjects = try response.content.decode([UserLikesRecipePivot].self)
+            XCTAssertEqual(userLikesRecipeObjects.count, 0)
+        })
     }
 }

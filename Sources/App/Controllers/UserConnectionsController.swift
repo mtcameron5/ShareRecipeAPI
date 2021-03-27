@@ -36,7 +36,7 @@ struct UserConnectionsController: RouteCollection {
         
         return followerQuery.and(followedQuery).flatMap { follower, followed in
             if follower.id! == user.id {
-                return follower.$followed.attach(followed, on: req.db).transform(to: .created)
+                return followed.$followers.attach(follower, on: req.db).transform(to: .created)
             } else {
                 return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenFollowUserRequest.rawValue))
             }
@@ -63,7 +63,7 @@ struct UserConnectionsController: RouteCollection {
         User.find(req.parameters.get("userID"), on: req.db)
             .unwrap(or: Abort(.notFound))
             .flatMap { user in
-                user.$follower.get(on: req.db).convertToPublic()
+                user.$followers.get(on: req.db).convertToPublic()
             }
     }
     
@@ -71,7 +71,7 @@ struct UserConnectionsController: RouteCollection {
         User.find(req.parameters.get("userID"), on: req.db)
             .unwrap(or: Abort(.notFound))
             .flatMap { user in
-                user.$followed.get(on: req.db).convertToPublic()
+                user.$followeds.get(on: req.db).convertToPublic()
             }
     }
 }

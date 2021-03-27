@@ -30,10 +30,10 @@ final class User: Model, Content {
     var recipes: [Recipe]
     
     @Siblings(through: UserConnectionPivot.self, from: \.$follower, to: \.$followed)
-    var follower: [User]
+    var followeds: [User]
     
     @Siblings(through: UserConnectionPivot.self, from: \.$followed, to: \.$follower)
-    var followed: [User]
+    var followers: [User]
     
     @Siblings(through: UserLikesRecipePivot.self, from: \.$user, to: \.$recipe)
     var recipeLikes: [Recipe]

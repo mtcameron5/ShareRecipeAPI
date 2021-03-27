@@ -22,31 +22,44 @@ final class UserConnectionTests: XCTestCase {
         app.shutdown()
     }
     
-    func testSaveConnectionToAPI() throws {
+    func testUserFollowsSomeone() throws {
+        let followedUser = try User.create(name: usersName, username: usersUsername, on: app.db)
+        let followerUser = try User.create(on: app.db)
+        
+        try app.test(.POST,
+                     "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)",
+                     loggedInUser: followerUser,
+                     afterResponse:
+                                    { response in
+                                        XCTAssert(response.status == .created)
+                                    })
+    }
+    
+    func testUserCannotFollowIfNotLoggedIn() throws {
         let followedUser = try User.create(name: usersName, username: usersUsername, on: app.db)
         let followerUser = try User.create(on: app.db)
         
         try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", afterResponse: { response in
-            XCTAssertEqual(response.status, .created)
+            XCTAssertEqual(response.status, .unauthorized)
         })
     }
     
-    func testRemoveConnectionFromAPI() throws {
+    func testUserCanUnfollow() throws {
         let followedUser = try User.create(name: usersName, username: usersUsername, on: app.db)
         let followerUser = try User.create(on: app.db)
         
-        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", afterResponse: { response in
+        try app.test(.POST, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", loggedInUser: followerUser, afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         
-        try app.test(.GET, "\(usersConnectionsURI)", afterResponse: { response in
+        try app.test(.GET, usersConnectionsURI, loggedInUser: followerUser, afterResponse: { response in
             let userConnections = try response.content.decode([UserConnectionPivot].self)
-            try app.test(.DELETE, "\(usersConnectionsURI)\(userConnections[0].id!)", afterResponse: { response in
+            try app.test(.DELETE, "\(usersConnectionsURI)\(userConnections[0].id!)", loggedInUser: followerUser, afterResponse: { response in
                 XCTAssertEqual(response.status, .noContent)
             })
         })
         
-        try app.test(.GET, "\(usersConnectionsURI)", afterResponse: { response in
+        try app.test(.GET, usersConnectionsURI, loggedInUser: followerUser, afterResponse: { response in
             let userConnections = try response.content.decode([UserConnectionPivot].self)
             XCTAssertEqual(userConnections.count, 0)
         })

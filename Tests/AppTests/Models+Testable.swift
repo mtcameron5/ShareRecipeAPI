@@ -10,6 +10,26 @@ import Fluent
 import Vapor
 
 extension User {
+//    static func create(
+//        name: String = "Cameron",
+//        username: String? = nil,
+//        password: String = "password",
+//        admin: Bool = false,
+//        on database: Database
+//    ) throws -> User {
+//        let createUsername: String
+//
+//        if let suppliedUsername = username {
+//            createUsername  = suppliedUsername
+//        } else {
+//            createUsername = UUID().uuidString
+//        }
+//
+//        let hashedPassword = try Bcrypt.hash(password)
+//        let user = User(name: name, username: createUsername, password: hashedPassword, admin: admin)
+//        try user.save(on: database).wait()
+//        return user
+//    }
     static func create(
         name: String = "Cameron",
         username: String? = nil,
@@ -20,7 +40,7 @@ extension User {
         let createUsername: String
         
         if let suppliedUsername = username {
-            createUsername  = suppliedUsername
+            createUsername = suppliedUsername
         } else {
             createUsername = UUID().uuidString
         }
@@ -45,9 +65,7 @@ extension Recipe {
     ) throws -> Recipe {
         var recipeUser = user
         
-        if recipeUser == nil {
-            recipeUser = try User.create(name: "Cameron", username: "mtcameron5", on: database)
-        }
+        if recipeUser == nil { recipeUser = try User.create(name: "Cameron", username: "mtcameron5", on: database) }
         
         let recipe = Recipe(name: name, ingredients: ingredients, servings: servings, prepTime: prepTime, cookTime: cookTime, directions: directions, userID: recipeUser!.id!)
         try recipe.save(on: database).wait()

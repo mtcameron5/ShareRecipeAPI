@@ -59,7 +59,7 @@ final class UserTests: XCTestCase {
                             XCTAssertEqual(users[0].name, usersName)
                             XCTAssertEqual(users[0].username, usersUsername)
                             XCTAssertEqual(users[0].id, receivedUser.id)
-                         })
+                     })
         })
     }
     

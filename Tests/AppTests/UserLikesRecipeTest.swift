@@ -57,7 +57,7 @@ final class UserLikesRecipeTests: XCTestCase {
             XCTAssertEqual(response.status, .created)
         })
         
-        try app.test(.GET, "\(recipesURI)\(recipe.id!)/likedby/users", afterResponse: { response in
+        try app.test(.GET, "\(recipesURI)\(recipe.id!)/users/likes/", afterResponse: { response in
             XCTAssert(response.status == .ok)
             let usersWhoLikeRecipe = try response.content.decode([User.Public].self)
             XCTAssertEqual(usersWhoLikeRecipe.count, 1)
@@ -75,7 +75,7 @@ final class UserLikesRecipeTests: XCTestCase {
             XCTAssertEqual(response.status, .created)
         })
         
-        try app.test(.GET, "/api/users/\(user.id!)/recipe/likes", afterResponse: { response in
+        try app.test(.GET, "/api/users/\(user.id!)/recipes/likes", afterResponse: { response in
             let recipesAUserLikes = try response.content.decode([Recipe].self)
             XCTAssertEqual(recipesAUserLikes.count, 1)
             XCTAssertEqual(recipesAUserLikes[0].name, recipe.name)
@@ -92,7 +92,7 @@ final class UserLikesRecipeTests: XCTestCase {
             XCTAssertEqual(response.status, .created)
         })
         
-        try app.test(.GET, "/api/users/\(user.id!)/recipe/likes", afterResponse: { response in
+        try app.test(.GET, "/api/users/\(user.id!)/recipes/likes", afterResponse: { response in
             let recipesAUserLikes = try response.content.decode([Recipe].self)
             XCTAssertEqual(recipesAUserLikes.count, 2)
         })
@@ -109,7 +109,7 @@ final class UserLikesRecipeTests: XCTestCase {
             XCTAssertEqual(userLikesRecipeObjects.count, 1)
         })
 
-        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", loggedInUser: user, afterResponse: { response in
+        try app.test(.DELETE, "/api/users/likes/recipes/\(userLikesRecipeObject.id!)", loggedInUser: user, afterResponse: { response in
             XCTAssert(response.status == .noContent)
             try app.test(.GET, "\(recipesURI)likes", afterResponse: { response in
                 let userLikesRecipeObjects = try response.content.decode([UserLikesRecipePivot].self)
@@ -123,7 +123,7 @@ final class UserLikesRecipeTests: XCTestCase {
         let user = try User.create(on: app.db)
         let userLikesRecipeObject = try UserLikesRecipePivot.create(user: user, recipe: recipe, on: app.db)
         
-        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", afterResponse: { response in
+        try app.test(.DELETE, "/api/users/likes/recipes/\(userLikesRecipeObject.id!)", afterResponse: { response in
             XCTAssert(response.status == .unauthorized)
         })
     }
@@ -135,7 +135,7 @@ final class UserLikesRecipeTests: XCTestCase {
         let recipe = try Recipe.create(on: app.db)
         let userLikesRecipeObject = try UserLikesRecipePivot.create(user: targetUser, recipe: recipe, on: app.db)
         
-        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", loggedInUser: anotherUser, afterResponse: { response in
+        try app.test(.DELETE, "/api/users/likes/recipes/\(userLikesRecipeObject.id!)", loggedInUser: anotherUser, afterResponse: { response in
             XCTAssert(response.status == .forbidden)
         })
     }
@@ -146,7 +146,7 @@ final class UserLikesRecipeTests: XCTestCase {
         let recipe = try Recipe.create(on: app.db)
         let userLikesRecipeObject = try UserLikesRecipePivot.create(user: targetUser, recipe: recipe, on: app.db)
         
-        try app.test(.DELETE, "/api/users/unlikes/recipe/\(userLikesRecipeObject.id!)", loggedInUser: adminUser, afterResponse: { response in
+        try app.test(.DELETE, "/api/users/likes/recipes/\(userLikesRecipeObject.id!)", loggedInUser: adminUser, afterResponse: { response in
             XCTAssert(response.status == .noContent)
         })
         

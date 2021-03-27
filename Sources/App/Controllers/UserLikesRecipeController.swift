@@ -13,14 +13,14 @@ struct UserLikesRecipeController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
         let userLikesRecipeRoutes = routes.grouped("api")
         userLikesRecipeRoutes.get("recipes", "likes", use: getAllUserLikesRecipeObjects)
-        userLikesRecipeRoutes.get("recipes", ":recipeID", "likedby", "users", use: getUsersWhoLikeRecipe)
-        userLikesRecipeRoutes.get("users", ":userID", "recipe", "likes", use: getRecipesUserLikes)
+        userLikesRecipeRoutes.get("recipes", ":recipeID", "users", "likes", use: getUsersWhoLikeRecipe)
+        userLikesRecipeRoutes.get("users", ":userID", "recipes", "likes", use: getRecipesUserLikes)
         
         let tokenAuthMiddleWare = Token.authenticator()
         let guardAuthMiddleware = User.guardMiddleware()
         let tokenAuthGroup = userLikesRecipeRoutes.grouped(tokenAuthMiddleWare, guardAuthMiddleware)
         tokenAuthGroup.post("users", ":userID", "likes", ":recipeID", use: createUserLikesRecipeHandler)
-        tokenAuthGroup.delete("users", "unlikes", "recipe", ":likeRecipeObjectID", use: userUnlikesRecipeHandler)
+        tokenAuthGroup.delete("users", "likes", "recipes", ":likeRecipeObjectID", use: userUnlikesRecipeHandler)
     }
     
     func getAllUserLikesRecipeObjects(_ req: Request) throws -> EventLoopFuture<[UserLikesRecipePivot]> {

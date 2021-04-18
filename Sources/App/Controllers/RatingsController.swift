@@ -14,18 +14,18 @@ struct RatingsController: RouteCollection {
         ratingsRoutes.get(use: getRatingsHandler)
         ratingsRoutes.get("recipes", ":recipeID", use: getRecipesRatings)
         ratingsRoutes.get("recipes", ":recipeID", "stripped", use: getRecipesRatingsStripped)
-        ratingsRoutes.get("user", ":userID", use: getUsersRatings)
-        ratingsRoutes.get("user", ":userID", "recipes", use: getRecipesAUserRatedHandler)
+        ratingsRoutes.get("users", ":userID", use: getUsersRatings)
+        ratingsRoutes.get("users", ":userID", "recipes", use: getRecipesAUserRatedHandler)
         ratingsRoutes.get("recipes", ":recipeID", "users", use: getUsersThatRatedRecipe)
         
         
         let tokenAuthMiddleWare = Token.authenticator()
         let guardAuthMiddleware = User.guardMiddleware()
         let tokenAuthGroup = ratingsRoutes.grouped(tokenAuthMiddleWare, guardAuthMiddleware)
-        
-        tokenAuthGroup.post(":userID", "rates", ":recipeID", use: createUserRatesRecipeHandler)
+        // "api", "recipes" ":recipeID", "users", ":userID", "ratings"
+        tokenAuthGroup.post("users", ":userID", "rates", "recipes", ":recipeID", use: createUserRatesRecipeHandler)
         tokenAuthGroup.put(":ratingID", use: updateRatingHandler)
-        tokenAuthGroup.delete(":ratingID", use: deleteHandler)
+        tokenAuthGroup.delete("users", ":userID", "rates", "recipes", ":recipeID", use: deleteHandler)
     }
     
     func createUserRatesRecipeHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
@@ -34,17 +34,16 @@ struct RatingsController: RouteCollection {
             .unwrap(or: Abort(.notFound))
         let recipeQuery = Recipe.find(req.parameters.get("recipeID"), on: req.db)
             .unwrap(or: Abort(.notFound))
-        let data = try req.content.decode(Rating.self)
+        let ratingData = try req.content.decode(Rating.self)
         
         return recipeQuery.and(userQuery)
             .flatMap { recipe, user in
                 if loggedInUser.id! == user.id! || loggedInUser.admin! {
-                    let recipeRating = try! UserRatesRecipePivot(user: user, recipe: recipe, rating: data.rating)
+                    let recipeRating = try! UserRatesRecipePivot(user: user, recipe: recipe, rating: ratingData.rating)
                     return recipeRating.save(on: req.db).transform(to: .created)
                 } else {
                     return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenRateRecipeRequest.rawValue))
                 }
-
             }
     }
     
@@ -129,18 +128,18 @@ struct RatingsController: RouteCollection {
     
     func deleteHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
         let loggedInUser = try req.auth.require(User.self)
-        
-        return UserRatesRecipePivot.find(req.parameters.get("ratingID"), on: req.db)
+        let userQuery = User.find(req.parameters.get("userID"), on: req.db)
             .unwrap(or: Abort(.notFound))
-            .flatMap({ recipeRating in
-                return recipeRating.$user.$id.value.flatMap({ recipeWhoRatedRecipeUserID in
-                    if recipeWhoRatedRecipeUserID == loggedInUser.id! || loggedInUser.admin! {
-                        return recipeRating.delete(on: req.db).transform(to: .noContent)
-                    } else {
-                        return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenDeleteRatingRequest.rawValue))
-                    }
-                })!
-            })
+        let recipeQuery = Recipe.find(req.parameters.get("recipeID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+        
+        return userQuery.and(recipeQuery).flatMap { user, recipe in
+            if loggedInUser.id! == user.id! || loggedInUser.admin! {
+                return user.$recipesRated.detach(recipe, on: req.db).transform(to: .noContent)
+            } else {
+                return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenDeleteRatingRequest.rawValue))
+            }
+        }
     }
 }
 

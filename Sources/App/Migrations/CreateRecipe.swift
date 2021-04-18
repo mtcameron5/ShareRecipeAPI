@@ -19,6 +19,7 @@ struct CreateRecipe: Migration {
             .field("servings", .int, .required)
             .field("prepTime", .string, .required)
             .field("cookTime", .string, .required)
+            .field("recipePicture", .string, .required)
             .create()
     }
 

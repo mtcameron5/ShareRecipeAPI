@@ -26,6 +26,19 @@ enum ErrorReason: String {
     
     case forbiddenUserLikesRecipeRequest = "You must be logged in as the user of the account to save a recipe."
     
+    case forbiddenUserWorksOnRecipeRequest = "You must be logged in as the user of the account to start working on a recipe."
+    
     case forbiddenUserUnlikesRecipeRequest = "You must be logged in as the user of the account to unsave a recipe."
     
+    case notFoundCategoryExistsButNotAttachedToRecipeRequest = "The recipe does not belong to this category."
+    
+    case notFoundRecipesUserCreatedRequest = "The recipe exists but the specified user did not create it."
+    
+    case notFoundRecipeUserLikesRequest = "The recipe exists but the specified user did not save it."
+    
+    case notFoundRecipeRequest = "A recipe with this ID does not exist."
+    
+    case notFoundUserRequest = "A user with this ID does not exist."
+    
+    case notFoundTokenRequest = "A token with that value does not exist."
 }

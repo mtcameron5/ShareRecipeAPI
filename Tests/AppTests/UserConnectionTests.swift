@@ -59,13 +59,10 @@ final class UserConnectionTests: XCTestCase {
             XCTAssertEqual(response.status, .created)
         })
         
-        try app.test(.GET, usersConnectionsURI, loggedInUser: followerUser, afterResponse: { response in
-            let userConnections = try response.content.decode([UserConnectionPivot].self)
-            try app.test(.DELETE, "\(usersConnectionsURI)\(userConnections[0].id!)", loggedInUser: followerUser, afterResponse: { response in
-                XCTAssertEqual(response.status, .noContent)
-            })
+        try app.test(.DELETE, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", loggedInUser: followerUser, afterResponse: { response in
+            XCTAssertEqual(response.status, .noContent)
         })
-        
+     
         try app.test(.GET, usersConnectionsURI, loggedInUser: followerUser, afterResponse: { response in
             let userConnections = try response.content.decode([UserConnectionPivot].self)
             XCTAssertEqual(userConnections.count, 0)
@@ -83,11 +80,8 @@ final class UserConnectionTests: XCTestCase {
             XCTAssertEqual(response.status, .created)
         })
         
-        try app.test(.GET, usersConnectionsURI, loggedInUser: followerUser, afterResponse: { response in
-            let userConnections = try response.content.decode([UserConnectionPivot].self)
-            try app.test(.DELETE, "\(usersConnectionsURI)\(userConnections[0].id!)", loggedInUser: someUser, afterResponse: { response in
-                XCTAssertEqual(response.status, .forbidden)
-            })
+        try app.test(.DELETE, "\(usersConnectionsURI)\(followerUser.id!)/follows/\(followedUser.id!)", loggedInUser: someUser, afterResponse: { response in
+            XCTAssertEqual(response.status, .forbidden)
         })
     }
     

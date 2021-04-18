@@ -10,26 +10,7 @@ import Fluent
 import Vapor
 
 extension User {
-//    static func create(
-//        name: String = "Cameron",
-//        username: String? = nil,
-//        password: String = "password",
-//        admin: Bool = false,
-//        on database: Database
-//    ) throws -> User {
-//        let createUsername: String
-//
-//        if let suppliedUsername = username {
-//            createUsername  = suppliedUsername
-//        } else {
-//            createUsername = UUID().uuidString
-//        }
-//
-//        let hashedPassword = try Bcrypt.hash(password)
-//        let user = User(name: name, username: createUsername, password: hashedPassword, admin: admin)
-//        try user.save(on: database).wait()
-//        return user
-//    }
+
     static func create(
         name: String = "Cameron",
         username: String? = nil,
@@ -65,7 +46,9 @@ extension Recipe {
     ) throws -> Recipe {
         var recipeUser = user
         
-        if recipeUser == nil { recipeUser = try User.create(name: "Cameron", username: "mtcameron5", on: database) }
+        if recipeUser == nil {
+            recipeUser = try User.create(name: "Cameron", username: "mtcameron5", on: database)
+        }
         
         let recipe = Recipe(name: name, ingredients: ingredients, servings: servings, prepTime: prepTime, cookTime: cookTime, directions: directions, userID: recipeUser!.id!)
         try recipe.save(on: database).wait()
@@ -82,7 +65,7 @@ extension UserRatesRecipePivot {
     ) throws -> UserRatesRecipePivot {
         var userRatingRecipe = user
         if userRatingRecipe == nil {
-            userRatingRecipe = try User.create(name: "Cameron", username: "mtcameron5", on: database)
+            userRatingRecipe = try User.create(name: "Cameron", username: "mtcameron5", password: "password", on: database)
         }
         var recipeBeingRated = recipe
         if recipeBeingRated == nil {
@@ -101,19 +84,19 @@ extension UserLikesRecipePivot {
         user: User? = nil,
         recipe: Recipe? = nil,
         on database: Database
-    ) throws -> UserLikesRecipePivot {
+    ) throws -> Void {
         var userWhoLikesRecipe = user
         if userWhoLikesRecipe == nil {
-            userWhoLikesRecipe = try User.create(name: "Cameron", username: "mtcameron5", on: database)
+            userWhoLikesRecipe = try User.create(name: "Cameron", username: "mtcameron5", password: "password", on: database)
         }
         var likedRecipe = recipe
         if likedRecipe == nil {
             likedRecipe = try Recipe.create(name: "Chicken Curry", ingredients: ["Curry Powder"], directions: ["Cook Food"], user: userWhoLikesRecipe, servings: 5, prepTime: "20 Minutes", cookTime: "30 Minutes", on: database)
         }
-        
-        let userLikesRecipe = try UserLikesRecipePivot(user: userWhoLikesRecipe!, recipe: likedRecipe!)
-        try userLikesRecipe.save(on: database).wait()
-        return userLikesRecipe
+        _ = try likedRecipe?.$usersThatLikeRecipe.attach(userWhoLikesRecipe!, on: database).wait()
+//        let userLikesRecipe = try UserLikesRecipePivot(user: userWhoLikesRecipe!, recipe: likedRecipe!)
+//        try userLikesRecipe.save(on: database).wait()
+ 
     }
 }
 

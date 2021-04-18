@@ -25,7 +25,7 @@ final class UserLikesRecipeTests: XCTestCase {
     func testUserLoggedIntoAccountCanLikeRecipe() throws {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         let recipe = try Recipe.create(user: user, on: app.db)
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", loggedInUser: user,  afterResponse: { response in
+        try app.test(.POST, "/api/users/\(user.id!)/recipes/\(recipe.id!)/likes/", loggedInUser: user,  afterResponse: { response in
             XCTAssert(response.status == .created)
         })
     }
@@ -33,7 +33,7 @@ final class UserLikesRecipeTests: XCTestCase {
     func testUserMustBeLoggedInToLikeRecipe() throws {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         let recipe = try Recipe.create(user: user, on: app.db)
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)",  afterResponse: { response in
+        try app.test(.POST, "/api/users/\(user.id!)/recipes/\(recipe.id!)/likes/",  afterResponse: { response in
             XCTAssert(response.status == .unauthorized)
         })
     }
@@ -44,7 +44,7 @@ final class UserLikesRecipeTests: XCTestCase {
         let targetUser = try User.create(on: app.db)
         let recipe = try Recipe.create(on: app.db)
         
-        try app.test(.POST, "/api/users/\(targetUser.id!)/likes/\(recipe.id!)", loggedInUser: anotherUser, afterResponse: { response in
+        try app.test(.POST, "/api/users/\(targetUser.id!)/recipes/\(recipe.id!)/likes/", loggedInUser: anotherUser, afterResponse: { response in
             XCTAssert(response.status == .forbidden)
         })
     }
@@ -53,7 +53,7 @@ final class UserLikesRecipeTests: XCTestCase {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         let recipe = try Recipe.create(user: user, on: app.db)
         
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", loggedInUser: user,  afterResponse: { response in
+        try app.test(.POST, "/api/users/\(user.id!)/recipes/\(recipe.id!)/likes/", loggedInUser: user,  afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         
@@ -71,7 +71,7 @@ final class UserLikesRecipeTests: XCTestCase {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         let recipe = try Recipe.create(user: user, on: app.db)
         
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(recipe.id!)", loggedInUser: user, afterResponse: { response in
+        try app.test(.POST, "/api/users/\(user.id!)/recipes/\(recipe.id!)/likes/", loggedInUser: user, afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         
@@ -88,7 +88,7 @@ final class UserLikesRecipeTests: XCTestCase {
         
         let anotherRecipe = try Recipe.create(user: user, on: app.db)
         
-        try app.test(.POST, "/api/users/\(user.id!)/likes/\(anotherRecipe.id!)", loggedInUser: user, afterResponse: { response in
+        try app.test(.POST, "/api/users/\(user.id!)/recipes/\(anotherRecipe.id!)/likes/", loggedInUser: user, afterResponse: { response in
             XCTAssertEqual(response.status, .created)
         })
         
@@ -97,19 +97,36 @@ final class UserLikesRecipeTests: XCTestCase {
             XCTAssertEqual(recipesAUserLikes.count, 2)
         })
     }
+//    userLikesRecipeRoutes.get("users", ":userID", "recipes", ":recipeID", "likes", use: getRecipeUserLikes)
+    func testGetRecipeAUserLikes() throws {
+        let user = try User.create(on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+//        _ = try UserLikesRecipePivot.create(user: user, recipe: recipe, on: app.db)
+        
+        try app.test(.POST, "/api/users/\(user.id!)/recipes/\(recipe.id!)/likes/", loggedInUser: user, afterResponse: { response in
+            XCTAssertEqual(response.status, .created)
+        })
+        
+        let getRecipeURI = "/api/users/\(user.id!)/recipes/\(recipe.id!)/likes"
+        try app.test(.GET, getRecipeURI, afterResponse: { response in
+            XCTAssert(response.status == .ok)
+            let responseRecipe = try response.content.decode(Recipe.self)
+            XCTAssertEqual(responseRecipe.id, recipe.id)
+        })
+    }
     
     func testUserUnlikesARecipe() throws {
         let recipe = try Recipe.create(on: app.db)
         let user = try User.create(on: app.db)
-        let userLikesRecipeObject = try UserLikesRecipePivot.create(user: user, recipe: recipe, on: app.db)
+        _ = try UserLikesRecipePivot.create(user: user, recipe: recipe, on: app.db)
         
         try app.test(.GET, "\(recipesURI)likes", afterResponse: { response in
             XCTAssert(response.status == .ok)
             let userLikesRecipeObjects = try response.content.decode([UserLikesRecipePivot].self)
             XCTAssertEqual(userLikesRecipeObjects.count, 1)
         })
-
-        try app.test(.DELETE, "/api/users/likes/recipes/\(userLikesRecipeObject.id!)", loggedInUser: user, afterResponse: { response in
+//        "users", ":userID", "likes", "recipes", ":recipeID"
+        try app.test(.DELETE, "/api/users/\(user.id!)/recipes/\(recipe.id!)/likes/", loggedInUser: user, afterResponse: { response in
             XCTAssert(response.status == .noContent)
             try app.test(.GET, "\(recipesURI)likes", afterResponse: { response in
                 let userLikesRecipeObjects = try response.content.decode([UserLikesRecipePivot].self)
@@ -121,9 +138,9 @@ final class UserLikesRecipeTests: XCTestCase {
     func testUserMustBeLoggedInToUnlikeRecipe() throws {
         let recipe = try Recipe.create(on: app.db)
         let user = try User.create(on: app.db)
-        let userLikesRecipeObject = try UserLikesRecipePivot.create(user: user, recipe: recipe, on: app.db)
+        _ = try UserLikesRecipePivot.create(user: user, recipe: recipe, on: app.db)
         
-        try app.test(.DELETE, "/api/users/likes/recipes/\(userLikesRecipeObject.id!)", afterResponse: { response in
+        try app.test(.DELETE, "/api/users/\(user.id!)/recipes/\(recipe.id!)/likes/", afterResponse: { response in
             XCTAssert(response.status == .unauthorized)
         })
     }
@@ -133,9 +150,9 @@ final class UserLikesRecipeTests: XCTestCase {
         let anotherUser = try User.create(on: app.db)
         let targetUser = try User.create(on: app.db)
         let recipe = try Recipe.create(on: app.db)
-        let userLikesRecipeObject = try UserLikesRecipePivot.create(user: targetUser, recipe: recipe, on: app.db)
+        _ = try UserLikesRecipePivot.create(user: targetUser, recipe: recipe, on: app.db)
         
-        try app.test(.DELETE, "/api/users/likes/recipes/\(userLikesRecipeObject.id!)", loggedInUser: anotherUser, afterResponse: { response in
+        try app.test(.DELETE, "/api/users/\(targetUser.id!)/recipes/\(recipe.id!)/likes/", loggedInUser: anotherUser, afterResponse: { response in
             XCTAssert(response.status == .forbidden)
         })
     }
@@ -144,9 +161,9 @@ final class UserLikesRecipeTests: XCTestCase {
         let adminUser = try User.create(admin: true, on: app.db)
         let targetUser = try User.create(on: app.db)
         let recipe = try Recipe.create(on: app.db)
-        let userLikesRecipeObject = try UserLikesRecipePivot.create(user: targetUser, recipe: recipe, on: app.db)
+        _ = try UserLikesRecipePivot.create(user: targetUser, recipe: recipe, on: app.db)
         
-        try app.test(.DELETE, "/api/users/likes/recipes/\(userLikesRecipeObject.id!)", loggedInUser: adminUser, afterResponse: { response in
+        try app.test(.DELETE, "/api/users/\(targetUser.id!)/recipes/\(recipe.id!)/likes", loggedInUser: adminUser, afterResponse: { response in
             XCTAssert(response.status == .noContent)
         })
         

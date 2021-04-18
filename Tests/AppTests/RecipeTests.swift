@@ -36,7 +36,7 @@ final class RecipeTests: XCTestCase {
     
     func testRecipeCanBeSavedWithAPI() throws {
         user = try User.create(on: app.db)
-        let createRecipeData = CreateRecipeData(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime)
+        let createRecipeData = CreateRecipeData(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, image: "")
         
         try app.test(.POST, recipesURI, loggedInUser: user, beforeRequest: { request in
             try request.content.encode(createRecipeData)
@@ -165,7 +165,7 @@ final class RecipeTests: XCTestCase {
     
     func testMustBeLoggedInToAttemptToUpdateRecipe() throws {
         let recipe = try Recipe.create(on: app.db)
-        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes")
+        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: "")
         
         try app.test(.PUT, "\(recipesURI)\(recipe.id!)", beforeRequest: { request in
             try request.content.encode(updatedRecipe)
@@ -195,7 +195,7 @@ final class RecipeTests: XCTestCase {
         let someUser = try User.create(username: "noncreator", admin: false, on: app.db)
         let recipe = try Recipe.create(on: app.db)
         
-        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes")
+        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: "")
         try app.test(.PUT, "\(recipesURI)\(recipe.id!)", loggedInUser: someUser, beforeRequest: { request in
             try request.content.encode(updatedRecipe)
         }, afterResponse: { response in
@@ -273,7 +273,7 @@ final class RecipeTests: XCTestCase {
         })
 
         
-        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes")
+        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: "")
         
         try app.test(.PUT, "\(recipesURI)\(recipe.id!)", loggedInUser: user,  beforeRequest: { request in
             try request.content.encode(updatedRecipe)

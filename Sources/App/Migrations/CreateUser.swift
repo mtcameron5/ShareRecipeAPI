@@ -16,7 +16,6 @@ struct CreateUser: Migration {
             .field("username", .string, .required)
             .field("password", .string, .required)
             .field("admin", .bool, .required)
-//            .unique(on: "username")
             .create()
     }
     
@@ -34,7 +33,6 @@ struct AddPasswordToUserWithDefaultValue: Migration {
     func revert(on database: Database) -> EventLoopFuture<Void> {
         return database.schema("users").delete()
     }
-    
 }
 
 struct AddAdminToUsers: Migration {

@@ -19,9 +19,6 @@ struct CreateAdminUser: Migration {
         }
         
         let user = User(name: "Cameron Augustine", username: "mtcameron5", password: passwordHash, admin: true)
-//        let sql = database as! SQLDatabase
-//        let query = SQLQueryString("INSERT INTO users(name, username, password, admin) VALUES \(raw: user.name), \(raw: user.username), \(raw: user.password), true")
-//        return sql.raw(query).run()
         return user.save(on: database)
     }
     

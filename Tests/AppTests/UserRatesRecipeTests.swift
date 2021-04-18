@@ -25,11 +25,11 @@ final class UserRatesRecipeTests: XCTestCase {
         app.shutdown()
     }
     
-    func testSaveRatingToAPI() throws {
+    func testLoggedInUserCanSaveRatingToAPI() throws {
         let user = try User.create(name: usersName, username: usersUsername, on: app.db)
         let recipe = try Recipe.create(on: app.db)
         let rating = Rating(rating: 5.0)
-        try app.test(.POST, "\(userRatingsURI)\(user.id!)/rates/\(recipe.id!)", beforeRequest: { request in
+        try app.test(.POST, "\(userRatingsURI)users/\(user.id!)/rates/recipes/\(recipe.id!)", loggedInUser: user, beforeRequest: { request in
             try request.content.encode(rating)
         }, afterResponse: { response in
             XCTAssertEqual(response.status, .created)
@@ -43,10 +43,36 @@ final class UserRatesRecipeTests: XCTestCase {
         })
     }
     
+    func testMustBeLoggedInToRateRecipe() throws {
+        let recipe = try Recipe.create(on: app.db)
+        let rating = Rating(rating: 5.0)
+        let user = try User.create(on: app.db)
+        
+        try app.test(.POST, "\(userRatingsURI)users/\(user.id!)/rates/recipes/\(recipe.id!)", beforeRequest: { request in
+            try request.content.encode(rating)
+        }, afterResponse: { response in
+            XCTAssert(response.status == .unauthorized)
+        })
+    }
+    
+    func testMustBeLoggedIntoOwnAccountToRateRecipe() throws {
+        let recipe = try Recipe.create(on: app.db)
+        let rating = Rating(rating: 5.0)
+        let user = try User.create(on: app.db)
+        let anotherUser = try User.create(on: app.db)
+        
+        try app.test(.POST, "\(userRatingsURI)users/\(user.id!)/rates/recipes/\(recipe.id!)", loggedInUser: anotherUser, beforeRequest: { request in
+            try request.content.encode(rating)
+        }, afterResponse: { response in
+            XCTAssert(response.status == .forbidden)
+        })
+    }
+    
     func testGetRatingsFromAPI() throws {
         let rating = try UserRatesRecipePivot.create(on: app.db)
         
         try app.test(.GET, "\(userRatingsURI)", afterResponse: { response in
+            XCTAssert(response.status == .ok)
             let ratings = try response.content.decode([UserRatesRecipePivot].self)
             XCTAssertEqual(ratings.count, 1)
             XCTAssertEqual(ratings[0].id, rating.id)
@@ -55,9 +81,10 @@ final class UserRatesRecipeTests: XCTestCase {
     }
     
     func testUpdateRatingFromAPI() throws {
-        let rating = try UserRatesRecipePivot.create(on: app.db)
+        let userThatRatesRecipe = try User.create(on: app.db)
+        let rating = try UserRatesRecipePivot.create(user: userThatRatesRecipe, on: app.db)
         let newRating = Rating(rating: 4.0)
-        try app.test(.PUT, "\(userRatingsURI)\(rating.id!)", beforeRequest: { request in
+        try app.test(.PUT, "\(userRatingsURI)\(rating.id!)", loggedInUser: userThatRatesRecipe, beforeRequest: { request in
             try request.content.encode(newRating)
         }, afterResponse: { response in
             XCTAssertEqual(response.status, .noContent)
@@ -66,6 +93,28 @@ final class UserRatesRecipeTests: XCTestCase {
         try app.test(.GET, userRatingsURI, afterResponse: { response in
             let ratings = try response.content.decode([UserRatesRecipePivot].self)
             XCTAssertEqual(ratings[0].rating, 4.0)
+        })
+    }
+    
+    func testMustBeLoggedInToUpdateRecipe() throws {
+        let rating = try UserRatesRecipePivot.create(on: app.db)
+        let newRating = Rating(rating: 4.0)
+        try app.test(.PUT, "\(userRatingsURI)\(rating.id!)", beforeRequest: { request in
+            try request.content.encode(newRating)
+        }, afterResponse: { response in
+            XCTAssertEqual(response.status, .unauthorized)
+        })
+    }
+    
+    func testCannotEditRatingFromAnotherAccount() throws {
+        let userThatRatesRecipe = try User.create(on: app.db)
+        let anotherUser = try User.create(on: app.db)
+        let rating = try UserRatesRecipePivot.create(user: userThatRatesRecipe, on: app.db)
+        let newRating = Rating(rating: 4.0)
+        try app.test(.PUT, "\(userRatingsURI)\(rating.id!)", loggedInUser: anotherUser, beforeRequest: { request in
+            try request.content.encode(newRating)
+        }, afterResponse: { response in
+            XCTAssertEqual(response.status, .forbidden)
         })
     }
     
@@ -93,7 +142,7 @@ final class UserRatesRecipeTests: XCTestCase {
         let rating = try UserRatesRecipePivot.create(user: user, on: app.db)
         let anotherRating = try UserRatesRecipePivot.create(user: user, on: app.db)
         
-        try app.test(.GET, "\(userRatingsURI)user/\(user.id!)", afterResponse: { response in
+        try app.test(.GET, "\(userRatingsURI)users/\(user.id!)", afterResponse: { response in
             let ratings = try response.content.decode([UserRatings].self)
             XCTAssertEqual(ratings.count, 2)
             XCTAssertEqual(ratings[0].id, rating.id)
@@ -122,21 +171,44 @@ final class UserRatesRecipeTests: XCTestCase {
     
     func testRemoveARatingFromRecipeFromAPI() throws {
         
-        let rating = try UserRatesRecipePivot.create(on: app.db)
+        let user = try User.create(on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+        _ = try UserRatesRecipePivot.create(user: user, recipe: recipe, on: app.db)
         
         try app.test(.GET, userRatingsURI, afterResponse: { response in
             let ratings = try response.content.decode([UserRatesRecipePivot].self)
             XCTAssertEqual(ratings.count, 1)
         })
-        try app.test(.DELETE, "\(userRatingsURI)\(rating.id!)", afterResponse: { response in
+        
+        try app.test(.DELETE, "\(userRatingsURI)users/\(user.id!)/rates/recipes/\(recipe.id!)", loggedInUser: user, afterResponse: { response in
             XCTAssertEqual(response.status, .noContent)
         })
-        
+
         try app.test(.GET, userRatingsURI, afterResponse: { response in
             let ratings = try response.content.decode([UserRatesRecipePivot].self)
             XCTAssertEqual(ratings.count, 0)
         })
+    }
+    
+    func testNonLoggedInUserCannotRemoveRating() throws {
+        let user = try User.create(on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+        _ = try UserRatesRecipePivot.create(user: user, recipe: recipe, on: app.db)
         
+        try app.test(.DELETE, "\(userRatingsURI)users/\(user.id!)/rates/recipes/\(recipe.id!)", afterResponse: { response in
+            XCTAssertEqual(response.status, .unauthorized)
+        })
+    }
+    
+    func testUserMustBeLoggedIntoOwnAccountToRateRecipe() throws {
+        let user = try User.create(on: app.db)
+        let recipe = try Recipe.create(on: app.db)
+        _ = try UserRatesRecipePivot.create(user: user, recipe: recipe, on: app.db)
+        let anotherUser = try User.create(on: app.db)
+        
+        try app.test(.DELETE, "\(userRatingsURI)users/\(user.id!)/rates/recipes/\(recipe.id!)", loggedInUser: anotherUser, afterResponse: { response in
+            XCTAssertEqual(response.status, .forbidden)
+        })
     }
     
     func testGetRecipesAUserRatedFromAPI() throws {
@@ -147,7 +219,7 @@ final class UserRatesRecipeTests: XCTestCase {
         _ = try UserRatesRecipePivot.create(user: user, recipe: recipe, on: app.db)
         _ = try UserRatesRecipePivot.create(user: user, recipe: anotherRecipe, on: app.db)
 
-        try app.test(.GET, "\(userRatingsURI)user/\(user.id!)/recipes", afterResponse: { response in
+        try app.test(.GET, "\(userRatingsURI)users/\(user.id!)/recipes", afterResponse: { response in
             let recipes = try response.content.decode([Recipe].self)
             XCTAssertEqual(recipes.count, 2)
             XCTAssertEqual(recipes[0].id, recipe.id)
@@ -158,21 +230,6 @@ final class UserRatesRecipeTests: XCTestCase {
     }
     
 
-    // TODO
-
-
-    ////        ratingsRoutes.get("user", ":userID", "recipes", use: getRecipesAUserRatedHandler)
-
-
-                     
-    // Completed
-    //ratingsRoutes.get("recipes", ":recipeID", use: getRecipesRatings)
-    //ratingsRoutes.get("recipes", ":recipeID", "users", use: getUsersThatRatedRecipe)
-    //ratingsRoutes.get("user", ":userID", "recipes", use: getUsersRatings)
-    //ratingsRoutes.post(":userID", "rates", ":recipeID", use: createUserRatesRecipeHandler)
-    //ratingsRoutes.put(":ratingID", use: updateRatingHandler)
-    //ratingsRoutes.delete(":ratingID", use: deleteHandler)
-    //ratingsRoutes.get(use: getRatingsHandler)
         
 }
 

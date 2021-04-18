@@ -37,15 +37,18 @@ public func configure(_ app: Application) throws {
     app.migrations.add(CreateRecipeCategoryPivot())
     app.migrations.add(CreateUserConnectionPivot())
     app.migrations.add(CreateUserLikesRecipePivot())
+    app.migrations.add(CreateUserWorkingOnRecipePivot())
+    app.migrations.add(CreateUserUsedRecipePivot())
     app.migrations.add(CreateUserRatesRecipePivot())
     app.migrations.add(CreateTokenMigration())
+    app.migrations.add(CreateAdminUser())
 
-    
-    if app.environment != .testing {
-        app.migrations.add(AddAdminToUsers())
-        app.migrations.add(CreateAdminUser())
-//        app.migrations.add(AddPasswordToUserWithDefaultValue())
-    }
+//  For production AddAdminToUsers and CreateAdminUser was previously used to alter the production databases, which wasn't necessary previously
+//    if app.environment != .testing {
+//        app.migrations.add(AddAdminToUsers())
+//        app.migrations.add(CreateAdminUser())
+////        app.migrations.add(AddPasswordToUserWithDefaultValue())
+//    }
 
     app.logger.logLevel = .debug
     try app.autoMigrate().wait()

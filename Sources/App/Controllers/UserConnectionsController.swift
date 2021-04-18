@@ -15,12 +15,12 @@ struct UserConnectionsController: RouteCollection {
         userConnectionRoutes.get(use: getAllConnectionsHandler)
         userConnectionRoutes.get(":userID", "followers", use: getFollowersHandler)
         userConnectionRoutes.get(":userID", "follows", use: getFollowedHandler)
-        
+    
         let tokenAuthMiddleWare = Token.authenticator()
         let guardAuthMiddleware = User.guardMiddleware()
         let tokenAuthGroup = userConnectionRoutes.grouped(tokenAuthMiddleWare, guardAuthMiddleware)
         tokenAuthGroup.post(":followerID", "follows", ":followedID", use: createConnectionHandler)
-        tokenAuthGroup.delete(":connectionID", use: deleteConnectionHandler)
+        tokenAuthGroup.delete(":followerID", "follows", ":followedID", use: deleteConnectionHandler)
     }
     
     func getAllConnectionsHandler(_ req: Request) throws -> EventLoopFuture<[UserConnectionPivot]> {
@@ -45,18 +45,18 @@ struct UserConnectionsController: RouteCollection {
     
     func deleteConnectionHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
         let user = try req.auth.require(User.self)
-        
-        return UserConnectionPivot.find(req.parameters.get("connectionID"), on: req.db)
+        let followerQuery = User.find(req.parameters.get("followerID"), on: req.db)
             .unwrap(or: Abort(.notFound))
-            .flatMap { userConnection in
-                return userConnection.$follower.$id.value.flatMap({ followerID in
-                    if followerID == user.id! || user.admin! {
-                        return userConnection.delete(on: req.db).transform(to: .noContent)
-                    } else {
-                        return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenUnfollowUserRequest.rawValue))
-                    }
-                })!
+        let followedQuery = User.find(req.parameters.get("followedID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+        
+        return followerQuery.and(followedQuery).flatMap { follower, followed in
+            if follower.id! == user.id! || user.admin! {
+                return followed.$followers.detach(follower, on: req.db).transform(to: .noContent)
+            } else {
+                return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenUnfollowUserRequest.rawValue))
             }
+        }
     }
     
     func getFollowersHandler(_ req: Request) throws -> EventLoopFuture<[User.Public]> {

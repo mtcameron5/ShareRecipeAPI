@@ -27,4 +27,10 @@ func routes(_ app: Application) throws {
     
     let categoriesController = CategoriesController()
     try app.register(collection: categoriesController)
+    
+    let userWorkingOnRecipeController = UserWorkingOnRecipeController()
+    try app.register(collection: userWorkingOnRecipeController)
+    
+    let userFinishedRecipeController = UserFinishedRecipeController()
+    try app.register(collection: userFinishedRecipeController)
 }

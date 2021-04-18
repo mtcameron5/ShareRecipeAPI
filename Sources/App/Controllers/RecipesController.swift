@@ -19,6 +19,7 @@ struct RecipesController: RouteCollection {
         recipeRoutes.get("search", use: getSearchHandler)
         recipeRoutes.get("sorted", use: getSortedHandler)
         recipeRoutes.get(":recipeID", "categories", use: getCategoriesOfRecipe)
+        recipeRoutes.get(":recipeID", "categories", ":categoryID", use: getCategoryOfRecipeHandler)
         
         let tokenAuthMiddleWare = Token.authenticator()
         let guardAuthMiddleware = User.guardMiddleware()
@@ -51,7 +52,7 @@ struct RecipesController: RouteCollection {
     func createHandler(_ req: Request) throws -> EventLoopFuture<Recipe> {
         let data = try req.content.decode(CreateRecipeData.self)
         let user = try req.auth.require(User.self)
-        let recipe = try Recipe(name: data.name, ingredients: data.ingredients, servings: data.servings, prepTime: data.prepTime, cookTime: data.cookTime, directions: data.directions, userID: user.requireID())
+        let recipe = try Recipe(name: data.name, ingredients: data.ingredients, servings: data.servings, prepTime: data.prepTime, cookTime: data.cookTime, directions: data.directions, userID: user.requireID(), recipePicture: data.image)
         return recipe.save(on: req.db).map { recipe }
     }
     
@@ -126,6 +127,22 @@ struct RecipesController: RouteCollection {
             }
     }
     
+    func getCategoryOfRecipeHandler(_ req: Request) throws -> EventLoopFuture<Category> {
+        let categoryQuery = Category.find(req.parameters.get("categoryID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+        let recipeQuery = Recipe.find(req.parameters.get("recipeID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+        return recipeQuery.and(categoryQuery).flatMap { recipe, category in
+            return recipe.$categories.isAttached(to: category, on: req.db).flatMap { categoryIsAttachedTo in
+                if categoryIsAttachedTo {
+                    return req.eventLoop.future(category)
+                } else {
+                    return req.eventLoop.makeFailedFuture(Abort(.notFound, reason: ErrorReason.notFoundCategoryExistsButNotAttachedToRecipeRequest.rawValue))
+                }
+            }
+        }
+    }
+    
     func addCategoryHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
         let user = try req.auth.require(User.self)
         let recipeToAdd = Recipe.find(req.parameters.get("recipeID"), on: req.db)
@@ -134,17 +151,22 @@ struct RecipesController: RouteCollection {
             .unwrap(or: Abort(.notFound))
         
         return recipeToAdd.and(categoryToAddRecipeTo).flatMap { recipe, category in
-            return recipe.$user.$id.value.flatMap({ recipeUserID in
-                if recipeUserID == user.id! || user.admin!  {
-                    return recipe.$categories.attach(category, on: req.db).transform(to: .created)
-                } else {
-                    return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenCategoryToRecipeRequest.rawValue))
-                }
-            })!
+            let recipeUserID = recipe.$user.$id.wrappedValue
+            if recipeUserID == user.id! || user.admin! {
+                return recipe.$categories.attach(category, on: req.db).transform(to: .created)
+            } else {
+                return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenCategoryToRecipeRequest.rawValue))
+            }
+//            return recipe.$user.$id.value.flatMap({ recipeUserID in
+//                if recipeUserID == user.id! || user.admin!  {
+//                    return recipe.$categories.attach(category, on: req.db).transform(to: .created)
+//                } else {
+//                    return req.eventLoop.makeFailedFuture(Abort(.forbidden, reason: ErrorReason.forbiddenCategoryToRecipeRequest.rawValue))
+//                }
+//            })!
         }
-
     }
-    
+
     func removeCategoryHandler(_ req: Request) throws -> EventLoopFuture<HTTPStatus> {
         let recipeToAdd = Recipe.find(req.parameters.get("recipeID"), on: req.db)
             .unwrap(or: Abort(.notFound))
@@ -164,5 +186,6 @@ struct CreateRecipeData: Content {
     let servings: Int
     let prepTime: String
     let cookTime: String
+    let image: String
 }
 

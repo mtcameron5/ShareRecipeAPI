@@ -38,8 +38,16 @@ final class User: Model, Content {
     @Siblings(through: UserLikesRecipePivot.self, from: \.$user, to: \.$recipe)
     var recipeLikes: [Recipe]
     
+    @Siblings(through: UserUsedRecipePivot.self, from: \.$user, to: \.$recipe)
+    var recipesFinished: [Recipe]
+    
+    @Siblings(through: UserWorkingOnRecipePivot.self, from: \.$user, to: \.$recipe)
+    var recipesWorkingOn: [Recipe]
+    
     @Siblings(through: UserRatesRecipePivot.self, from: \.$user, to: \.$recipe)
     var recipesRated: [Recipe]
+    
+    
     
     init() {}
     

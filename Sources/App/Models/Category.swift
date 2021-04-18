@@ -18,7 +18,7 @@ final class Category: Model, Content {
     var name: String
     
     @Siblings(through: RecipeCategoryPivot.self, from: \.$category, to: \.$recipe)
-    var recipes: [Recipe]
+    var recipes: [Recipe] 
     
     init() { }
     

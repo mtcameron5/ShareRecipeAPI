@@ -92,7 +92,7 @@ final class UserTests: XCTestCase {
         })
     }
     
-    func testGettingAUsersRecipesFromTheAPI() throws {
+    func testGettingAllOfAUsersRecipesFromTheAPI() throws {
         let user = try User.create(on: app.db)
         let recipe = try Recipe.create(user: user, on: app.db)
         
@@ -113,4 +113,14 @@ final class UserTests: XCTestCase {
         })
     }
     
+    func testGettingOneOfaUsersRecipesFromTheAPI() throws {
+        let user = try User.create(on: app.db)
+        let recipe = try Recipe.create(user: user, on: app.db)
+        
+        try app.test(.GET, "\(usersURI)\(user.id!)/recipes/\(recipe.id!)", afterResponse: { response in
+            XCTAssert(response.status == .ok)
+            let responseRecipe = try response.content.decode(Recipe.self)
+            XCTAssertEqual(responseRecipe.id, recipe.id)
+        })
+    }
 }

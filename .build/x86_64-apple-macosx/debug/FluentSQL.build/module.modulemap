@@ -1,4 +1,0 @@
-module FluentSQL {
-    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/FluentSQL-Swift.h"
-    requires objc
-}

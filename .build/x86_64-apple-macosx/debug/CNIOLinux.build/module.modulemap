@@ -1,4 +1,0 @@
-module CNIOLinux {
-    umbrella header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
-    export *
-}

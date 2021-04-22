@@ -1,4 +1,0 @@
-module CURLParser {
-    umbrella "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CURLParser/include"
-    export *
-}

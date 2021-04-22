@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "200e88dc26802def9ad68d12acbdef49"
-build_time: [1616667055, 133737000]
-inputs:
-  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/leaf/Sources/Leaf/Application+Leaf.swift": [1616666968, 187277604]
-  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/leaf/Sources/Leaf/Exports.swift": [1616666968, 187445242]
-  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/leaf/Sources/Leaf/LeafEncoder.swift": [1616666968, 187629952]
-  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/leaf/Sources/Leaf/LeafRenderer+ViewRenderer.swift": [1616666968, 187820093]
-  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/leaf/Sources/Leaf/Request+Leaf.swift": [1616666968, 187976205]

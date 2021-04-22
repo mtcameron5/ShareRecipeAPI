@@ -1,4 +1,0 @@
-module AsyncKit {
-    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/AsyncKit-Swift.h"
-    requires objc
-}

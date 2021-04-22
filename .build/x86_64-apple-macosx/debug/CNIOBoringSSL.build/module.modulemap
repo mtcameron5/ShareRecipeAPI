@@ -1,4 +1,0 @@
-module CNIOBoringSSL {
-    umbrella header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL.h"
-    export *
-}

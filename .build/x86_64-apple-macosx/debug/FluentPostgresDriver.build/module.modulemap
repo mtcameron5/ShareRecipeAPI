@@ -1,4 +1,0 @@
-module FluentPostgresDriver {
-    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/FluentPostgresDriver-Swift.h"
-    requires objc
-}

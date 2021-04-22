@@ -1,4 +1,0 @@
-module CMultipartParser {
-    umbrella "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/CMultipartParser/include"
-    export *
-}

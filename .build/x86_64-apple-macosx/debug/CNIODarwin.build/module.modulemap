@@ -1,4 +1,0 @@
-module CNIODarwin {
-    umbrella header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
-    export *
-}

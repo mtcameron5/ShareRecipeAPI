@@ -1,4 +1,0 @@
-module LeafKit {
-    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/LeafKit-Swift.h"
-    requires objc
-}

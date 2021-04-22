@@ -1,4 +1,0 @@
-module AsyncHTTPClient {
-    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/AsyncHTTPClient-Swift.h"
-    requires objc
-}

@@ -1,2 +1,3 @@
 ./Sources/App/Migrations/CreateAdminUser.swift
-./build
+./.build
+./.swiftpm

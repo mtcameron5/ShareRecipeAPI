@@ -1,0 +1,765 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UnsafeControlMessageStorage"
+- "UnsafeControlMessage"
+- "UnsafeControlMessageCollection"
+- "UnsafeReceivedControlBytes"
+- "ControlMessageParser"
+- "UnsafeOutboundControlBytes"
+- "<"
+provides-nominal:
+- "3NIO27UnsafeControlMessageStorageV"
+- "3NIO20UnsafeControlMessageV"
+- "3NIO30UnsafeControlMessageCollectionV"
+- "3NIO30UnsafeControlMessageCollectionV5IndexV"
+- "3NIO26UnsafeReceivedControlBytesV"
+- "3NIO20ControlMessageParserV"
+- "3NIO26UnsafeOutboundControlBytesV"
+provides-member:
+- ["3NIO27UnsafeControlMessageStorageV", ""]
+- ["3NIO20UnsafeControlMessageV", ""]
+- ["3NIO30UnsafeControlMessageCollectionV", ""]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", ""]
+- ["3NIO26UnsafeReceivedControlBytesV", ""]
+- ["3NIO20ControlMessageParserV", ""]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", ""]
+- ["s5Int32V", ""]
+- ["3NIO26UnsafeOutboundControlBytesV", ""]
+- ["3NIO17AddressedEnvelopeV8MetadataV", ""]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", "init"]
+- ["s5Int32V", "init"]
+- ["3NIO26UnsafeOutboundControlBytesV", "appendExplicitCongestionState"]
+- ["3NIO17AddressedEnvelopeV8MetadataV", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "&&"
+- "*"
+- !private "+"
+- !private "+="
+- !private "..."
+- !private "..<"
+- !private "/"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- "AddressedEnvelope"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ByteBuffer"
+- "CInt"
+- "Collection"
+- "Comparable"
+- "ControlMessageParser"
+- "Element"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "IPPROTO_IP"
+- !private "IPPROTO_IPV6"
+- !private "IPV6_TCLASS"
+- "IP_RECVTOS"
+- !private "IP_TOS"
+- "Index"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- "NIOBSDSocket"
+- "NIOBSDSocketControlMessage"
+- "NIOExplicitCongestionNotificationState"
+- "Posix"
+- !private "StringLiteralType"
+- "UnsafeControlMessage"
+- "UnsafeControlMessageCollection"
+- "UnsafeControlMessageStorage"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawBufferPointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafeOutboundControlBytes"
+- "UnsafeRawBufferPointer"
+- "UnsafeReceivedControlBytes"
+- !private "assert"
+- "cmsghdr"
+- !private "messageHeader"
+- "msghdr"
+- !private "precondition"
+- !private "withUnsafeMutableBytes"
+- !private "withUnsafeMutablePointer"
+- !private "withUnsafePointer"
+- !private "writePosition"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "Posix"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "callAsFunction"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["3NIO17AddressedEnvelopeV", "Metadata"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "Posix"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "callAsFunction"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["SK", "Index"]
+- ["SK", ""]
+- !private ["SK", "allocate"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "copyMemory"]
+- !private ["SK", "count"]
+- !private ["SK", "deallocate"]
+- !private ["SK", "init"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "storeBytes"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "Posix"]
+- !private ["Sz", ""]
+- !private ["Sz", "callAsFunction"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "Posix"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "none"]
+- !private ["s7CVarArgP", "pointee"]
+- ["Sl", "Comparable"]
+- ["Sl", "Default_Element"]
+- ["Sl", "Default_Index"]
+- ["Sl", "Default_Indices"]
+- ["Sl", "Default_Iterator"]
+- ["Sl", "Default_SubSequence"]
+- ["Sl", "Element"]
+- ["Sl", "Equatable"]
+- ["Sl", "Index"]
+- ["Sl", "Indices"]
+- ["Sl", "Iterator"]
+- !private ["Sl", "MemoryLayout"]
+- !private ["Sl", "NIOBSDSocketControlMessage"]
+- ["Sl", "SubSequence"]
+- !private ["Sl", "UnsafeControlMessage"]
+- !private ["Sl", "UnsafeControlMessageStorage"]
+- !private ["Sl", "UnsafeMutableRawBufferPointer"]
+- !private ["Sl", "UnsafeMutableRawPointer"]
+- ["Sl", ""]
+- ["Sl", "_Default_Element"]
+- ["Sl", "_Default_Index"]
+- ["Sl", "_Default_Indices"]
+- ["Sl", "_Default_Iterator"]
+- ["Sl", "_Default_SubSequence"]
+- ["Sl", "_copyContents"]
+- ["Sl", "_copyToContiguousArray"]
+- ["Sl", "_customContainsEquatableElement"]
+- ["Sl", "_customIndexOfEquatableElement"]
+- ["Sl", "_customLastIndexOfEquatableElement"]
+- ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "allocate"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "buffer"]
+- !private ["Sl", "bytesPerMessage"]
+- !private ["Sl", "copyMemory"]
+- ["Sl", "count"]
+- !private ["Sl", "deallocate"]
+- ["Sl", "distance"]
+- ["Sl", "endIndex"]
+- ["Sl", "formIndex"]
+- ["Sl", "index"]
+- ["Sl", "indices"]
+- !private ["Sl", "init"]
+- ["Sl", "isEmpty"]
+- ["Sl", "makeIterator"]
+- !private ["Sl", "messageHeader"]
+- ["Sl", "startIndex"]
+- !private ["Sl", "storeBytes"]
+- ["Sl", "subscript"]
+- ["Sl", "underestimatedCount"]
+- ["Sl", "withContiguousStorageIfAvailable"]
+- !private ["Sl", "withUnsafeMutablePointer"]
+- !private ["Sl", "withUnsafePointer"]
+- ["SL", "<"]
+- ["SL", "<="]
+- ["SL", "=="]
+- ["SL", ">"]
+- ["SL", ">="]
+- !private ["SL", "Posix"]
+- ["SL", ""]
+- !private ["SL", "__derived_struct_equals"]
+- !private ["SL", "bindMemory"]
+- !private ["SL", "callAsFunction"]
+- !private ["SL", "cmsgPointer"]
+- !private ["SL", "init"]
+- ["SL", "none"]
+- !private ["SL", "pointee"]
+- ["3NIO20ControlMessageParserV", "CInt"]
+- !private ["3NIO20ControlMessageParserV", "ControlMessageParser"]
+- !private ["3NIO20ControlMessageParserV", "IPPROTO_IP"]
+- !private ["3NIO20ControlMessageParserV", "IPPROTO_IPV6"]
+- !private ["3NIO20ControlMessageParserV", "IPV6_TCLASS"]
+- ["3NIO20ControlMessageParserV", "IP_RECVTOS"]
+- !private ["3NIO20ControlMessageParserV", "MemoryLayout"]
+- ["3NIO20ControlMessageParserV", "NIOExplicitCongestionNotificationState"]
+- ["3NIO20ControlMessageParserV", "UnsafeControlMessage"]
+- ["3NIO20ControlMessageParserV", "UnsafeControlMessageCollection"]
+- ["3NIO20ControlMessageParserV", "UnsafeRawBufferPointer"]
+- ["3NIO20ControlMessageParserV", "_readCInt"]
+- !private ["3NIO20ControlMessageParserV", "assert"]
+- ["3NIO20ControlMessageParserV", "ecnValue"]
+- ["3NIO20ControlMessageParserV", "init"]
+- !private ["3NIO20ControlMessageParserV", "ipv4TosType"]
+- !private ["3NIO20ControlMessageParserV", "precondition"]
+- !private ["3NIO20ControlMessageParserV", "readCInt"]
+- ["3NIO20ControlMessageParserV", "receiveMessage"]
+- !private ["3NIO20ControlMessageParserV", "withUnsafeMutableBytes"]
+- ["s28CustomDebugStringConvertibleP", "Index"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "copyMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "storeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "Posix"]
+- ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "bindMemory"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "pointee"]
+- ["s17CustomReflectableP", "some"]
+- ["s23CustomStringConvertibleP", "Metadata"]
+- !private ["s23CustomStringConvertibleP", "Posix"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "Posix"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "init"]
+- ["Se", "none"]
+- ["Se", "some"]
+- !private ["SE", "Posix"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "init"]
+- ["SE", "none"]
+- ["SE", "some"]
+- ["SQ", "<"]
+- ["SQ", "<="]
+- ["SQ", "=="]
+- ["SQ", ">"]
+- ["SQ", ">="]
+- !private ["SQ", "ControlMessageParser"]
+- !private ["SQ", "Posix"]
+- ["SQ", ""]
+- !private ["SQ", "__derived_struct_equals"]
+- !private ["SQ", "bindMemory"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "cmsgPointer"]
+- ["SQ", "congestionExperienced"]
+- !private ["SQ", "ecnState"]
+- ["SQ", "inet"]
+- ["SQ", "inet6"]
+- !private ["SQ", "init"]
+- ["SQ", "none"]
+- !private ["SQ", "pointee"]
+- ["SQ", "some"]
+- ["SQ", "transportCapableFlag0"]
+- ["SQ", "transportCapableFlag1"]
+- ["SQ", "transportNotCapable"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Posix"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "callAsFunction"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s17FixedWidthIntegerP", "Posix"]
+- !private ["s17FixedWidthIntegerP", "callAsFunction"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "ControlMessageParser"]
+- !private ["SH", "Posix"]
+- ["SH", ""]
+- !private ["SH", "bindMemory"]
+- !private ["SH", "callAsFunction"]
+- ["SH", "congestionExperienced"]
+- !private ["SH", "ecnState"]
+- ["SH", "inet"]
+- ["SH", "inet6"]
+- !private ["SH", "init"]
+- ["SH", "none"]
+- !private ["SH", "pointee"]
+- ["SH", "some"]
+- ["SH", "transportCapableFlag0"]
+- ["SH", "transportCapableFlag1"]
+- ["SH", "transportNotCapable"]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", "<"]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", "<="]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", "=="]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", ">"]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", ">="]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", "Bool"]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", "UnsafeControlMessageCollection"]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", "UnsafeMutablePointer"]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", ""]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", "__derived_struct_equals"]
+- !private ["3NIO30UnsafeControlMessageCollectionV5IndexV", "cmsgPointer"]
+- ["3NIO30UnsafeControlMessageCollectionV5IndexV", "cmsghdr"]
+- !private ["3NIO30UnsafeControlMessageCollectionV5IndexV", "init"]
+- !private ["Si", "callAsFunction"]
+- ["s5Int32V", "NIOExplicitCongestionNotificationState"]
+- !private ["s5Int32V", "Posix"]
+- ["s5Int32V", ""]
+- ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", "Posix"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "callAsFunction"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "alignment"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["3NIO17AddressedEnvelopeV8MetadataV", "ControlMessageParser"]
+- ["3NIO17AddressedEnvelopeV8MetadataV", "UnsafeControlMessageCollection"]
+- ["3NIO17AddressedEnvelopeV8MetadataV", ""]
+- !private ["3NIO17AddressedEnvelopeV8MetadataV", "ecnState"]
+- ["3NIO17AddressedEnvelopeV8MetadataV", "init"]
+- !private ["s10MirrorPathP", "callAsFunction"]
+- ["SM", "Index"]
+- !private ["SM", "allocate"]
+- !private ["SM", "baseAddress"]
+- !private ["SM", "copyMemory"]
+- !private ["SM", "count"]
+- !private ["SM", "deallocate"]
+- !private ["SM", "init"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "storeBytes"]
+- !private ["SM", "subscript"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "Posix"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "callAsFunction"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- ["3NIO12NIOBSDSocketO", "ProtocolFamily"]
+- !private ["3NIO26NIOBSDSocketControlMessageO", ""]
+- !private ["3NIO26NIOBSDSocketControlMessageO", "data"]
+- !private ["3NIO26NIOBSDSocketControlMessageO", "firstHeader"]
+- !private ["3NIO26NIOBSDSocketControlMessageO", "length"]
+- !private ["3NIO26NIOBSDSocketControlMessageO", "nextHeader"]
+- !private ["3NIO26NIOBSDSocketControlMessageO", "space"]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", "CInt"]
+- !private ["3NIO38NIOExplicitCongestionNotificationStateO", "Posix"]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", ""]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", "congestionExperienced"]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", "init"]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", "transportCapableFlag0"]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", "transportCapableFlag1"]
+- ["3NIO38NIOExplicitCongestionNotificationStateO", "transportNotCapable"]
+- !private ["Sj", "Posix"]
+- !private ["Sj", ""]
+- !private ["Sj", "callAsFunction"]
+- !private ["Sj", "init"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- ["3NIO5PosixO", "IPTOS_ECN_CE"]
+- ["3NIO5PosixO", "IPTOS_ECN_ECT0"]
+- ["3NIO5PosixO", "IPTOS_ECN_ECT1"]
+- !private ["3NIO5PosixO", "IPTOS_ECN_MASK"]
+- !private ["3NIO5PosixO", "IPTOS_ECN_NOTECT"]
+- !private ["3NIO12NIOBSDSocketO14ProtocolFamilyV", ""]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "inet"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "inet6"]
+- ["Sk", "Index"]
+- !private ["Sk", "allocate"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "copyMemory"]
+- !private ["Sk", "count"]
+- !private ["Sk", "deallocate"]
+- !private ["Sk", "init"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "storeBytes"]
+- !private ["Sk", "subscript"]
+- ["SY", "inet"]
+- ["SY", "inet6"]
+- !private ["s10SIMDScalarP", "Posix"]
+- !private ["s10SIMDScalarP", "callAsFunction"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", "Comparable"]
+- ["ST", "Default_Element"]
+- ["ST", "Default_Index"]
+- ["ST", "Default_Indices"]
+- ["ST", "Default_Iterator"]
+- ["ST", "Default_SubSequence"]
+- ["ST", "Element"]
+- ["ST", "Equatable"]
+- ["ST", "Index"]
+- ["ST", "Indices"]
+- ["ST", "Iterator"]
+- !private ["ST", "MemoryLayout"]
+- !private ["ST", "NIOBSDSocketControlMessage"]
+- ["ST", "SubSequence"]
+- !private ["ST", "UnsafeControlMessage"]
+- !private ["ST", "UnsafeControlMessageStorage"]
+- !private ["ST", "UnsafeMutableRawBufferPointer"]
+- !private ["ST", "UnsafeMutableRawPointer"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Index"]
+- ["ST", "_Default_Indices"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_Default_SubSequence"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_customIndexOfEquatableElement"]
+- ["ST", "_customLastIndexOfEquatableElement"]
+- ["ST", "_failEarlyRangeCheck"]
+- !private ["ST", "allocate"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "buffer"]
+- !private ["ST", "bytesPerMessage"]
+- !private ["ST", "copyMemory"]
+- ["ST", "count"]
+- !private ["ST", "deallocate"]
+- ["ST", "distance"]
+- ["ST", "endIndex"]
+- ["ST", "formIndex"]
+- ["ST", "index"]
+- ["ST", "indices"]
+- !private ["ST", "init"]
+- ["ST", "isEmpty"]
+- ["ST", "makeIterator"]
+- !private ["ST", "messageHeader"]
+- ["ST", "startIndex"]
+- !private ["ST", "storeBytes"]
+- ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["ST", "withUnsafeMutablePointer"]
+- !private ["ST", "withUnsafePointer"]
+- !private ["SZ", "Posix"]
+- !private ["SZ", "callAsFunction"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "Posix"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "callAsFunction"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "Posix"]
+- ["Sx", ""]
+- !private ["Sx", "bindMemory"]
+- !private ["Sx", "callAsFunction"]
+- !private ["Sx", "init"]
+- ["Sx", "none"]
+- !private ["Sx", "pointee"]
+- !private ["s6UInt32V", "init"]
+- ["3NIO20UnsafeControlMessageV", "CInt"]
+- ["3NIO20UnsafeControlMessageV", "UnsafeRawBufferPointer"]
+- ["3NIO20UnsafeControlMessageV", "data"]
+- ["3NIO20UnsafeControlMessageV", "init"]
+- ["3NIO20UnsafeControlMessageV", "level"]
+- ["3NIO20UnsafeControlMessageV", "type"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Bool"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Comparable"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Default_Indices"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Default_Iterator"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Default_SubSequence"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Element"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Equatable"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Index"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Indices"]
+- ["3NIO30UnsafeControlMessageCollectionV", "Iterator"]
+- !private ["3NIO30UnsafeControlMessageCollectionV", "NIOBSDSocketControlMessage"]
+- ["3NIO30UnsafeControlMessageCollectionV", "SubSequence"]
+- ["3NIO30UnsafeControlMessageCollectionV", "UnsafeControlMessage"]
+- ["3NIO30UnsafeControlMessageCollectionV", "UnsafeControlMessageCollection"]
+- ["3NIO30UnsafeControlMessageCollectionV", "UnsafeMutablePointer"]
+- ["3NIO30UnsafeControlMessageCollectionV", ""]
+- ["3NIO30UnsafeControlMessageCollectionV", "_Default_Indices"]
+- ["3NIO30UnsafeControlMessageCollectionV", "_Default_Iterator"]
+- ["3NIO30UnsafeControlMessageCollectionV", "_Default_SubSequence"]
+- ["3NIO30UnsafeControlMessageCollectionV", "_copyContents"]
+- ["3NIO30UnsafeControlMessageCollectionV", "_copyToContiguousArray"]
+- ["3NIO30UnsafeControlMessageCollectionV", "_customContainsEquatableElement"]
+- ["3NIO30UnsafeControlMessageCollectionV", "_customIndexOfEquatableElement"]
+- ["3NIO30UnsafeControlMessageCollectionV", "_customLastIndexOfEquatableElement"]
+- ["3NIO30UnsafeControlMessageCollectionV", "_failEarlyRangeCheck"]
+- ["3NIO30UnsafeControlMessageCollectionV", "cmsghdr"]
+- ["3NIO30UnsafeControlMessageCollectionV", "count"]
+- ["3NIO30UnsafeControlMessageCollectionV", "distance"]
+- ["3NIO30UnsafeControlMessageCollectionV", "endIndex"]
+- ["3NIO30UnsafeControlMessageCollectionV", "formIndex"]
+- ["3NIO30UnsafeControlMessageCollectionV", "index"]
+- ["3NIO30UnsafeControlMessageCollectionV", "indices"]
+- ["3NIO30UnsafeControlMessageCollectionV", "init"]
+- ["3NIO30UnsafeControlMessageCollectionV", "isEmpty"]
+- ["3NIO30UnsafeControlMessageCollectionV", "makeIterator"]
+- !private ["3NIO30UnsafeControlMessageCollectionV", "messageHeader"]
+- ["3NIO30UnsafeControlMessageCollectionV", "msghdr"]
+- ["3NIO30UnsafeControlMessageCollectionV", "startIndex"]
+- ["3NIO30UnsafeControlMessageCollectionV", "subscript"]
+- ["3NIO30UnsafeControlMessageCollectionV", "underestimatedCount"]
+- ["3NIO30UnsafeControlMessageCollectionV", "withContiguousStorageIfAvailable"]
+- !private ["3NIO30UnsafeControlMessageCollectionV", "withUnsafeMutablePointer"]
+- !private ["3NIO30UnsafeControlMessageCollectionV", "withUnsafePointer"]
+- ["3NIO27UnsafeControlMessageStorageV", "Default_Element"]
+- ["3NIO27UnsafeControlMessageStorageV", "Default_Index"]
+- ["3NIO27UnsafeControlMessageStorageV", "Default_Indices"]
+- ["3NIO27UnsafeControlMessageStorageV", "Default_Iterator"]
+- ["3NIO27UnsafeControlMessageStorageV", "Default_SubSequence"]
+- ["3NIO27UnsafeControlMessageStorageV", "Element"]
+- ["3NIO27UnsafeControlMessageStorageV", "Index"]
+- ["3NIO27UnsafeControlMessageStorageV", "Indices"]
+- ["3NIO27UnsafeControlMessageStorageV", "Int"]
+- !private ["3NIO27UnsafeControlMessageStorageV", "Int32"]
+- ["3NIO27UnsafeControlMessageStorageV", "Iterator"]
+- !private ["3NIO27UnsafeControlMessageStorageV", "MemoryLayout"]
+- !private ["3NIO27UnsafeControlMessageStorageV", "NIOBSDSocketControlMessage"]
+- ["3NIO27UnsafeControlMessageStorageV", "SubSequence"]
+- ["3NIO27UnsafeControlMessageStorageV", "UnsafeControlMessageStorage"]
+- ["3NIO27UnsafeControlMessageStorageV", "UnsafeMutableRawBufferPointer"]
+- !private ["3NIO27UnsafeControlMessageStorageV", "UnsafeMutableRawPointer"]
+- ["3NIO27UnsafeControlMessageStorageV", ""]
+- ["3NIO27UnsafeControlMessageStorageV", "_Default_Element"]
+- ["3NIO27UnsafeControlMessageStorageV", "_Default_Index"]
+- ["3NIO27UnsafeControlMessageStorageV", "_Default_Indices"]
+- ["3NIO27UnsafeControlMessageStorageV", "_Default_Iterator"]
+- ["3NIO27UnsafeControlMessageStorageV", "_Default_SubSequence"]
+- ["3NIO27UnsafeControlMessageStorageV", "_copyContents"]
+- ["3NIO27UnsafeControlMessageStorageV", "_copyToContiguousArray"]
+- ["3NIO27UnsafeControlMessageStorageV", "_customContainsEquatableElement"]
+- ["3NIO27UnsafeControlMessageStorageV", "_customIndexOfEquatableElement"]
+- ["3NIO27UnsafeControlMessageStorageV", "_customLastIndexOfEquatableElement"]
+- ["3NIO27UnsafeControlMessageStorageV", "_failEarlyRangeCheck"]
+- ["3NIO27UnsafeControlMessageStorageV", "allocate"]
+- ["3NIO27UnsafeControlMessageStorageV", "buffer"]
+- ["3NIO27UnsafeControlMessageStorageV", "bytesPerMessage"]
+- !private ["3NIO27UnsafeControlMessageStorageV", "cmsghdr"]
+- ["3NIO27UnsafeControlMessageStorageV", "count"]
+- ["3NIO27UnsafeControlMessageStorageV", "deallocate"]
+- ["3NIO27UnsafeControlMessageStorageV", "distance"]
+- ["3NIO27UnsafeControlMessageStorageV", "endIndex"]
+- ["3NIO27UnsafeControlMessageStorageV", "formIndex"]
+- ["3NIO27UnsafeControlMessageStorageV", "index"]
+- ["3NIO27UnsafeControlMessageStorageV", "indices"]
+- !private ["3NIO27UnsafeControlMessageStorageV", "init"]
+- ["3NIO27UnsafeControlMessageStorageV", "isEmpty"]
+- ["3NIO27UnsafeControlMessageStorageV", "makeIterator"]
+- ["3NIO27UnsafeControlMessageStorageV", "startIndex"]
+- ["3NIO27UnsafeControlMessageStorageV", "subscript"]
+- ["3NIO27UnsafeControlMessageStorageV", "underestimatedCount"]
+- ["3NIO27UnsafeControlMessageStorageV", "withContiguousStorageIfAvailable"]
+- ["Sp", "none"]
+- !private ["Sp", "pointee"]
+- ["Sw", "Index"]
+- !private ["Sw", "allocate"]
+- !private ["Sw", "baseAddress"]
+- !private ["Sw", "copyMemory"]
+- !private ["Sw", "count"]
+- !private ["Sw", "deallocate"]
+- !private ["Sw", "init"]
+- !private ["Sw", "startIndex"]
+- !private ["Sw", "storeBytes"]
+- !private ["Sw", "subscript"]
+- !private ["Sv", "bindMemory"]
+- !private ["Sv", "init"]
+- ["3NIO26UnsafeOutboundControlBytesV", "AddressedEnvelope"]
+- ["3NIO26UnsafeOutboundControlBytesV", "ByteBuffer"]
+- ["3NIO26UnsafeOutboundControlBytesV", "CInt"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "IPPROTO_IP"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "IPPROTO_IPV6"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "IPV6_TCLASS"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "IP_TOS"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "MemoryLayout"]
+- ["3NIO26UnsafeOutboundControlBytesV", "NIOBSDSocket"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "NIOBSDSocketControlMessage"]
+- ["3NIO26UnsafeOutboundControlBytesV", "UnsafeMutableRawBufferPointer"]
+- ["3NIO26UnsafeOutboundControlBytesV", ""]
+- ["3NIO26UnsafeOutboundControlBytesV", "appendControlMessage"]
+- ["3NIO26UnsafeOutboundControlBytesV", "appendExplicitCongestionState"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "appendGenericControlMessage"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "cmsghdr"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "controlBytes"]
+- ["3NIO26UnsafeOutboundControlBytesV", "init"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "precondition"]
+- ["3NIO26UnsafeOutboundControlBytesV", "validControlBytes"]
+- !private ["3NIO26UnsafeOutboundControlBytesV", "writePosition"]
+- !private ["SW", "count"]
+- !private ["SW", "subscript"]
+- ["3NIO26UnsafeReceivedControlBytesV", "UnsafeControlMessageCollection"]
+- ["3NIO26UnsafeReceivedControlBytesV", "UnsafeMutableRawBufferPointer"]
+- ["3NIO26UnsafeReceivedControlBytesV", "controlBytesBuffer"]
+- ["3NIO26UnsafeReceivedControlBytesV", "init"]
+- ["3NIO26UnsafeReceivedControlBytesV", "receivedControlMessages"]
+- !private ["SU", "init"]
+- !private ["3NIO32_BSDSocketControlMessageProtocolP", "data"]
+- !private ["3NIO32_BSDSocketControlMessageProtocolP", "firstHeader"]
+- !private ["3NIO32_BSDSocketControlMessageProtocolP", "length"]
+- !private ["3NIO32_BSDSocketControlMessageProtocolP", "nextHeader"]
+- !private ["3NIO32_BSDSocketControlMessageProtocolP", "space"]
+- ["3NIO18_BSDSocketProtocolP", "ProtocolFamily"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Posix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bindMemory"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "callAsFunction"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "none"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Posix"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "callAsFunction"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "Index"]
+- !private ["s19_HasContiguousBytesP", "allocate"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "copyMemory"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "deallocate"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "startIndex"]
+- !private ["s19_HasContiguousBytesP", "storeBytes"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Posix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "callAsFunction"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s8_PointerP", "bindMemory"]
+- !private ["s8_PointerP", "init"]
+- ["s8_PointerP", "none"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["So7cmsghdrV", "cmsg_len"]
+- !private ["So7cmsghdrV", "cmsg_level"]
+- !private ["So7cmsghdrV", "cmsg_type"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "3NIO17AddressedEnvelopeV"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "3NIO20ControlMessageParserV"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- "3NIO30UnsafeControlMessageCollectionV5IndexV"
+- !private "Si"
+- "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "3NIO17AddressedEnvelopeV8MetadataV"
+- !private "s10MirrorPathP"
+- "SM"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- "3NIO12NIOBSDSocketO"
+- !private "3NIO26NIOBSDSocketControlMessageO"
+- "3NIO38NIOExplicitCongestionNotificationStateO"
+- !private "Sj"
+- "Sq"
+- "3NIO5PosixO"
+- "3NIO12NIOBSDSocketO14ProtocolFamilyV"
+- "Sk"
+- "SY"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "Sx"
+- !private "s6UInt32V"
+- "3NIO20UnsafeControlMessageV"
+- "3NIO30UnsafeControlMessageCollectionV"
+- "3NIO27UnsafeControlMessageStorageV"
+- "Sp"
+- "Sw"
+- !private "Sv"
+- "3NIO26UnsafeOutboundControlBytesV"
+- !private "SW"
+- "3NIO26UnsafeReceivedControlBytesV"
+- !private "SU"
+- !private "3NIO32_BSDSocketControlMessageProtocolP"
+- "3NIO18_BSDSocketProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s8_PointerP"
+- !private "So7cmsghdrV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "7d8612ef2133572a25a55e39e7868e73"

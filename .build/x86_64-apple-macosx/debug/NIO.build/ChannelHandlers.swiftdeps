@@ -1,0 +1,921 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AcceptBackoffHandler"
+- "BackPressureHandler"
+- "IdleStateHandler"
+provides-nominal:
+- "3NIO20AcceptBackoffHandlerC"
+- "3NIO19BackPressureHandlerC"
+- "3NIO16IdleStateHandlerC"
+- "3NIO16IdleStateHandlerC0bC5EventO"
+provides-member:
+- ["3NIO20AcceptBackoffHandlerC", ""]
+- ["3NIO19BackPressureHandlerC", ""]
+- ["3NIO16IdleStateHandlerC", ""]
+- ["3NIO16IdleStateHandlerC0bC5EventO", ""]
+provides-dynamic-lookup:
+- "allTimeout"
+- "backoffProvider"
+- "cancelIdleTasks"
+- "channelActive"
+- "channelInactive"
+- "channelRead"
+- "channelReadComplete"
+- "channelWritabilityChanged"
+- "defaultBackoffProvider"
+- "doRead"
+- "errorCaught"
+- "handlerAdded"
+- "handlerRemoved"
+- "initIdleTasks"
+- "lastReadTime"
+- "lastWriteCompleteTime"
+- "makeAllTimeoutTask"
+- "makeReadTimeoutTask"
+- "makeWriteTimeoutTask"
+- "mayRead"
+- "nextReadDeadlineNS"
+- "pendingRead"
+- "read"
+- "readTimeout"
+- "reading"
+- "schedule"
+- "scheduleRead"
+- "scheduledAllTask"
+- "scheduledRead"
+- "scheduledReaderTask"
+- "scheduledWriterTask"
+- "shouldReschedule"
+- "writable"
+- "write"
+- "writeTimeout"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "+"
+- "-"
+- "=="
+- ">="
+- !private "??"
+- "AcceptBackoffHandler"
+- "AssignmentPrecedence"
+- "BackPressureHandler"
+- "Bool"
+- "BooleanLiteralType"
+- "ByteBuffer"
+- "CastingPrecedence"
+- "Channel"
+- "ChannelDuplexHandler"
+- "ChannelHandlerContext"
+- "Error"
+- "EventLoopPromise"
+- !private "FloatLiteralType"
+- "IOError"
+- "IdleStateEvent"
+- "IdleStateHandler"
+- !private "IntegerLiteralType"
+- "NIOAny"
+- "NIODeadline"
+- "Optional"
+- "RemovableChannelHandler"
+- "Result"
+- "Scheduled"
+- "TimeAmount"
+- "Void"
+- !private "allTimeout"
+- !private "backoffProvider"
+- !private "cancelIdleTasks"
+- !private "doRead"
+- !private "initIdleTasks"
+- !private "lastReadTime"
+- !private "lastWriteCompleteTime"
+- !private "makeAllTimeoutTask"
+- !private "makeReadTimeoutTask"
+- !private "makeWriteTimeoutTask"
+- "max"
+- !private "mayRead"
+- !private "pendingRead"
+- !private "readTimeout"
+- !private "reading"
+- !private "schedule"
+- !private "scheduleRead"
+- !private "scheduledAllTask"
+- !private "scheduledRead"
+- !private "scheduledReaderTask"
+- !private "scheduledWriterTask"
+- !private "writable"
+- !private "writeTimeout"
+- !private "||"
+depends-member:
+- !private ["3NIO20AcceptBackoffHandlerC", "AcceptBackoffHandler"]
+- ["3NIO20AcceptBackoffHandlerC", "Channel"]
+- ["3NIO20AcceptBackoffHandlerC", "ChannelHandlerContext"]
+- ["3NIO20AcceptBackoffHandlerC", "Default_InboundOut"]
+- ["3NIO20AcceptBackoffHandlerC", "Default_OutboundOut"]
+- ["3NIO20AcceptBackoffHandlerC", "Error"]
+- ["3NIO20AcceptBackoffHandlerC", "IOError"]
+- ["3NIO20AcceptBackoffHandlerC", "InboundIn"]
+- ["3NIO20AcceptBackoffHandlerC", "InboundOut"]
+- ["3NIO20AcceptBackoffHandlerC", "NIODeadline"]
+- ["3NIO20AcceptBackoffHandlerC", "Optional"]
+- ["3NIO20AcceptBackoffHandlerC", "OutboundIn"]
+- ["3NIO20AcceptBackoffHandlerC", "OutboundOut"]
+- ["3NIO20AcceptBackoffHandlerC", "Scheduled"]
+- ["3NIO20AcceptBackoffHandlerC", "TimeAmount"]
+- ["3NIO20AcceptBackoffHandlerC", "Void"]
+- ["3NIO20AcceptBackoffHandlerC", ""]
+- ["3NIO20AcceptBackoffHandlerC", "_Default_InboundOut"]
+- ["3NIO20AcceptBackoffHandlerC", "_Default_OutboundOut"]
+- !private ["3NIO20AcceptBackoffHandlerC", "backoffProvider"]
+- ["3NIO20AcceptBackoffHandlerC", "bind"]
+- ["3NIO20AcceptBackoffHandlerC", "channelActive"]
+- ["3NIO20AcceptBackoffHandlerC", "channelInactive"]
+- ["3NIO20AcceptBackoffHandlerC", "channelRead"]
+- ["3NIO20AcceptBackoffHandlerC", "channelReadComplete"]
+- ["3NIO20AcceptBackoffHandlerC", "channelRegistered"]
+- ["3NIO20AcceptBackoffHandlerC", "channelUnregistered"]
+- ["3NIO20AcceptBackoffHandlerC", "channelWritabilityChanged"]
+- ["3NIO20AcceptBackoffHandlerC", "close"]
+- ["3NIO20AcceptBackoffHandlerC", "connect"]
+- ["3NIO20AcceptBackoffHandlerC", "defaultBackoffProvider"]
+- ["3NIO20AcceptBackoffHandlerC", "deinit"]
+- !private ["3NIO20AcceptBackoffHandlerC", "doRead"]
+- ["3NIO20AcceptBackoffHandlerC", "errorCaught"]
+- ["3NIO20AcceptBackoffHandlerC", "flush"]
+- ["3NIO20AcceptBackoffHandlerC", "handlerAdded"]
+- ["3NIO20AcceptBackoffHandlerC", "handlerRemoved"]
+- ["3NIO20AcceptBackoffHandlerC", "init"]
+- !private ["3NIO20AcceptBackoffHandlerC", "nextReadDeadlineNS"]
+- ["3NIO20AcceptBackoffHandlerC", "read"]
+- ["3NIO20AcceptBackoffHandlerC", "register"]
+- ["3NIO20AcceptBackoffHandlerC", "removeHandler"]
+- !private ["3NIO20AcceptBackoffHandlerC", "scheduleRead"]
+- !private ["3NIO20AcceptBackoffHandlerC", "scheduledRead"]
+- ["3NIO20AcceptBackoffHandlerC", "triggerUserOutboundEvent"]
+- ["3NIO20AcceptBackoffHandlerC", "unwrapInboundIn"]
+- ["3NIO20AcceptBackoffHandlerC", "unwrapOutboundIn"]
+- ["3NIO20AcceptBackoffHandlerC", "userInboundEventTriggered"]
+- ["3NIO20AcceptBackoffHandlerC", "wrapInboundOut"]
+- ["3NIO20AcceptBackoffHandlerC", "wrapOutboundOut"]
+- ["3NIO20AcceptBackoffHandlerC", "write"]
+- !private ["s18AdditiveArithmeticP", "seconds"]
+- ["3NIO19BackPressureHandlerC", "Bool"]
+- ["3NIO19BackPressureHandlerC", "ByteBuffer"]
+- ["3NIO19BackPressureHandlerC", "ChannelHandlerContext"]
+- ["3NIO19BackPressureHandlerC", "InboundIn"]
+- ["3NIO19BackPressureHandlerC", "InboundOut"]
+- ["3NIO19BackPressureHandlerC", "NIOAny"]
+- ["3NIO19BackPressureHandlerC", "OutboundIn"]
+- ["3NIO19BackPressureHandlerC", "OutboundOut"]
+- ["3NIO19BackPressureHandlerC", ""]
+- ["3NIO19BackPressureHandlerC", "bind"]
+- ["3NIO19BackPressureHandlerC", "channelActive"]
+- ["3NIO19BackPressureHandlerC", "channelInactive"]
+- ["3NIO19BackPressureHandlerC", "channelRead"]
+- ["3NIO19BackPressureHandlerC", "channelReadComplete"]
+- ["3NIO19BackPressureHandlerC", "channelRegistered"]
+- ["3NIO19BackPressureHandlerC", "channelUnregistered"]
+- ["3NIO19BackPressureHandlerC", "channelWritabilityChanged"]
+- ["3NIO19BackPressureHandlerC", "close"]
+- ["3NIO19BackPressureHandlerC", "connect"]
+- ["3NIO19BackPressureHandlerC", "deinit"]
+- ["3NIO19BackPressureHandlerC", "errorCaught"]
+- ["3NIO19BackPressureHandlerC", "flush"]
+- ["3NIO19BackPressureHandlerC", "handlerAdded"]
+- ["3NIO19BackPressureHandlerC", "handlerRemoved"]
+- ["3NIO19BackPressureHandlerC", "init"]
+- !private ["3NIO19BackPressureHandlerC", "mayRead"]
+- !private ["3NIO19BackPressureHandlerC", "pendingRead"]
+- ["3NIO19BackPressureHandlerC", "read"]
+- ["3NIO19BackPressureHandlerC", "register"]
+- ["3NIO19BackPressureHandlerC", "removeHandler"]
+- ["3NIO19BackPressureHandlerC", "triggerUserOutboundEvent"]
+- ["3NIO19BackPressureHandlerC", "unwrapInboundIn"]
+- ["3NIO19BackPressureHandlerC", "unwrapOutboundIn"]
+- ["3NIO19BackPressureHandlerC", "userInboundEventTriggered"]
+- ["3NIO19BackPressureHandlerC", "wrapInboundOut"]
+- ["3NIO19BackPressureHandlerC", "wrapOutboundOut"]
+- !private ["3NIO19BackPressureHandlerC", "writable"]
+- ["3NIO19BackPressureHandlerC", "write"]
+- !private ["3NIO7ChannelP", "isActive"]
+- !private ["3NIO7ChannelP", "isWritable"]
+- !private ["3NIO14ChannelHandlerP", "AcceptBackoffHandler"]
+- ["3NIO14ChannelHandlerP", "Default_InboundOut"]
+- ["3NIO14ChannelHandlerP", "Default_OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "IdleStateEvent"]
+- ["3NIO14ChannelHandlerP", "InboundIn"]
+- ["3NIO14ChannelHandlerP", "InboundOut"]
+- !private ["3NIO14ChannelHandlerP", "NIODeadline"]
+- ["3NIO14ChannelHandlerP", "OutboundIn"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- ["3NIO14ChannelHandlerP", ""]
+- ["3NIO14ChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO14ChannelHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "allTimeout"]
+- !private ["3NIO14ChannelHandlerP", "backoffProvider"]
+- ["3NIO14ChannelHandlerP", "bind"]
+- !private ["3NIO14ChannelHandlerP", "cancelIdleTasks"]
+- ["3NIO14ChannelHandlerP", "channelActive"]
+- ["3NIO14ChannelHandlerP", "channelInactive"]
+- ["3NIO14ChannelHandlerP", "channelRead"]
+- ["3NIO14ChannelHandlerP", "channelReadComplete"]
+- ["3NIO14ChannelHandlerP", "channelRegistered"]
+- ["3NIO14ChannelHandlerP", "channelUnregistered"]
+- ["3NIO14ChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO14ChannelHandlerP", "close"]
+- ["3NIO14ChannelHandlerP", "connect"]
+- !private ["3NIO14ChannelHandlerP", "defaultBackoffProvider"]
+- !private ["3NIO14ChannelHandlerP", "doRead"]
+- ["3NIO14ChannelHandlerP", "errorCaught"]
+- ["3NIO14ChannelHandlerP", "flush"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO14ChannelHandlerP", "initIdleTasks"]
+- !private ["3NIO14ChannelHandlerP", "lastReadTime"]
+- !private ["3NIO14ChannelHandlerP", "lastWriteCompleteTime"]
+- !private ["3NIO14ChannelHandlerP", "makeAllTimeoutTask"]
+- !private ["3NIO14ChannelHandlerP", "makeReadTimeoutTask"]
+- !private ["3NIO14ChannelHandlerP", "makeWriteTimeoutTask"]
+- !private ["3NIO14ChannelHandlerP", "max"]
+- !private ["3NIO14ChannelHandlerP", "mayRead"]
+- !private ["3NIO14ChannelHandlerP", "nextReadDeadlineNS"]
+- !private ["3NIO14ChannelHandlerP", "pendingRead"]
+- ["3NIO14ChannelHandlerP", "read"]
+- !private ["3NIO14ChannelHandlerP", "readTimeout"]
+- !private ["3NIO14ChannelHandlerP", "reading"]
+- ["3NIO14ChannelHandlerP", "register"]
+- ["3NIO14ChannelHandlerP", "removeHandler"]
+- !private ["3NIO14ChannelHandlerP", "schedule"]
+- !private ["3NIO14ChannelHandlerP", "scheduleRead"]
+- !private ["3NIO14ChannelHandlerP", "scheduledAllTask"]
+- !private ["3NIO14ChannelHandlerP", "scheduledRead"]
+- !private ["3NIO14ChannelHandlerP", "scheduledReaderTask"]
+- !private ["3NIO14ChannelHandlerP", "scheduledWriterTask"]
+- !private ["3NIO14ChannelHandlerP", "shouldReschedule"]
+- ["3NIO14ChannelHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO14ChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO14ChannelHandlerP", "unwrapOutboundIn"]
+- ["3NIO14ChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO14ChannelHandlerP", "wrapInboundOut"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "writable"]
+- ["3NIO14ChannelHandlerP", "write"]
+- !private ["3NIO14ChannelHandlerP", "writeTimeout"]
+- !private ["3NIO21ChannelHandlerContextC", ""]
+- !private ["3NIO21ChannelHandlerContextC", "channel"]
+- !private ["3NIO21ChannelHandlerContextC", "eventLoop"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelActive"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelInactive"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelRead"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelReadComplete"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelWritabilityChanged"]
+- !private ["3NIO21ChannelHandlerContextC", "fireErrorCaught"]
+- !private ["3NIO21ChannelHandlerContextC", "fireUserInboundEventTriggered"]
+- !private ["3NIO21ChannelHandlerContextC", "flush"]
+- !private ["3NIO21ChannelHandlerContextC", "read"]
+- !private ["3NIO21ChannelHandlerContextC", "write"]
+- !private ["3NIO21ChannelInboundHandlerP", "AcceptBackoffHandler"]
+- ["3NIO21ChannelInboundHandlerP", "Default_InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "Default_OutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "IdleStateEvent"]
+- ["3NIO21ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "InboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "NIODeadline"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", ""]
+- ["3NIO21ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "allTimeout"]
+- !private ["3NIO21ChannelInboundHandlerP", "backoffProvider"]
+- ["3NIO21ChannelInboundHandlerP", "bind"]
+- !private ["3NIO21ChannelInboundHandlerP", "cancelIdleTasks"]
+- ["3NIO21ChannelInboundHandlerP", "channelActive"]
+- ["3NIO21ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO21ChannelInboundHandlerP", "channelRead"]
+- ["3NIO21ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO21ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO21ChannelInboundHandlerP", "close"]
+- ["3NIO21ChannelInboundHandlerP", "connect"]
+- !private ["3NIO21ChannelInboundHandlerP", "defaultBackoffProvider"]
+- !private ["3NIO21ChannelInboundHandlerP", "doRead"]
+- ["3NIO21ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO21ChannelInboundHandlerP", "flush"]
+- ["3NIO21ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO21ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO21ChannelInboundHandlerP", "initIdleTasks"]
+- !private ["3NIO21ChannelInboundHandlerP", "lastReadTime"]
+- !private ["3NIO21ChannelInboundHandlerP", "lastWriteCompleteTime"]
+- !private ["3NIO21ChannelInboundHandlerP", "makeAllTimeoutTask"]
+- !private ["3NIO21ChannelInboundHandlerP", "makeReadTimeoutTask"]
+- !private ["3NIO21ChannelInboundHandlerP", "makeWriteTimeoutTask"]
+- !private ["3NIO21ChannelInboundHandlerP", "max"]
+- !private ["3NIO21ChannelInboundHandlerP", "mayRead"]
+- !private ["3NIO21ChannelInboundHandlerP", "nextReadDeadlineNS"]
+- !private ["3NIO21ChannelInboundHandlerP", "pendingRead"]
+- ["3NIO21ChannelInboundHandlerP", "read"]
+- !private ["3NIO21ChannelInboundHandlerP", "readTimeout"]
+- !private ["3NIO21ChannelInboundHandlerP", "reading"]
+- ["3NIO21ChannelInboundHandlerP", "register"]
+- ["3NIO21ChannelInboundHandlerP", "removeHandler"]
+- !private ["3NIO21ChannelInboundHandlerP", "schedule"]
+- !private ["3NIO21ChannelInboundHandlerP", "scheduleRead"]
+- !private ["3NIO21ChannelInboundHandlerP", "scheduledAllTask"]
+- !private ["3NIO21ChannelInboundHandlerP", "scheduledRead"]
+- !private ["3NIO21ChannelInboundHandlerP", "scheduledReaderTask"]
+- !private ["3NIO21ChannelInboundHandlerP", "scheduledWriterTask"]
+- !private ["3NIO21ChannelInboundHandlerP", "shouldReschedule"]
+- ["3NIO21ChannelInboundHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapOutboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO21ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "writable"]
+- ["3NIO21ChannelInboundHandlerP", "write"]
+- !private ["3NIO21ChannelInboundHandlerP", "writeTimeout"]
+- ["3NIO21ChannelInboundInvokerP", ""]
+- !private ["3NIO21ChannelInboundInvokerP", "channel"]
+- !private ["3NIO21ChannelInboundInvokerP", "eventLoop"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelActive"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelInactive"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelRead"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelReadComplete"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelWritabilityChanged"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireErrorCaught"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireUserInboundEventTriggered"]
+- !private ["3NIO21ChannelInboundInvokerP", "flush"]
+- !private ["3NIO21ChannelInboundInvokerP", "read"]
+- !private ["3NIO21ChannelInboundInvokerP", "write"]
+- !private ["3NIO14ChannelInvokerP", "channel"]
+- !private ["3NIO14ChannelInvokerP", "eventLoop"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelActive"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelInactive"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelRead"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelReadComplete"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelWritabilityChanged"]
+- !private ["3NIO14ChannelInvokerP", "fireErrorCaught"]
+- !private ["3NIO14ChannelInvokerP", "fireUserInboundEventTriggered"]
+- !private ["3NIO14ChannelInvokerP", "flush"]
+- !private ["3NIO14ChannelInvokerP", "read"]
+- !private ["3NIO14ChannelInvokerP", "write"]
+- !private ["3NIO22ChannelOutboundHandlerP", "AcceptBackoffHandler"]
+- ["3NIO22ChannelOutboundHandlerP", "Default_InboundOut"]
+- ["3NIO22ChannelOutboundHandlerP", "Default_OutboundOut"]
+- !private ["3NIO22ChannelOutboundHandlerP", "IdleStateEvent"]
+- ["3NIO22ChannelOutboundHandlerP", "InboundIn"]
+- ["3NIO22ChannelOutboundHandlerP", "InboundOut"]
+- !private ["3NIO22ChannelOutboundHandlerP", "NIODeadline"]
+- ["3NIO22ChannelOutboundHandlerP", "OutboundIn"]
+- ["3NIO22ChannelOutboundHandlerP", "OutboundOut"]
+- ["3NIO22ChannelOutboundHandlerP", ""]
+- ["3NIO22ChannelOutboundHandlerP", "_Default_InboundOut"]
+- ["3NIO22ChannelOutboundHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO22ChannelOutboundHandlerP", "allTimeout"]
+- !private ["3NIO22ChannelOutboundHandlerP", "backoffProvider"]
+- ["3NIO22ChannelOutboundHandlerP", "bind"]
+- !private ["3NIO22ChannelOutboundHandlerP", "cancelIdleTasks"]
+- ["3NIO22ChannelOutboundHandlerP", "channelActive"]
+- ["3NIO22ChannelOutboundHandlerP", "channelInactive"]
+- ["3NIO22ChannelOutboundHandlerP", "channelRead"]
+- ["3NIO22ChannelOutboundHandlerP", "channelReadComplete"]
+- ["3NIO22ChannelOutboundHandlerP", "channelRegistered"]
+- ["3NIO22ChannelOutboundHandlerP", "channelUnregistered"]
+- ["3NIO22ChannelOutboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO22ChannelOutboundHandlerP", "close"]
+- ["3NIO22ChannelOutboundHandlerP", "connect"]
+- !private ["3NIO22ChannelOutboundHandlerP", "defaultBackoffProvider"]
+- !private ["3NIO22ChannelOutboundHandlerP", "doRead"]
+- ["3NIO22ChannelOutboundHandlerP", "errorCaught"]
+- ["3NIO22ChannelOutboundHandlerP", "flush"]
+- ["3NIO22ChannelOutboundHandlerP", "handlerAdded"]
+- ["3NIO22ChannelOutboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22ChannelOutboundHandlerP", "initIdleTasks"]
+- !private ["3NIO22ChannelOutboundHandlerP", "lastReadTime"]
+- !private ["3NIO22ChannelOutboundHandlerP", "lastWriteCompleteTime"]
+- !private ["3NIO22ChannelOutboundHandlerP", "makeAllTimeoutTask"]
+- !private ["3NIO22ChannelOutboundHandlerP", "makeReadTimeoutTask"]
+- !private ["3NIO22ChannelOutboundHandlerP", "makeWriteTimeoutTask"]
+- !private ["3NIO22ChannelOutboundHandlerP", "max"]
+- !private ["3NIO22ChannelOutboundHandlerP", "mayRead"]
+- !private ["3NIO22ChannelOutboundHandlerP", "nextReadDeadlineNS"]
+- !private ["3NIO22ChannelOutboundHandlerP", "pendingRead"]
+- ["3NIO22ChannelOutboundHandlerP", "read"]
+- !private ["3NIO22ChannelOutboundHandlerP", "readTimeout"]
+- !private ["3NIO22ChannelOutboundHandlerP", "reading"]
+- ["3NIO22ChannelOutboundHandlerP", "register"]
+- ["3NIO22ChannelOutboundHandlerP", "removeHandler"]
+- !private ["3NIO22ChannelOutboundHandlerP", "schedule"]
+- !private ["3NIO22ChannelOutboundHandlerP", "scheduleRead"]
+- !private ["3NIO22ChannelOutboundHandlerP", "scheduledAllTask"]
+- !private ["3NIO22ChannelOutboundHandlerP", "scheduledRead"]
+- !private ["3NIO22ChannelOutboundHandlerP", "scheduledReaderTask"]
+- !private ["3NIO22ChannelOutboundHandlerP", "scheduledWriterTask"]
+- !private ["3NIO22ChannelOutboundHandlerP", "shouldReschedule"]
+- ["3NIO22ChannelOutboundHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO22ChannelOutboundHandlerP", "unwrapInboundIn"]
+- ["3NIO22ChannelOutboundHandlerP", "unwrapOutboundIn"]
+- ["3NIO22ChannelOutboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22ChannelOutboundHandlerP", "wrapInboundOut"]
+- ["3NIO22ChannelOutboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO22ChannelOutboundHandlerP", "writable"]
+- ["3NIO22ChannelOutboundHandlerP", "write"]
+- !private ["3NIO22ChannelOutboundHandlerP", "writeTimeout"]
+- ["3NIO22ChannelOutboundInvokerP", ""]
+- !private ["3NIO22ChannelOutboundInvokerP", "channel"]
+- !private ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelActive"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelInactive"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelRead"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelReadComplete"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelWritabilityChanged"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireErrorCaught"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireUserInboundEventTriggered"]
+- !private ["3NIO22ChannelOutboundInvokerP", "flush"]
+- !private ["3NIO22ChannelOutboundInvokerP", "isActive"]
+- !private ["3NIO22ChannelOutboundInvokerP", "isWritable"]
+- !private ["3NIO22ChannelOutboundInvokerP", "read"]
+- !private ["3NIO22ChannelOutboundInvokerP", "write"]
+- ["SL", "distantPast"]
+- !private ["SL", "now"]
+- !private ["SL", "seconds"]
+- !private ["s28CustomDebugStringConvertibleP", "seconds"]
+- !private ["s17CustomReflectableP", "seconds"]
+- ["s23CustomStringConvertibleP", "distantPast"]
+- !private ["s23CustomStringConvertibleP", "now"]
+- !private ["Se", "seconds"]
+- !private ["SE", "seconds"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "all"]
+- ["SQ", "distantPast"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "now"]
+- !private ["SQ", "read"]
+- !private ["SQ", "seconds"]
+- !private ["SQ", "whenComplete"]
+- !private ["SQ", "write"]
+- !private ["3NIO9EventLoopP", "makePromise"]
+- !private ["3NIO9EventLoopP", "scheduleTask"]
+- !private ["3NIO15EventLoopFutureC", "whenComplete"]
+- ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "makePromise"]
+- !private ["3NIO14EventLoopGroupP", "scheduleTask"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "seconds"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "all"]
+- ["SH", "distantPast"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "now"]
+- !private ["SH", "read"]
+- !private ["SH", "seconds"]
+- !private ["SH", "write"]
+- !private ["s6HasherV", "combine"]
+- !private ["3NIO7IOErrorV", ""]
+- ["3NIO16IdleStateHandlerC0bC5EventO", "=="]
+- ["3NIO16IdleStateHandlerC0bC5EventO", ""]
+- ["3NIO16IdleStateHandlerC0bC5EventO", "__derived_enum_equals"]
+- ["3NIO16IdleStateHandlerC0bC5EventO", "_rawHashValue"]
+- ["3NIO16IdleStateHandlerC0bC5EventO", "all"]
+- ["3NIO16IdleStateHandlerC0bC5EventO", "hash"]
+- ["3NIO16IdleStateHandlerC0bC5EventO", "hashValue"]
+- ["3NIO16IdleStateHandlerC0bC5EventO", "read"]
+- ["3NIO16IdleStateHandlerC0bC5EventO", "write"]
+- ["3NIO16IdleStateHandlerC", "Bool"]
+- ["3NIO16IdleStateHandlerC", "ChannelHandlerContext"]
+- !private ["3NIO16IdleStateHandlerC", "Error"]
+- ["3NIO16IdleStateHandlerC", "EventLoopPromise"]
+- ["3NIO16IdleStateHandlerC", "IdleStateEvent"]
+- ["3NIO16IdleStateHandlerC", "InboundIn"]
+- ["3NIO16IdleStateHandlerC", "InboundOut"]
+- ["3NIO16IdleStateHandlerC", "NIOAny"]
+- ["3NIO16IdleStateHandlerC", "NIODeadline"]
+- ["3NIO16IdleStateHandlerC", "Optional"]
+- ["3NIO16IdleStateHandlerC", "OutboundIn"]
+- ["3NIO16IdleStateHandlerC", "OutboundOut"]
+- !private ["3NIO16IdleStateHandlerC", "Result"]
+- ["3NIO16IdleStateHandlerC", "Scheduled"]
+- ["3NIO16IdleStateHandlerC", "TimeAmount"]
+- ["3NIO16IdleStateHandlerC", "Void"]
+- ["3NIO16IdleStateHandlerC", ""]
+- ["3NIO16IdleStateHandlerC", "allTimeout"]
+- ["3NIO16IdleStateHandlerC", "bind"]
+- !private ["3NIO16IdleStateHandlerC", "cancelIdleTasks"]
+- ["3NIO16IdleStateHandlerC", "channelActive"]
+- ["3NIO16IdleStateHandlerC", "channelInactive"]
+- ["3NIO16IdleStateHandlerC", "channelRead"]
+- ["3NIO16IdleStateHandlerC", "channelReadComplete"]
+- ["3NIO16IdleStateHandlerC", "channelRegistered"]
+- ["3NIO16IdleStateHandlerC", "channelUnregistered"]
+- ["3NIO16IdleStateHandlerC", "channelWritabilityChanged"]
+- ["3NIO16IdleStateHandlerC", "close"]
+- ["3NIO16IdleStateHandlerC", "connect"]
+- ["3NIO16IdleStateHandlerC", "deinit"]
+- ["3NIO16IdleStateHandlerC", "errorCaught"]
+- ["3NIO16IdleStateHandlerC", "flush"]
+- ["3NIO16IdleStateHandlerC", "handlerAdded"]
+- ["3NIO16IdleStateHandlerC", "handlerRemoved"]
+- ["3NIO16IdleStateHandlerC", "init"]
+- !private ["3NIO16IdleStateHandlerC", "initIdleTasks"]
+- !private ["3NIO16IdleStateHandlerC", "lastReadTime"]
+- !private ["3NIO16IdleStateHandlerC", "lastWriteCompleteTime"]
+- !private ["3NIO16IdleStateHandlerC", "makeAllTimeoutTask"]
+- !private ["3NIO16IdleStateHandlerC", "makeReadTimeoutTask"]
+- !private ["3NIO16IdleStateHandlerC", "makeWriteTimeoutTask"]
+- !private ["3NIO16IdleStateHandlerC", "max"]
+- ["3NIO16IdleStateHandlerC", "read"]
+- ["3NIO16IdleStateHandlerC", "readTimeout"]
+- !private ["3NIO16IdleStateHandlerC", "reading"]
+- ["3NIO16IdleStateHandlerC", "register"]
+- ["3NIO16IdleStateHandlerC", "removeHandler"]
+- !private ["3NIO16IdleStateHandlerC", "schedule"]
+- !private ["3NIO16IdleStateHandlerC", "scheduledAllTask"]
+- !private ["3NIO16IdleStateHandlerC", "scheduledReaderTask"]
+- !private ["3NIO16IdleStateHandlerC", "scheduledWriterTask"]
+- !private ["3NIO16IdleStateHandlerC", "shouldReschedule"]
+- ["3NIO16IdleStateHandlerC", "triggerUserOutboundEvent"]
+- ["3NIO16IdleStateHandlerC", "unwrapInboundIn"]
+- ["3NIO16IdleStateHandlerC", "unwrapOutboundIn"]
+- ["3NIO16IdleStateHandlerC", "userInboundEventTriggered"]
+- ["3NIO16IdleStateHandlerC", "wrapInboundOut"]
+- ["3NIO16IdleStateHandlerC", "wrapOutboundOut"]
+- ["3NIO16IdleStateHandlerC", "write"]
+- ["3NIO16IdleStateHandlerC", "writeTimeout"]
+- !private ["3NIO11NIODeadlineV", ""]
+- ["3NIO11NIODeadlineV", "distantPast"]
+- !private ["3NIO11NIODeadlineV", "now"]
+- !private ["Sq", "seconds"]
+- !private ["3NIO23RemovableChannelHandlerP", "AcceptBackoffHandler"]
+- ["3NIO23RemovableChannelHandlerP", "Default_InboundOut"]
+- ["3NIO23RemovableChannelHandlerP", "Default_OutboundOut"]
+- !private ["3NIO23RemovableChannelHandlerP", "IdleStateEvent"]
+- ["3NIO23RemovableChannelHandlerP", "InboundIn"]
+- ["3NIO23RemovableChannelHandlerP", "InboundOut"]
+- !private ["3NIO23RemovableChannelHandlerP", "NIODeadline"]
+- ["3NIO23RemovableChannelHandlerP", "OutboundIn"]
+- ["3NIO23RemovableChannelHandlerP", "OutboundOut"]
+- ["3NIO23RemovableChannelHandlerP", ""]
+- ["3NIO23RemovableChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO23RemovableChannelHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO23RemovableChannelHandlerP", "allTimeout"]
+- !private ["3NIO23RemovableChannelHandlerP", "backoffProvider"]
+- ["3NIO23RemovableChannelHandlerP", "bind"]
+- !private ["3NIO23RemovableChannelHandlerP", "cancelIdleTasks"]
+- ["3NIO23RemovableChannelHandlerP", "channelActive"]
+- ["3NIO23RemovableChannelHandlerP", "channelInactive"]
+- ["3NIO23RemovableChannelHandlerP", "channelRead"]
+- ["3NIO23RemovableChannelHandlerP", "channelReadComplete"]
+- ["3NIO23RemovableChannelHandlerP", "channelRegistered"]
+- ["3NIO23RemovableChannelHandlerP", "channelUnregistered"]
+- ["3NIO23RemovableChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO23RemovableChannelHandlerP", "close"]
+- ["3NIO23RemovableChannelHandlerP", "connect"]
+- !private ["3NIO23RemovableChannelHandlerP", "defaultBackoffProvider"]
+- !private ["3NIO23RemovableChannelHandlerP", "doRead"]
+- ["3NIO23RemovableChannelHandlerP", "errorCaught"]
+- ["3NIO23RemovableChannelHandlerP", "flush"]
+- ["3NIO23RemovableChannelHandlerP", "handlerAdded"]
+- ["3NIO23RemovableChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23RemovableChannelHandlerP", "initIdleTasks"]
+- !private ["3NIO23RemovableChannelHandlerP", "lastReadTime"]
+- !private ["3NIO23RemovableChannelHandlerP", "lastWriteCompleteTime"]
+- !private ["3NIO23RemovableChannelHandlerP", "makeAllTimeoutTask"]
+- !private ["3NIO23RemovableChannelHandlerP", "makeReadTimeoutTask"]
+- !private ["3NIO23RemovableChannelHandlerP", "makeWriteTimeoutTask"]
+- !private ["3NIO23RemovableChannelHandlerP", "max"]
+- !private ["3NIO23RemovableChannelHandlerP", "mayRead"]
+- !private ["3NIO23RemovableChannelHandlerP", "nextReadDeadlineNS"]
+- !private ["3NIO23RemovableChannelHandlerP", "pendingRead"]
+- ["3NIO23RemovableChannelHandlerP", "read"]
+- !private ["3NIO23RemovableChannelHandlerP", "readTimeout"]
+- !private ["3NIO23RemovableChannelHandlerP", "reading"]
+- ["3NIO23RemovableChannelHandlerP", "register"]
+- ["3NIO23RemovableChannelHandlerP", "removeHandler"]
+- !private ["3NIO23RemovableChannelHandlerP", "schedule"]
+- !private ["3NIO23RemovableChannelHandlerP", "scheduleRead"]
+- !private ["3NIO23RemovableChannelHandlerP", "scheduledAllTask"]
+- !private ["3NIO23RemovableChannelHandlerP", "scheduledRead"]
+- !private ["3NIO23RemovableChannelHandlerP", "scheduledReaderTask"]
+- !private ["3NIO23RemovableChannelHandlerP", "scheduledWriterTask"]
+- !private ["3NIO23RemovableChannelHandlerP", "shouldReschedule"]
+- ["3NIO23RemovableChannelHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO23RemovableChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO23RemovableChannelHandlerP", "unwrapOutboundIn"]
+- ["3NIO23RemovableChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23RemovableChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23RemovableChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO23RemovableChannelHandlerP", "writable"]
+- ["3NIO23RemovableChannelHandlerP", "write"]
+- !private ["3NIO23RemovableChannelHandlerP", "writeTimeout"]
+- !private ["3NIO9ScheduledV", "cancel"]
+- !private ["3NIO10TimeAmountV", ""]
+- !private ["3NIO10TimeAmountV", "seconds"]
+- !private ["3NIO22_ChannelInboundHandlerP", "AcceptBackoffHandler"]
+- ["3NIO22_ChannelInboundHandlerP", "Default_InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "Default_OutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "IdleStateEvent"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "NIODeadline"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", ""]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "allTimeout"]
+- !private ["3NIO22_ChannelInboundHandlerP", "backoffProvider"]
+- ["3NIO22_ChannelInboundHandlerP", "bind"]
+- !private ["3NIO22_ChannelInboundHandlerP", "cancelIdleTasks"]
+- ["3NIO22_ChannelInboundHandlerP", "channelActive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRead"]
+- ["3NIO22_ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO22_ChannelInboundHandlerP", "close"]
+- ["3NIO22_ChannelInboundHandlerP", "connect"]
+- !private ["3NIO22_ChannelInboundHandlerP", "defaultBackoffProvider"]
+- !private ["3NIO22_ChannelInboundHandlerP", "doRead"]
+- ["3NIO22_ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO22_ChannelInboundHandlerP", "flush"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22_ChannelInboundHandlerP", "initIdleTasks"]
+- !private ["3NIO22_ChannelInboundHandlerP", "lastReadTime"]
+- !private ["3NIO22_ChannelInboundHandlerP", "lastWriteCompleteTime"]
+- !private ["3NIO22_ChannelInboundHandlerP", "makeAllTimeoutTask"]
+- !private ["3NIO22_ChannelInboundHandlerP", "makeReadTimeoutTask"]
+- !private ["3NIO22_ChannelInboundHandlerP", "makeWriteTimeoutTask"]
+- !private ["3NIO22_ChannelInboundHandlerP", "max"]
+- !private ["3NIO22_ChannelInboundHandlerP", "mayRead"]
+- !private ["3NIO22_ChannelInboundHandlerP", "nextReadDeadlineNS"]
+- !private ["3NIO22_ChannelInboundHandlerP", "pendingRead"]
+- ["3NIO22_ChannelInboundHandlerP", "read"]
+- !private ["3NIO22_ChannelInboundHandlerP", "readTimeout"]
+- !private ["3NIO22_ChannelInboundHandlerP", "reading"]
+- ["3NIO22_ChannelInboundHandlerP", "register"]
+- ["3NIO22_ChannelInboundHandlerP", "removeHandler"]
+- !private ["3NIO22_ChannelInboundHandlerP", "schedule"]
+- !private ["3NIO22_ChannelInboundHandlerP", "scheduleRead"]
+- !private ["3NIO22_ChannelInboundHandlerP", "scheduledAllTask"]
+- !private ["3NIO22_ChannelInboundHandlerP", "scheduledRead"]
+- !private ["3NIO22_ChannelInboundHandlerP", "scheduledReaderTask"]
+- !private ["3NIO22_ChannelInboundHandlerP", "scheduledWriterTask"]
+- !private ["3NIO22_ChannelInboundHandlerP", "shouldReschedule"]
+- ["3NIO22_ChannelInboundHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapOutboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "writable"]
+- ["3NIO22_ChannelInboundHandlerP", "write"]
+- !private ["3NIO22_ChannelInboundHandlerP", "writeTimeout"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "AcceptBackoffHandler"]
+- ["3NIO23_ChannelOutboundHandlerP", "Default_InboundOut"]
+- ["3NIO23_ChannelOutboundHandlerP", "Default_OutboundOut"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "IdleStateEvent"]
+- ["3NIO23_ChannelOutboundHandlerP", "InboundIn"]
+- ["3NIO23_ChannelOutboundHandlerP", "InboundOut"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "NIODeadline"]
+- ["3NIO23_ChannelOutboundHandlerP", "OutboundIn"]
+- ["3NIO23_ChannelOutboundHandlerP", "OutboundOut"]
+- ["3NIO23_ChannelOutboundHandlerP", ""]
+- ["3NIO23_ChannelOutboundHandlerP", "_Default_InboundOut"]
+- ["3NIO23_ChannelOutboundHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "allTimeout"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "backoffProvider"]
+- ["3NIO23_ChannelOutboundHandlerP", "bind"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "cancelIdleTasks"]
+- ["3NIO23_ChannelOutboundHandlerP", "channelActive"]
+- ["3NIO23_ChannelOutboundHandlerP", "channelInactive"]
+- ["3NIO23_ChannelOutboundHandlerP", "channelRead"]
+- ["3NIO23_ChannelOutboundHandlerP", "channelReadComplete"]
+- ["3NIO23_ChannelOutboundHandlerP", "channelRegistered"]
+- ["3NIO23_ChannelOutboundHandlerP", "channelUnregistered"]
+- ["3NIO23_ChannelOutboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO23_ChannelOutboundHandlerP", "close"]
+- ["3NIO23_ChannelOutboundHandlerP", "connect"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "defaultBackoffProvider"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "doRead"]
+- ["3NIO23_ChannelOutboundHandlerP", "errorCaught"]
+- ["3NIO23_ChannelOutboundHandlerP", "flush"]
+- ["3NIO23_ChannelOutboundHandlerP", "handlerAdded"]
+- ["3NIO23_ChannelOutboundHandlerP", "handlerRemoved"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "initIdleTasks"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "lastReadTime"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "lastWriteCompleteTime"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "makeAllTimeoutTask"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "makeReadTimeoutTask"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "makeWriteTimeoutTask"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "max"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "mayRead"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "nextReadDeadlineNS"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "pendingRead"]
+- ["3NIO23_ChannelOutboundHandlerP", "read"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "readTimeout"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "reading"]
+- ["3NIO23_ChannelOutboundHandlerP", "register"]
+- ["3NIO23_ChannelOutboundHandlerP", "removeHandler"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "schedule"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "scheduleRead"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "scheduledAllTask"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "scheduledRead"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "scheduledReaderTask"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "scheduledWriterTask"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "shouldReschedule"]
+- ["3NIO23_ChannelOutboundHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO23_ChannelOutboundHandlerP", "unwrapInboundIn"]
+- ["3NIO23_ChannelOutboundHandlerP", "unwrapOutboundIn"]
+- ["3NIO23_ChannelOutboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_ChannelOutboundHandlerP", "wrapInboundOut"]
+- ["3NIO23_ChannelOutboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "writable"]
+- ["3NIO23_ChannelOutboundHandlerP", "write"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "writeTimeout"]
+- !private ["3NIO23_EmittingChannelHandlerP", "AcceptBackoffHandler"]
+- ["3NIO23_EmittingChannelHandlerP", "Default_InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "Default_OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "IdleStateEvent"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "NIODeadline"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "allTimeout"]
+- !private ["3NIO23_EmittingChannelHandlerP", "backoffProvider"]
+- ["3NIO23_EmittingChannelHandlerP", "bind"]
+- !private ["3NIO23_EmittingChannelHandlerP", "cancelIdleTasks"]
+- ["3NIO23_EmittingChannelHandlerP", "channelActive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelInactive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRead"]
+- ["3NIO23_EmittingChannelHandlerP", "channelReadComplete"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRegistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelUnregistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO23_EmittingChannelHandlerP", "close"]
+- ["3NIO23_EmittingChannelHandlerP", "connect"]
+- !private ["3NIO23_EmittingChannelHandlerP", "defaultBackoffProvider"]
+- !private ["3NIO23_EmittingChannelHandlerP", "doRead"]
+- ["3NIO23_EmittingChannelHandlerP", "errorCaught"]
+- ["3NIO23_EmittingChannelHandlerP", "flush"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23_EmittingChannelHandlerP", "initIdleTasks"]
+- !private ["3NIO23_EmittingChannelHandlerP", "lastReadTime"]
+- !private ["3NIO23_EmittingChannelHandlerP", "lastWriteCompleteTime"]
+- !private ["3NIO23_EmittingChannelHandlerP", "makeAllTimeoutTask"]
+- !private ["3NIO23_EmittingChannelHandlerP", "makeReadTimeoutTask"]
+- !private ["3NIO23_EmittingChannelHandlerP", "makeWriteTimeoutTask"]
+- !private ["3NIO23_EmittingChannelHandlerP", "max"]
+- !private ["3NIO23_EmittingChannelHandlerP", "mayRead"]
+- !private ["3NIO23_EmittingChannelHandlerP", "nextReadDeadlineNS"]
+- !private ["3NIO23_EmittingChannelHandlerP", "pendingRead"]
+- ["3NIO23_EmittingChannelHandlerP", "read"]
+- !private ["3NIO23_EmittingChannelHandlerP", "readTimeout"]
+- !private ["3NIO23_EmittingChannelHandlerP", "reading"]
+- ["3NIO23_EmittingChannelHandlerP", "register"]
+- ["3NIO23_EmittingChannelHandlerP", "removeHandler"]
+- !private ["3NIO23_EmittingChannelHandlerP", "schedule"]
+- !private ["3NIO23_EmittingChannelHandlerP", "scheduleRead"]
+- !private ["3NIO23_EmittingChannelHandlerP", "scheduledAllTask"]
+- !private ["3NIO23_EmittingChannelHandlerP", "scheduledRead"]
+- !private ["3NIO23_EmittingChannelHandlerP", "scheduledReaderTask"]
+- !private ["3NIO23_EmittingChannelHandlerP", "scheduledWriterTask"]
+- !private ["3NIO23_EmittingChannelHandlerP", "shouldReschedule"]
+- ["3NIO23_EmittingChannelHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapOutboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "writable"]
+- ["3NIO23_EmittingChannelHandlerP", "write"]
+- !private ["3NIO23_EmittingChannelHandlerP", "writeTimeout"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "seconds"]
+depends-nominal:
+- "3NIO20AcceptBackoffHandlerC"
+- !private "s18AdditiveArithmeticP"
+- "3NIO19BackPressureHandlerC"
+- !private "3NIO7ChannelP"
+- "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- "3NIO21ChannelInboundHandlerP"
+- "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- "3NIO22ChannelOutboundHandlerP"
+- "3NIO22ChannelOutboundInvokerP"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "3NIO7IOErrorV"
+- "3NIO16IdleStateHandlerC0bC5EventO"
+- "3NIO16IdleStateHandlerC"
+- "3NIO11NIODeadlineV"
+- !private "Sq"
+- "3NIO23RemovableChannelHandlerP"
+- !private "3NIO9ScheduledV"
+- !private "3NIO10TimeAmountV"
+- "3NIO22_ChannelInboundHandlerP"
+- "3NIO23_ChannelOutboundHandlerP"
+- "3NIO23_EmittingChannelHandlerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "f991b48e9f03785466eb4ee2040df7f0"

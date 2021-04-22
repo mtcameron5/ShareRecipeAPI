@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "c7091f3b78639428eb4b24ae0cba4d2f"
+build_time: [1616667028, 733240000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/DynamicHeaderTable.swift": [1616666968, 971283456]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKDecoder.swift": [1616666968, 971514436]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKEncoder.swift": [1616666968, 971779284]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKErrors.swift": [1616666968, 971963266]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKHeader.swift": [1616666968, 972276691]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HeaderTables.swift": [1616666968, 972546202]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanCoding.swift": [1616666968, 972792140]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanTables.swift": [1616666968, 973664819]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IndexedHeaderTable.swift": [1616666968, 973923112]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IntegerCoding.swift": [1616666968, 974117019]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/StaticHeaderTable.swift": [1616666968, 974286984]

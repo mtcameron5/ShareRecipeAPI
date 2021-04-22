@@ -1,0 +1,707 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/master.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Connection/PostgresConnection+Authenticate.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Authenticate.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Authenticate.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Authenticate~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Authenticate.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Connection/PostgresConnection+Connect.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Connect.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Connect.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Connect~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Connect.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Connection/PostgresConnection+Database.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Database.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Database.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Database~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Database.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Connection/PostgresConnection+Notifications.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Notifications.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Notifications.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Notifications~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection+Notifications.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Connection/PostgresConnection.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresConnection.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Connection/PostgresDatabase+PreparedQuery.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresDatabase+PreparedQuery.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresDatabase+PreparedQuery.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresDatabase+PreparedQuery~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Connection/PostgresDatabase+PreparedQuery.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Array.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Array.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Array.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Array~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Array.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Bool.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Bool.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Bool.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Bool~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Bool.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Bytes.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Bytes.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Bytes.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Bytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Bytes.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Date.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Date.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Date.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Date~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Date.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Decimal.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Decimal.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Decimal.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Decimal~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Decimal.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Double.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Double.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Double.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Double~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Double.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Float.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Float.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Float.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Float~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Float.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Int.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Int.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Int.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Int~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Int.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+JSON.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+JSON.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+JSON.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+JSON.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+JSONB.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+JSONB.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+JSONB.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+JSONB~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+JSONB.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Numeric.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Numeric.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Numeric.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Numeric~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Numeric.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Optional.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Optional.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Optional.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Optional~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Optional.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+RawRepresentable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+RawRepresentable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+RawRepresentable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+RawRepresentable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+RawRepresentable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+Set.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Set.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Set.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Set~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+Set.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+String.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+String.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+String.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+String~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+String.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData+UUID.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+UUID.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+UUID.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+UUID~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData+UUID.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresData.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresData.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresDataConvertible.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresDataConvertible.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresDataConvertible.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresDataConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresDataConvertible.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresDataType.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresDataType.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresDataType.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresDataType~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresDataType.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Data/PostgresRow.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresRow.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresRow.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Data/PostgresRow.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Deprecated/PostgresData+UInt.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Deprecated/PostgresData+UInt.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Deprecated/PostgresData+UInt.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Deprecated/PostgresData+UInt~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Deprecated/PostgresData+UInt.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+0.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+0.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+0.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+0~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+0.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Authentication.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Authentication.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Authentication.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Authentication~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Authentication.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+BackendKeyData.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+BackendKeyData.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+BackendKeyData.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+BackendKeyData~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+BackendKeyData.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Bind.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Bind.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Bind.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Bind~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Bind.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Close.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Close.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Close.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Close~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Close.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+CommandComplete.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+CommandComplete.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+CommandComplete.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+CommandComplete~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+CommandComplete.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+DataRow.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+DataRow.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+DataRow.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+DataRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+DataRow.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Describe.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Describe.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Describe.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Describe~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Describe.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Error.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Error.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Error.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Error.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Execute.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Execute.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Execute.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Execute~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Execute.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Identifier.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Identifier.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Identifier.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Identifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Identifier.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+NotificationResponse.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+NotificationResponse.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+NotificationResponse.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+NotificationResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+NotificationResponse.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+ParameterDescription.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ParameterDescription.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ParameterDescription.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ParameterDescription~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ParameterDescription.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+ParameterStatus.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ParameterStatus.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ParameterStatus.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ParameterStatus~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ParameterStatus.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Parse.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Parse.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Parse.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Parse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Parse.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Password.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Password.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Password.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Password~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Password.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+ReadyForQuery.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ReadyForQuery.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ReadyForQuery.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ReadyForQuery~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+ReadyForQuery.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+RowDescription.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+RowDescription.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+RowDescription.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+RowDescription~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+RowDescription.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+SASLResponse.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SASLResponse.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SASLResponse.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SASLResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SASLResponse.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+SSLRequest.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SSLRequest.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SSLRequest.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SSLRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SSLRequest.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+SimpleQuery.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SimpleQuery.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SimpleQuery.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SimpleQuery~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+SimpleQuery.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Startup.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Startup.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Startup.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Startup~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Startup.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Sync.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Sync.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Sync.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Sync~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Sync.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessage+Terminate.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Terminate.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Terminate.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Terminate~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessage+Terminate.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessageDecoder.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageDecoder.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageDecoder.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageDecoder.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessageEncoder.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageEncoder.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageEncoder.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageEncoder.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Message/PostgresMessageType.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageType.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageType.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageType~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Message/PostgresMessageType.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Connection State Machine/AuthenticationStateMachine.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/AuthenticationStateMachine.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/AuthenticationStateMachine.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/AuthenticationStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/AuthenticationStateMachine.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Connection State Machine/CloseStateMachine.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/CloseStateMachine.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/CloseStateMachine.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/CloseStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/CloseStateMachine.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Connection State Machine/ConnectionStateMachine.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/ConnectionStateMachine.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/ConnectionStateMachine.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/ConnectionStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/ConnectionStateMachine.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Connection State Machine/ExtendedQueryStateMachine.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/ExtendedQueryStateMachine.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/ExtendedQueryStateMachine.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/ExtendedQueryStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/ExtendedQueryStateMachine.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Connection State Machine/PrepareStatementStateMachine.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/PrepareStatementStateMachine.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/PrepareStatementStateMachine.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/PrepareStatementStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Connection State Machine/PrepareStatementStateMachine.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/Array+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Array+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Array+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Array+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Array+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/Bool+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Bool+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Bool+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Bool+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Bool+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/Bytes+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Bytes+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Bytes+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Bytes+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Bytes+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/Date+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Date+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Date+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Date+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Date+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/Float+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Float+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Float+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Float+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Float+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/Int+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Int+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Int+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Int+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Int+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/JSON+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/JSON+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/JSON+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/JSON+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/JSON+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/Optional+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Optional+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Optional+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Optional+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/Optional+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/RawRepresentable+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/RawRepresentable+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/RawRepresentable+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/RawRepresentable+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/RawRepresentable+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/String+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/String+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/String+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/String+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/String+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Data/UUID+PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/UUID+PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/UUID+PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/UUID+PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Data/UUID+PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Extensions/ByteBuffer+PSQL.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Extensions/ByteBuffer+PSQL.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Extensions/ByteBuffer+PSQL.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Extensions/ByteBuffer+PSQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Extensions/ByteBuffer+PSQL.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Extensions/Logging+PSQL.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Extensions/Logging+PSQL.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Extensions/Logging+PSQL.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Extensions/Logging+PSQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Extensions/Logging+PSQL.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Authentication.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Authentication.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Authentication.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Authentication~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Authentication.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/BackendKeyData.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/BackendKeyData.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/BackendKeyData.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/BackendKeyData~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/BackendKeyData.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Bind.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Bind.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Bind.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Bind~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Bind.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Cancel.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Cancel.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Cancel.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Cancel~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Cancel.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Close.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Close.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Close.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Close~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Close.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/DataRow.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/DataRow.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/DataRow.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/DataRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/DataRow.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Describe.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Describe.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Describe.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Describe~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Describe.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/ErrorResponse.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ErrorResponse.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ErrorResponse.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ErrorResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ErrorResponse.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Execute.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Execute.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Execute.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Execute~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Execute.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/NotificationResponse.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/NotificationResponse.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/NotificationResponse.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/NotificationResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/NotificationResponse.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/ParameterDescription.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ParameterDescription.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ParameterDescription.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ParameterDescription~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ParameterDescription.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/ParameterStatus.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ParameterStatus.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ParameterStatus.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ParameterStatus~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ParameterStatus.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Parse.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Parse.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Parse.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Parse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Parse.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Password.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Password.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Password.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Password~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Password.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/ReadyForQuery.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ReadyForQuery.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ReadyForQuery.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ReadyForQuery~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/ReadyForQuery.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/RowDescription.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/RowDescription.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/RowDescription.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/RowDescription~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/RowDescription.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/SASLInitialResponse.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SASLInitialResponse.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SASLInitialResponse.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SASLInitialResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SASLInitialResponse.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/SASLResponse.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SASLResponse.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SASLResponse.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SASLResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SASLResponse.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/SSLRequest.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SSLRequest.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SSLRequest.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SSLRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/SSLRequest.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/Messages/Startup.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Startup.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Startup.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Startup~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/Messages/Startup.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQL+JSON.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQL+JSON.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQL+JSON.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQL+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQL+JSON.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLBackendMessage.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLBackendMessage.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLBackendMessage.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLBackendMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLBackendMessage.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLChannelHandler.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLChannelHandler.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLChannelHandler.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLChannelHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLChannelHandler.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLCodable.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLCodable.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLCodable.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLCodable.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLConnection.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLConnection.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLConnection.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLConnection.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLData.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLData.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLData.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLData~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLData.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLError.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLError.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLError.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLError~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLError.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLEventsHandler.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLEventsHandler.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLEventsHandler.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLEventsHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLEventsHandler.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLFrontendMessage.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLFrontendMessage.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLFrontendMessage.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLFrontendMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLFrontendMessage.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLPreparedStatement.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLPreparedStatement.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLPreparedStatement.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLPreparedStatement~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLPreparedStatement.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLRows.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLRows.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLRows.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLRows~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLRows.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/New/PSQLTask.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLTask.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLTask.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLTask~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/New/PSQLTask.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Postgres+PSQLCompat.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Postgres+PSQLCompat.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Postgres+PSQLCompat.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Postgres+PSQLCompat~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Postgres+PSQLCompat.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/PostgresDatabase+Query.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase+Query.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase+Query.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase+Query~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase+Query.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/PostgresDatabase+SimpleQuery.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase+SimpleQuery.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase+SimpleQuery.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase+SimpleQuery~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase+SimpleQuery.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/PostgresDatabase.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresDatabase.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/PostgresRequest.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresRequest.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresRequest.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresRequest.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Utilities/Exports.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/Exports.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/Exports.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/Exports.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Utilities/NIOUtils.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/NIOUtils.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/NIOUtils.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/NIOUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/NIOUtils.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Utilities/PostgresError+Code.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresError+Code.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresError+Code.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresError+Code~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresError+Code.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Utilities/PostgresError.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresError.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresError.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresError~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresError.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Utilities/PostgresJSONDecoder.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresJSONDecoder.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresJSONDecoder.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresJSONDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresJSONDecoder.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Utilities/PostgresJSONEncoder.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresJSONEncoder.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresJSONEncoder.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresJSONEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/PostgresJSONEncoder.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Utilities/SASLAuthentication+SCRAM-SHA256.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/SASLAuthentication+SCRAM-SHA256.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/SASLAuthentication+SCRAM-SHA256.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/SASLAuthentication+SCRAM-SHA256~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/SASLAuthentication+SCRAM-SHA256.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/postgres-nio/Sources/PostgresNIO/Utilities/SASLAuthenticationManager.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/SASLAuthenticationManager.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/SASLAuthenticationManager.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/SASLAuthenticationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/Utilities/SASLAuthenticationManager.swiftdeps"
+  }
+}

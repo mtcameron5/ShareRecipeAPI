@@ -1,0 +1,514 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLSelectBuilder"
+provides-nominal:
+- "6SQLKit16SQLSelectBuilderC"
+provides-member:
+- ["6SQLKit11SQLDatabaseP", ""]
+- ["6SQLKit16SQLSelectBuilderC", ""]
+- ["6SQLKit11SQLDatabaseP", "select"]
+- ["6SQLKit16SQLSelectBuilderC", "distinct"]
+- ["6SQLKit16SQLSelectBuilderC", "distinct"]
+- ["6SQLKit16SQLSelectBuilderC", "distinct"]
+- ["6SQLKit16SQLSelectBuilderC", "column"]
+- ["6SQLKit16SQLSelectBuilderC", "column"]
+- ["6SQLKit16SQLSelectBuilderC", "column"]
+- ["6SQLKit16SQLSelectBuilderC", "columns"]
+- ["6SQLKit16SQLSelectBuilderC", "columns"]
+- ["6SQLKit16SQLSelectBuilderC", "columns"]
+- ["6SQLKit16SQLSelectBuilderC", "columns"]
+- ["6SQLKit16SQLSelectBuilderC", "from"]
+- ["6SQLKit16SQLSelectBuilderC", "from"]
+- ["6SQLKit16SQLSelectBuilderC", "from"]
+- ["6SQLKit16SQLSelectBuilderC", "from"]
+- ["6SQLKit16SQLSelectBuilderC", "having"]
+- ["6SQLKit16SQLSelectBuilderC", "having"]
+- ["6SQLKit16SQLSelectBuilderC", "having"]
+- ["6SQLKit16SQLSelectBuilderC", "having"]
+- ["6SQLKit16SQLSelectBuilderC", "having"]
+- ["6SQLKit16SQLSelectBuilderC", "having"]
+- ["6SQLKit16SQLSelectBuilderC", "orHaving"]
+- ["6SQLKit16SQLSelectBuilderC", "orHaving"]
+- ["6SQLKit16SQLSelectBuilderC", "orHaving"]
+- ["6SQLKit16SQLSelectBuilderC", "orHaving"]
+- ["6SQLKit16SQLSelectBuilderC", "limit"]
+- ["6SQLKit16SQLSelectBuilderC", "offset"]
+- ["6SQLKit16SQLSelectBuilderC", "groupBy"]
+- ["6SQLKit16SQLSelectBuilderC", "groupBy"]
+- ["6SQLKit16SQLSelectBuilderC", "orderBy"]
+- ["6SQLKit16SQLSelectBuilderC", "orderBy"]
+- ["6SQLKit16SQLSelectBuilderC", "orderBy"]
+- ["6SQLKit16SQLSelectBuilderC", "for"]
+- ["6SQLKit16SQLSelectBuilderC", "lockingClause"]
+provides-dynamic-lookup:
+- "column"
+- "columns"
+- "database"
+- "distinct"
+- "for"
+- "from"
+- "groupBy"
+- "having"
+- "joins"
+- "limit"
+- "lockingClause"
+- "offset"
+- "orHaving"
+- "orderBy"
+- "predicate"
+- "query"
+- "select"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Encodable"
+- "Int"
+- !private "SQLAlias"
+- !private "SQLBinaryExpression"
+- "SQLBinaryOperator"
+- !private "SQLBind"
+- !private "SQLColumn"
+- "SQLDatabase"
+- "SQLDirection"
+- "SQLExpression"
+- !private "SQLIdentifier"
+- "SQLJoinBuilder"
+- !private "SQLLiteral"
+- "SQLLockingClause"
+- !private "SQLOrderBy"
+- "SQLPredicateBuilder"
+- "SQLQueryBuilder"
+- "SQLQueryFetcher"
+- "SQLSelect"
+- "SQLSelectBuilder"
+- "Self"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "select"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "reduce"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "forEach"]
+- !private ["SK", "reduce"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["Se", "append"]
+- !private ["Se", "forEach"]
+- !private ["Se", "reduce"]
+- !private ["SE", "append"]
+- !private ["SE", "forEach"]
+- !private ["SE", "reduce"]
+- !private ["SQ", ""]
+- !private ["SQ", "and"]
+- !private ["SQ", "append"]
+- !private ["SQ", "ascending"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "or"]
+- !private ["SQ", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "and"]
+- !private ["SH", "append"]
+- !private ["SH", "ascending"]
+- !private ["SH", "forEach"]
+- !private ["SH", "or"]
+- !private ["SH", "reduce"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "forEach"]
+- !private ["SM", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "reduce"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "reduce"]
+- !private ["6SQLKit8SQLAliasV", ""]
+- !private ["6SQLKit8SQLAliasV", "init"]
+- !private ["6SQLKit19SQLBinaryExpressionV", ""]
+- !private ["6SQLKit19SQLBinaryExpressionV", "init"]
+- !private ["6SQLKit17SQLBinaryOperatorO", ""]
+- !private ["6SQLKit17SQLBinaryOperatorO", "and"]
+- !private ["6SQLKit17SQLBinaryOperatorO", "or"]
+- !private ["6SQLKit7SQLBindV", ""]
+- !private ["6SQLKit7SQLBindV", "init"]
+- !private ["6SQLKit9SQLColumnV", ""]
+- !private ["6SQLKit9SQLColumnV", "init"]
+- ["6SQLKit11SQLDatabaseP", "SQLSelectBuilder"]
+- ["6SQLKit11SQLDatabaseP", ""]
+- ["6SQLKit11SQLDatabaseP", "select"]
+- !private ["6SQLKit12SQLDirectionO", ""]
+- !private ["6SQLKit12SQLDirectionO", "ascending"]
+- !private ["6SQLKit13SQLExpressionP", "all"]
+- !private ["6SQLKit13SQLExpressionP", "and"]
+- !private ["6SQLKit13SQLExpressionP", "ascending"]
+- !private ["6SQLKit13SQLExpressionP", "columns"]
+- !private ["6SQLKit13SQLExpressionP", "groupBy"]
+- !private ["6SQLKit13SQLExpressionP", "having"]
+- !private ["6SQLKit13SQLExpressionP", "init"]
+- !private ["6SQLKit13SQLExpressionP", "isDistinct"]
+- !private ["6SQLKit13SQLExpressionP", "joins"]
+- !private ["6SQLKit13SQLExpressionP", "limit"]
+- !private ["6SQLKit13SQLExpressionP", "lockingClause"]
+- !private ["6SQLKit13SQLExpressionP", "offset"]
+- !private ["6SQLKit13SQLExpressionP", "or"]
+- !private ["6SQLKit13SQLExpressionP", "orderBy"]
+- !private ["6SQLKit13SQLExpressionP", "predicate"]
+- !private ["6SQLKit13SQLExpressionP", "tables"]
+- !private ["6SQLKit13SQLIdentifierV", ""]
+- !private ["6SQLKit13SQLIdentifierV", "init"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLAlias"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLBinaryExpression"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLBinaryOperator"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLBind"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLColumn"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLIdentifier"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLLiteral"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLOrderBy"]
+- ["6SQLKit14SQLJoinBuilderP", "Self"]
+- ["6SQLKit14SQLJoinBuilderP", ""]
+- !private ["6SQLKit14SQLJoinBuilderP", "column"]
+- !private ["6SQLKit14SQLJoinBuilderP", "columns"]
+- ["6SQLKit14SQLJoinBuilderP", "database"]
+- !private ["6SQLKit14SQLJoinBuilderP", "from"]
+- !private ["6SQLKit14SQLJoinBuilderP", "groupBy"]
+- !private ["6SQLKit14SQLJoinBuilderP", "having"]
+- !private ["6SQLKit14SQLJoinBuilderP", "init"]
+- ["6SQLKit14SQLJoinBuilderP", "joins"]
+- !private ["6SQLKit14SQLJoinBuilderP", "lockingClause"]
+- !private ["6SQLKit14SQLJoinBuilderP", "orHaving"]
+- !private ["6SQLKit14SQLJoinBuilderP", "orderBy"]
+- ["6SQLKit14SQLJoinBuilderP", "predicate"]
+- ["6SQLKit14SQLJoinBuilderP", "query"]
+- ["6SQLKit14SQLJoinBuilderP", "run"]
+- !private ["6SQLKit14SQLJoinBuilderP", "select"]
+- !private ["6SQLKit10SQLLiteralO", ""]
+- !private ["6SQLKit10SQLLiteralO", "all"]
+- !private ["6SQLKit16SQLLockingClauseO", ""]
+- !private ["6SQLKit10SQLOrderByV", ""]
+- !private ["6SQLKit10SQLOrderByV", "init"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLAlias"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLBinaryExpression"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLBinaryOperator"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLBind"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLColumn"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLIdentifier"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLLiteral"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLOrderBy"]
+- ["6SQLKit19SQLPredicateBuilderP", "Self"]
+- ["6SQLKit19SQLPredicateBuilderP", ""]
+- !private ["6SQLKit19SQLPredicateBuilderP", "column"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "columns"]
+- ["6SQLKit19SQLPredicateBuilderP", "database"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "from"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "groupBy"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "having"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "init"]
+- ["6SQLKit19SQLPredicateBuilderP", "joins"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "lockingClause"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "orHaving"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "orderBy"]
+- ["6SQLKit19SQLPredicateBuilderP", "predicate"]
+- ["6SQLKit19SQLPredicateBuilderP", "query"]
+- ["6SQLKit19SQLPredicateBuilderP", "run"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "select"]
+- !private ["6SQLKit15SQLQueryBuilderP", "SQLAlias"]
+- !private ["6SQLKit15SQLQueryBuilderP", "SQLBinaryExpression"]
+- !private ["6SQLKit15SQLQueryBuilderP", "SQLBinaryOperator"]
+- !private ["6SQLKit15SQLQueryBuilderP", "SQLBind"]
+- !private ["6SQLKit15SQLQueryBuilderP", "SQLColumn"]
+- !private ["6SQLKit15SQLQueryBuilderP", "SQLIdentifier"]
+- !private ["6SQLKit15SQLQueryBuilderP", "SQLLiteral"]
+- !private ["6SQLKit15SQLQueryBuilderP", "SQLOrderBy"]
+- ["6SQLKit15SQLQueryBuilderP", "Self"]
+- ["6SQLKit15SQLQueryBuilderP", ""]
+- !private ["6SQLKit15SQLQueryBuilderP", "column"]
+- !private ["6SQLKit15SQLQueryBuilderP", "columns"]
+- ["6SQLKit15SQLQueryBuilderP", "database"]
+- !private ["6SQLKit15SQLQueryBuilderP", "from"]
+- !private ["6SQLKit15SQLQueryBuilderP", "groupBy"]
+- !private ["6SQLKit15SQLQueryBuilderP", "having"]
+- !private ["6SQLKit15SQLQueryBuilderP", "init"]
+- ["6SQLKit15SQLQueryBuilderP", "joins"]
+- !private ["6SQLKit15SQLQueryBuilderP", "lockingClause"]
+- !private ["6SQLKit15SQLQueryBuilderP", "orHaving"]
+- !private ["6SQLKit15SQLQueryBuilderP", "orderBy"]
+- ["6SQLKit15SQLQueryBuilderP", "predicate"]
+- ["6SQLKit15SQLQueryBuilderP", "query"]
+- ["6SQLKit15SQLQueryBuilderP", "run"]
+- !private ["6SQLKit15SQLQueryBuilderP", "select"]
+- !private ["6SQLKit15SQLQueryFetcherP", "SQLAlias"]
+- !private ["6SQLKit15SQLQueryFetcherP", "SQLBinaryExpression"]
+- !private ["6SQLKit15SQLQueryFetcherP", "SQLBinaryOperator"]
+- !private ["6SQLKit15SQLQueryFetcherP", "SQLBind"]
+- !private ["6SQLKit15SQLQueryFetcherP", "SQLColumn"]
+- !private ["6SQLKit15SQLQueryFetcherP", "SQLIdentifier"]
+- !private ["6SQLKit15SQLQueryFetcherP", "SQLLiteral"]
+- !private ["6SQLKit15SQLQueryFetcherP", "SQLOrderBy"]
+- ["6SQLKit15SQLQueryFetcherP", "Self"]
+- ["6SQLKit15SQLQueryFetcherP", ""]
+- !private ["6SQLKit15SQLQueryFetcherP", "column"]
+- !private ["6SQLKit15SQLQueryFetcherP", "columns"]
+- ["6SQLKit15SQLQueryFetcherP", "database"]
+- !private ["6SQLKit15SQLQueryFetcherP", "from"]
+- !private ["6SQLKit15SQLQueryFetcherP", "groupBy"]
+- !private ["6SQLKit15SQLQueryFetcherP", "having"]
+- !private ["6SQLKit15SQLQueryFetcherP", "init"]
+- ["6SQLKit15SQLQueryFetcherP", "joins"]
+- !private ["6SQLKit15SQLQueryFetcherP", "lockingClause"]
+- !private ["6SQLKit15SQLQueryFetcherP", "orHaving"]
+- !private ["6SQLKit15SQLQueryFetcherP", "orderBy"]
+- ["6SQLKit15SQLQueryFetcherP", "predicate"]
+- ["6SQLKit15SQLQueryFetcherP", "query"]
+- ["6SQLKit15SQLQueryFetcherP", "run"]
+- !private ["6SQLKit15SQLQueryFetcherP", "select"]
+- !private ["6SQLKit9SQLSelectV", ""]
+- !private ["6SQLKit9SQLSelectV", "columns"]
+- !private ["6SQLKit9SQLSelectV", "groupBy"]
+- !private ["6SQLKit9SQLSelectV", "having"]
+- !private ["6SQLKit9SQLSelectV", "init"]
+- !private ["6SQLKit9SQLSelectV", "isDistinct"]
+- !private ["6SQLKit9SQLSelectV", "joins"]
+- !private ["6SQLKit9SQLSelectV", "limit"]
+- !private ["6SQLKit9SQLSelectV", "lockingClause"]
+- !private ["6SQLKit9SQLSelectV", "offset"]
+- !private ["6SQLKit9SQLSelectV", "orderBy"]
+- !private ["6SQLKit9SQLSelectV", "predicate"]
+- !private ["6SQLKit9SQLSelectV", "tables"]
+- ["6SQLKit16SQLSelectBuilderC", "Encodable"]
+- ["6SQLKit16SQLSelectBuilderC", "Int"]
+- !private ["6SQLKit16SQLSelectBuilderC", "SQLAlias"]
+- !private ["6SQLKit16SQLSelectBuilderC", "SQLBinaryExpression"]
+- ["6SQLKit16SQLSelectBuilderC", "SQLBinaryOperator"]
+- !private ["6SQLKit16SQLSelectBuilderC", "SQLBind"]
+- !private ["6SQLKit16SQLSelectBuilderC", "SQLColumn"]
+- ["6SQLKit16SQLSelectBuilderC", "SQLDatabase"]
+- ["6SQLKit16SQLSelectBuilderC", "SQLDirection"]
+- ["6SQLKit16SQLSelectBuilderC", "SQLExpression"]
+- !private ["6SQLKit16SQLSelectBuilderC", "SQLIdentifier"]
+- !private ["6SQLKit16SQLSelectBuilderC", "SQLLiteral"]
+- ["6SQLKit16SQLSelectBuilderC", "SQLLockingClause"]
+- !private ["6SQLKit16SQLSelectBuilderC", "SQLOrderBy"]
+- ["6SQLKit16SQLSelectBuilderC", "SQLSelect"]
+- ["6SQLKit16SQLSelectBuilderC", "Self"]
+- ["6SQLKit16SQLSelectBuilderC", "String"]
+- ["6SQLKit16SQLSelectBuilderC", ""]
+- ["6SQLKit16SQLSelectBuilderC", "column"]
+- ["6SQLKit16SQLSelectBuilderC", "columns"]
+- ["6SQLKit16SQLSelectBuilderC", "database"]
+- ["6SQLKit16SQLSelectBuilderC", "deinit"]
+- ["6SQLKit16SQLSelectBuilderC", "distinct"]
+- ["6SQLKit16SQLSelectBuilderC", "for"]
+- ["6SQLKit16SQLSelectBuilderC", "from"]
+- ["6SQLKit16SQLSelectBuilderC", "groupBy"]
+- ["6SQLKit16SQLSelectBuilderC", "having"]
+- ["6SQLKit16SQLSelectBuilderC", "init"]
+- ["6SQLKit16SQLSelectBuilderC", "joins"]
+- ["6SQLKit16SQLSelectBuilderC", "limit"]
+- ["6SQLKit16SQLSelectBuilderC", "lockingClause"]
+- ["6SQLKit16SQLSelectBuilderC", "offset"]
+- ["6SQLKit16SQLSelectBuilderC", "orHaving"]
+- ["6SQLKit16SQLSelectBuilderC", "orderBy"]
+- ["6SQLKit16SQLSelectBuilderC", "predicate"]
+- ["6SQLKit16SQLSelectBuilderC", "query"]
+- ["6SQLKit16SQLSelectBuilderC", "run"]
+- ["6SQLKit16SQLSelectBuilderC", "select"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "forEach"]
+- !private ["ST", "reduce"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "6SQLKit8SQLAliasV"
+- !private "6SQLKit19SQLBinaryExpressionV"
+- !private "6SQLKit17SQLBinaryOperatorO"
+- !private "6SQLKit7SQLBindV"
+- !private "6SQLKit9SQLColumnV"
+- "6SQLKit11SQLDatabaseP"
+- !private "6SQLKit12SQLDirectionO"
+- !private "6SQLKit13SQLExpressionP"
+- !private "6SQLKit13SQLIdentifierV"
+- "6SQLKit14SQLJoinBuilderP"
+- !private "6SQLKit10SQLLiteralO"
+- !private "6SQLKit16SQLLockingClauseO"
+- !private "6SQLKit10SQLOrderByV"
+- "6SQLKit19SQLPredicateBuilderP"
+- "6SQLKit15SQLQueryBuilderP"
+- "6SQLKit15SQLQueryFetcherP"
+- !private "6SQLKit9SQLSelectV"
+- "6SQLKit16SQLSelectBuilderC"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7d30d339109447ea038a20bf3b556c4f"

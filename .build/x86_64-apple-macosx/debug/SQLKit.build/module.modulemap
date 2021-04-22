@@ -1,0 +1,4 @@
+module SQLKit {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/SQLKit-Swift.h"
+    requires objc
+}

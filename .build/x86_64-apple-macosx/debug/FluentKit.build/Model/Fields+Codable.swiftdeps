@@ -1,0 +1,430 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ModelCodingKey"
+provides-nominal:
+- "9FluentKit14ModelCodingKeyO"
+provides-member:
+- ["9FluentKit6FieldsP", ""]
+- ["9FluentKit14ModelCodingKeyO", ""]
+- ["9FluentKit6FieldsP", "init"]
+- ["9FluentKit6FieldsP", "encode"]
+provides-dynamic-lookup:
+depends-top-level:
+- "??"
+- "AnyCodableProperty"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "CodingKey"
+- "CodingUserInfoKey"
+- "ContainerDecoder"
+- "ContainerEncoder"
+- "Decodable"
+- "Decoder"
+- "DecodingError"
+- "Encodable"
+- "Encoder"
+- "EncodingError"
+- "Fields"
+- "Int"
+- "KeyedDecodingContainer"
+- "KeyedEncodingContainer"
+- "ModelCodingKey"
+- "SingleValueDecodingContainer"
+- "SingleValueEncodingContainer"
+- "String"
+- "StringLiteralType"
+- "UnkeyedDecodingContainer"
+- "UnkeyedEncodingContainer"
+- "type"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["9FluentKit18AnyCodablePropertyP", "anyValue"]
+- !private ["9FluentKit18AnyCodablePropertyP", "anyValueType"]
+- !private ["9FluentKit18AnyCodablePropertyP", "decode"]
+- !private ["9FluentKit18AnyCodablePropertyP", "encode"]
+- ["9FluentKit11AnyPropertyP", ""]
+- !private ["9FluentKit11AnyPropertyP", "anyValue"]
+- !private ["9FluentKit11AnyPropertyP", "anyValueType"]
+- !private ["9FluentKit11AnyPropertyP", "decode"]
+- !private ["9FluentKit11AnyPropertyP", "encode"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "description"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "compactMapValues"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s9CodingKeyP", "Int"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "int"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "string"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "compactMapValues"]
+- !private ["Sl", "forEach"]
+- !private ["SL", ""]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["s13EncodingErrorO7ContextV", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "compactMapValues"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "int"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "compactMapValues"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "compactMapValues"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "int"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "string"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["Se", "AnyCodableProperty"]
+- !private ["Se", "ContainerDecoder"]
+- !private ["Se", "ContainerEncoder"]
+- ["Se", "Decoder"]
+- !private ["Se", "DecodingError"]
+- ["Se", "Encoder"]
+- !private ["Se", "EncodingError"]
+- !private ["Se", "ModelCodingKey"]
+- ["Se", ""]
+- !private ["Se", "compactMapValues"]
+- !private ["Se", "description"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "labeledProperties"]
+- !private ["Se", "type"]
+- !private ["s7DecoderP", ""]
+- ["s7DecoderP", "codingPath"]
+- ["s7DecoderP", "container"]
+- ["s7DecoderP", "decode"]
+- ["s7DecoderP", "decodeNil"]
+- !private ["s7DecoderP", "init"]
+- !private ["s7DecoderP", "key"]
+- ["s7DecoderP", "singleValueContainer"]
+- ["s7DecoderP", "unkeyedContainer"]
+- ["s7DecoderP", "userInfo"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- !private ["SD", "compactMapValues"]
+- !private ["SD", "forEach"]
+- !private ["SE", "AnyCodableProperty"]
+- !private ["SE", "ContainerDecoder"]
+- !private ["SE", "ContainerEncoder"]
+- ["SE", "Decoder"]
+- !private ["SE", "DecodingError"]
+- ["SE", "Encoder"]
+- !private ["SE", "EncodingError"]
+- !private ["SE", "ModelCodingKey"]
+- ["SE", ""]
+- !private ["SE", "compactMapValues"]
+- !private ["SE", "description"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "labeledProperties"]
+- !private ["SE", "type"]
+- !private ["s7EncoderP", ""]
+- ["s7EncoderP", "codingPath"]
+- ["s7EncoderP", "container"]
+- ["s7EncoderP", "encode"]
+- ["s7EncoderP", "encodeNil"]
+- !private ["s7EncoderP", "init"]
+- !private ["s7EncoderP", "key"]
+- ["s7EncoderP", "singleValueContainer"]
+- ["s7EncoderP", "unkeyedContainer"]
+- ["s7EncoderP", "userInfo"]
+- !private ["s13EncodingErrorO", "invalidValue"]
+- !private ["SQ", ""]
+- !private ["SQ", "compactMapValues"]
+- !private ["SQ", "description"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "init"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "invalidValue"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "compactMapValues"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["9FluentKit6FieldsP", "AnyCodableProperty"]
+- !private ["9FluentKit6FieldsP", "ContainerDecoder"]
+- !private ["9FluentKit6FieldsP", "ContainerEncoder"]
+- ["9FluentKit6FieldsP", "Decoder"]
+- !private ["9FluentKit6FieldsP", "DecodingError"]
+- ["9FluentKit6FieldsP", "Encoder"]
+- !private ["9FluentKit6FieldsP", "EncodingError"]
+- !private ["9FluentKit6FieldsP", "ModelCodingKey"]
+- ["9FluentKit6FieldsP", ""]
+- ["9FluentKit6FieldsP", "encode"]
+- ["9FluentKit6FieldsP", "init"]
+- !private ["9FluentKit6FieldsP", "labeledProperties"]
+- !private ["9FluentKit6FieldsP", "type"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "compactMapValues"]
+- !private ["SH", "description"]
+- !private ["SH", "forEach"]
+- !private ["SH", "init"]
+- !private ["Si", "description"]
+- !private ["Si", "init"]
+- !private ["s22KeyedDecodingContainerV", "codingPath"]
+- !private ["s22KeyedDecodingContainerV", "contains"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeNil"]
+- !private ["s22KeyedDecodingContainerV", "nestedContainer"]
+- !private ["s22KeyedDecodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedDecodingContainerProtocolP", "contains"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["s22KeyedEncodingContainerV", "codingPath"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeNil"]
+- !private ["s22KeyedEncodingContainerV", "nestedContainer"]
+- !private ["s22KeyedEncodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeNil"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["10Foundation14LocalizedErrorP", "invalidValue"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "description"]
+- !private ["s10MirrorPathP", "init"]
+- ["9FluentKit14ModelCodingKeyO", "Int"]
+- ["9FluentKit14ModelCodingKeyO", "String"]
+- ["9FluentKit14ModelCodingKeyO", ""]
+- ["9FluentKit14ModelCodingKeyO", "debugDescription"]
+- ["9FluentKit14ModelCodingKeyO", "description"]
+- ["9FluentKit14ModelCodingKeyO", "init"]
+- ["9FluentKit14ModelCodingKeyO", "int"]
+- ["9FluentKit14ModelCodingKeyO", "intValue"]
+- ["9FluentKit14ModelCodingKeyO", "string"]
+- ["9FluentKit14ModelCodingKeyO", "stringValue"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["So8NSCodingP", ""]
+- !private ["Sj", ""]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "compactMapValues"]
+- !private ["ST", "forEach"]
+- !private ["SZ", "description"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s28SingleValueDecodingContainerP", ""]
+- ["s28SingleValueDecodingContainerP", "codingPath"]
+- ["s28SingleValueDecodingContainerP", "container"]
+- ["s28SingleValueDecodingContainerP", "decode"]
+- ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueDecodingContainerP", "init"]
+- !private ["s28SingleValueDecodingContainerP", "key"]
+- ["s28SingleValueDecodingContainerP", "singleValueContainer"]
+- ["s28SingleValueDecodingContainerP", "unkeyedContainer"]
+- ["s28SingleValueDecodingContainerP", "userInfo"]
+- !private ["s28SingleValueEncodingContainerP", ""]
+- ["s28SingleValueEncodingContainerP", "codingPath"]
+- ["s28SingleValueEncodingContainerP", "container"]
+- ["s28SingleValueEncodingContainerP", "encode"]
+- ["s28SingleValueEncodingContainerP", "encodeNil"]
+- !private ["s28SingleValueEncodingContainerP", "init"]
+- !private ["s28SingleValueEncodingContainerP", "key"]
+- ["s28SingleValueEncodingContainerP", "singleValueContainer"]
+- ["s28SingleValueEncodingContainerP", "unkeyedContainer"]
+- ["s28SingleValueEncodingContainerP", "userInfo"]
+- !private ["Sx", ""]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMapValues"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMapValues"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "9FluentKit18AnyCodablePropertyP"
+- "9FluentKit11AnyPropertyP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "s13DecodingErrorO7ContextV"
+- !private "s13EncodingErrorO7ContextV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "s7DecoderP"
+- !private "s13DecodingErrorO"
+- !private "SD"
+- "SE"
+- "s7EncoderP"
+- !private "s13EncodingErrorO"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "9FluentKit6FieldsP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "9FluentKit14ModelCodingKeyO"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "So8NSCodingP"
+- !private "Sj"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "s28SingleValueDecodingContainerP"
+- "s28SingleValueEncodingContainerP"
+- !private "Sx"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d0048ff991f82ab32e05067b9da8d855"

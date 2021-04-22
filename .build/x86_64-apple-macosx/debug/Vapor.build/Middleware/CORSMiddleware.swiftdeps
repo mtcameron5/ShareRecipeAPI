@@ -1,0 +1,1003 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CORSMiddleware"
+provides-nominal:
+- "5Vapor14CORSMiddlewareC"
+- "5Vapor14CORSMiddlewareC18AllowOriginSettingO"
+- "5Vapor14CORSMiddlewareC13ConfigurationV"
+provides-member:
+- ["5Vapor14CORSMiddlewareC", ""]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", ""]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", ""]
+provides-dynamic-lookup:
+- "configuration"
+- "isPreflight"
+- "respond"
+depends-top-level:
+- "!"
+- !private "!="
+- "&&"
+- "=="
+- "??"
+- "AllowOriginSetting"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CORSMiddleware"
+- "Configuration"
+- "EventLoopFuture"
+- "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPMethod"
+- "Int"
+- "IntegerLiteralType"
+- "Middleware"
+- "Request"
+- "Responder"
+- "Response"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "Request"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "String"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "all"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "any"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "custom"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "header"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "none"]
+- ["5Vapor14CORSMiddlewareC18AllowOriginSettingO", "originBased"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "first"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- ["SK", "Name"]
+- ["SK", ""]
+- !private ["SK", "accessControlAllowCredentials"]
+- !private ["SK", "accessControlAllowHeaders"]
+- !private ["SK", "accessControlAllowMethods"]
+- !private ["SK", "accessControlAllowOrigin"]
+- !private ["SK", "accessControlExpose"]
+- !private ["SK", "accessControlMaxAge"]
+- !private ["SK", "accessControlRequestMethod"]
+- !private ["SK", "add"]
+- !private ["SK", "contains"]
+- !private ["SK", "distance"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "first"]
+- !private ["SK", "formIndex"]
+- !private ["SK", "index"]
+- !private ["SK", "indices"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["SK", "origin"]
+- !private ["SK", "replaceOrAdd"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SK", "vary"]
+- ["5Vapor14CORSMiddlewareC", "AllowOriginSetting"]
+- ["5Vapor14CORSMiddlewareC", "Bool"]
+- ["5Vapor14CORSMiddlewareC", "Configuration"]
+- ["5Vapor14CORSMiddlewareC", "EventLoopFuture"]
+- ["5Vapor14CORSMiddlewareC", "HTTPHeaders"]
+- ["5Vapor14CORSMiddlewareC", "HTTPMethod"]
+- ["5Vapor14CORSMiddlewareC", "Int"]
+- ["5Vapor14CORSMiddlewareC", "Request"]
+- ["5Vapor14CORSMiddlewareC", "Responder"]
+- ["5Vapor14CORSMiddlewareC", "Response"]
+- ["5Vapor14CORSMiddlewareC", "String"]
+- ["5Vapor14CORSMiddlewareC", "configuration"]
+- ["5Vapor14CORSMiddlewareC", "deinit"]
+- ["5Vapor14CORSMiddlewareC", "init"]
+- ["5Vapor14CORSMiddlewareC", "respond"]
+- !private ["s7CVarArgP", "accessControlAllowCredentials"]
+- !private ["s7CVarArgP", "accessControlAllowHeaders"]
+- !private ["s7CVarArgP", "accessControlAllowMethods"]
+- !private ["s7CVarArgP", "accessControlAllowOrigin"]
+- !private ["s7CVarArgP", "accessControlExpose"]
+- !private ["s7CVarArgP", "accessControlMaxAge"]
+- !private ["s7CVarArgP", "accessControlRequestMethod"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "origin"]
+- !private ["s7CVarArgP", "vary"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlAllowCredentials"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlAllowHeaders"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlAllowMethods"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlAllowOrigin"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlExpose"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlMaxAge"]
+- !private ["5Vapor22CodingKeyRepresentableP", "accessControlRequestMethod"]
+- !private ["5Vapor22CodingKeyRepresentableP", "init"]
+- !private ["5Vapor22CodingKeyRepresentableP", "isEmpty"]
+- !private ["5Vapor22CodingKeyRepresentableP", "origin"]
+- !private ["5Vapor22CodingKeyRepresentableP", "vary"]
+- ["Sl", "Name"]
+- ["Sl", ""]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "accessControlAllowCredentials"]
+- !private ["Sl", "accessControlAllowHeaders"]
+- !private ["Sl", "accessControlAllowMethods"]
+- !private ["Sl", "accessControlAllowOrigin"]
+- !private ["Sl", "accessControlExpose"]
+- !private ["Sl", "accessControlMaxAge"]
+- !private ["Sl", "accessControlRequestMethod"]
+- !private ["Sl", "add"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "first"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "map"]
+- !private ["Sl", "origin"]
+- !private ["Sl", "replaceOrAdd"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "vary"]
+- !private ["SL", ""]
+- !private ["SL", "accessControlAllowCredentials"]
+- !private ["SL", "accessControlAllowHeaders"]
+- !private ["SL", "accessControlAllowMethods"]
+- !private ["SL", "accessControlAllowOrigin"]
+- !private ["SL", "accessControlExpose"]
+- !private ["SL", "accessControlMaxAge"]
+- !private ["SL", "accessControlRequestMethod"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "origin"]
+- !private ["SL", "vary"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "AllowOriginSetting"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "Bool"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "Configuration"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "HTTPHeaders"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "HTTPMethod"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "Int"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "String"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "allowCredentials"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "allowedHeaders"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "allowedMethods"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "allowedOrigin"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "cacheExpiration"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "default"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "exposedHeaders"]
+- ["5Vapor14CORSMiddlewareC13ConfigurationV", "init"]
+- !private ["5Vapor7ContentP", "accessControlAllowCredentials"]
+- !private ["5Vapor7ContentP", "accessControlAllowHeaders"]
+- !private ["5Vapor7ContentP", "accessControlAllowMethods"]
+- !private ["5Vapor7ContentP", "accessControlAllowOrigin"]
+- !private ["5Vapor7ContentP", "accessControlExpose"]
+- !private ["5Vapor7ContentP", "accessControlMaxAge"]
+- !private ["5Vapor7ContentP", "accessControlRequestMethod"]
+- !private ["5Vapor7ContentP", "contains"]
+- !private ["5Vapor7ContentP", "first"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "isEmpty"]
+- !private ["5Vapor7ContentP", "joined"]
+- !private ["5Vapor7ContentP", "map"]
+- !private ["5Vapor7ContentP", "origin"]
+- !private ["5Vapor7ContentP", "vary"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlAllowCredentials"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlAllowHeaders"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlAllowMethods"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlAllowOrigin"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlExpose"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlMaxAge"]
+- !private ["s28CustomDebugStringConvertibleP", "accessControlRequestMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceOrAdd"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "vary"]
+- !private ["s17CustomReflectableP", "accessControlAllowCredentials"]
+- !private ["s17CustomReflectableP", "accessControlAllowHeaders"]
+- !private ["s17CustomReflectableP", "accessControlAllowMethods"]
+- !private ["s17CustomReflectableP", "accessControlAllowOrigin"]
+- !private ["s17CustomReflectableP", "accessControlExpose"]
+- !private ["s17CustomReflectableP", "accessControlMaxAge"]
+- !private ["s17CustomReflectableP", "accessControlRequestMethod"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "vary"]
+- ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accept"]
+- !private ["s23CustomStringConvertibleP", "accessControlAllowCredentials"]
+- !private ["s23CustomStringConvertibleP", "accessControlAllowHeaders"]
+- !private ["s23CustomStringConvertibleP", "accessControlAllowMethods"]
+- !private ["s23CustomStringConvertibleP", "accessControlAllowOrigin"]
+- !private ["s23CustomStringConvertibleP", "accessControlExpose"]
+- !private ["s23CustomStringConvertibleP", "accessControlMaxAge"]
+- !private ["s23CustomStringConvertibleP", "accessControlRequestMethod"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "authorization"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "contentType"]
+- !private ["s23CustomStringConvertibleP", "eventLoop"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isPreflight"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "method"]
+- !private ["s23CustomStringConvertibleP", "origin"]
+- !private ["s23CustomStringConvertibleP", "replaceOrAdd"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "vary"]
+- !private ["s23CustomStringConvertibleP", "xRequestedWith"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "Name"]
+- ["Se", ""]
+- !private ["Se", "accept"]
+- !private ["Se", "accessControlAllowCredentials"]
+- !private ["Se", "accessControlAllowHeaders"]
+- !private ["Se", "accessControlAllowMethods"]
+- !private ["Se", "accessControlAllowOrigin"]
+- !private ["Se", "accessControlExpose"]
+- !private ["Se", "accessControlMaxAge"]
+- !private ["Se", "accessControlRequestMethod"]
+- !private ["Se", "add"]
+- !private ["Se", "authorization"]
+- !private ["Se", "contains"]
+- !private ["Se", "contentType"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "origin"]
+- !private ["Se", "replaceOrAdd"]
+- !private ["Se", "subscript"]
+- !private ["Se", "vary"]
+- !private ["Se", "xRequestedWith"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "Name"]
+- ["SE", ""]
+- !private ["SE", "accept"]
+- !private ["SE", "accessControlAllowCredentials"]
+- !private ["SE", "accessControlAllowHeaders"]
+- !private ["SE", "accessControlAllowMethods"]
+- !private ["SE", "accessControlAllowOrigin"]
+- !private ["SE", "accessControlExpose"]
+- !private ["SE", "accessControlMaxAge"]
+- !private ["SE", "accessControlRequestMethod"]
+- !private ["SE", "add"]
+- !private ["SE", "authorization"]
+- !private ["SE", "contains"]
+- !private ["SE", "contentType"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "origin"]
+- !private ["SE", "replaceOrAdd"]
+- !private ["SE", "subscript"]
+- !private ["SE", "vary"]
+- !private ["SE", "xRequestedWith"]
+- !private ["SQ", "=="]
+- !private ["SQ", "DELETE"]
+- !private ["SQ", "GET"]
+- ["SQ", "Name"]
+- !private ["SQ", "OPTIONS"]
+- !private ["SQ", "PATCH"]
+- !private ["SQ", "POST"]
+- !private ["SQ", "PUT"]
+- !private ["SQ", ""]
+- !private ["SQ", "accept"]
+- !private ["SQ", "accessControlAllowCredentials"]
+- !private ["SQ", "accessControlAllowHeaders"]
+- !private ["SQ", "accessControlAllowMethods"]
+- !private ["SQ", "accessControlAllowOrigin"]
+- !private ["SQ", "accessControlExpose"]
+- !private ["SQ", "accessControlMaxAge"]
+- !private ["SQ", "accessControlRequestMethod"]
+- !private ["SQ", "add"]
+- !private ["SQ", "authorization"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "contentType"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "replaceOrAdd"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "vary"]
+- !private ["SQ", "xRequestedWith"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s30ExpressibleByDictionaryLiteralP", "Name"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "add"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "replaceOrAdd"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlAllowCredentials"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlAllowHeaders"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlAllowMethods"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlAllowOrigin"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlExpose"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlMaxAge"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "accessControlRequestMethod"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "origin"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "vary"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlAllowCredentials"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlAllowHeaders"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlAllowMethods"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlAllowOrigin"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlExpose"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlMaxAge"]
+- !private ["s32ExpressibleByStringInterpolationP", "accessControlRequestMethod"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "origin"]
+- !private ["s32ExpressibleByStringInterpolationP", "vary"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlAllowCredentials"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlAllowHeaders"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlAllowMethods"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlAllowOrigin"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlExpose"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlMaxAge"]
+- !private ["s26ExpressibleByStringLiteralP", "accessControlRequestMethod"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "origin"]
+- !private ["s26ExpressibleByStringLiteralP", "vary"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlAllowCredentials"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlAllowHeaders"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlAllowMethods"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlAllowOrigin"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlExpose"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlMaxAge"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "accessControlRequestMethod"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "origin"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "vary"]
+- ["8NIOHTTP111HTTPHeadersV", "Name"]
+- !private ["8NIOHTTP111HTTPHeadersV", "add"]
+- !private ["8NIOHTTP111HTTPHeadersV", "replaceOrAdd"]
+- !private ["8NIOHTTP111HTTPHeadersV", "subscript"]
+- !private ["8NIOHTTP110HTTPMethodO", "DELETE"]
+- !private ["8NIOHTTP110HTTPMethodO", "GET"]
+- !private ["8NIOHTTP110HTTPMethodO", "OPTIONS"]
+- !private ["8NIOHTTP110HTTPMethodO", "PATCH"]
+- !private ["8NIOHTTP110HTTPMethodO", "POST"]
+- !private ["8NIOHTTP110HTTPMethodO", "PUT"]
+- !private ["SH", ""]
+- !private ["SH", "accept"]
+- !private ["SH", "accessControlAllowCredentials"]
+- !private ["SH", "accessControlAllowHeaders"]
+- !private ["SH", "accessControlAllowMethods"]
+- !private ["SH", "accessControlAllowOrigin"]
+- !private ["SH", "accessControlExpose"]
+- !private ["SH", "accessControlMaxAge"]
+- !private ["SH", "accessControlRequestMethod"]
+- !private ["SH", "authorization"]
+- !private ["SH", "contains"]
+- !private ["SH", "contentType"]
+- !private ["SH", "first"]
+- !private ["SH", "hash"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- !private ["SH", "origin"]
+- !private ["SH", "vary"]
+- !private ["SH", "xRequestedWith"]
+- !private ["s20LazySequenceProtocolP", "first"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "accessControlAllowCredentials"]
+- !private ["s25LosslessStringConvertibleP", "accessControlAllowHeaders"]
+- !private ["s25LosslessStringConvertibleP", "accessControlAllowMethods"]
+- !private ["s25LosslessStringConvertibleP", "accessControlAllowOrigin"]
+- !private ["s25LosslessStringConvertibleP", "accessControlExpose"]
+- !private ["s25LosslessStringConvertibleP", "accessControlMaxAge"]
+- !private ["s25LosslessStringConvertibleP", "accessControlRequestMethod"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "origin"]
+- !private ["s25LosslessStringConvertibleP", "vary"]
+- !private ["5Vapor10MiddlewareP", "String"]
+- ["5Vapor10MiddlewareP", ""]
+- !private ["5Vapor10MiddlewareP", "configuration"]
+- ["5Vapor10MiddlewareP", "respond"]
+- !private ["s10MirrorPathP", "accessControlAllowCredentials"]
+- !private ["s10MirrorPathP", "accessControlAllowHeaders"]
+- !private ["s10MirrorPathP", "accessControlAllowMethods"]
+- !private ["s10MirrorPathP", "accessControlAllowOrigin"]
+- !private ["s10MirrorPathP", "accessControlExpose"]
+- !private ["s10MirrorPathP", "accessControlMaxAge"]
+- !private ["s10MirrorPathP", "accessControlRequestMethod"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "origin"]
+- !private ["s10MirrorPathP", "vary"]
+- !private ["12MultipartKit0A15PartConvertibleP", "accessControlAllowCredentials"]
+- !private ["12MultipartKit0A15PartConvertibleP", "accessControlAllowHeaders"]
+- !private ["12MultipartKit0A15PartConvertibleP", "accessControlAllowMethods"]
+- !private ["12MultipartKit0A15PartConvertibleP", "accessControlAllowOrigin"]
+- !private ["12MultipartKit0A15PartConvertibleP", "accessControlExpose"]
+- !private ["12MultipartKit0A15PartConvertibleP", "accessControlMaxAge"]
+- !private ["12MultipartKit0A15PartConvertibleP", "accessControlRequestMethod"]
+- !private ["12MultipartKit0A15PartConvertibleP", "init"]
+- !private ["12MultipartKit0A15PartConvertibleP", "isEmpty"]
+- !private ["12MultipartKit0A15PartConvertibleP", "origin"]
+- !private ["12MultipartKit0A15PartConvertibleP", "vary"]
+- !private ["SM", ""]
+- !private ["SM", "contains"]
+- !private ["SM", "first"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "CodingKeys"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", ""]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accept"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlAllowCredentials"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlAllowHeaders"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlAllowMethods"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlAllowOrigin"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlExpose"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlMaxAge"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "accessControlRequestMethod"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "authorization"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "contentType"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "origin"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "vary"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE4NameV", "xRequestedWith"]
+- !private ["Sj", ""]
+- ["Sk", "Name"]
+- !private ["Sk", ""]
+- !private ["Sk", "accessControlRequestMethod"]
+- !private ["Sk", "add"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "distance"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "first"]
+- !private ["Sk", "formIndex"]
+- !private ["Sk", "index"]
+- !private ["Sk", "indices"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sk", "origin"]
+- !private ["Sk", "replaceOrAdd"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sn", "accessControlRequestMethod"]
+- !private ["Sn", "origin"]
+- !private ["SX", "accessControlRequestMethod"]
+- !private ["SX", "origin"]
+- !private ["Sm", ""]
+- !private ["Sm", "accessControlAllowCredentials"]
+- !private ["Sm", "accessControlAllowHeaders"]
+- !private ["Sm", "accessControlAllowMethods"]
+- !private ["Sm", "accessControlAllowOrigin"]
+- !private ["Sm", "accessControlExpose"]
+- !private ["Sm", "accessControlMaxAge"]
+- !private ["Sm", "accessControlRequestMethod"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["Sm", "origin"]
+- !private ["Sm", "vary"]
+- !private ["SY", "DELETE"]
+- !private ["SY", "GET"]
+- !private ["SY", "OPTIONS"]
+- !private ["SY", "PATCH"]
+- !private ["SY", "POST"]
+- !private ["SY", "PUT"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- ["5Vapor7RequestC", "Bool"]
+- ["5Vapor7RequestC", ""]
+- !private ["5Vapor7RequestC", "eventLoop"]
+- !private ["5Vapor7RequestC", "headers"]
+- !private ["5Vapor7RequestC", "isPreflight"]
+- !private ["5Vapor7RequestC", "method"]
+- ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "accessControlAllowCredentials"]
+- !private ["5Vapor16RequestDecodableP", "accessControlAllowHeaders"]
+- !private ["5Vapor16RequestDecodableP", "accessControlAllowMethods"]
+- !private ["5Vapor16RequestDecodableP", "accessControlAllowOrigin"]
+- !private ["5Vapor16RequestDecodableP", "accessControlExpose"]
+- !private ["5Vapor16RequestDecodableP", "accessControlMaxAge"]
+- !private ["5Vapor16RequestDecodableP", "accessControlRequestMethod"]
+- !private ["5Vapor16RequestDecodableP", "contains"]
+- !private ["5Vapor16RequestDecodableP", "eventLoop"]
+- !private ["5Vapor16RequestDecodableP", "first"]
+- !private ["5Vapor16RequestDecodableP", "headers"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "isEmpty"]
+- !private ["5Vapor16RequestDecodableP", "isPreflight"]
+- !private ["5Vapor16RequestDecodableP", "joined"]
+- !private ["5Vapor16RequestDecodableP", "map"]
+- !private ["5Vapor16RequestDecodableP", "method"]
+- !private ["5Vapor16RequestDecodableP", "origin"]
+- !private ["5Vapor16RequestDecodableP", "vary"]
+- !private ["5Vapor9ResponderP", "respond"]
+- !private ["5Vapor8ResponseC", "headers"]
+- !private ["5Vapor8ResponseC", "init"]
+- ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "accessControlAllowCredentials"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlAllowHeaders"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlAllowMethods"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlAllowOrigin"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlExpose"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlMaxAge"]
+- !private ["5Vapor17ResponseEncodableP", "accessControlRequestMethod"]
+- !private ["5Vapor17ResponseEncodableP", "contains"]
+- !private ["5Vapor17ResponseEncodableP", "first"]
+- !private ["5Vapor17ResponseEncodableP", "headers"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "isEmpty"]
+- !private ["5Vapor17ResponseEncodableP", "joined"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "origin"]
+- !private ["5Vapor17ResponseEncodableP", "vary"]
+- ["ST", "Name"]
+- ["ST", ""]
+- !private ["ST", "accessControlAllowCredentials"]
+- !private ["ST", "accessControlAllowHeaders"]
+- !private ["ST", "accessControlAllowMethods"]
+- !private ["ST", "accessControlAllowOrigin"]
+- !private ["ST", "accessControlExpose"]
+- !private ["ST", "accessControlMaxAge"]
+- !private ["ST", "accessControlRequestMethod"]
+- !private ["ST", "add"]
+- !private ["ST", "contains"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["ST", "origin"]
+- !private ["ST", "replaceOrAdd"]
+- !private ["ST", "subscript"]
+- !private ["ST", "vary"]
+- !private ["s5SliceV", "first"]
+- !private ["Sx", ""]
+- !private ["SS", ""]
+- !private ["SS", "accessControlAllowCredentials"]
+- !private ["SS", "accessControlAllowHeaders"]
+- !private ["SS", "accessControlAllowMethods"]
+- !private ["SS", "accessControlAllowOrigin"]
+- !private ["SS", "accessControlExpose"]
+- !private ["SS", "accessControlMaxAge"]
+- !private ["SS", "accessControlRequestMethod"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "origin"]
+- !private ["SS", "vary"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "accessControlAllowCredentials"]
+- !private ["Sy", "accessControlAllowHeaders"]
+- !private ["Sy", "accessControlAllowMethods"]
+- !private ["Sy", "accessControlAllowOrigin"]
+- !private ["Sy", "accessControlExpose"]
+- !private ["Sy", "accessControlMaxAge"]
+- !private ["Sy", "accessControlRequestMethod"]
+- !private ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- !private ["Sy", "origin"]
+- !private ["Sy", "vary"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "accessControlAllowCredentials"]
+- !private ["s16TextOutputStreamP", "accessControlAllowHeaders"]
+- !private ["s16TextOutputStreamP", "accessControlAllowMethods"]
+- !private ["s16TextOutputStreamP", "accessControlAllowOrigin"]
+- !private ["s16TextOutputStreamP", "accessControlExpose"]
+- !private ["s16TextOutputStreamP", "accessControlMaxAge"]
+- !private ["s16TextOutputStreamP", "accessControlRequestMethod"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "origin"]
+- !private ["s16TextOutputStreamP", "vary"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "accessControlAllowCredentials"]
+- !private ["s20TextOutputStreamableP", "accessControlAllowHeaders"]
+- !private ["s20TextOutputStreamableP", "accessControlAllowMethods"]
+- !private ["s20TextOutputStreamableP", "accessControlAllowOrigin"]
+- !private ["s20TextOutputStreamableP", "accessControlExpose"]
+- !private ["s20TextOutputStreamableP", "accessControlMaxAge"]
+- !private ["s20TextOutputStreamableP", "accessControlRequestMethod"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "origin"]
+- !private ["s20TextOutputStreamableP", "vary"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlAllowCredentials"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlAllowHeaders"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlAllowMethods"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlAllowOrigin"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlExpose"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlMaxAge"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "accessControlRequestMethod"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "init"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "isEmpty"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "origin"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "vary"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlAllowCredentials"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlAllowHeaders"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlAllowMethods"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlAllowOrigin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlExpose"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlMaxAge"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "accessControlRequestMethod"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "vary"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlAllowCredentials"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlAllowHeaders"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlAllowMethods"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlAllowOrigin"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlExpose"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlMaxAge"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "accessControlRequestMethod"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "origin"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "vary"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlAllowCredentials"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlAllowHeaders"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlAllowMethods"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlAllowOrigin"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlExpose"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlMaxAge"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "accessControlRequestMethod"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "origin"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "vary"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlAllowCredentials"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlAllowHeaders"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlAllowMethods"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlAllowOrigin"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlExpose"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlMaxAge"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "accessControlRequestMethod"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "origin"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "vary"]
+- !private ["s19_HasContiguousBytesP", "accessControlAllowCredentials"]
+- !private ["s19_HasContiguousBytesP", "accessControlAllowHeaders"]
+- !private ["s19_HasContiguousBytesP", "accessControlAllowMethods"]
+- !private ["s19_HasContiguousBytesP", "accessControlAllowOrigin"]
+- !private ["s19_HasContiguousBytesP", "accessControlExpose"]
+- !private ["s19_HasContiguousBytesP", "accessControlMaxAge"]
+- !private ["s19_HasContiguousBytesP", "accessControlRequestMethod"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "origin"]
+- !private ["s19_HasContiguousBytesP", "vary"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlAllowCredentials"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlAllowHeaders"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlAllowMethods"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlAllowOrigin"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlExpose"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlMaxAge"]
+- !private ["s21_ObjectiveCBridgeableP", "accessControlRequestMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "vary"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "5Vapor14CORSMiddlewareC18AllowOriginSettingO"
+- !private "Sa"
+- "SK"
+- "5Vapor14CORSMiddlewareC"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "5Vapor22CodingKeyRepresentableP"
+- "Sl"
+- !private "SL"
+- "5Vapor14CORSMiddlewareC13ConfigurationV"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "8NIOHTTP111HTTPHeadersV"
+- !private "8NIOHTTP110HTTPMethodO"
+- !private "SH"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- "5Vapor10MiddlewareP"
+- !private "s10MirrorPathP"
+- !private "12MultipartKit0A15PartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "8NIOHTTP111HTTPHeadersV5VaporE4NameV"
+- !private "Sj"
+- "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "SY"
+- "5Vapor7RequestC"
+- "5Vapor16RequestDecodableP"
+- !private "5Vapor9ResponderP"
+- !private "5Vapor8ResponseC"
+- "5Vapor17ResponseEncodableP"
+- "ST"
+- !private "s5SliceV"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "5Vapor27URLQueryFragmentConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/CMultipartParser/include/multipartparser.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "41113a4f45e563a972fe6c849a3e06b5"

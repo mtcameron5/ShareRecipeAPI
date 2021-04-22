@@ -1,0 +1,4 @@
+module Leaf {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/Leaf-Swift.h"
+    requires objc
+}

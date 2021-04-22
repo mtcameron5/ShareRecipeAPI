@@ -1,0 +1,4 @@
+module FluentKit {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/FluentKit-Swift.h"
+    requires objc
+}

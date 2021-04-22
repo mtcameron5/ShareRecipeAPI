@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "4788977ddc661a3b3796434576826be7"
+build_time: [1616667035, 426489000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseQuery+SQL.swift": [1616666971, 288006933]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseSchema+SQL.swift": [1616666971, 288297207]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent-kit/Sources/FluentSQL/Exports.swift": [1616666971, 289507891]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLDatabase+Model.swift": [1616666971, 289690306]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLJSONColumnPath.swift": [1616666971, 289837374]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLQueryConverter.swift": [1616666971, 290116290]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLSchemaConverter.swift": [1616666971, 290380099]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent-kit/Sources/FluentSQL/Utilities.swift": [1616666971, 290542023]

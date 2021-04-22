@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["6NIOSSL13SSLConnectionC", ""]
+- ["6NIOSSL13SSLConnectionC", "performSecurityFrameworkValidation"]
+provides-dynamic-lookup:
+- "performSecurityFrameworkValidation"
+depends-top-level:
+- "!="
+- "=="
+- "AssignmentPrecedence"
+- "CFArray"
+- "CFData"
+- "CFString"
+- "CastingPrecedence"
+- "Data"
+- !private "DispatchQueue"
+- "EventLoopPromise"
+- "NIOSSLError"
+- "NIOSSLVerificationResult"
+- "OSStatus"
+- "SSLConnection"
+- "SecCertificate"
+- "SecCertificateCreateWithData"
+- !private "SecPolicyCreateSSL"
+- "SecTrust"
+- !private "SecTrustCreateWithCertificates"
+- "SecTrustEvaluateAsync"
+- "SecTrustEvaluateAsyncWithError"
+- "SecTrustResultType"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- "Value"
+- "errSecSuccess"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", ""]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["SL", ""]
+- !private ["6NIOSSL13SSLConnectionC14ConnectionRoleO", ""]
+- !private ["6NIOSSL13SSLConnectionC14ConnectionRoleO", "client"]
+- !private ["10Foundation15ContiguousBytesP", "baseAddress"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "baseAddress"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "init"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "=="]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "certificateVerified"]
+- !private ["SQ", "client"]
+- !private ["SQ", "failed"]
+- !private ["SQ", "init"]
+- ["SQ", "proceed"]
+- !private ["SQ", "unableToValidateCertificate"]
+- ["SQ", "unspecified"]
+- !private ["s5ErrorP", "unableToValidateCertificate"]
+- ["3NIO16EventLoopPromiseV", "NIOSSLVerificationResult"]
+- ["3NIO16EventLoopPromiseV", "SecTrustResultType"]
+- ["3NIO16EventLoopPromiseV", ""]
+- !private ["3NIO16EventLoopPromiseV", "completeWith"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "succeed"]
+- !private ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "certificateVerified"]
+- !private ["SH", "client"]
+- !private ["SH", "failed"]
+- !private ["SH", "init"]
+- ["SH", "proceed"]
+- ["SH", "unspecified"]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["6NIOSSL11NIOSSLErrorO", ""]
+- !private ["6NIOSSL11NIOSSLErrorO", "unableToValidateCertificate"]
+- !private ["6NIOSSL24NIOSSLVerificationResultO", "certificateVerified"]
+- !private ["6NIOSSL24NIOSSLVerificationResultO", "failed"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["Sj", ""]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["6NIOSSL13SSLConnectionC27PeerCertificateChainBuffersV", ""]
+- !private ["6NIOSSL13SSLConnectionC27PeerCertificateChainBuffersV", "map"]
+- !private ["Sk", ""]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "_customRemoveLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "insert"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeSubrange"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- ["SY", "proceed"]
+- ["SY", "unspecified"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["6NIOSSL13SSLConnectionC", "CFArray"]
+- !private ["6NIOSSL13SSLConnectionC", "CFData"]
+- !private ["6NIOSSL13SSLConnectionC", "CFString"]
+- !private ["6NIOSSL13SSLConnectionC", "Data"]
+- !private ["6NIOSSL13SSLConnectionC", "DispatchQueue"]
+- ["6NIOSSL13SSLConnectionC", "EventLoopPromise"]
+- !private ["6NIOSSL13SSLConnectionC", "NIOSSLError"]
+- ["6NIOSSL13SSLConnectionC", "NIOSSLVerificationResult"]
+- !private ["6NIOSSL13SSLConnectionC", "OSStatus"]
+- !private ["6NIOSSL13SSLConnectionC", "SecCertificate"]
+- !private ["6NIOSSL13SSLConnectionC", "SecCertificateCreateWithData"]
+- !private ["6NIOSSL13SSLConnectionC", "SecPolicyCreateSSL"]
+- !private ["6NIOSSL13SSLConnectionC", "SecTrust"]
+- !private ["6NIOSSL13SSLConnectionC", "SecTrustCreateWithCertificates"]
+- !private ["6NIOSSL13SSLConnectionC", "SecTrustEvaluateAsync"]
+- !private ["6NIOSSL13SSLConnectionC", "SecTrustEvaluateAsyncWithError"]
+- ["6NIOSSL13SSLConnectionC", ""]
+- !private ["6NIOSSL13SSLConnectionC", "errSecSuccess"]
+- !private ["6NIOSSL13SSLConnectionC", "expectedHostname"]
+- ["6NIOSSL13SSLConnectionC", "performSecurityFrameworkValidation"]
+- !private ["6NIOSSL13SSLConnectionC", "role"]
+- !private ["6NIOSSL13SSLConnectionC", "withPeerCertificateChainBuffers"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "init"]
+- ["So18SecTrustResultTypeV", "proceed"]
+- ["So18SecTrustResultTypeV", "unspecified"]
+- !private ["ST", ""]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["Sx", ""]
+- !private ["SW", "baseAddress"]
+- !private ["SW", "count"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "6NIOSSL13SSLConnectionC14ConnectionRoleO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "3NIO16EventLoopPromiseV"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "6NIOSSL11NIOSSLErrorO"
+- !private "6NIOSSL24NIOSSLVerificationResultO"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "6NIOSSL13SSLConnectionC27PeerCertificateChainBuffersV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "6NIOSSL13SSLConnectionC"
+- !private "7Combine9SchedulerP"
+- "So18SecTrustResultTypeV"
+- !private "ST"
+- !private "Sx"
+- !private "SW"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_asn1.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_tls1.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_dtls1.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pkcs12.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_blake2.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_e_os2.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ssl3.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_x509v3.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_base64.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_rc4.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_md4.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_poly1305.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_md5.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pkcs7.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pkcs8.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_x509.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_curve25519.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_chacha.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_sha.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_dsa.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ecdsa.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_rsa.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ex_data.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_asn1_mac.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_obj_mac.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_cmac.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_hmac.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ec.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_aead.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_thread.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_nid.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ripemd.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_rand.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_engine.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_base.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_hkdf.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_conf.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_opensslconf.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_buf.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_bytestring.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_arm_arch.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_dh.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ecdh.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_lhash.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_siphash.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_blowfish.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_obj.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_stack.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_safestack.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_type_check.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pool.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ssl.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_is_boringssl.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_mem.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_pem.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_boringssl_prefix_symbols_asm.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_span.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_bn.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_trust_token.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_bio.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_crypto.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_srtp.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_evp.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ossl_typ.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_buffer.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_cipher.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_err.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_aes.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_des.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_boringssl_prefix_symbols.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSLShims/include/CNIOBoringSSLShims.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_hrss.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_objects.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_asn1t.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_cast.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_digest.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_cpu.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_opensslv.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_ec_key.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSL/include/CNIOBoringSSL_x509_vfy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "66d24b8c66b6dd843e0dbbe965dfcc9a"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "d53a8a8bef0b80793b0c914a595b1b66"
+build_time: [1616666986, 231744000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/COperatingSystem/Exports.swift": [1616666964, 671243899]

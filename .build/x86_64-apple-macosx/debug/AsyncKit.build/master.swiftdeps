@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "e43e3baf055843dbcf46eb6489faba25"
+build_time: [1616667022, 290582000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolError.swift": [1616666966, 482324791]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolItem.swift": [1616666966, 482645469]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolSource.swift": [1616666966, 482847654]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/EventLoopConnectionPool.swift": [1616666966, 483075351]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/EventLoopGroupConnectionPool.swift": [1616666966, 483368321]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Flatten.swift": [1616666966, 484249087]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Future.swift": [1616666966, 484452597]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Collection+Flatten.swift": [1616666966, 484836466]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/EventLoopFutureQueue+Sequence.swift": [1616666966, 485523521]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/EventLoopFutureQueue.swift": [1616666966, 485741060]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Collection.swift": [1616666966, 485933213]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Optional.swift": [1616666966, 486139727]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Throwing.swift": [1616666966, 486307384]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Transform.swift": [1616666966, 486618533]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/FutureExtensions.swift": [1616666966, 486993555]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/FutureOperators.swift": [1616666966, 487341689]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-kit/Sources/AsyncKit/Exports.swift": [1616666966, 487658835]

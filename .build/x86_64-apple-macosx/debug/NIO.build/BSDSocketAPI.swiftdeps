@@ -1,0 +1,641 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_SocketShutdownProtocol"
+- "Shutdown"
+- "NIOBSDSocket"
+- "UnixDomainSocketPathWrongType"
+- "_BSDSocketProtocol"
+- "_BSDSocketControlMessageProtocol"
+- "NIOBSDSocketControlMessage"
+provides-nominal:
+- "3NIO23_SocketShutdownProtocolP"
+- "3NIO8ShutdownO"
+- "3NIO12NIOBSDSocketO"
+- "3NIO12NIOBSDSocketO10SocketTypeV"
+- "3NIO12NIOBSDSocketO13AddressFamilyV"
+- "3NIO12NIOBSDSocketO14ProtocolFamilyV"
+- "3NIO12NIOBSDSocketO11OptionLevelV"
+- "3NIO12NIOBSDSocketO6OptionV"
+- "3NIO29UnixDomainSocketPathWrongTypeV"
+- "3NIO18_BSDSocketProtocolP"
+- "3NIO32_BSDSocketControlMessageProtocolP"
+- "3NIO26NIOBSDSocketControlMessageO"
+provides-member:
+- ["3NIO23_SocketShutdownProtocolP", ""]
+- ["3NIO8ShutdownO", ""]
+- ["3NIO12NIOBSDSocketO", ""]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", ""]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", ""]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", ""]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", ""]
+- ["3NIO12NIOBSDSocketO6OptionV", ""]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", ""]
+- ["3NIO18_BSDSocketProtocolP", ""]
+- ["3NIO32_BSDSocketControlMessageProtocolP", ""]
+- ["3NIO26NIOBSDSocketControlMessageO", ""]
+- ["3NIO12NIOBSDSocketO", "SocketType"]
+- ["3NIO12NIOBSDSocketO", "AddressFamily"]
+- ["3NIO12NIOBSDSocketO", "ProtocolFamily"]
+- ["3NIO12NIOBSDSocketO", "OptionLevel"]
+- ["3NIO12NIOBSDSocketO", "Option"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "inet"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "inet6"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "unix"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "inet"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "inet6"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "unix"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "local"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "datagram"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "stream"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "ip"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "ipv6"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "tcp"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "socket"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_add_membership"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_drop_membership"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_multicast_if"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_multicast_loop"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_multicast_ttl"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_recv_tos"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_join_group"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_leave_group"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_multicast_hops"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_multicast_if"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_multicast_loop"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_v6only"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_recv_tclass"]
+- ["3NIO12NIOBSDSocketO6OptionV", "tcp_nodelay"]
+- ["3NIO12NIOBSDSocketO6OptionV", "tcp_connection_info"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_error"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_keepalive"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_linger"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_rcvbuf"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_rcvtimeo"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_reuseaddr"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_timestamp"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AF_INET"
+- "AF_INET6"
+- "AF_UNIX"
+- "AssignmentPrecedence"
+- "Bool"
+- "CChar"
+- "CInt"
+- "CUnsignedInt"
+- "Equatable"
+- "Error"
+- "FloatLiteralType"
+- "Handle"
+- "Hashable"
+- "IOResult"
+- "IPPROTO_IP"
+- "IPPROTO_IPV6"
+- "IPPROTO_TCP"
+- "IPV6_JOIN_GROUP"
+- "IPV6_LEAVE_GROUP"
+- "IPV6_MULTICAST_HOPS"
+- "IPV6_MULTICAST_IF"
+- "IPV6_MULTICAST_LOOP"
+- "IPV6_RECVTCLASS"
+- "IPV6_V6ONLY"
+- "IP_ADD_MEMBERSHIP"
+- "IP_DROP_MEMBERSHIP"
+- "IP_MULTICAST_IF"
+- "IP_MULTICAST_LOOP"
+- "IP_MULTICAST_TTL"
+- "IP_RECVTOS"
+- "Int"
+- "IntegerLiteralType"
+- "MMsgHdr"
+- "NIOBSDSocket"
+- "NIOBSDSocketControlMessage"
+- "PF_INET"
+- "PF_INET6"
+- "PF_LOCAL"
+- "PF_UNIX"
+- "RawRepresentable"
+- "RawValue"
+- "SOCK_DGRAM"
+- "SOCK_STREAM"
+- "SOL_SOCKET"
+- "SO_ERROR"
+- "SO_KEEPALIVE"
+- "SO_LINGER"
+- "SO_RCVBUF"
+- "SO_RCVTIMEO"
+- "SO_REUSEADDR"
+- "SO_TIMESTAMP"
+- "Shutdown"
+- "String"
+- "TCP_CONNECTION_INFO"
+- "TCP_NODELAY"
+- "UnixDomainSocketPathWrongType"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawBufferPointer"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "UnsafeRawBufferPointer"
+- "UnsafeRawPointer"
+- "_BSDSocketControlMessageProtocol"
+- "_BSDSocketProtocol"
+- "_SocketShutdownProtocol"
+- "cmsghdr"
+- "msghdr"
+- "nfds_t"
+- "off_t"
+- "pollfd"
+- "size_t"
+- "sockaddr"
+- "socklen_t"
+- "timespec"
+depends-member:
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "=="]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "AF_INET"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "AF_INET6"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "AF_UNIX"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "CInt"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "NIOBSDSocket"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "RawValue"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", ""]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "_rawHashValue"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "hash"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "hashValue"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "inet"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "inet6"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "init"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "rawValue"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "unix"]
+- ["SQ", "=="]
+- ["SQ", "AF_INET"]
+- ["SQ", "AF_INET6"]
+- ["SQ", "AF_UNIX"]
+- ["SQ", "IPPROTO_IP"]
+- ["SQ", "IPPROTO_IPV6"]
+- ["SQ", "IPPROTO_TCP"]
+- ["SQ", "IPV6_JOIN_GROUP"]
+- ["SQ", "IPV6_LEAVE_GROUP"]
+- ["SQ", "IPV6_MULTICAST_HOPS"]
+- ["SQ", "IPV6_MULTICAST_IF"]
+- ["SQ", "IPV6_MULTICAST_LOOP"]
+- ["SQ", "IPV6_RECVTCLASS"]
+- ["SQ", "IPV6_V6ONLY"]
+- ["SQ", "IP_ADD_MEMBERSHIP"]
+- ["SQ", "IP_DROP_MEMBERSHIP"]
+- ["SQ", "IP_MULTICAST_IF"]
+- ["SQ", "IP_MULTICAST_LOOP"]
+- ["SQ", "IP_MULTICAST_TTL"]
+- ["SQ", "IP_RECVTOS"]
+- ["SQ", "NIOBSDSocket"]
+- ["SQ", "PF_INET"]
+- ["SQ", "PF_INET6"]
+- ["SQ", "PF_LOCAL"]
+- ["SQ", "PF_UNIX"]
+- ["SQ", "RawValue"]
+- ["SQ", "SOCK_DGRAM"]
+- ["SQ", "SOCK_STREAM"]
+- ["SQ", "SOL_SOCKET"]
+- ["SQ", "SO_ERROR"]
+- ["SQ", "SO_KEEPALIVE"]
+- ["SQ", "SO_LINGER"]
+- ["SQ", "SO_RCVBUF"]
+- ["SQ", "SO_RCVTIMEO"]
+- ["SQ", "SO_REUSEADDR"]
+- ["SQ", "SO_TIMESTAMP"]
+- ["SQ", "TCP_CONNECTION_INFO"]
+- ["SQ", "TCP_NODELAY"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "cValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "userInfo"]
+- ["SH", "=="]
+- ["SH", "AF_INET"]
+- ["SH", "AF_INET6"]
+- ["SH", "AF_UNIX"]
+- ["SH", "IPPROTO_IP"]
+- ["SH", "IPPROTO_IPV6"]
+- ["SH", "IPPROTO_TCP"]
+- ["SH", "IPV6_JOIN_GROUP"]
+- ["SH", "IPV6_LEAVE_GROUP"]
+- ["SH", "IPV6_MULTICAST_HOPS"]
+- ["SH", "IPV6_MULTICAST_IF"]
+- ["SH", "IPV6_MULTICAST_LOOP"]
+- ["SH", "IPV6_RECVTCLASS"]
+- ["SH", "IPV6_V6ONLY"]
+- ["SH", "IP_ADD_MEMBERSHIP"]
+- ["SH", "IP_DROP_MEMBERSHIP"]
+- ["SH", "IP_MULTICAST_IF"]
+- ["SH", "IP_MULTICAST_LOOP"]
+- ["SH", "IP_MULTICAST_TTL"]
+- ["SH", "IP_RECVTOS"]
+- ["SH", "NIOBSDSocket"]
+- ["SH", "PF_INET"]
+- ["SH", "PF_INET6"]
+- ["SH", "PF_LOCAL"]
+- ["SH", "PF_UNIX"]
+- ["SH", "RawValue"]
+- ["SH", "SOCK_DGRAM"]
+- ["SH", "SOCK_STREAM"]
+- ["SH", "SOL_SOCKET"]
+- ["SH", "SO_ERROR"]
+- ["SH", "SO_KEEPALIVE"]
+- ["SH", "SO_LINGER"]
+- ["SH", "SO_RCVBUF"]
+- ["SH", "SO_RCVTIMEO"]
+- ["SH", "SO_REUSEADDR"]
+- ["SH", "SO_TIMESTAMP"]
+- ["SH", "TCP_CONNECTION_INFO"]
+- ["SH", "TCP_NODELAY"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "cValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- ["3NIO12NIOBSDSocketO", "AddressFamily"]
+- ["3NIO12NIOBSDSocketO", "CInt"]
+- ["3NIO12NIOBSDSocketO", "Handle"]
+- ["3NIO12NIOBSDSocketO", "Option"]
+- ["3NIO12NIOBSDSocketO", "OptionLevel"]
+- ["3NIO12NIOBSDSocketO", "ProtocolFamily"]
+- ["3NIO12NIOBSDSocketO", "RawRepresentable"]
+- ["3NIO12NIOBSDSocketO", "SocketType"]
+- ["3NIO12NIOBSDSocketO", ""]
+- ["3NIO12NIOBSDSocketO", "accept"]
+- ["3NIO12NIOBSDSocketO", "bind"]
+- ["3NIO12NIOBSDSocketO", "cleanupUnixDomainSocket"]
+- ["3NIO12NIOBSDSocketO", "close"]
+- ["3NIO12NIOBSDSocketO", "connect"]
+- ["3NIO12NIOBSDSocketO", "getpeername"]
+- ["3NIO12NIOBSDSocketO", "getsockname"]
+- ["3NIO12NIOBSDSocketO", "getsockopt"]
+- ["3NIO12NIOBSDSocketO", "inet_ntop"]
+- ["3NIO12NIOBSDSocketO", "inet_pton"]
+- ["3NIO12NIOBSDSocketO", "invalidHandle"]
+- ["3NIO12NIOBSDSocketO", "listen"]
+- ["3NIO12NIOBSDSocketO", "poll"]
+- ["3NIO12NIOBSDSocketO", "pread"]
+- ["3NIO12NIOBSDSocketO", "pwrite"]
+- ["3NIO12NIOBSDSocketO", "recv"]
+- ["3NIO12NIOBSDSocketO", "recvmmsg"]
+- ["3NIO12NIOBSDSocketO", "recvmsg"]
+- ["3NIO12NIOBSDSocketO", "send"]
+- ["3NIO12NIOBSDSocketO", "sendfile"]
+- ["3NIO12NIOBSDSocketO", "sendmmsg"]
+- ["3NIO12NIOBSDSocketO", "sendmsg"]
+- ["3NIO12NIOBSDSocketO", "setNonBlocking"]
+- ["3NIO12NIOBSDSocketO", "setsockopt"]
+- ["3NIO12NIOBSDSocketO", "shutdown"]
+- ["3NIO12NIOBSDSocketO", "socket"]
+- ["3NIO26NIOBSDSocketControlMessageO", "data"]
+- ["3NIO26NIOBSDSocketControlMessageO", "firstHeader"]
+- ["3NIO26NIOBSDSocketControlMessageO", "length"]
+- ["3NIO26NIOBSDSocketControlMessageO", "nextHeader"]
+- ["3NIO26NIOBSDSocketControlMessageO", "space"]
+- ["3NIO12NIOBSDSocketO6OptionV", "=="]
+- ["3NIO12NIOBSDSocketO6OptionV", "CInt"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IPV6_JOIN_GROUP"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IPV6_LEAVE_GROUP"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IPV6_MULTICAST_HOPS"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IPV6_MULTICAST_IF"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IPV6_MULTICAST_LOOP"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IPV6_RECVTCLASS"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IPV6_V6ONLY"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IP_ADD_MEMBERSHIP"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IP_DROP_MEMBERSHIP"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IP_MULTICAST_IF"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IP_MULTICAST_LOOP"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IP_MULTICAST_TTL"]
+- ["3NIO12NIOBSDSocketO6OptionV", "IP_RECVTOS"]
+- ["3NIO12NIOBSDSocketO6OptionV", "NIOBSDSocket"]
+- ["3NIO12NIOBSDSocketO6OptionV", "RawValue"]
+- ["3NIO12NIOBSDSocketO6OptionV", "SO_ERROR"]
+- ["3NIO12NIOBSDSocketO6OptionV", "SO_KEEPALIVE"]
+- ["3NIO12NIOBSDSocketO6OptionV", "SO_LINGER"]
+- ["3NIO12NIOBSDSocketO6OptionV", "SO_RCVBUF"]
+- ["3NIO12NIOBSDSocketO6OptionV", "SO_RCVTIMEO"]
+- ["3NIO12NIOBSDSocketO6OptionV", "SO_REUSEADDR"]
+- ["3NIO12NIOBSDSocketO6OptionV", "SO_TIMESTAMP"]
+- ["3NIO12NIOBSDSocketO6OptionV", "TCP_CONNECTION_INFO"]
+- ["3NIO12NIOBSDSocketO6OptionV", "TCP_NODELAY"]
+- ["3NIO12NIOBSDSocketO6OptionV", ""]
+- ["3NIO12NIOBSDSocketO6OptionV", "_rawHashValue"]
+- ["3NIO12NIOBSDSocketO6OptionV", "hash"]
+- ["3NIO12NIOBSDSocketO6OptionV", "hashValue"]
+- ["3NIO12NIOBSDSocketO6OptionV", "init"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_add_membership"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_drop_membership"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_multicast_if"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_multicast_loop"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_multicast_ttl"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ip_recv_tos"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_join_group"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_leave_group"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_multicast_hops"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_multicast_if"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_multicast_loop"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_recv_tclass"]
+- ["3NIO12NIOBSDSocketO6OptionV", "ipv6_v6only"]
+- ["3NIO12NIOBSDSocketO6OptionV", "rawValue"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_error"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_keepalive"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_linger"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_rcvbuf"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_rcvtimeo"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_reuseaddr"]
+- ["3NIO12NIOBSDSocketO6OptionV", "so_timestamp"]
+- ["3NIO12NIOBSDSocketO6OptionV", "tcp_connection_info"]
+- ["3NIO12NIOBSDSocketO6OptionV", "tcp_nodelay"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "=="]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "CInt"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "IPPROTO_IP"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "IPPROTO_IPV6"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "IPPROTO_TCP"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "NIOBSDSocket"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "RawValue"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "SOL_SOCKET"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", ""]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "_rawHashValue"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "hash"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "hashValue"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "init"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "ip"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "ipv6"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "rawValue"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "socket"]
+- ["3NIO12NIOBSDSocketO11OptionLevelV", "tcp"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "=="]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "CInt"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "NIOBSDSocket"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "PF_INET"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "PF_INET6"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "PF_LOCAL"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "PF_UNIX"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "RawValue"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", ""]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "_rawHashValue"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "hash"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "hashValue"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "inet"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "inet6"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "init"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "local"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "rawValue"]
+- ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "unix"]
+- ["SY", "=="]
+- ["SY", "AF_INET"]
+- ["SY", "AF_INET6"]
+- ["SY", "AF_UNIX"]
+- ["SY", "IPPROTO_IP"]
+- ["SY", "IPPROTO_IPV6"]
+- ["SY", "IPPROTO_TCP"]
+- ["SY", "IPV6_JOIN_GROUP"]
+- ["SY", "IPV6_LEAVE_GROUP"]
+- ["SY", "IPV6_MULTICAST_HOPS"]
+- ["SY", "IPV6_MULTICAST_IF"]
+- ["SY", "IPV6_MULTICAST_LOOP"]
+- ["SY", "IPV6_RECVTCLASS"]
+- ["SY", "IPV6_V6ONLY"]
+- ["SY", "IP_ADD_MEMBERSHIP"]
+- ["SY", "IP_DROP_MEMBERSHIP"]
+- ["SY", "IP_MULTICAST_IF"]
+- ["SY", "IP_MULTICAST_LOOP"]
+- ["SY", "IP_MULTICAST_TTL"]
+- ["SY", "IP_RECVTOS"]
+- ["SY", "NIOBSDSocket"]
+- ["SY", "PF_INET"]
+- ["SY", "PF_INET6"]
+- ["SY", "PF_LOCAL"]
+- ["SY", "PF_UNIX"]
+- ["SY", "RawValue"]
+- ["SY", "SOCK_DGRAM"]
+- ["SY", "SOCK_STREAM"]
+- ["SY", "SOL_SOCKET"]
+- ["SY", "SO_ERROR"]
+- ["SY", "SO_KEEPALIVE"]
+- ["SY", "SO_LINGER"]
+- ["SY", "SO_RCVBUF"]
+- ["SY", "SO_RCVTIMEO"]
+- ["SY", "SO_REUSEADDR"]
+- ["SY", "SO_TIMESTAMP"]
+- ["SY", "TCP_CONNECTION_INFO"]
+- ["SY", "TCP_NODELAY"]
+- ["SY", ""]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["3NIO8ShutdownO", "=="]
+- ["3NIO8ShutdownO", "RD"]
+- ["3NIO8ShutdownO", "RDWR"]
+- ["3NIO8ShutdownO", "WR"]
+- ["3NIO8ShutdownO", ""]
+- ["3NIO8ShutdownO", "__derived_enum_equals"]
+- ["3NIO8ShutdownO", "_rawHashValue"]
+- ["3NIO8ShutdownO", "cValue"]
+- ["3NIO8ShutdownO", "hash"]
+- ["3NIO8ShutdownO", "hashValue"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "=="]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "CInt"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "NIOBSDSocket"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "RawValue"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "SOCK_DGRAM"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "SOCK_STREAM"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", ""]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "_rawHashValue"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "datagram"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "hash"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "hashValue"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "init"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "rawValue"]
+- ["3NIO12NIOBSDSocketO10SocketTypeV", "stream"]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", ""]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", "_code"]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", "_domain"]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", "_getEmbeddedNSError"]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", "_userInfo"]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", "code"]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", "domain"]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", "init"]
+- ["3NIO29UnixDomainSocketPathWrongTypeV", "userInfo"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "UnsafeMutablePointer"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "UnsafeMutableRawBufferPointer"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "UnsafePointer"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "UnsafeRawBufferPointer"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", ""]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "cmsghdr"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "data"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "firstHeader"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "length"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "msghdr"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "nextHeader"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "size_t"]
+- ["3NIO32_BSDSocketControlMessageProtocolP", "space"]
+- ["3NIO18_BSDSocketProtocolP", "AddressFamily"]
+- ["3NIO18_BSDSocketProtocolP", "Bool"]
+- ["3NIO18_BSDSocketProtocolP", "CChar"]
+- ["3NIO18_BSDSocketProtocolP", "CInt"]
+- ["3NIO18_BSDSocketProtocolP", "CUnsignedInt"]
+- ["3NIO18_BSDSocketProtocolP", "Handle"]
+- ["3NIO18_BSDSocketProtocolP", "IOResult"]
+- ["3NIO18_BSDSocketProtocolP", "Int"]
+- ["3NIO18_BSDSocketProtocolP", "MMsgHdr"]
+- ["3NIO18_BSDSocketProtocolP", "NIOBSDSocket"]
+- ["3NIO18_BSDSocketProtocolP", "Option"]
+- ["3NIO18_BSDSocketProtocolP", "OptionLevel"]
+- ["3NIO18_BSDSocketProtocolP", "ProtocolFamily"]
+- ["3NIO18_BSDSocketProtocolP", "RawRepresentable"]
+- ["3NIO18_BSDSocketProtocolP", "Shutdown"]
+- ["3NIO18_BSDSocketProtocolP", "SocketType"]
+- ["3NIO18_BSDSocketProtocolP", "String"]
+- ["3NIO18_BSDSocketProtocolP", "UnsafeMutablePointer"]
+- ["3NIO18_BSDSocketProtocolP", "UnsafeMutableRawPointer"]
+- ["3NIO18_BSDSocketProtocolP", "UnsafePointer"]
+- ["3NIO18_BSDSocketProtocolP", "UnsafeRawPointer"]
+- ["3NIO18_BSDSocketProtocolP", ""]
+- ["3NIO18_BSDSocketProtocolP", "accept"]
+- ["3NIO18_BSDSocketProtocolP", "bind"]
+- ["3NIO18_BSDSocketProtocolP", "cleanupUnixDomainSocket"]
+- ["3NIO18_BSDSocketProtocolP", "close"]
+- ["3NIO18_BSDSocketProtocolP", "connect"]
+- ["3NIO18_BSDSocketProtocolP", "getpeername"]
+- ["3NIO18_BSDSocketProtocolP", "getsockname"]
+- ["3NIO18_BSDSocketProtocolP", "getsockopt"]
+- ["3NIO18_BSDSocketProtocolP", "inet_ntop"]
+- ["3NIO18_BSDSocketProtocolP", "inet_pton"]
+- ["3NIO18_BSDSocketProtocolP", "listen"]
+- ["3NIO18_BSDSocketProtocolP", "msghdr"]
+- ["3NIO18_BSDSocketProtocolP", "nfds_t"]
+- ["3NIO18_BSDSocketProtocolP", "off_t"]
+- ["3NIO18_BSDSocketProtocolP", "poll"]
+- ["3NIO18_BSDSocketProtocolP", "pollfd"]
+- ["3NIO18_BSDSocketProtocolP", "pread"]
+- ["3NIO18_BSDSocketProtocolP", "pwrite"]
+- ["3NIO18_BSDSocketProtocolP", "recv"]
+- ["3NIO18_BSDSocketProtocolP", "recvmmsg"]
+- ["3NIO18_BSDSocketProtocolP", "recvmsg"]
+- ["3NIO18_BSDSocketProtocolP", "send"]
+- ["3NIO18_BSDSocketProtocolP", "sendfile"]
+- ["3NIO18_BSDSocketProtocolP", "sendmmsg"]
+- ["3NIO18_BSDSocketProtocolP", "sendmsg"]
+- ["3NIO18_BSDSocketProtocolP", "setNonBlocking"]
+- ["3NIO18_BSDSocketProtocolP", "setsockopt"]
+- ["3NIO18_BSDSocketProtocolP", "shutdown"]
+- ["3NIO18_BSDSocketProtocolP", "size_t"]
+- ["3NIO18_BSDSocketProtocolP", "sockaddr"]
+- ["3NIO18_BSDSocketProtocolP", "socket"]
+- ["3NIO18_BSDSocketProtocolP", "socklen_t"]
+- ["3NIO18_BSDSocketProtocolP", "timespec"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["3NIO23_SocketShutdownProtocolP", "=="]
+- ["3NIO23_SocketShutdownProtocolP", "CInt"]
+- ["3NIO23_SocketShutdownProtocolP", ""]
+- ["3NIO23_SocketShutdownProtocolP", "_rawHashValue"]
+- ["3NIO23_SocketShutdownProtocolP", "cValue"]
+- ["3NIO23_SocketShutdownProtocolP", "hash"]
+- ["3NIO23_SocketShutdownProtocolP", "hashValue"]
+depends-nominal:
+- "3NIO12NIOBSDSocketO13AddressFamilyV"
+- "SQ"
+- "s5ErrorP"
+- "SH"
+- !private "s6HasherV"
+- "3NIO12NIOBSDSocketO"
+- "3NIO26NIOBSDSocketControlMessageO"
+- "3NIO12NIOBSDSocketO6OptionV"
+- "3NIO12NIOBSDSocketO11OptionLevelV"
+- "3NIO12NIOBSDSocketO14ProtocolFamilyV"
+- "SY"
+- "3NIO8ShutdownO"
+- "3NIO12NIOBSDSocketO10SocketTypeV"
+- "3NIO29UnixDomainSocketPathWrongTypeV"
+- "3NIO32_BSDSocketControlMessageProtocolP"
+- "3NIO18_BSDSocketProtocolP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "3NIO23_SocketShutdownProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "9fa9b70d8acc71b699761ce29587c7be"

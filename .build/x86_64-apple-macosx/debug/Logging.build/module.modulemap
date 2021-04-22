@@ -1,0 +1,4 @@
+module Logging {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/Logging-Swift.h"
+    requires objc
+}

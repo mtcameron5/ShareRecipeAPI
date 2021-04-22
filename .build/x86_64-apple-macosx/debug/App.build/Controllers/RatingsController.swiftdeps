@@ -1,0 +1,816 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RatingsController"
+- "RecipeRating"
+- "Rating"
+- "RatingAndUserID"
+- "UserRatings"
+provides-nominal:
+- "3App17RatingsControllerV"
+- "3App12RecipeRatingV"
+- "3App6RatingV"
+- "3App15RatingAndUserIDV"
+- "3App11UserRatingsV"
+provides-member:
+- ["3App17RatingsControllerV", ""]
+- ["3App12RecipeRatingV", ""]
+- ["3App6RatingV", ""]
+- ["3App15RatingAndUserIDV", ""]
+- ["3App11UserRatingsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Abort"
+- !private "AssignmentPrecedence"
+- "Content"
+- "EventLoopFuture"
+- "Float"
+- !private "FloatLiteralType"
+- "HTTPStatus"
+- !private "IntegerLiteralType"
+- "Rating"
+- "RatingAndUserID"
+- "RatingsController"
+- "Recipe"
+- "RecipeRating"
+- "Request"
+- "RouteCollection"
+- "RoutesBuilder"
+- !private "StringLiteralType"
+- "UUID"
+- "User"
+- "UserRatesRecipePivot"
+- "UserRatings"
+- !private "createUserRatesRecipeHandler"
+- !private "deleteHandler"
+- !private "getRatingsHandler"
+- !private "getRecipesAUserRatedHandler"
+- !private "getRecipesRatings"
+- !private "getRecipesRatingsStripped"
+- !private "getUsersRatings"
+- !private "getUsersThatRatedRecipe"
+- !private "updateRatingHandler"
+- !private "~="
+depends-member:
+- !private ["5Vapor5AbortV", "init"]
+- !private ["5Vapor10AbortErrorP", "init"]
+- !private ["9FluentKit18AnyCodablePropertyP", "get"]
+- !private ["9FluentKit18AnyCodablePropertyP", "id"]
+- !private ["9FluentKit19AnyDatabasePropertyP", "get"]
+- !private ["9FluentKit19AnyDatabasePropertyP", "id"]
+- !private ["9FluentKit8AnyModelP", "$recipe"]
+- !private ["9FluentKit8AnyModelP", "$recipesRated"]
+- !private ["9FluentKit8AnyModelP", "$user"]
+- !private ["9FluentKit8AnyModelP", "$usersThatRatesRecipe"]
+- !private ["9FluentKit8AnyModelP", "IDValue"]
+- ["9FluentKit8AnyModelP", "Public"]
+- ["9FluentKit8AnyModelP", ""]
+- !private ["9FluentKit8AnyModelP", "delete"]
+- !private ["9FluentKit8AnyModelP", "find"]
+- !private ["9FluentKit8AnyModelP", "id"]
+- !private ["9FluentKit8AnyModelP", "init"]
+- !private ["9FluentKit8AnyModelP", "query"]
+- !private ["9FluentKit8AnyModelP", "rating"]
+- !private ["9FluentKit8AnyModelP", "recipe"]
+- !private ["9FluentKit8AnyModelP", "recipesRated"]
+- !private ["9FluentKit8AnyModelP", "save"]
+- !private ["9FluentKit8AnyModelP", "user"]
+- !private ["9FluentKit8AnyModelP", "usersThatRatesRecipe"]
+- !private ["9FluentKit11AnyPropertyP", ""]
+- !private ["9FluentKit11AnyPropertyP", "get"]
+- !private ["9FluentKit11AnyPropertyP", "id"]
+- !private ["9FluentKit20AnyQueryablePropertyP", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["5Vapor15AuthenticatableP", "$recipesRated"]
+- ["5Vapor15AuthenticatableP", "Public"]
+- ["5Vapor15AuthenticatableP", ""]
+- !private ["5Vapor15AuthenticatableP", "find"]
+- !private ["5Vapor15AuthenticatableP", "id"]
+- !private ["5Vapor15AuthenticatableP", "recipesRated"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["5Vapor7ContentP", "$recipe"]
+- !private ["5Vapor7ContentP", "$recipesRated"]
+- !private ["5Vapor7ContentP", "$user"]
+- !private ["5Vapor7ContentP", "$usersThatRatesRecipe"]
+- ["5Vapor7ContentP", "Public"]
+- ["5Vapor7ContentP", ""]
+- ["5Vapor7ContentP", "afterDecode"]
+- !private ["5Vapor7ContentP", "append"]
+- ["5Vapor7ContentP", "beforeEncode"]
+- ["5Vapor7ContentP", "decodeRequest"]
+- ["5Vapor7ContentP", "defaultContentType"]
+- !private ["5Vapor7ContentP", "delete"]
+- ["5Vapor7ContentP", "encode"]
+- ["5Vapor7ContentP", "encodeResponse"]
+- !private ["5Vapor7ContentP", "find"]
+- !private ["5Vapor7ContentP", "id"]
+- ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "query"]
+- !private ["5Vapor7ContentP", "rating"]
+- !private ["5Vapor7ContentP", "recipe"]
+- !private ["5Vapor7ContentP", "recipeID"]
+- !private ["5Vapor7ContentP", "recipesRated"]
+- !private ["5Vapor7ContentP", "save"]
+- !private ["5Vapor7ContentP", "user"]
+- !private ["5Vapor7ContentP", "userID"]
+- !private ["5Vapor7ContentP", "usersThatRatesRecipe"]
+- !private ["5Vapor16ContentContainerP", "decode"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "$recipe"]
+- !private ["s23CustomStringConvertibleP", "$recipesRated"]
+- !private ["s23CustomStringConvertibleP", "$user"]
+- !private ["s23CustomStringConvertibleP", "$usersThatRatesRecipe"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "IDValue"]
+- ["s23CustomStringConvertibleP", "Public"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "content"]
+- !private ["s23CustomStringConvertibleP", "db"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "find"]
+- !private ["s23CustomStringConvertibleP", "get"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "parameters"]
+- !private ["s23CustomStringConvertibleP", "query"]
+- !private ["s23CustomStringConvertibleP", "rating"]
+- !private ["s23CustomStringConvertibleP", "recipe"]
+- !private ["s23CustomStringConvertibleP", "recipesRated"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "user"]
+- !private ["s23CustomStringConvertibleP", "usersThatRatesRecipe"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["5Vapor15DebuggableErrorP", "init"]
+- !private ["Se", "$recipe"]
+- !private ["Se", "$recipesRated"]
+- !private ["Se", "$user"]
+- !private ["Se", "$usersThatRatesRecipe"]
+- !private ["Se", "IDValue"]
+- ["Se", "Public"]
+- ["Se", ""]
+- ["Se", "afterDecode"]
+- !private ["Se", "append"]
+- ["Se", "beforeEncode"]
+- !private ["Se", "created"]
+- ["Se", "decodeRequest"]
+- ["Se", "defaultContentType"]
+- !private ["Se", "delete"]
+- ["Se", "encode"]
+- ["Se", "encodeResponse"]
+- !private ["Se", "find"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "noContent"]
+- !private ["Se", "notFound"]
+- !private ["Se", "query"]
+- !private ["Se", "rating"]
+- !private ["Se", "recipe"]
+- !private ["Se", "recipeID"]
+- !private ["Se", "recipesRated"]
+- !private ["Se", "save"]
+- !private ["Se", "user"]
+- !private ["Se", "userID"]
+- !private ["Se", "usersThatRatesRecipe"]
+- !private ["s7DecoderP", "container"]
+- !private ["9FluentKit16EagerLoadBuilderP", "all"]
+- !private ["9FluentKit13EagerLoadableP", "get"]
+- !private ["9FluentKit13EagerLoadableP", "id"]
+- !private ["SE", "$recipe"]
+- !private ["SE", "$recipesRated"]
+- !private ["SE", "$user"]
+- !private ["SE", "$usersThatRatesRecipe"]
+- !private ["SE", "IDValue"]
+- ["SE", "Public"]
+- ["SE", ""]
+- ["SE", "afterDecode"]
+- !private ["SE", "append"]
+- ["SE", "beforeEncode"]
+- !private ["SE", "created"]
+- ["SE", "decodeRequest"]
+- ["SE", "defaultContentType"]
+- !private ["SE", "delete"]
+- ["SE", "encode"]
+- ["SE", "encodeResponse"]
+- !private ["SE", "find"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "noContent"]
+- !private ["SE", "notFound"]
+- !private ["SE", "query"]
+- !private ["SE", "rating"]
+- !private ["SE", "recipe"]
+- !private ["SE", "recipeID"]
+- !private ["SE", "recipesRated"]
+- !private ["SE", "save"]
+- !private ["SE", "user"]
+- !private ["SE", "userID"]
+- !private ["SE", "usersThatRatesRecipe"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "and"]
+- !private ["SQ", "append"]
+- !private ["SQ", "convertToPublic"]
+- !private ["SQ", "created"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "map"]
+- !private ["SQ", "noContent"]
+- !private ["SQ", "notFound"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "transform"]
+- !private ["SQ", "unwrap"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO15EventLoopFutureC", "and"]
+- !private ["3NIO15EventLoopFutureC", "convertToPublic"]
+- !private ["3NIO15EventLoopFutureC", "created"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO15EventLoopFutureC", "noContent"]
+- !private ["3NIO15EventLoopFutureC", "transform"]
+- !private ["3NIO15EventLoopFutureC", "unwrap"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["9FluentKit6FieldsP", "$recipe"]
+- !private ["9FluentKit6FieldsP", "$recipesRated"]
+- !private ["9FluentKit6FieldsP", "$user"]
+- !private ["9FluentKit6FieldsP", "$usersThatRatesRecipe"]
+- !private ["9FluentKit6FieldsP", "IDValue"]
+- ["9FluentKit6FieldsP", "Public"]
+- ["9FluentKit6FieldsP", ""]
+- !private ["9FluentKit6FieldsP", "delete"]
+- !private ["9FluentKit6FieldsP", "find"]
+- !private ["9FluentKit6FieldsP", "id"]
+- !private ["9FluentKit6FieldsP", "init"]
+- !private ["9FluentKit6FieldsP", "query"]
+- !private ["9FluentKit6FieldsP", "rating"]
+- !private ["9FluentKit6FieldsP", "recipe"]
+- !private ["9FluentKit6FieldsP", "recipesRated"]
+- !private ["9FluentKit6FieldsP", "save"]
+- !private ["9FluentKit6FieldsP", "user"]
+- !private ["9FluentKit6FieldsP", "usersThatRatesRecipe"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "created"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "noContent"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "notFound"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["10Foundation14LocalizedErrorP", ""]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["9FluentKit5ModelP", "$recipe"]
+- !private ["9FluentKit5ModelP", "$recipesRated"]
+- !private ["9FluentKit5ModelP", "$user"]
+- !private ["9FluentKit5ModelP", "$usersThatRatesRecipe"]
+- !private ["9FluentKit5ModelP", "IDValue"]
+- ["9FluentKit5ModelP", "Public"]
+- ["9FluentKit5ModelP", ""]
+- !private ["9FluentKit5ModelP", "delete"]
+- !private ["9FluentKit5ModelP", "find"]
+- !private ["9FluentKit5ModelP", "id"]
+- !private ["9FluentKit5ModelP", "init"]
+- !private ["9FluentKit5ModelP", "query"]
+- !private ["9FluentKit5ModelP", "rating"]
+- !private ["9FluentKit5ModelP", "recipe"]
+- !private ["9FluentKit5ModelP", "recipesRated"]
+- !private ["9FluentKit5ModelP", "save"]
+- !private ["9FluentKit5ModelP", "user"]
+- !private ["9FluentKit5ModelP", "usersThatRatesRecipe"]
+- !private ["6Fluent20ModelAuthenticatableP", "$recipesRated"]
+- ["6Fluent20ModelAuthenticatableP", "Public"]
+- !private ["6Fluent20ModelAuthenticatableP", "find"]
+- !private ["6Fluent20ModelAuthenticatableP", "id"]
+- !private ["6Fluent20ModelAuthenticatableP", "recipesRated"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- !private ["11PostgresNIO11PSQLCodableP", "append"]
+- !private ["11PostgresNIO11PSQLCodableP", "init"]
+- !private ["11PostgresNIO13PSQLDecodableP", ""]
+- !private ["11PostgresNIO13PSQLDecodableP", "append"]
+- !private ["11PostgresNIO13PSQLDecodableP", "init"]
+- !private ["11PostgresNIO13PSQLEncodableP", ""]
+- !private ["11PostgresNIO13PSQLEncodableP", "append"]
+- !private ["11PostgresNIO13PSQLEncodableP", "init"]
+- !private ["10RoutingKit10ParametersV", "get"]
+- !private ["9FluentKit14ParentPropertyC", "id"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "append"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "init"]
+- !private ["9FluentKit8PropertyP", ""]
+- !private ["9FluentKit8PropertyP", "get"]
+- !private ["9FluentKit8PropertyP", "id"]
+- !private ["3App4UserC6PublicC", ""]
+- !private ["9FluentKit12QueryBuilderC", "all"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- ["3App6RatingV", "CodingKeys"]
+- ["3App6RatingV", "Float"]
+- ["3App6RatingV", ""]
+- ["3App6RatingV", "afterDecode"]
+- ["3App6RatingV", "beforeEncode"]
+- ["3App6RatingV", "decodeRequest"]
+- ["3App6RatingV", "defaultContentType"]
+- ["3App6RatingV", "encode"]
+- ["3App6RatingV", "encodeResponse"]
+- ["3App6RatingV", "init"]
+- ["3App6RatingV", "rating"]
+- ["3App15RatingAndUserIDV", "CodingKeys"]
+- ["3App15RatingAndUserIDV", "Float"]
+- ["3App15RatingAndUserIDV", "UUID"]
+- ["3App15RatingAndUserIDV", ""]
+- ["3App15RatingAndUserIDV", "afterDecode"]
+- ["3App15RatingAndUserIDV", "beforeEncode"]
+- ["3App15RatingAndUserIDV", "decodeRequest"]
+- ["3App15RatingAndUserIDV", "defaultContentType"]
+- ["3App15RatingAndUserIDV", "encode"]
+- ["3App15RatingAndUserIDV", "encodeResponse"]
+- ["3App15RatingAndUserIDV", "id"]
+- ["3App15RatingAndUserIDV", "init"]
+- ["3App15RatingAndUserIDV", "rating"]
+- ["3App15RatingAndUserIDV", "userID"]
+- !private ["3App17RatingsControllerV", "Abort"]
+- ["3App17RatingsControllerV", "EventLoopFuture"]
+- ["3App17RatingsControllerV", "HTTPStatus"]
+- !private ["3App17RatingsControllerV", "Rating"]
+- ["3App17RatingsControllerV", "RatingAndUserID"]
+- ["3App17RatingsControllerV", "Recipe"]
+- ["3App17RatingsControllerV", "Request"]
+- ["3App17RatingsControllerV", "RoutesBuilder"]
+- ["3App17RatingsControllerV", "User"]
+- ["3App17RatingsControllerV", "UserRatesRecipePivot"]
+- ["3App17RatingsControllerV", "UserRatings"]
+- ["3App17RatingsControllerV", "boot"]
+- ["3App17RatingsControllerV", "createUserRatesRecipeHandler"]
+- ["3App17RatingsControllerV", "deleteHandler"]
+- ["3App17RatingsControllerV", "getRatingsHandler"]
+- ["3App17RatingsControllerV", "getRecipesAUserRatedHandler"]
+- ["3App17RatingsControllerV", "getRecipesRatings"]
+- ["3App17RatingsControllerV", "getRecipesRatingsStripped"]
+- ["3App17RatingsControllerV", "getUsersRatings"]
+- ["3App17RatingsControllerV", "getUsersThatRatedRecipe"]
+- ["3App17RatingsControllerV", "init"]
+- ["3App17RatingsControllerV", "updateRatingHandler"]
+- !private ["3App6RecipeC", "$usersThatRatesRecipe"]
+- !private ["3App6RecipeC", ""]
+- !private ["3App6RecipeC", "find"]
+- !private ["3App6RecipeC", "id"]
+- !private ["3App6RecipeC", "usersThatRatesRecipe"]
+- ["3App12RecipeRatingV", "CodingKeys"]
+- ["3App12RecipeRatingV", "Float"]
+- ["3App12RecipeRatingV", "UUID"]
+- ["3App12RecipeRatingV", ""]
+- ["3App12RecipeRatingV", "afterDecode"]
+- ["3App12RecipeRatingV", "beforeEncode"]
+- ["3App12RecipeRatingV", "decodeRequest"]
+- ["3App12RecipeRatingV", "defaultContentType"]
+- ["3App12RecipeRatingV", "encode"]
+- ["3App12RecipeRatingV", "encodeResponse"]
+- ["3App12RecipeRatingV", "init"]
+- ["3App12RecipeRatingV", "rating"]
+- ["3App12RecipeRatingV", "recipeID"]
+- ["3App12RecipeRatingV", "userID"]
+- !private ["9FluentKit8RelationP", "get"]
+- !private ["9FluentKit8RelationP", "id"]
+- !private ["5Vapor7RequestC", "content"]
+- !private ["5Vapor7RequestC", "db"]
+- !private ["5Vapor7RequestC", "parameters"]
+- !private ["5Vapor16RequestDecodableP", "$recipe"]
+- !private ["5Vapor16RequestDecodableP", "$recipesRated"]
+- !private ["5Vapor16RequestDecodableP", "$user"]
+- !private ["5Vapor16RequestDecodableP", "$usersThatRatesRecipe"]
+- ["5Vapor16RequestDecodableP", "Public"]
+- ["5Vapor16RequestDecodableP", ""]
+- ["5Vapor16RequestDecodableP", "afterDecode"]
+- !private ["5Vapor16RequestDecodableP", "append"]
+- ["5Vapor16RequestDecodableP", "beforeEncode"]
+- !private ["5Vapor16RequestDecodableP", "content"]
+- !private ["5Vapor16RequestDecodableP", "db"]
+- ["5Vapor16RequestDecodableP", "decodeRequest"]
+- ["5Vapor16RequestDecodableP", "defaultContentType"]
+- !private ["5Vapor16RequestDecodableP", "delete"]
+- ["5Vapor16RequestDecodableP", "encode"]
+- ["5Vapor16RequestDecodableP", "encodeResponse"]
+- !private ["5Vapor16RequestDecodableP", "find"]
+- !private ["5Vapor16RequestDecodableP", "id"]
+- ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "parameters"]
+- !private ["5Vapor16RequestDecodableP", "query"]
+- !private ["5Vapor16RequestDecodableP", "rating"]
+- !private ["5Vapor16RequestDecodableP", "recipe"]
+- !private ["5Vapor16RequestDecodableP", "recipeID"]
+- !private ["5Vapor16RequestDecodableP", "recipesRated"]
+- !private ["5Vapor16RequestDecodableP", "save"]
+- !private ["5Vapor16RequestDecodableP", "user"]
+- !private ["5Vapor16RequestDecodableP", "userID"]
+- !private ["5Vapor16RequestDecodableP", "usersThatRatesRecipe"]
+- !private ["5Vapor17ResponseEncodableP", "$recipe"]
+- !private ["5Vapor17ResponseEncodableP", "$recipesRated"]
+- !private ["5Vapor17ResponseEncodableP", "$user"]
+- !private ["5Vapor17ResponseEncodableP", "$usersThatRatesRecipe"]
+- ["5Vapor17ResponseEncodableP", "Public"]
+- ["5Vapor17ResponseEncodableP", ""]
+- ["5Vapor17ResponseEncodableP", "afterDecode"]
+- !private ["5Vapor17ResponseEncodableP", "and"]
+- !private ["5Vapor17ResponseEncodableP", "append"]
+- ["5Vapor17ResponseEncodableP", "beforeEncode"]
+- !private ["5Vapor17ResponseEncodableP", "convertToPublic"]
+- !private ["5Vapor17ResponseEncodableP", "created"]
+- ["5Vapor17ResponseEncodableP", "decodeRequest"]
+- ["5Vapor17ResponseEncodableP", "defaultContentType"]
+- !private ["5Vapor17ResponseEncodableP", "delete"]
+- ["5Vapor17ResponseEncodableP", "encode"]
+- ["5Vapor17ResponseEncodableP", "encodeResponse"]
+- !private ["5Vapor17ResponseEncodableP", "find"]
+- !private ["5Vapor17ResponseEncodableP", "flatMap"]
+- !private ["5Vapor17ResponseEncodableP", "id"]
+- ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "noContent"]
+- !private ["5Vapor17ResponseEncodableP", "notFound"]
+- !private ["5Vapor17ResponseEncodableP", "query"]
+- !private ["5Vapor17ResponseEncodableP", "rating"]
+- !private ["5Vapor17ResponseEncodableP", "recipe"]
+- !private ["5Vapor17ResponseEncodableP", "recipeID"]
+- !private ["5Vapor17ResponseEncodableP", "recipesRated"]
+- !private ["5Vapor17ResponseEncodableP", "save"]
+- !private ["5Vapor17ResponseEncodableP", "transform"]
+- !private ["5Vapor17ResponseEncodableP", "unwrap"]
+- !private ["5Vapor17ResponseEncodableP", "user"]
+- !private ["5Vapor17ResponseEncodableP", "userID"]
+- !private ["5Vapor17ResponseEncodableP", "usersThatRatesRecipe"]
+- !private ["5Vapor15RouteCollectionP", "Abort"]
+- !private ["5Vapor15RouteCollectionP", "Rating"]
+- !private ["5Vapor15RouteCollectionP", "RatingAndUserID"]
+- !private ["5Vapor15RouteCollectionP", "Recipe"]
+- !private ["5Vapor15RouteCollectionP", "User"]
+- !private ["5Vapor15RouteCollectionP", "UserRatesRecipePivot"]
+- !private ["5Vapor15RouteCollectionP", "UserRatings"]
+- ["5Vapor15RouteCollectionP", ""]
+- ["5Vapor15RouteCollectionP", "boot"]
+- !private ["5Vapor15RouteCollectionP", "createUserRatesRecipeHandler"]
+- !private ["5Vapor15RouteCollectionP", "deleteHandler"]
+- !private ["5Vapor15RouteCollectionP", "getRatingsHandler"]
+- !private ["5Vapor15RouteCollectionP", "getRecipesAUserRatedHandler"]
+- !private ["5Vapor15RouteCollectionP", "getRecipesRatings"]
+- !private ["5Vapor15RouteCollectionP", "getRecipesRatingsStripped"]
+- !private ["5Vapor15RouteCollectionP", "getUsersRatings"]
+- !private ["5Vapor15RouteCollectionP", "getUsersThatRatedRecipe"]
+- !private ["5Vapor15RouteCollectionP", "updateRatingHandler"]
+- !private ["5Vapor13RoutesBuilderP", "delete"]
+- !private ["5Vapor13RoutesBuilderP", "get"]
+- !private ["5Vapor13RoutesBuilderP", "grouped"]
+- !private ["5Vapor13RoutesBuilderP", "post"]
+- !private ["5Vapor13RoutesBuilderP", "put"]
+- !private ["9FluentKit6SchemaP", "$recipe"]
+- !private ["9FluentKit6SchemaP", "$recipesRated"]
+- !private ["9FluentKit6SchemaP", "$user"]
+- !private ["9FluentKit6SchemaP", "$usersThatRatesRecipe"]
+- !private ["9FluentKit6SchemaP", "IDValue"]
+- ["9FluentKit6SchemaP", "Public"]
+- ["9FluentKit6SchemaP", ""]
+- !private ["9FluentKit6SchemaP", "delete"]
+- !private ["9FluentKit6SchemaP", "find"]
+- !private ["9FluentKit6SchemaP", "id"]
+- !private ["9FluentKit6SchemaP", "init"]
+- !private ["9FluentKit6SchemaP", "query"]
+- !private ["9FluentKit6SchemaP", "rating"]
+- !private ["9FluentKit6SchemaP", "recipe"]
+- !private ["9FluentKit6SchemaP", "recipesRated"]
+- !private ["9FluentKit6SchemaP", "save"]
+- !private ["9FluentKit6SchemaP", "user"]
+- !private ["9FluentKit6SchemaP", "usersThatRatesRecipe"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["9FluentKit16SiblingsPropertyC", "get"]
+- !private ["3App4UserC", "$recipesRated"]
+- ["3App4UserC", "Public"]
+- !private ["3App4UserC", ""]
+- !private ["3App4UserC", "find"]
+- !private ["3App4UserC", "id"]
+- !private ["3App4UserC", "recipesRated"]
+- !private ["3App20UserRatesRecipePivotC", "$recipe"]
+- !private ["3App20UserRatesRecipePivotC", "$user"]
+- !private ["3App20UserRatesRecipePivotC", ""]
+- !private ["3App20UserRatesRecipePivotC", "delete"]
+- !private ["3App20UserRatesRecipePivotC", "find"]
+- !private ["3App20UserRatesRecipePivotC", "id"]
+- !private ["3App20UserRatesRecipePivotC", "init"]
+- !private ["3App20UserRatesRecipePivotC", "query"]
+- !private ["3App20UserRatesRecipePivotC", "rating"]
+- !private ["3App20UserRatesRecipePivotC", "recipe"]
+- !private ["3App20UserRatesRecipePivotC", "save"]
+- !private ["3App20UserRatesRecipePivotC", "user"]
+- ["3App11UserRatingsV", "CodingKeys"]
+- ["3App11UserRatingsV", "Float"]
+- ["3App11UserRatingsV", "UUID"]
+- ["3App11UserRatingsV", ""]
+- ["3App11UserRatingsV", "afterDecode"]
+- ["3App11UserRatingsV", "beforeEncode"]
+- ["3App11UserRatingsV", "decodeRequest"]
+- ["3App11UserRatingsV", "defaultContentType"]
+- ["3App11UserRatingsV", "encode"]
+- ["3App11UserRatingsV", "encodeResponse"]
+- ["3App11UserRatingsV", "id"]
+- ["3App11UserRatingsV", "init"]
+- ["3App11UserRatingsV", "rating"]
+- ["3App11UserRatingsV", "recipeID"]
+- ["3App11UserRatingsV", "userID"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "5Vapor5AbortV"
+- !private "5Vapor10AbortErrorP"
+- !private "9FluentKit18AnyCodablePropertyP"
+- !private "9FluentKit19AnyDatabasePropertyP"
+- "9FluentKit8AnyModelP"
+- !private "9FluentKit11AnyPropertyP"
+- !private "9FluentKit20AnyQueryablePropertyP"
+- !private "Sa"
+- "5Vapor15AuthenticatableP"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- "5Vapor7ContentP"
+- !private "5Vapor16ContentContainerP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "5Vapor15DebuggableErrorP"
+- "Se"
+- !private "s7DecoderP"
+- !private "9FluentKit16EagerLoadBuilderP"
+- !private "9FluentKit13EagerLoadableP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s5ErrorP"
+- !private "3NIO15EventLoopFutureC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- "9FluentKit6FieldsP"
+- !private "8NIOHTTP118HTTPResponseStatusO"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- "9FluentKit5ModelP"
+- "6Fluent20ModelAuthenticatableP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- !private "11PostgresNIO11PSQLCodableP"
+- !private "11PostgresNIO13PSQLDecodableP"
+- !private "11PostgresNIO13PSQLEncodableP"
+- !private "10RoutingKit10ParametersV"
+- !private "9FluentKit14ParentPropertyC"
+- !private "11PostgresNIO0A15DataConvertibleP"
+- !private "9FluentKit8PropertyP"
+- !private "3App4UserC6PublicC"
+- !private "9FluentKit12QueryBuilderC"
+- !private "Sk"
+- !private "Sm"
+- "3App6RatingV"
+- "3App15RatingAndUserIDV"
+- "3App17RatingsControllerV"
+- !private "3App6RecipeC"
+- "3App12RecipeRatingV"
+- !private "9FluentKit8RelationP"
+- !private "5Vapor7RequestC"
+- "5Vapor16RequestDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "5Vapor15RouteCollectionP"
+- !private "5Vapor13RoutesBuilderP"
+- "9FluentKit6SchemaP"
+- !private "ST"
+- !private "9FluentKit16SiblingsPropertyC"
+- "3App4UserC"
+- !private "3App20UserRatesRecipePivotC"
+- "3App11UserRatingsV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/CMultipartParser/include/multipartparser.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "17d69000ba5080ad4a7ab81b20d287c6"

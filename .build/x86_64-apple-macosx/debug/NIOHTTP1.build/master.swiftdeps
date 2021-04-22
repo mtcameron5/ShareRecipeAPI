@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "cc550a02906593cbdc3bbc391ad7dc1a"
+build_time: [1616667022, 290074000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/ByteCollectionUtils.swift": [1616666965, 973912514]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPDecoder.swift": [1616666965, 974254888]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPEncoder.swift": [1616666965, 974910293]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPPipelineSetup.swift": [1616666965, 975115288]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerPipelineHandler.swift": [1616666965, 975471280]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerProtocolErrorHandler.swift": [1616666965, 975642367]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerUpgradeHandler.swift": [1616666965, 976139352]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPTypes.swift": [1616666965, 976610189]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/NIOHTTPClientUpgradeHandler.swift": [1616666965, 976880893]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOHTTP1/NIOHTTPObjectAggregator.swift": [1616666965, 977066773]

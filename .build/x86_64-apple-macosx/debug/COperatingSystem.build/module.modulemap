@@ -1,0 +1,4 @@
+module COperatingSystem {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/COperatingSystem-Swift.h"
+    requires objc
+}

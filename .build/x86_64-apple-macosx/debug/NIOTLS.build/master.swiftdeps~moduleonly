@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "5cd329b6d855800c3906f51f141ae05c"
+build_time: [1616667022, 289900000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1616666965, 980091038]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": [1616666965, 980393762]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": [1616666965, 980546122]

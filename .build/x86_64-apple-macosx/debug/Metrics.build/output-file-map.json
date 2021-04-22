@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/master.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-metrics/Sources/Metrics/Metrics.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/Metrics.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/Metrics.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/Metrics~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/Metrics.swiftdeps"
+  }
+}

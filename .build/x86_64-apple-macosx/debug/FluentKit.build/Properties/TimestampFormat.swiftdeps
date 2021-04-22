@@ -1,0 +1,383 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TimestampFormat"
+- "TimestampFormatFactory"
+- "DefaultTimestampFormat"
+- "ISO8601TimestampFormat"
+- "UnixTimestampFormat"
+provides-nominal:
+- "9FluentKit15TimestampFormatP"
+- "9FluentKit22TimestampFormatFactoryV"
+- "9FluentKit22DefaultTimestampFormatV"
+- "9FluentKit22ISO8601TimestampFormatV"
+- "9FluentKit19UnixTimestampFormatV"
+provides-member:
+- ["9FluentKit15TimestampFormatP", ""]
+- ["9FluentKit22TimestampFormatFactoryV", ""]
+- ["9FluentKit22DefaultTimestampFormatV", ""]
+- ["So22NSISO8601DateFormatterC", ""]
+- ["9FluentKit22ISO8601TimestampFormatV", ""]
+- ["9FluentKit19UnixTimestampFormatV", ""]
+- ["9FluentKit22TimestampFormatFactoryV", "default"]
+- ["9FluentKit22TimestampFormatFactoryV", "iso8601"]
+- ["9FluentKit22TimestampFormatFactoryV", "iso8601"]
+- ["So22NSISO8601DateFormatterC", "threadSpecific"]
+- ["9FluentKit22TimestampFormatFactoryV", "unix"]
+provides-dynamic-lookup:
+- "cache"
+- "threadSpecific"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Codable"
+- "Date"
+- "DefaultTimestampFormat"
+- "Double"
+- "Format"
+- "ISO8601DateFormatter"
+- "ISO8601TimestampFormat"
+- "String"
+- "ThreadSpecificVariable"
+- "TimestampFormat"
+- "TimestampFormatFactory"
+- "UnixTimestampFormat"
+- "Value"
+depends-member:
+- !private ["s7CVarArgP", "ISO8601DateFormatter"]
+- !private ["s7CVarArgP", "cache"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "formatOptions"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "threadSpecific"]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "ISO8601DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cache"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "formatOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "threadSpecific"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "ISO8601DateFormatter"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cache"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "formatOptions"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "threadSpecific"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["Se", "init"]
+- !private ["Se", "timeIntervalSince1970"]
+- ["9FluentKit22DefaultTimestampFormatV", "Date"]
+- ["9FluentKit22DefaultTimestampFormatV", "Value"]
+- ["9FluentKit22DefaultTimestampFormatV", ""]
+- ["9FluentKit22DefaultTimestampFormatV", "init"]
+- ["9FluentKit22DefaultTimestampFormatV", "parse"]
+- ["9FluentKit22DefaultTimestampFormatV", "serialize"]
+- !private ["SE", "init"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "ISO8601DateFormatter"]
+- !private ["SQ", ""]
+- !private ["SQ", "cache"]
+- !private ["SQ", "date"]
+- !private ["SQ", "formatOptions"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "string"]
+- !private ["SQ", "threadSpecific"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "withFractionalSeconds"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "withFractionalSeconds"]
+- ["So11NSFormatterC", "ISO8601DateFormatter"]
+- ["So11NSFormatterC", "ThreadSpecificVariable"]
+- ["So11NSFormatterC", ""]
+- ["So11NSFormatterC", "cache"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "dateFromString"]
+- !private ["So11NSFormatterC", "formatOptions"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "stringFromDate"]
+- ["So11NSFormatterC", "threadSpecific"]
+- !private ["SH", "ISO8601DateFormatter"]
+- !private ["SH", ""]
+- !private ["SH", "cache"]
+- !private ["SH", "date"]
+- !private ["SH", "formatOptions"]
+- !private ["SH", "init"]
+- !private ["SH", "string"]
+- !private ["SH", "threadSpecific"]
+- !private ["SH", "timeIntervalSince1970"]
+- ["So22NSISO8601DateFormatterC", "ISO8601DateFormatter"]
+- ["So22NSISO8601DateFormatterC", "ThreadSpecificVariable"]
+- ["So22NSISO8601DateFormatterC", ""]
+- !private ["So22NSISO8601DateFormatterC", "cache"]
+- !private ["So22NSISO8601DateFormatterC", "date"]
+- !private ["So22NSISO8601DateFormatterC", "formatOptions"]
+- !private ["So22NSISO8601DateFormatterC", "init"]
+- !private ["So22NSISO8601DateFormatterC", "string"]
+- ["So22NSISO8601DateFormatterC", "threadSpecific"]
+- ["9FluentKit22ISO8601TimestampFormatV", "Date"]
+- ["9FluentKit22ISO8601TimestampFormatV", "ISO8601DateFormatter"]
+- ["9FluentKit22ISO8601TimestampFormatV", "String"]
+- ["9FluentKit22ISO8601TimestampFormatV", "Value"]
+- ["9FluentKit22ISO8601TimestampFormatV", ""]
+- ["9FluentKit22ISO8601TimestampFormatV", "formatter"]
+- ["9FluentKit22ISO8601TimestampFormatV", "init"]
+- ["9FluentKit22ISO8601TimestampFormatV", "parse"]
+- ["9FluentKit22ISO8601TimestampFormatV", "serialize"]
+- ["So8NSCodingP", "ISO8601DateFormatter"]
+- ["So8NSCodingP", "ThreadSpecificVariable"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "cache"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFromString"]
+- !private ["So8NSCodingP", "formatOptions"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "stringFromDate"]
+- ["So8NSCodingP", "threadSpecific"]
+- ["So9NSCopyingP", "ISO8601DateFormatter"]
+- ["So9NSCopyingP", "ThreadSpecificVariable"]
+- !private ["So9NSCopyingP", ""]
+- ["So9NSCopyingP", "cache"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFromString"]
+- !private ["So9NSCopyingP", "formatOptions"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "stringFromDate"]
+- ["So9NSCopyingP", "threadSpecific"]
+- ["So8NSObjectC", "ISO8601DateFormatter"]
+- ["So8NSObjectC", "ThreadSpecificVariable"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "cache"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFromString"]
+- !private ["So8NSObjectC", "formatOptions"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringForObjectValue"]
+- !private ["So8NSObjectC", "stringFromDate"]
+- ["So8NSObjectC", "threadSpecific"]
+- ["So8NSObjectP", "ISO8601DateFormatter"]
+- ["So8NSObjectP", "ThreadSpecificVariable"]
+- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", "cache"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "dateFromString"]
+- !private ["So8NSObjectP", "formatOptions"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringForObjectValue"]
+- !private ["So8NSObjectP", "stringFromDate"]
+- ["So8NSObjectP", "threadSpecific"]
+- ["So14NSSecureCodingP", "ISO8601DateFormatter"]
+- ["So14NSSecureCodingP", "ThreadSpecificVariable"]
+- ["So14NSSecureCodingP", "cache"]
+- !private ["So14NSSecureCodingP", "date"]
+- !private ["So14NSSecureCodingP", "formatOptions"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "string"]
+- ["So14NSSecureCodingP", "threadSpecific"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "insert"]
+- !private ["s9OptionSetP", "withFractionalSeconds"]
+- !private ["So26NSISO8601DateFormatOptionsV", "Element"]
+- !private ["So26NSISO8601DateFormatOptionsV", "insert"]
+- !private ["So26NSISO8601DateFormatOptionsV", "withFractionalSeconds"]
+- !private ["SY", "Element"]
+- !private ["SY", ""]
+- !private ["SY", "insert"]
+- !private ["SY", "withFractionalSeconds"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "withFractionalSeconds"]
+- !private ["3NIO22ThreadSpecificVariableC", "currentValue"]
+- ["3NIO22ThreadSpecificVariableC", "init"]
+- ["9FluentKit15TimestampFormatP", "Codable"]
+- ["9FluentKit15TimestampFormatP", "Date"]
+- ["9FluentKit15TimestampFormatP", "Value"]
+- ["9FluentKit15TimestampFormatP", ""]
+- !private ["9FluentKit15TimestampFormatP", "formatter"]
+- !private ["9FluentKit15TimestampFormatP", "init"]
+- ["9FluentKit15TimestampFormatP", "parse"]
+- ["9FluentKit15TimestampFormatP", "serialize"]
+- ["9FluentKit22TimestampFormatFactoryV", "Bool"]
+- ["9FluentKit22TimestampFormatFactoryV", "DefaultTimestampFormat"]
+- !private ["9FluentKit22TimestampFormatFactoryV", "ISO8601DateFormatter"]
+- ["9FluentKit22TimestampFormatFactoryV", "ISO8601TimestampFormat"]
+- ["9FluentKit22TimestampFormatFactoryV", "TimestampFormatFactory"]
+- ["9FluentKit22TimestampFormatFactoryV", "UnixTimestampFormat"]
+- ["9FluentKit22TimestampFormatFactoryV", ""]
+- !private ["9FluentKit22TimestampFormatFactoryV", "callAsFunction"]
+- ["9FluentKit22TimestampFormatFactoryV", "default"]
+- ["9FluentKit22TimestampFormatFactoryV", "init"]
+- ["9FluentKit22TimestampFormatFactoryV", "iso8601"]
+- ["9FluentKit22TimestampFormatFactoryV", "makeFormat"]
+- ["9FluentKit22TimestampFormatFactoryV", "unix"]
+- ["9FluentKit19UnixTimestampFormatV", "Date"]
+- ["9FluentKit19UnixTimestampFormatV", "Double"]
+- ["9FluentKit19UnixTimestampFormatV", "Value"]
+- ["9FluentKit19UnixTimestampFormatV", ""]
+- ["9FluentKit19UnixTimestampFormatV", "init"]
+- ["9FluentKit19UnixTimestampFormatV", "parse"]
+- ["9FluentKit19UnixTimestampFormatV", "serialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ISO8601DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "formatOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "threadSpecific"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ISO8601DateFormatter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cache"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "formatOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "threadSpecific"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- "9FluentKit22DefaultTimestampFormatV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "So11NSFormatterC"
+- !private "SH"
+- "So22NSISO8601DateFormatterC"
+- "9FluentKit22ISO8601TimestampFormatV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "So26NSISO8601DateFormatOptionsV"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SetAlgebraP"
+- "3NIO22ThreadSpecificVariableC"
+- "9FluentKit15TimestampFormatP"
+- "9FluentKit22TimestampFormatFactoryV"
+- "9FluentKit19UnixTimestampFormatV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e4fd77c498ea443c4d12675eb52b9944"

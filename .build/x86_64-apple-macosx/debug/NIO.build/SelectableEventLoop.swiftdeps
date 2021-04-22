@@ -1,0 +1,1238 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "withAutoReleasePool"
+- "SelectableEventLoop"
+provides-nominal:
+- "3NIO19SelectableEventLoopC"
+provides-member:
+- ["3NIO19SelectableEventLoopC", ""]
+provides-dynamic-lookup:
+- "_addresses"
+- "_externalStateLock"
+- "_iovecs"
+- "_msgs"
+- "_promiseCreationStore"
+- "_schedule0"
+- "_scheduledTasks"
+- "_selector"
+- "_storageRefs"
+- "_succeededVoidFuture"
+- "_tasksLock"
+- "_validInternalStateToScheduleTasks"
+- "_wakeupSelector"
+- "addresses"
+- "canBeShutdownIndividually"
+- "controlMessageStorage"
+- "currentSelectorStrategy"
+- "debugDescription"
+- "deregister"
+- "description"
+- "execute"
+- "externalState"
+- "externalStateLock"
+- "handleEvent"
+- "inEventLoop"
+- "initiateClose"
+- "internalState"
+- "iovecs"
+- "isOpen"
+- "makeSucceededVoidFuture"
+- "msgs"
+- "obfuscatePointerValue"
+- "promiseCreationStoreAdd"
+- "promiseCreationStoreLock"
+- "promiseCreationStoreRemove"
+- "register"
+- "reregister"
+- "run"
+- "scheduleTask"
+- "shutdownGracefully"
+- "storageRefs"
+- "syncFinaliseClose"
+- "tasksCopy"
+- "testsOnly_validExternalStateToScheduleTasks"
+- "thread"
+- "validExternalStateToScheduleTasks"
+depends-top-level:
+- "!"
+- !private "!="
+- !private "&&"
+- "+"
+- "+="
+- "<"
+- "<<"
+- "<="
+- "=="
+- ">"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CloseMode"
+- "ContiguousArray"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "DispatchQueue"
+- "Error"
+- "EventLoop"
+- "EventLoopError"
+- "EventLoopFuture"
+- "EventLoopPromise"
+- "ExternalState"
+- !private "FloatLiteralType"
+- "IOVector"
+- !private "IntegerLiteralType"
+- "InternalState"
+- "Lock"
+- "MMsgHdr"
+- "NIO"
+- "NIODeadline"
+- "NIORegistration"
+- "NIOThread"
+- !private "ObjectIdentifier"
+- "Optional"
+- "PriorityQueue"
+- "Result"
+- "Scheduled"
+- "ScheduledTask"
+- "SelectableChannel"
+- "SelectableEventLoop"
+- !private "Selector"
+- "SelectorEventSet"
+- "SelectorStrategy"
+- !private "Socket"
+- "StaticString"
+- "String"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- "TimeAmount"
+- "UInt"
+- "Unmanaged"
+- "UnsafeControlMessageStorage"
+- "UnsafeMutableBufferPointer"
+- "UnsafeMutablePointer"
+- "Void"
+- !private "^"
+- !private "_addresses"
+- !private "_iovecs"
+- !private "_isDebugAssertConfiguration"
+- !private "_msgs"
+- !private "_selector"
+- !private "_storageRefs"
+- "assert"
+- !private "autoreleasepool"
+- "currentSelectorStrategy"
+- "doClose"
+- "precondition"
+- "preconditionFailure"
+- "print"
+- !private "scheduleTask"
+- "sockaddr_storage"
+- "tasksCopy"
+- !private "thread"
+- "withAutoReleasePool"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "nanoseconds"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["3NIO10BaseSocketC", ""]
+- !private ["3NIO10BaseSocketC", "writevLimitIOVectors"]
+- ["3NIO17BaseSocketChannelC", ""]
+- ["3NIO18BaseSocketProtocolP", ""]
+- !private ["3NIO18BaseSocketProtocolP", "writevLimitIOVectors"]
+- ["3NIO23BaseStreamSocketChannelC", ""]
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "capacity"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "reserveCapacity"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "init"]
+- ["3NIO7ChannelP", "SelectableType"]
+- ["3NIO7ChannelP", ""]
+- !private ["3NIO7ChannelP", "deregister"]
+- !private ["3NIO7ChannelP", "interestedEvent"]
+- !private ["3NIO7ChannelP", "isOpen"]
+- !private ["3NIO7ChannelP", "readEOF"]
+- !private ["3NIO7ChannelP", "readable"]
+- !private ["3NIO7ChannelP", "register"]
+- !private ["3NIO7ChannelP", "reregister"]
+- !private ["3NIO7ChannelP", "reset"]
+- !private ["3NIO7ChannelP", "writable"]
+- !private ["3NIO7ChannelP", "writeEOF"]
+- ["3NIO22ChannelOutboundInvokerP", "SelectableType"]
+- ["3NIO22ChannelOutboundInvokerP", ""]
+- !private ["3NIO22ChannelOutboundInvokerP", "deregister"]
+- !private ["3NIO22ChannelOutboundInvokerP", "interestedEvent"]
+- !private ["3NIO22ChannelOutboundInvokerP", "isOpen"]
+- !private ["3NIO22ChannelOutboundInvokerP", "readEOF"]
+- !private ["3NIO22ChannelOutboundInvokerP", "readable"]
+- !private ["3NIO22ChannelOutboundInvokerP", "register"]
+- !private ["3NIO22ChannelOutboundInvokerP", "reregister"]
+- !private ["3NIO22ChannelOutboundInvokerP", "reset"]
+- !private ["3NIO22ChannelOutboundInvokerP", "writable"]
+- !private ["3NIO22ChannelOutboundInvokerP", "writeEOF"]
+- !private ["3NIO9CloseModeO", "all"]
+- ["Sl", ""]
+- !private ["Sl", "allocate"]
+- !private ["Sl", "append"]
+- !private ["Sl", "capacity"]
+- !private ["Sl", "count"]
+- !private ["Sl", "deallocate"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "allocate"]
+- !private ["SL", "deallocate"]
+- !private ["SL", "fail"]
+- !private ["SL", "init"]
+- !private ["SL", "nanoseconds"]
+- !private ["SL", "now"]
+- !private ["SL", "readyIn"]
+- !private ["SL", "task"]
+- !private ["s15ContiguousArrayV", "append"]
+- !private ["s15ContiguousArrayV", "capacity"]
+- !private ["s15ContiguousArrayV", "count"]
+- ["s15ContiguousArrayV", "init"]
+- !private ["s15ContiguousArrayV", "isEmpty"]
+- !private ["s15ContiguousArrayV", "removeAll"]
+- !private ["s15ContiguousArrayV", "reserveCapacity"]
+- ["s28CustomDebugStringConvertibleP", "ContiguousArray"]
+- !private ["s28CustomDebugStringConvertibleP", "EventLoopError"]
+- !private ["s28CustomDebugStringConvertibleP", "EventLoopFuture"]
+- ["s28CustomDebugStringConvertibleP", "Lock"]
+- !private ["s28CustomDebugStringConvertibleP", "ObjectIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "PriorityQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Result"]
+- !private ["s28CustomDebugStringConvertibleP", "Scheduled"]
+- !private ["s28CustomDebugStringConvertibleP", "ScheduledTask"]
+- !private ["s28CustomDebugStringConvertibleP", "Socket"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeControlMessageStorage"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutableBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutablePointer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_addresses"]
+- !private ["s28CustomDebugStringConvertibleP", "_externalStateLock"]
+- !private ["s28CustomDebugStringConvertibleP", "_iovecs"]
+- !private ["s28CustomDebugStringConvertibleP", "_isDebugAssertConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "_msgs"]
+- !private ["s28CustomDebugStringConvertibleP", "_promiseCreationStore"]
+- !private ["s28CustomDebugStringConvertibleP", "_schedule0"]
+- !private ["s28CustomDebugStringConvertibleP", "_scheduledTasks"]
+- !private ["s28CustomDebugStringConvertibleP", "_selector"]
+- !private ["s28CustomDebugStringConvertibleP", "_storageRefs"]
+- !private ["s28CustomDebugStringConvertibleP", "_succeededVoidFuture"]
+- !private ["s28CustomDebugStringConvertibleP", "_tasksLock"]
+- !private ["s28CustomDebugStringConvertibleP", "_validInternalStateToScheduleTasks"]
+- !private ["s28CustomDebugStringConvertibleP", "_wakeupSelector"]
+- !private ["s28CustomDebugStringConvertibleP", "addresses"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "assertInEventLoop"]
+- !private ["s28CustomDebugStringConvertibleP", "canBeShutdownIndividually"]
+- !private ["s28CustomDebugStringConvertibleP", "capacity"]
+- !private ["s28CustomDebugStringConvertibleP", "controlMessageStorage"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentSelectorStrategy"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "doClose"]
+- ["s28CustomDebugStringConvertibleP", "execute"]
+- !private ["s28CustomDebugStringConvertibleP", "externalState"]
+- !private ["s28CustomDebugStringConvertibleP", "externalStateLock"]
+- !private ["s28CustomDebugStringConvertibleP", "handleEvent"]
+- ["s28CustomDebugStringConvertibleP", "inEventLoop"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initiateClose"]
+- !private ["s28CustomDebugStringConvertibleP", "internalState"]
+- !private ["s28CustomDebugStringConvertibleP", "iovecs"]
+- !private ["s28CustomDebugStringConvertibleP", "isDebugAssertConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isOpen"]
+- ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- !private ["s28CustomDebugStringConvertibleP", "makePromise"]
+- ["s28CustomDebugStringConvertibleP", "makeSucceededVoidFuture"]
+- !private ["s28CustomDebugStringConvertibleP", "msgs"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "obfuscatePointerValue"]
+- !private ["s28CustomDebugStringConvertibleP", "precondition"]
+- !private ["s28CustomDebugStringConvertibleP", "preconditionFailure"]
+- ["s28CustomDebugStringConvertibleP", "preconditionInEventLoop"]
+- ["s28CustomDebugStringConvertibleP", "preconditionNotInEventLoop"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "promiseCreationStore"]
+- !private ["s28CustomDebugStringConvertibleP", "promiseCreationStoreLock"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "schedule0"]
+- ["s28CustomDebugStringConvertibleP", "scheduleTask"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTasks"]
+- !private ["s28CustomDebugStringConvertibleP", "selector"]
+- ["s28CustomDebugStringConvertibleP", "shutdownGracefully"]
+- !private ["s28CustomDebugStringConvertibleP", "storageRefs"]
+- ["s28CustomDebugStringConvertibleP", "submit"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "succeededVoidFuture"]
+- !private ["s28CustomDebugStringConvertibleP", "syncFinaliseClose"]
+- !private ["s28CustomDebugStringConvertibleP", "tasksCopy"]
+- !private ["s28CustomDebugStringConvertibleP", "tasksLock"]
+- !private ["s28CustomDebugStringConvertibleP", "thread"]
+- !private ["s28CustomDebugStringConvertibleP", "validExternalStateToScheduleTasks"]
+- !private ["s28CustomDebugStringConvertibleP", "validInternalStateToScheduleTasks"]
+- !private ["s28CustomDebugStringConvertibleP", "wakeupSelector"]
+- !private ["s28CustomDebugStringConvertibleP", "withAutoReleasePool"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "capacity"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "ContiguousArray"]
+- !private ["s23CustomStringConvertibleP", "EventLoopError"]
+- !private ["s23CustomStringConvertibleP", "EventLoopFuture"]
+- ["s23CustomStringConvertibleP", "Lock"]
+- !private ["s23CustomStringConvertibleP", "ObjectIdentifier"]
+- ["s23CustomStringConvertibleP", "PriorityQueue"]
+- !private ["s23CustomStringConvertibleP", "Result"]
+- !private ["s23CustomStringConvertibleP", "Scheduled"]
+- !private ["s23CustomStringConvertibleP", "ScheduledTask"]
+- ["s23CustomStringConvertibleP", "SelectableType"]
+- !private ["s23CustomStringConvertibleP", "Socket"]
+- !private ["s23CustomStringConvertibleP", "UInt"]
+- !private ["s23CustomStringConvertibleP", "UnsafeControlMessageStorage"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutableBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_addresses"]
+- !private ["s23CustomStringConvertibleP", "_externalStateLock"]
+- !private ["s23CustomStringConvertibleP", "_iovecs"]
+- !private ["s23CustomStringConvertibleP", "_isDebugAssertConfiguration"]
+- !private ["s23CustomStringConvertibleP", "_msgs"]
+- !private ["s23CustomStringConvertibleP", "_promiseCreationStore"]
+- !private ["s23CustomStringConvertibleP", "_schedule0"]
+- !private ["s23CustomStringConvertibleP", "_scheduledTasks"]
+- !private ["s23CustomStringConvertibleP", "_selector"]
+- !private ["s23CustomStringConvertibleP", "_storageRefs"]
+- !private ["s23CustomStringConvertibleP", "_succeededVoidFuture"]
+- !private ["s23CustomStringConvertibleP", "_tasksLock"]
+- !private ["s23CustomStringConvertibleP", "_validInternalStateToScheduleTasks"]
+- !private ["s23CustomStringConvertibleP", "_wakeupSelector"]
+- !private ["s23CustomStringConvertibleP", "addresses"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "assertInEventLoop"]
+- !private ["s23CustomStringConvertibleP", "canBeShutdownIndividually"]
+- !private ["s23CustomStringConvertibleP", "capacity"]
+- !private ["s23CustomStringConvertibleP", "close"]
+- !private ["s23CustomStringConvertibleP", "closeGently"]
+- !private ["s23CustomStringConvertibleP", "controlMessageStorage"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentSelectorStrategy"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "doClose"]
+- ["s23CustomStringConvertibleP", "execute"]
+- !private ["s23CustomStringConvertibleP", "externalState"]
+- !private ["s23CustomStringConvertibleP", "externalStateLock"]
+- !private ["s23CustomStringConvertibleP", "fail"]
+- !private ["s23CustomStringConvertibleP", "handleEvent"]
+- ["s23CustomStringConvertibleP", "inEventLoop"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initiateClose"]
+- !private ["s23CustomStringConvertibleP", "internalState"]
+- !private ["s23CustomStringConvertibleP", "iovecs"]
+- !private ["s23CustomStringConvertibleP", "isCurrent"]
+- !private ["s23CustomStringConvertibleP", "isDebugAssertConfiguration"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isOpen"]
+- !private ["s23CustomStringConvertibleP", "join"]
+- ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s23CustomStringConvertibleP", "makePromise"]
+- ["s23CustomStringConvertibleP", "makeSucceededVoidFuture"]
+- !private ["s23CustomStringConvertibleP", "msgs"]
+- ["s23CustomStringConvertibleP", "next"]
+- !private ["s23CustomStringConvertibleP", "now"]
+- !private ["s23CustomStringConvertibleP", "obfuscatePointerValue"]
+- !private ["s23CustomStringConvertibleP", "peek"]
+- !private ["s23CustomStringConvertibleP", "pop"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "preconditionFailure"]
+- ["s23CustomStringConvertibleP", "preconditionInEventLoop"]
+- ["s23CustomStringConvertibleP", "preconditionNotInEventLoop"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "promiseCreationStore"]
+- !private ["s23CustomStringConvertibleP", "promiseCreationStoreLock"]
+- !private ["s23CustomStringConvertibleP", "push"]
+- !private ["s23CustomStringConvertibleP", "readyIn"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "schedule0"]
+- ["s23CustomStringConvertibleP", "scheduleTask"]
+- !private ["s23CustomStringConvertibleP", "scheduledTasks"]
+- !private ["s23CustomStringConvertibleP", "selector"]
+- !private ["s23CustomStringConvertibleP", "shutdown"]
+- ["s23CustomStringConvertibleP", "shutdownGracefully"]
+- !private ["s23CustomStringConvertibleP", "storageRefs"]
+- ["s23CustomStringConvertibleP", "submit"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "succeededVoidFuture"]
+- !private ["s23CustomStringConvertibleP", "syncFinaliseClose"]
+- !private ["s23CustomStringConvertibleP", "task"]
+- !private ["s23CustomStringConvertibleP", "tasksCopy"]
+- !private ["s23CustomStringConvertibleP", "tasksLock"]
+- !private ["s23CustomStringConvertibleP", "thread"]
+- !private ["s23CustomStringConvertibleP", "unsupportedOperation"]
+- !private ["s23CustomStringConvertibleP", "validExternalStateToScheduleTasks"]
+- !private ["s23CustomStringConvertibleP", "validInternalStateToScheduleTasks"]
+- !private ["s23CustomStringConvertibleP", "wakeup"]
+- !private ["s23CustomStringConvertibleP", "wakeupSelector"]
+- !private ["s23CustomStringConvertibleP", "whenReady"]
+- !private ["s23CustomStringConvertibleP", "withAutoReleasePool"]
+- !private ["s23CustomStringConvertibleP", "writevLimitIOVectors"]
+- !private ["3NIO15DatagramChannelC", ""]
+- !private ["Se", "append"]
+- !private ["Se", "capacity"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- !private ["3NIO11PipeChannelC9DirectionO", ""]
+- !private ["3NIO11PipeChannelC9DirectionO", "input"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["SE", "append"]
+- !private ["SE", "capacity"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "subscript"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "all"]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "capacity"]
+- ["SQ", "closed"]
+- ["SQ", "closing"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "deallocate"]
+- !private ["SQ", "description"]
+- ["SQ", "exitingThread"]
+- !private ["SQ", "fail"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "formUnion"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "input"]
+- !private ["SQ", "isCurrent"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "join"]
+- !private ["SQ", "nanoseconds"]
+- ["SQ", "noLongerRunning"]
+- !private ["SQ", "now"]
+- ["SQ", "open"]
+- !private ["SQ", "peek"]
+- !private ["SQ", "pop"]
+- !private ["SQ", "push"]
+- !private ["SQ", "read"]
+- !private ["SQ", "readEOF"]
+- !private ["SQ", "readyIn"]
+- ["SQ", "reclaimingResources"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "reset"]
+- ["SQ", "resourcesReclaimed"]
+- ["SQ", "runningAndAcceptingNewRegistrations"]
+- ["SQ", "runningButNotAcceptingNewRegistrations"]
+- !private ["SQ", "shutdown"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "subtract"]
+- !private ["SQ", "success"]
+- !private ["SQ", "task"]
+- !private ["SQ", "unsupportedOperation"]
+- !private ["SQ", "whenComplete"]
+- !private ["SQ", "write"]
+- !private ["SQ", "writeEOF"]
+- !private ["s5ErrorP", "shutdown"]
+- !private ["s5ErrorP", "unsupportedOperation"]
+- ["3NIO9EventLoopP", "ContiguousArray"]
+- !private ["3NIO9EventLoopP", "EventLoopError"]
+- !private ["3NIO9EventLoopP", "EventLoopFuture"]
+- ["3NIO9EventLoopP", "Lock"]
+- !private ["3NIO9EventLoopP", "ObjectIdentifier"]
+- ["3NIO9EventLoopP", "PriorityQueue"]
+- !private ["3NIO9EventLoopP", "Result"]
+- !private ["3NIO9EventLoopP", "Scheduled"]
+- !private ["3NIO9EventLoopP", "ScheduledTask"]
+- !private ["3NIO9EventLoopP", "Socket"]
+- !private ["3NIO9EventLoopP", "UInt"]
+- !private ["3NIO9EventLoopP", "UnsafeControlMessageStorage"]
+- !private ["3NIO9EventLoopP", "UnsafeMutableBufferPointer"]
+- !private ["3NIO9EventLoopP", "UnsafeMutablePointer"]
+- ["3NIO9EventLoopP", ""]
+- !private ["3NIO9EventLoopP", "_addresses"]
+- !private ["3NIO9EventLoopP", "_externalStateLock"]
+- !private ["3NIO9EventLoopP", "_iovecs"]
+- !private ["3NIO9EventLoopP", "_isDebugAssertConfiguration"]
+- !private ["3NIO9EventLoopP", "_msgs"]
+- !private ["3NIO9EventLoopP", "_promiseCreationStore"]
+- !private ["3NIO9EventLoopP", "_schedule0"]
+- !private ["3NIO9EventLoopP", "_scheduledTasks"]
+- !private ["3NIO9EventLoopP", "_selector"]
+- !private ["3NIO9EventLoopP", "_storageRefs"]
+- !private ["3NIO9EventLoopP", "_succeededVoidFuture"]
+- !private ["3NIO9EventLoopP", "_tasksLock"]
+- !private ["3NIO9EventLoopP", "_validInternalStateToScheduleTasks"]
+- !private ["3NIO9EventLoopP", "_wakeupSelector"]
+- !private ["3NIO9EventLoopP", "addresses"]
+- !private ["3NIO9EventLoopP", "assert"]
+- !private ["3NIO9EventLoopP", "assertInEventLoop"]
+- !private ["3NIO9EventLoopP", "canBeShutdownIndividually"]
+- !private ["3NIO9EventLoopP", "controlMessageStorage"]
+- !private ["3NIO9EventLoopP", "currentSelectorStrategy"]
+- ["3NIO9EventLoopP", "debugDescription"]
+- ["3NIO9EventLoopP", "description"]
+- !private ["3NIO9EventLoopP", "doClose"]
+- ["3NIO9EventLoopP", "execute"]
+- !private ["3NIO9EventLoopP", "externalState"]
+- !private ["3NIO9EventLoopP", "externalStateLock"]
+- !private ["3NIO9EventLoopP", "handleEvent"]
+- ["3NIO9EventLoopP", "inEventLoop"]
+- !private ["3NIO9EventLoopP", "initiateClose"]
+- !private ["3NIO9EventLoopP", "internalState"]
+- !private ["3NIO9EventLoopP", "iovecs"]
+- !private ["3NIO9EventLoopP", "isDebugAssertConfiguration"]
+- !private ["3NIO9EventLoopP", "isOpen"]
+- ["3NIO9EventLoopP", "makeIterator"]
+- !private ["3NIO9EventLoopP", "makePromise"]
+- ["3NIO9EventLoopP", "makeSucceededVoidFuture"]
+- !private ["3NIO9EventLoopP", "msgs"]
+- ["3NIO9EventLoopP", "next"]
+- !private ["3NIO9EventLoopP", "obfuscatePointerValue"]
+- !private ["3NIO9EventLoopP", "precondition"]
+- !private ["3NIO9EventLoopP", "preconditionFailure"]
+- ["3NIO9EventLoopP", "preconditionInEventLoop"]
+- ["3NIO9EventLoopP", "preconditionNotInEventLoop"]
+- !private ["3NIO9EventLoopP", "print"]
+- !private ["3NIO9EventLoopP", "promiseCreationStore"]
+- !private ["3NIO9EventLoopP", "promiseCreationStoreAdd"]
+- !private ["3NIO9EventLoopP", "promiseCreationStoreLock"]
+- !private ["3NIO9EventLoopP", "register"]
+- !private ["3NIO9EventLoopP", "reregister"]
+- !private ["3NIO9EventLoopP", "run"]
+- !private ["3NIO9EventLoopP", "schedule0"]
+- ["3NIO9EventLoopP", "scheduleTask"]
+- !private ["3NIO9EventLoopP", "scheduledTasks"]
+- !private ["3NIO9EventLoopP", "selector"]
+- ["3NIO9EventLoopP", "shutdownGracefully"]
+- !private ["3NIO9EventLoopP", "storageRefs"]
+- ["3NIO9EventLoopP", "submit"]
+- !private ["3NIO9EventLoopP", "succeededVoidFuture"]
+- !private ["3NIO9EventLoopP", "syncFinaliseClose"]
+- !private ["3NIO9EventLoopP", "tasksCopy"]
+- !private ["3NIO9EventLoopP", "tasksLock"]
+- !private ["3NIO9EventLoopP", "thread"]
+- !private ["3NIO9EventLoopP", "validExternalStateToScheduleTasks"]
+- !private ["3NIO9EventLoopP", "validInternalStateToScheduleTasks"]
+- !private ["3NIO9EventLoopP", "wakeupSelector"]
+- !private ["3NIO9EventLoopP", "withAutoReleasePool"]
+- !private ["3NIO14EventLoopErrorO", ""]
+- !private ["3NIO14EventLoopErrorO", "shutdown"]
+- !private ["3NIO14EventLoopErrorO", "unsupportedOperation"]
+- !private ["3NIO15EventLoopFutureC", "init"]
+- !private ["3NIO15EventLoopFutureC", "whenComplete"]
+- ["3NIO14EventLoopGroupP", "ContiguousArray"]
+- !private ["3NIO14EventLoopGroupP", "EventLoopError"]
+- !private ["3NIO14EventLoopGroupP", "EventLoopFuture"]
+- ["3NIO14EventLoopGroupP", "Lock"]
+- !private ["3NIO14EventLoopGroupP", "ObjectIdentifier"]
+- ["3NIO14EventLoopGroupP", "PriorityQueue"]
+- !private ["3NIO14EventLoopGroupP", "Result"]
+- !private ["3NIO14EventLoopGroupP", "Scheduled"]
+- !private ["3NIO14EventLoopGroupP", "ScheduledTask"]
+- !private ["3NIO14EventLoopGroupP", "Socket"]
+- !private ["3NIO14EventLoopGroupP", "UInt"]
+- !private ["3NIO14EventLoopGroupP", "UnsafeControlMessageStorage"]
+- !private ["3NIO14EventLoopGroupP", "UnsafeMutableBufferPointer"]
+- !private ["3NIO14EventLoopGroupP", "UnsafeMutablePointer"]
+- ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "_addresses"]
+- !private ["3NIO14EventLoopGroupP", "_externalStateLock"]
+- !private ["3NIO14EventLoopGroupP", "_iovecs"]
+- !private ["3NIO14EventLoopGroupP", "_isDebugAssertConfiguration"]
+- !private ["3NIO14EventLoopGroupP", "_msgs"]
+- !private ["3NIO14EventLoopGroupP", "_promiseCreationStore"]
+- !private ["3NIO14EventLoopGroupP", "_schedule0"]
+- !private ["3NIO14EventLoopGroupP", "_scheduledTasks"]
+- !private ["3NIO14EventLoopGroupP", "_selector"]
+- !private ["3NIO14EventLoopGroupP", "_storageRefs"]
+- !private ["3NIO14EventLoopGroupP", "_succeededVoidFuture"]
+- !private ["3NIO14EventLoopGroupP", "_tasksLock"]
+- !private ["3NIO14EventLoopGroupP", "_validInternalStateToScheduleTasks"]
+- !private ["3NIO14EventLoopGroupP", "_wakeupSelector"]
+- !private ["3NIO14EventLoopGroupP", "addresses"]
+- !private ["3NIO14EventLoopGroupP", "assert"]
+- !private ["3NIO14EventLoopGroupP", "assertInEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "canBeShutdownIndividually"]
+- !private ["3NIO14EventLoopGroupP", "controlMessageStorage"]
+- !private ["3NIO14EventLoopGroupP", "currentSelectorStrategy"]
+- ["3NIO14EventLoopGroupP", "debugDescription"]
+- ["3NIO14EventLoopGroupP", "description"]
+- !private ["3NIO14EventLoopGroupP", "doClose"]
+- ["3NIO14EventLoopGroupP", "execute"]
+- !private ["3NIO14EventLoopGroupP", "externalState"]
+- !private ["3NIO14EventLoopGroupP", "externalStateLock"]
+- !private ["3NIO14EventLoopGroupP", "handleEvent"]
+- ["3NIO14EventLoopGroupP", "inEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "initiateClose"]
+- !private ["3NIO14EventLoopGroupP", "internalState"]
+- !private ["3NIO14EventLoopGroupP", "iovecs"]
+- !private ["3NIO14EventLoopGroupP", "isDebugAssertConfiguration"]
+- !private ["3NIO14EventLoopGroupP", "isOpen"]
+- ["3NIO14EventLoopGroupP", "makeIterator"]
+- !private ["3NIO14EventLoopGroupP", "makePromise"]
+- ["3NIO14EventLoopGroupP", "makeSucceededVoidFuture"]
+- !private ["3NIO14EventLoopGroupP", "msgs"]
+- ["3NIO14EventLoopGroupP", "next"]
+- !private ["3NIO14EventLoopGroupP", "obfuscatePointerValue"]
+- !private ["3NIO14EventLoopGroupP", "precondition"]
+- !private ["3NIO14EventLoopGroupP", "preconditionFailure"]
+- ["3NIO14EventLoopGroupP", "preconditionInEventLoop"]
+- ["3NIO14EventLoopGroupP", "preconditionNotInEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "print"]
+- !private ["3NIO14EventLoopGroupP", "promiseCreationStore"]
+- !private ["3NIO14EventLoopGroupP", "promiseCreationStoreAdd"]
+- !private ["3NIO14EventLoopGroupP", "promiseCreationStoreLock"]
+- !private ["3NIO14EventLoopGroupP", "register"]
+- !private ["3NIO14EventLoopGroupP", "reregister"]
+- !private ["3NIO14EventLoopGroupP", "run"]
+- !private ["3NIO14EventLoopGroupP", "schedule0"]
+- ["3NIO14EventLoopGroupP", "scheduleTask"]
+- !private ["3NIO14EventLoopGroupP", "scheduledTasks"]
+- !private ["3NIO14EventLoopGroupP", "selector"]
+- ["3NIO14EventLoopGroupP", "shutdownGracefully"]
+- !private ["3NIO14EventLoopGroupP", "storageRefs"]
+- ["3NIO14EventLoopGroupP", "submit"]
+- !private ["3NIO14EventLoopGroupP", "succeededVoidFuture"]
+- !private ["3NIO14EventLoopGroupP", "syncFinaliseClose"]
+- !private ["3NIO14EventLoopGroupP", "tasksCopy"]
+- !private ["3NIO14EventLoopGroupP", "tasksLock"]
+- !private ["3NIO14EventLoopGroupP", "thread"]
+- !private ["3NIO14EventLoopGroupP", "validExternalStateToScheduleTasks"]
+- !private ["3NIO14EventLoopGroupP", "validInternalStateToScheduleTasks"]
+- !private ["3NIO14EventLoopGroupP", "wakeupSelector"]
+- !private ["3NIO14EventLoopGroupP", "withAutoReleasePool"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "succeed"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "capacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "read"]
+- !private ["s25ExpressibleByArrayLiteralP", "readEOF"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "reset"]
+- !private ["s25ExpressibleByArrayLiteralP", "subtract"]
+- !private ["s25ExpressibleByArrayLiteralP", "write"]
+- !private ["s25ExpressibleByArrayLiteralP", "writeEOF"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "all"]
+- !private ["SH", "allocate"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "capacity"]
+- ["SH", "closed"]
+- ["SH", "closing"]
+- !private ["SH", "count"]
+- !private ["SH", "deallocate"]
+- ["SH", "exitingThread"]
+- !private ["SH", "failure"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "input"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "nanoseconds"]
+- ["SH", "noLongerRunning"]
+- !private ["SH", "now"]
+- ["SH", "open"]
+- ["SH", "reclaimingResources"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeValue"]
+- !private ["SH", "reserveCapacity"]
+- ["SH", "resourcesReclaimed"]
+- ["SH", "runningAndAcceptingNewRegistrations"]
+- ["SH", "runningButNotAcceptingNewRegistrations"]
+- !private ["SH", "shutdown"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["SH", "unsupportedOperation"]
+- !private ["s6HasherV", "combine"]
+- ["21NIOConcurrencyHelpers4LockC", "init"]
+- !private ["21NIOConcurrencyHelpers4LockC", "withLock"]
+- !private ["21NIOConcurrencyHelpers4LockC", "withLockVoid"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "capacity"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "reserveCapacity"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["3NIO11NIODeadlineV", "now"]
+- ["3NIO15NIORegistrationO", ""]
+- !private ["3NIO15NIORegistrationO", "datagramChannel"]
+- !private ["3NIO15NIORegistrationO", "pipeChannel"]
+- !private ["3NIO15NIORegistrationO", "serverSocketChannel"]
+- !private ["3NIO15NIORegistrationO", "socketChannel"]
+- !private ["3NIO9NIOThreadC", ""]
+- !private ["3NIO9NIOThreadC", "isCurrent"]
+- !private ["3NIO9NIOThreadC", "join"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["SO", "init"]
+- !private ["s9OptionSetP", "RawValue"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "formUnion"]
+- !private ["s9OptionSetP", "read"]
+- !private ["s9OptionSetP", "readEOF"]
+- !private ["s9OptionSetP", "reset"]
+- !private ["s9OptionSetP", "subtract"]
+- !private ["s9OptionSetP", "write"]
+- !private ["s9OptionSetP", "writeEOF"]
+- !private ["3NIO11PipeChannelC", ""]
+- ["3NIO8PipePairC", ""]
+- !private ["3NIO13PriorityQueueV", ""]
+- !private ["3NIO13PriorityQueueV", "count"]
+- !private ["3NIO13PriorityQueueV", "description"]
+- ["3NIO13PriorityQueueV", "init"]
+- !private ["3NIO13PriorityQueueV", "isEmpty"]
+- !private ["3NIO13PriorityQueueV", "peek"]
+- !private ["3NIO13PriorityQueueV", "pop"]
+- !private ["3NIO13PriorityQueueV", "push"]
+- !private ["3NIO13PriorityQueueV", "remove"]
+- !private ["Sk", "append"]
+- !private ["Sk", "capacity"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "reserveCapacity"]
+- ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "capacity"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["SY", ""]
+- !private ["SY", "contains"]
+- !private ["SY", "formUnion"]
+- !private ["SY", "read"]
+- !private ["SY", "readEOF"]
+- !private ["SY", "reset"]
+- !private ["SY", "subtract"]
+- !private ["SY", "write"]
+- !private ["SY", "writeEOF"]
+- !private ["3NIO12RegistrationP", "datagramChannel"]
+- !private ["3NIO12RegistrationP", "pipeChannel"]
+- !private ["3NIO12RegistrationP", "serverSocketChannel"]
+- !private ["3NIO12RegistrationP", "socketChannel"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["3NIO9ScheduledV", "_promise"]
+- !private ["3NIO9ScheduledV", "init"]
+- !private ["3NIO9ScheduledV", "promise"]
+- ["3NIO13ScheduledTaskC", ""]
+- !private ["3NIO13ScheduledTaskC", "fail"]
+- !private ["3NIO13ScheduledTaskC", "init"]
+- !private ["3NIO13ScheduledTaskC", "readyIn"]
+- !private ["3NIO13ScheduledTaskC", "task"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["3NIO10SelectableP", "writevLimitIOVectors"]
+- !private ["3NIO17SelectableChannelP", "deregister"]
+- !private ["3NIO17SelectableChannelP", "interestedEvent"]
+- !private ["3NIO17SelectableChannelP", "isOpen"]
+- !private ["3NIO17SelectableChannelP", "readEOF"]
+- !private ["3NIO17SelectableChannelP", "readable"]
+- !private ["3NIO17SelectableChannelP", "register"]
+- !private ["3NIO17SelectableChannelP", "reregister"]
+- !private ["3NIO17SelectableChannelP", "reset"]
+- !private ["3NIO17SelectableChannelP", "writable"]
+- !private ["3NIO17SelectableChannelP", "writeEOF"]
+- ["3NIO19SelectableEventLoopC", "AnyObject"]
+- ["3NIO19SelectableEventLoopC", "Bool"]
+- ["3NIO19SelectableEventLoopC", "CloseMode"]
+- ["3NIO19SelectableEventLoopC", "ContiguousArray"]
+- ["3NIO19SelectableEventLoopC", "DispatchQueue"]
+- ["3NIO19SelectableEventLoopC", "Error"]
+- !private ["3NIO19SelectableEventLoopC", "EventLoopError"]
+- ["3NIO19SelectableEventLoopC", "EventLoopFuture"]
+- !private ["3NIO19SelectableEventLoopC", "EventLoopPromise"]
+- ["3NIO19SelectableEventLoopC", "ExternalState"]
+- ["3NIO19SelectableEventLoopC", "IOVector"]
+- ["3NIO19SelectableEventLoopC", "InternalState"]
+- ["3NIO19SelectableEventLoopC", "Lock"]
+- ["3NIO19SelectableEventLoopC", "MMsgHdr"]
+- ["3NIO19SelectableEventLoopC", "NIO"]
+- ["3NIO19SelectableEventLoopC", "NIODeadline"]
+- ["3NIO19SelectableEventLoopC", "NIORegistration"]
+- ["3NIO19SelectableEventLoopC", "NIOThread"]
+- !private ["3NIO19SelectableEventLoopC", "ObjectIdentifier"]
+- ["3NIO19SelectableEventLoopC", "Optional"]
+- ["3NIO19SelectableEventLoopC", "PriorityQueue"]
+- ["3NIO19SelectableEventLoopC", "Result"]
+- ["3NIO19SelectableEventLoopC", "Scheduled"]
+- ["3NIO19SelectableEventLoopC", "ScheduledTask"]
+- ["3NIO19SelectableEventLoopC", "SelectableChannel"]
+- ["3NIO19SelectableEventLoopC", "SelectorEventSet"]
+- ["3NIO19SelectableEventLoopC", "SelectorStrategy"]
+- !private ["3NIO19SelectableEventLoopC", "Socket"]
+- ["3NIO19SelectableEventLoopC", "StaticString"]
+- ["3NIO19SelectableEventLoopC", "String"]
+- ["3NIO19SelectableEventLoopC", "TimeAmount"]
+- ["3NIO19SelectableEventLoopC", "UInt"]
+- ["3NIO19SelectableEventLoopC", "Unmanaged"]
+- ["3NIO19SelectableEventLoopC", "UnsafeControlMessageStorage"]
+- ["3NIO19SelectableEventLoopC", "UnsafeMutableBufferPointer"]
+- ["3NIO19SelectableEventLoopC", "UnsafeMutablePointer"]
+- ["3NIO19SelectableEventLoopC", "Void"]
+- ["3NIO19SelectableEventLoopC", ""]
+- !private ["3NIO19SelectableEventLoopC", "_addresses"]
+- !private ["3NIO19SelectableEventLoopC", "_externalStateLock"]
+- !private ["3NIO19SelectableEventLoopC", "_iovecs"]
+- !private ["3NIO19SelectableEventLoopC", "_isDebugAssertConfiguration"]
+- !private ["3NIO19SelectableEventLoopC", "_msgs"]
+- !private ["3NIO19SelectableEventLoopC", "_promiseCreationStore"]
+- ["3NIO19SelectableEventLoopC", "_schedule0"]
+- ["3NIO19SelectableEventLoopC", "_scheduledTasks"]
+- ["3NIO19SelectableEventLoopC", "_selector"]
+- !private ["3NIO19SelectableEventLoopC", "_storageRefs"]
+- ["3NIO19SelectableEventLoopC", "_succeededVoidFuture"]
+- ["3NIO19SelectableEventLoopC", "_tasksLock"]
+- ["3NIO19SelectableEventLoopC", "_validInternalStateToScheduleTasks"]
+- ["3NIO19SelectableEventLoopC", "_wakeupSelector"]
+- ["3NIO19SelectableEventLoopC", "addresses"]
+- !private ["3NIO19SelectableEventLoopC", "assert"]
+- !private ["3NIO19SelectableEventLoopC", "assertInEventLoop"]
+- !private ["3NIO19SelectableEventLoopC", "canBeShutdownIndividually"]
+- ["3NIO19SelectableEventLoopC", "controlMessageStorage"]
+- !private ["3NIO19SelectableEventLoopC", "currentSelectorStrategy"]
+- ["3NIO19SelectableEventLoopC", "debugDescription"]
+- ["3NIO19SelectableEventLoopC", "deinit"]
+- ["3NIO19SelectableEventLoopC", "deregister"]
+- ["3NIO19SelectableEventLoopC", "description"]
+- !private ["3NIO19SelectableEventLoopC", "doClose"]
+- ["3NIO19SelectableEventLoopC", "execute"]
+- !private ["3NIO19SelectableEventLoopC", "externalState"]
+- !private ["3NIO19SelectableEventLoopC", "externalStateLock"]
+- ["3NIO19SelectableEventLoopC", "handleEvent"]
+- ["3NIO19SelectableEventLoopC", "inEventLoop"]
+- ["3NIO19SelectableEventLoopC", "init"]
+- ["3NIO19SelectableEventLoopC", "initiateClose"]
+- !private ["3NIO19SelectableEventLoopC", "internalState"]
+- ["3NIO19SelectableEventLoopC", "iovecs"]
+- !private ["3NIO19SelectableEventLoopC", "isDebugAssertConfiguration"]
+- ["3NIO19SelectableEventLoopC", "isOpen"]
+- ["3NIO19SelectableEventLoopC", "makeIterator"]
+- !private ["3NIO19SelectableEventLoopC", "makePromise"]
+- ["3NIO19SelectableEventLoopC", "makeSucceededVoidFuture"]
+- ["3NIO19SelectableEventLoopC", "msgs"]
+- ["3NIO19SelectableEventLoopC", "next"]
+- !private ["3NIO19SelectableEventLoopC", "obfuscatePointerValue"]
+- !private ["3NIO19SelectableEventLoopC", "precondition"]
+- !private ["3NIO19SelectableEventLoopC", "preconditionFailure"]
+- ["3NIO19SelectableEventLoopC", "preconditionInEventLoop"]
+- ["3NIO19SelectableEventLoopC", "preconditionNotInEventLoop"]
+- !private ["3NIO19SelectableEventLoopC", "print"]
+- !private ["3NIO19SelectableEventLoopC", "promiseCreationStore"]
+- ["3NIO19SelectableEventLoopC", "promiseCreationStoreAdd"]
+- !private ["3NIO19SelectableEventLoopC", "promiseCreationStoreLock"]
+- ["3NIO19SelectableEventLoopC", "promiseCreationStoreRemove"]
+- ["3NIO19SelectableEventLoopC", "register"]
+- ["3NIO19SelectableEventLoopC", "reregister"]
+- ["3NIO19SelectableEventLoopC", "run"]
+- !private ["3NIO19SelectableEventLoopC", "schedule0"]
+- ["3NIO19SelectableEventLoopC", "scheduleTask"]
+- !private ["3NIO19SelectableEventLoopC", "scheduledTasks"]
+- !private ["3NIO19SelectableEventLoopC", "selector"]
+- ["3NIO19SelectableEventLoopC", "shutdownGracefully"]
+- ["3NIO19SelectableEventLoopC", "sockaddr_storage"]
+- ["3NIO19SelectableEventLoopC", "storageRefs"]
+- ["3NIO19SelectableEventLoopC", "submit"]
+- !private ["3NIO19SelectableEventLoopC", "succeededVoidFuture"]
+- ["3NIO19SelectableEventLoopC", "syncFinaliseClose"]
+- !private ["3NIO19SelectableEventLoopC", "tasksCopy"]
+- !private ["3NIO19SelectableEventLoopC", "tasksLock"]
+- ["3NIO19SelectableEventLoopC", "testsOnly_validExternalStateToScheduleTasks"]
+- !private ["3NIO19SelectableEventLoopC", "thread"]
+- !private ["3NIO19SelectableEventLoopC", "validExternalStateToScheduleTasks"]
+- !private ["3NIO19SelectableEventLoopC", "validInternalStateToScheduleTasks"]
+- !private ["3NIO19SelectableEventLoopC", "wakeupSelector"]
+- !private ["3NIO19SelectableEventLoopC", "withAutoReleasePool"]
+- !private ["3NIO8SelectorC", ""]
+- !private ["3NIO8SelectorC", "close"]
+- !private ["3NIO8SelectorC", "closeGently"]
+- !private ["3NIO8SelectorC", "wakeup"]
+- !private ["3NIO8SelectorC", "whenReady"]
+- !private ["3NIO13SelectorEventV", "io"]
+- !private ["3NIO13SelectorEventV", "registration"]
+- !private ["3NIO16SelectorEventSetV", ""]
+- !private ["3NIO16SelectorEventSetV", "contains"]
+- !private ["3NIO16SelectorEventSetV", "formUnion"]
+- !private ["3NIO16SelectorEventSetV", "read"]
+- !private ["3NIO16SelectorEventSetV", "readEOF"]
+- !private ["3NIO16SelectorEventSetV", "reset"]
+- !private ["3NIO16SelectorEventSetV", "subtract"]
+- !private ["3NIO16SelectorEventSetV", "write"]
+- !private ["3NIO16SelectorEventSetV", "writeEOF"]
+- !private ["3NIO16SelectorStrategyO", "block"]
+- !private ["3NIO16SelectorStrategyO", "blockUntilTimeout"]
+- !private ["3NIO16SelectorStrategyO", "now"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "allocate"]
+- !private ["ST", "append"]
+- !private ["ST", "capacity"]
+- !private ["ST", "count"]
+- !private ["ST", "deallocate"]
+- !private ["ST", "description"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "peek"]
+- !private ["ST", "pop"]
+- !private ["ST", "push"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "subscript"]
+- ["3NIO12ServerSocketC", ""]
+- !private ["3NIO19ServerSocketChannelC", ""]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "formUnion"]
+- !private ["s10SetAlgebraP", "read"]
+- !private ["s10SetAlgebraP", "readEOF"]
+- !private ["s10SetAlgebraP", "reset"]
+- !private ["s10SetAlgebraP", "subtract"]
+- !private ["s10SetAlgebraP", "write"]
+- !private ["s10SetAlgebraP", "writeEOF"]
+- ["3NIO6SocketC", ""]
+- !private ["3NIO6SocketC", "writevLimitIOVectors"]
+- !private ["3NIO13SocketChannelC", ""]
+- ["3NIO14SocketProtocolP", "SelectableType"]
+- !private ["3NIO14SocketProtocolP", "writevLimitIOVectors"]
+- !private ["Sx", ""]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "deallocate"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["3NIO10TimeAmountV", ""]
+- !private ["3NIO10TimeAmountV", "nanoseconds"]
+- !private ["Su", "init"]
+- !private ["3NIO27UnsafeControlMessageStorageV", "allocate"]
+- !private ["3NIO27UnsafeControlMessageStorageV", "deallocate"]
+- !private ["Sr", "init"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "capacity"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "capacity"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "capacity"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s19_HasContiguousBytesP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "3NIO10BaseSocketC"
+- "3NIO17BaseSocketChannelC"
+- "3NIO18BaseSocketProtocolP"
+- "3NIO23BaseStreamSocketChannelC"
+- "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "3NIO7ChannelP"
+- "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO9CloseModeO"
+- "Sl"
+- !private "SL"
+- "s15ContiguousArrayV"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "3NIO15DatagramChannelC"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "3NIO11PipeChannelC9DirectionO"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "3NIO9EventLoopP"
+- !private "3NIO14EventLoopErrorO"
+- !private "3NIO15EventLoopFutureC"
+- "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- "21NIOConcurrencyHelpers4LockC"
+- !private "s25LosslessStringConvertibleP"
+- "SM"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "3NIO11NIODeadlineV"
+- "3NIO15NIORegistrationO"
+- !private "3NIO9NIOThreadC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "SO"
+- !private "s9OptionSetP"
+- !private "3NIO11PipeChannelC"
+- "3NIO8PipePairC"
+- "3NIO13PriorityQueueV"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "3NIO12RegistrationP"
+- !private "s6ResultO"
+- !private "s10SIMDScalarP"
+- !private "3NIO9ScheduledV"
+- "3NIO13ScheduledTaskC"
+- !private "7Combine9SchedulerP"
+- !private "3NIO10SelectableP"
+- !private "3NIO17SelectableChannelP"
+- "3NIO19SelectableEventLoopC"
+- !private "3NIO8SelectorC"
+- !private "3NIO13SelectorEventV"
+- !private "3NIO16SelectorEventSetV"
+- !private "3NIO16SelectorStrategyO"
+- "ST"
+- "3NIO12ServerSocketC"
+- !private "3NIO19ServerSocketChannelC"
+- !private "s10SetAlgebraP"
+- "3NIO6SocketC"
+- !private "3NIO13SocketChannelC"
+- "3NIO14SocketProtocolP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "3NIO10TimeAmountV"
+- !private "Su"
+- !private "3NIO27UnsafeControlMessageStorageV"
+- !private "Sr"
+- !private "Sp"
+- !private "SU"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "47934676ccc90cc648a0705fbd5789e7"

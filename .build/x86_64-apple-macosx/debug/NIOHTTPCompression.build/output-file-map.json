@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/master.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPCompression.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPDecompression.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPRequestCompressor.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPRequestDecompressor.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPResponseCompressor.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPResponseDecompressor.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.swiftdeps"
+  }
+}

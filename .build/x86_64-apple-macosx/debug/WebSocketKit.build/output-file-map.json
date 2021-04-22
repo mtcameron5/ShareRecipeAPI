@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/master.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/Exports.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/Exports.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/Exports.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/websocket-kit/Sources/WebSocketKit/HTTPInitialRequestHandler.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/HTTPInitialRequestHandler.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/HTTPInitialRequestHandler.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/HTTPInitialRequestHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/HTTPInitialRequestHandler.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket+Connect.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocket.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketClient.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/WebSocketHandler.swiftdeps"
+  }
+}

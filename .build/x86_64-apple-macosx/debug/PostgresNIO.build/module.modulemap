@@ -1,0 +1,4 @@
+module PostgresNIO {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/PostgresNIO-Swift.h"
+    requires objc
+}

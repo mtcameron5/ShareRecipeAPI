@@ -1,0 +1,517 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "11PostgresNIO0A5ErrorO4CodeV"
+provides-member:
+- ["11PostgresNIO0A5ErrorO", ""]
+- ["11PostgresNIO0A5ErrorO4CodeV", ""]
+- ["11PostgresNIO0A5ErrorO", "Code"]
+- ["11PostgresNIO0A5ErrorO", "code"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Code"
+- "Equatable"
+- "ExpressibleByStringLiteral"
+- "PostgresError"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["s7CVarArgP", "subscript"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "=="]
+- ["11PostgresNIO0A5ErrorO4CodeV", "Code"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "Default_StringLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "Default_UnicodeScalarLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "ExtendedGraphemeClusterLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "String"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "StringLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "UnicodeScalarLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", ""]
+- ["11PostgresNIO0A5ErrorO4CodeV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "_Default_StringLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "_Default_UnicodeScalarLiteralType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "__derived_struct_equals"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "activeSqlTransaction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "adminShutdown"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "ambiguousAlias"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "ambiguousColumn"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "ambiguousFunction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "ambiguousParameter"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "arraySubscriptError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "assertFailure"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "badCopyFileFormat"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "branchTransactionAlreadyActive"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "cannotCoerce"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "cannotConnectNow"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "cantChangeRuntimeParam"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "cardinalityViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "caseNotFound"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "characterNotInRepertoire"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "checkViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "collationMismatch"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "configFileError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "configurationLimitExceeded"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "connectionDoesNotExist"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "connectionException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "connectionFailure"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "containingSqlNotPermitted"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "crashShutdown"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "dataCorrupted"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "dataException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "databaseDropped"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "datatypeMismatch"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "datetimeFieldOverflow"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "deadlockDetected"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "dependentObjectsStillExist"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "dependentPrivilegeDescriptorsStillExist"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "deprecatedFeature"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "diagnosticsException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "diskFull"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "divisionByZero"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateAlias"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateColumn"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateCursor"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateDatabase"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateFile"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateFunction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateObject"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicatePreparedStatement"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateSchema"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "duplicateTable"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "dynamicResultSetsReturned"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "errorInAssignment"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "escapeCharacterConflict"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "eventTriggerProtocolViolated"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "exclusionViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "externalRoutineException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "externalRoutineInvocationException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwColumnNameNotFound"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwDynamicParameterValueNeeded"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwFunctionSequenceError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInconsistentDescriptorInformation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidAttributeValue"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidColumnName"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidColumnNumber"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidDataType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidDataTypeDescriptors"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidDescriptorFieldIdentifier"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidHandle"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidOptionIndex"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidOptionName"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidStringFormat"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidStringLengthOrBufferLength"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwInvalidUseOfNullPointer"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwNoSchemas"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwOptionNameNotFound"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwOutOfMemory"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwReplyHandle"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwSchemaNotFound"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwTableNotFound"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwTooManyHandles"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwUnableToCreateExecution"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwUnableToCreateReply"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "fdwUnableToEstablishConnection"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "featureNotSupported"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "floatingPointException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "foreignKeyViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "functionExecutedNoReturnStatement"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "groupingError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "heldCursorRequiresSameIsolationLevel"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "idleInTransactionSessionTimeout"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "implicitZeroBitPadding"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "inFailedSqlTransaction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "inappropriateAccessModeForBranchTransaction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "inappropriateIsolationLevelForBranchTransaction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "indeterminateCollation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "indeterminateDatatype"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "indexCorrupted"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "indicatorOverflow"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "init"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "insufficientPrivilege"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "insufficientResources"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "integrityConstraintViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "internalError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "intervalFieldOverflow"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidArgumentForLogarithm"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidArgumentForNthValueFunction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidArgumentForNtileFunction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidArgumentForPowerFunction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidArgumentForWidthBucketFunction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidAuthorizationSpecification"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidBinaryRepresentation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidCatalogName"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidCharacterValueForCast"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidColumnDefinition"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidColumnReference"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidCursorDefinition"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidCursorName"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidCursorState"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidDatabaseDefinition"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidDatetimeFormat"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidEscapeCharacter"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidEscapeOctet"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidEscapeSequence"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidForeignKey"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidFunctionDefinition"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidGrantOperation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidGrantor"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidIndicatorParameterValue"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidLocatorSpecification"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidName"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidObjectDefinition"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidParameterValue"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidPassword"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidPreparedStatementDefinition"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidRecursion"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidRegularExpression"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidRoleSpecification"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidRowCountInLimitClause"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidRowCountInResultOffsetClause"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidSavepointSpecification"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidSchemaDefinition"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidSchemaName"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidSqlStatementName"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidSqlstateReturned"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidTableDefinition"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidTablesampleArgument"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidTablesampleRepeat"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidTextRepresentation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidTimeZoneDisplacementValue"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidTransactionInitiation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidTransactionState"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidTransactionTermination"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidUseOfEscapeCharacter"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidXmlComment"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidXmlContent"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidXmlDocument"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "invalidXmlProcessingInstruction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "ioError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "locatorException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "lockFileExists"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "lockNotAvailable"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "modifyingSqlDataNotPermitted"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "modifyingSqlDataNotPermittedExternal"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "mostSpecificTypeMismatch"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "nameTooLong"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "noActiveSqlTransaction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "noActiveSqlTransactionForBranchTransaction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "noAdditionalDynamicResultSetsReturned"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "noData"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "noDataFound"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "nonstandardUseOfEscapeCharacter"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "notAnXmlDocument"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "notNullViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "nullValueEliminatedInSetFunction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "nullValueNoIndicatorParameter"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "nullValueNotAllowed"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "nullValueNotAllowedExternal"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "numericValueOutOfRange"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "objectInUse"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "objectNotInPrerequisiteState"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "operatorIntervention"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "outOfMemory"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "plpgsqlError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "privilegeNotGranted"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "privilegeNotRevoked"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "programLimitExceeded"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "prohibitedSqlStatementAttempted"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "prohibitedSqlStatementAttemptedExternal"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "protocolViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "queryCanceled"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "raiseException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "raw"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "readOnlySqlTransaction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "readingSqlDataNotPermitted"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "readingSqlDataNotPermittedExternal"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "reservedName"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "restrictViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "savepointException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "schemaAndDataStatementMixingNotSupported"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "serializationFailure"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "snapshotTooOld"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "sqlRoutineException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "sqlStatementNotYetComplete"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "sqlclientUnableToEstablishSqlconnection"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "sqlserverRejectedEstablishmentOfSqlconnection"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "srfProtocolViolated"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "stackedDiagnosticsAccessedWithoutActiveHandler"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "statementCompletionUnknown"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "statementTooComplex"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "stringDataLengthMismatch"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "stringDataRightTruncation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "stringDataRightTruncationException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "substringError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "successfulCompletion"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "syntaxError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "syntaxErrorOrAccessRuleViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "systemError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "tooManyArguments"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "tooManyColumns"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "tooManyConnections"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "tooManyRows"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "transactionIntegrityConstraintViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "transactionResolutionUnknown"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "transactionRollback"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "triggerProtocolViolated"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "triggeredActionException"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "triggeredDataChangeViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "trimError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "undefinedColumn"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "undefinedFile"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "undefinedFunction"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "undefinedObject"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "undefinedParameter"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "undefinedTable"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "uniqueViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "unterminatedCString"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "untranslatableCharacter"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "warning"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "windowingError"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "withCheckOptionViolation"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "wrongObjectType"]
+- ["11PostgresNIO0A5ErrorO4CodeV", "zeroLengthCharacterString"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "sqlState"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Code"]
+- ["s23CustomStringConvertibleP", "Equatable"]
+- ["s23CustomStringConvertibleP", "ExpressibleByStringLiteral"]
+- ["s23CustomStringConvertibleP", "connectionClosed"]
+- !private ["s23CustomStringConvertibleP", "fields"]
+- ["s23CustomStringConvertibleP", "protocol"]
+- ["s23CustomStringConvertibleP", "server"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- ["SQ", "=="]
+- ["SQ", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["SQ", "Default_StringLiteralType"]
+- ["SQ", "Default_UnicodeScalarLiteralType"]
+- ["SQ", "ExtendedGraphemeClusterLiteralType"]
+- ["SQ", "StringLiteralType"]
+- ["SQ", "UnicodeScalarLiteralType"]
+- ["SQ", ""]
+- ["SQ", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["SQ", "_Default_StringLiteralType"]
+- ["SQ", "_Default_UnicodeScalarLiteralType"]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "init"]
+- !private ["SQ", "internalError"]
+- !private ["SQ", "raw"]
+- !private ["SQ", "sqlState"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "Code"]
+- ["s5ErrorP", "Equatable"]
+- ["s5ErrorP", "ExpressibleByStringLiteral"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "connectionClosed"]
+- !private ["11PostgresNIO0A7MessageV5ErrorV", "fields"]
+- ["s5ErrorP", "protocol"]
+- ["s5ErrorP", "server"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "=="]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "__derived_struct_equals"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "internalError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "raw"]
+- ["s26ExpressibleByStringLiteralP", "=="]
+- ["s26ExpressibleByStringLiteralP", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "__derived_struct_equals"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "internalError"]
+- !private ["s26ExpressibleByStringLiteralP", "raw"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "=="]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "__derived_struct_equals"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "internalError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "raw"]
+- !private ["11PostgresNIO0A7MessageV5ErrorV5FieldO", ""]
+- !private ["11PostgresNIO0A7MessageV5ErrorV5FieldO", "sqlState"]
+- !private ["SH", "sqlState"]
+- !private ["SH", "subscript"]
+- !private ["SD5IndexV", "sqlState"]
+- !private ["10Foundation14LocalizedErrorP", "Code"]
+- ["10Foundation14LocalizedErrorP", "Equatable"]
+- ["10Foundation14LocalizedErrorP", "ExpressibleByStringLiteral"]
+- ["10Foundation14LocalizedErrorP", "connectionClosed"]
+- ["10Foundation14LocalizedErrorP", "protocol"]
+- ["10Foundation14LocalizedErrorP", "server"]
+- ["11PostgresNIO0A5ErrorO", "Code"]
+- ["11PostgresNIO0A5ErrorO", "Equatable"]
+- ["11PostgresNIO0A5ErrorO", "ExpressibleByStringLiteral"]
+- ["11PostgresNIO0A5ErrorO", "String"]
+- ["11PostgresNIO0A5ErrorO", ""]
+- ["11PostgresNIO0A5ErrorO", "code"]
+- ["11PostgresNIO0A5ErrorO", "connectionClosed"]
+- ["11PostgresNIO0A5ErrorO", "protocol"]
+- ["11PostgresNIO0A5ErrorO", "server"]
+- !private ["11PostgresNIO0A11MessageTypeP", "fields"]
+- !private ["SY", "sqlState"]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s7CVarArgP"
+- "11PostgresNIO0A5ErrorO4CodeV"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "11PostgresNIO0A7MessageV5ErrorV"
+- "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11PostgresNIO0A7MessageV5ErrorV5FieldO"
+- !private "SH"
+- !private "SD5IndexV"
+- "10Foundation14LocalizedErrorP"
+- "11PostgresNIO0A5ErrorO"
+- !private "11PostgresNIO0A11MessageTypeP"
+- !private "SY"
+- !private "ST"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2b1161a830666e849a5fc007ff9ebbe8"

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "c3e606002bb18b4d30618878cdd7fd2e"
+build_time: [1616667017, 575861000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOAtomic.swift": [1616666965, 970544279]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift": [1616666965, 970813269]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift": [1616666965, 971068672]

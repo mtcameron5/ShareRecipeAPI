@@ -1,0 +1,4 @@
+module NIOTransportServices {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/NIOTransportServices-Swift.h"
+    requires objc
+}

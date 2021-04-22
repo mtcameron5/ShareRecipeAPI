@@ -1,0 +1,4 @@
+module SQLKitBenchmark {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/SQLKitBenchmark-Swift.h"
+    requires objc
+}

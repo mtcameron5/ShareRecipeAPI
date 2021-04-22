@@ -1,0 +1,83 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/master.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/Connection.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/Connection.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/Connection.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/Connection.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/ConnectionPool.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/ConnectionPool.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/ConnectionPool~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/ConnectionPool.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionsState.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/ConnectionsState.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/ConnectionsState.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/ConnectionsState~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/ConnectionsState.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/FileDownloadDelegate.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/FileDownloadDelegate.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/FileDownloadDelegate.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/FileDownloadDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/FileDownloadDelegate.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient+HTTPCookie.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClient+HTTPCookie.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClient+HTTPCookie.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClient+HTTPCookie~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClient+HTTPCookie.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClient.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClient.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClient.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClientProxyHandler.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClientProxyHandler.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClientProxyHandler.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClientProxyHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPClientProxyHandler.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPHandler.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPHandler.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPHandler.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/HTTPHandler.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/NIOTransportServices/NWErrorHandler.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/NIOTransportServices/NWErrorHandler.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/NIOTransportServices/NWErrorHandler.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/NIOTransportServices/NWErrorHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/NIOTransportServices/NWErrorHandler.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/NIOTransportServices/TLSConfiguration.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/NIOTransportServices/TLSConfiguration.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/NIOTransportServices/TLSConfiguration.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/NIOTransportServices/TLSConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/NIOTransportServices/TLSConfiguration.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/RequestValidation.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/RequestValidation.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/RequestValidation.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/RequestValidation~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/RequestValidation.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/StringConvertibleInstances.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/StringConvertibleInstances.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/StringConvertibleInstances.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/StringConvertibleInstances~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/StringConvertibleInstances.swiftdeps"
+  },
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/Utils.swift": {
+    "dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/Utils.d",
+    "object": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/Utils.swift.o",
+    "swiftmodule": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/Utils~partial.swiftmodule",
+    "swift-dependencies": "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/Utils.swiftdeps"
+  }
+}

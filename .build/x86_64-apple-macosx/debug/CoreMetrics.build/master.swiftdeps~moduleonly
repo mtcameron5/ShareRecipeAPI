@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "97b69c8d78be86d87fa0b13dc0b08add"
+build_time: [1616666985, 154385000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-metrics/Sources/CoreMetrics/Locks.swift": [1616666968, 678388985]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-metrics/Sources/CoreMetrics/Metrics.swift": [1616666968, 678937167]

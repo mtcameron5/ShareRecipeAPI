@@ -1,0 +1,782 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ByteBufferView"
+provides-nominal:
+- "3NIO14ByteBufferViewV"
+provides-member:
+- ["3NIO14ByteBufferViewV", ""]
+- ["3NIO10ByteBufferV", ""]
+- ["3NIO10ByteBufferV", "readableBytesView"]
+- ["3NIO10ByteBufferV", "viewBytes"]
+- ["3NIO10ByteBufferV", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "+"
+- "-"
+- !private "..<"
+- "<"
+- !private "<="
+- "=="
+- !private ">="
+- "AssignmentPrecedence"
+- "ByteBuffer"
+- "ByteBufferView"
+- "Collection"
+- "Element"
+- !private "FloatLiteralType"
+- "Index"
+- "Int"
+- !private "IntegerLiteralType"
+- "MutableCollection"
+- "RandomAccessCollection"
+- "Range"
+- "RangeReplaceableCollection"
+- !private "StringLiteralType"
+- "UInt8"
+- "UnsafeBufferPointer"
+- "UnsafeRawBufferPointer"
+- !private "precondition"
+- !private "preconditionFailure"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "advanced"]
+- !private ["s18AdditiveArithmeticP", "distance"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "advanced"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "distance"]
+- !private ["SK", "ByteBuffer"]
+- !private ["SK", "ByteBufferView"]
+- ["SK", "Default_Indices"]
+- ["SK", "Default_Iterator"]
+- ["SK", "Element"]
+- ["SK", "Index"]
+- ["SK", "Indices"]
+- ["SK", "Iterator"]
+- ["SK", "SubSequence"]
+- !private ["SK", "UInt8"]
+- !private ["SK", "UnsafeRawBufferPointer"]
+- ["SK", ""]
+- ["SK", "_Default_Indices"]
+- ["SK", "_Default_Iterator"]
+- !private ["SK", "_buffer"]
+- ["SK", "_copyContents"]
+- ["SK", "_copyToContiguousArray"]
+- ["SK", "_customContainsEquatableElement"]
+- ["SK", "_customIndexOfEquatableElement"]
+- ["SK", "_customLastIndexOfEquatableElement"]
+- ["SK", "_customRemoveLast"]
+- ["SK", "_failEarlyRangeCheck"]
+- !private ["SK", "_range"]
+- ["SK", "_withUnsafeMutableBufferPointerIfSupported"]
+- ["SK", "append"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "bindMemory"]
+- !private ["SK", "buffer"]
+- ["SK", "count"]
+- ["SK", "distance"]
+- !private ["SK", "dropLast"]
+- ["SK", "endIndex"]
+- !private ["SK", "firstIndex"]
+- ["SK", "formIndex"]
+- ["SK", "index"]
+- ["SK", "indices"]
+- ["SK", "init"]
+- ["SK", "insert"]
+- ["SK", "isEmpty"]
+- !private ["SK", "lastIndex"]
+- !private ["SK", "lowerBound"]
+- ["SK", "makeIterator"]
+- ["SK", "partition"]
+- !private ["SK", "precondition"]
+- !private ["SK", "preconditionFailure"]
+- !private ["SK", "range"]
+- ["SK", "remove"]
+- ["SK", "removeAll"]
+- ["SK", "removeFirst"]
+- ["SK", "removeSubrange"]
+- ["SK", "replaceSubrange"]
+- ["SK", "reserveCapacity"]
+- ["SK", "startIndex"]
+- ["SK", "subscript"]
+- ["SK", "swapAt"]
+- ["SK", "underestimatedCount"]
+- !private ["SK", "upperBound"]
+- ["SK", "withContiguousMutableStorageIfAvailable"]
+- ["SK", "withContiguousStorageIfAvailable"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["Sz", ""]
+- !private ["Sz", "advanced"]
+- !private ["Sz", "distance"]
+- ["3NIO10ByteBufferV", "ByteBufferView"]
+- ["3NIO10ByteBufferV", "Int"]
+- ["3NIO10ByteBufferV", ""]
+- !private ["3NIO10ByteBufferV", "capacity"]
+- !private ["3NIO10ByteBufferV", "copyBytes"]
+- !private ["3NIO10ByteBufferV", "getInteger"]
+- !private ["3NIO10ByteBufferV", "getSlice"]
+- ["3NIO10ByteBufferV", "init"]
+- !private ["3NIO10ByteBufferV", "moveWriterIndex"]
+- ["3NIO10ByteBufferV", "readableBytesView"]
+- !private ["3NIO10ByteBufferV", "readerIndex"]
+- !private ["3NIO10ByteBufferV", "setBytes"]
+- !private ["3NIO10ByteBufferV", "setInteger"]
+- ["3NIO10ByteBufferV", "viewBytes"]
+- !private ["3NIO10ByteBufferV", "withVeryUnsafeBytes"]
+- !private ["3NIO10ByteBufferV", "writerIndex"]
+- ["3NIO14ByteBufferViewV", "ByteBuffer"]
+- ["3NIO14ByteBufferViewV", "ByteBufferView"]
+- ["3NIO14ByteBufferViewV", "Collection"]
+- ["3NIO14ByteBufferViewV", "Default_Indices"]
+- ["3NIO14ByteBufferViewV", "Default_Iterator"]
+- ["3NIO14ByteBufferViewV", "Element"]
+- ["3NIO14ByteBufferViewV", "Index"]
+- ["3NIO14ByteBufferViewV", "Indices"]
+- ["3NIO14ByteBufferViewV", "Int"]
+- ["3NIO14ByteBufferViewV", "Iterator"]
+- ["3NIO14ByteBufferViewV", "Range"]
+- ["3NIO14ByteBufferViewV", "SubSequence"]
+- ["3NIO14ByteBufferViewV", "UInt8"]
+- ["3NIO14ByteBufferViewV", "UnsafeBufferPointer"]
+- ["3NIO14ByteBufferViewV", "UnsafeRawBufferPointer"]
+- ["3NIO14ByteBufferViewV", ""]
+- ["3NIO14ByteBufferViewV", "_Default_Indices"]
+- ["3NIO14ByteBufferViewV", "_Default_Iterator"]
+- ["3NIO14ByteBufferViewV", "_buffer"]
+- ["3NIO14ByteBufferViewV", "_copyContents"]
+- ["3NIO14ByteBufferViewV", "_copyToContiguousArray"]
+- ["3NIO14ByteBufferViewV", "_customContainsEquatableElement"]
+- ["3NIO14ByteBufferViewV", "_customIndexOfEquatableElement"]
+- ["3NIO14ByteBufferViewV", "_customLastIndexOfEquatableElement"]
+- ["3NIO14ByteBufferViewV", "_customRemoveLast"]
+- ["3NIO14ByteBufferViewV", "_failEarlyRangeCheck"]
+- ["3NIO14ByteBufferViewV", "_range"]
+- ["3NIO14ByteBufferViewV", "_withUnsafeMutableBufferPointerIfSupported"]
+- ["3NIO14ByteBufferViewV", "append"]
+- !private ["3NIO14ByteBufferViewV", "buffer"]
+- ["3NIO14ByteBufferViewV", "count"]
+- ["3NIO14ByteBufferViewV", "distance"]
+- ["3NIO14ByteBufferViewV", "endIndex"]
+- ["3NIO14ByteBufferViewV", "formIndex"]
+- ["3NIO14ByteBufferViewV", "index"]
+- ["3NIO14ByteBufferViewV", "indices"]
+- ["3NIO14ByteBufferViewV", "init"]
+- ["3NIO14ByteBufferViewV", "insert"]
+- ["3NIO14ByteBufferViewV", "isEmpty"]
+- ["3NIO14ByteBufferViewV", "makeIterator"]
+- ["3NIO14ByteBufferViewV", "partition"]
+- !private ["3NIO14ByteBufferViewV", "precondition"]
+- !private ["3NIO14ByteBufferViewV", "preconditionFailure"]
+- !private ["3NIO14ByteBufferViewV", "range"]
+- ["3NIO14ByteBufferViewV", "remove"]
+- ["3NIO14ByteBufferViewV", "removeAll"]
+- ["3NIO14ByteBufferViewV", "removeFirst"]
+- ["3NIO14ByteBufferViewV", "removeSubrange"]
+- ["3NIO14ByteBufferViewV", "replaceSubrange"]
+- ["3NIO14ByteBufferViewV", "reserveCapacity"]
+- ["3NIO14ByteBufferViewV", "startIndex"]
+- ["3NIO14ByteBufferViewV", "subscript"]
+- ["3NIO14ByteBufferViewV", "swapAt"]
+- ["3NIO14ByteBufferViewV", "underestimatedCount"]
+- ["3NIO14ByteBufferViewV", "withContiguousMutableStorageIfAvailable"]
+- ["3NIO14ByteBufferViewV", "withContiguousStorageIfAvailable"]
+- ["3NIO14ByteBufferViewV", "withUnsafeBytes"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "distance"]
+- !private ["Sl", "ByteBuffer"]
+- !private ["Sl", "ByteBufferView"]
+- ["Sl", "Default_Indices"]
+- ["Sl", "Default_Iterator"]
+- ["Sl", "Element"]
+- ["Sl", "Index"]
+- ["Sl", "Indices"]
+- ["Sl", "Iterator"]
+- ["Sl", "SubSequence"]
+- !private ["Sl", "UInt8"]
+- !private ["Sl", "UnsafeRawBufferPointer"]
+- ["Sl", ""]
+- ["Sl", "_Default_Indices"]
+- ["Sl", "_Default_Iterator"]
+- !private ["Sl", "_buffer"]
+- ["Sl", "_copyContents"]
+- ["Sl", "_copyToContiguousArray"]
+- ["Sl", "_customContainsEquatableElement"]
+- ["Sl", "_customIndexOfEquatableElement"]
+- ["Sl", "_customLastIndexOfEquatableElement"]
+- ["Sl", "_customRemoveLast"]
+- ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "_range"]
+- ["Sl", "_withUnsafeMutableBufferPointerIfSupported"]
+- ["Sl", "append"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "bindMemory"]
+- !private ["Sl", "buffer"]
+- ["Sl", "count"]
+- ["Sl", "distance"]
+- !private ["Sl", "dropLast"]
+- ["Sl", "endIndex"]
+- !private ["Sl", "firstIndex"]
+- ["Sl", "formIndex"]
+- ["Sl", "index"]
+- ["Sl", "indices"]
+- ["Sl", "init"]
+- ["Sl", "insert"]
+- ["Sl", "isEmpty"]
+- !private ["Sl", "lastIndex"]
+- !private ["Sl", "lowerBound"]
+- ["Sl", "makeIterator"]
+- ["Sl", "partition"]
+- !private ["Sl", "precondition"]
+- !private ["Sl", "preconditionFailure"]
+- !private ["Sl", "range"]
+- ["Sl", "remove"]
+- ["Sl", "removeAll"]
+- ["Sl", "removeFirst"]
+- ["Sl", "removeSubrange"]
+- ["Sl", "replaceSubrange"]
+- ["Sl", "reserveCapacity"]
+- ["Sl", "startIndex"]
+- ["Sl", "subscript"]
+- ["Sl", "swapAt"]
+- ["Sl", "underestimatedCount"]
+- !private ["Sl", "upperBound"]
+- ["Sl", "withContiguousMutableStorageIfAvailable"]
+- ["Sl", "withContiguousStorageIfAvailable"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["SL", ""]
+- !private ["SL", "advanced"]
+- !private ["SL", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dropLast"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "distance"]
+- !private ["s17CustomReflectableP", "dropLast"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "ByteBufferView"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "advanced"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "capacity"]
+- !private ["s23CustomStringConvertibleP", "copyBytes"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- !private ["s23CustomStringConvertibleP", "dropLast"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "getInteger"]
+- !private ["s23CustomStringConvertibleP", "getSlice"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "moveWriterIndex"]
+- !private ["s23CustomStringConvertibleP", "readerIndex"]
+- !private ["s23CustomStringConvertibleP", "setBytes"]
+- !private ["s23CustomStringConvertibleP", "setInteger"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "withVeryUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "writerIndex"]
+- !private ["Se", "advanced"]
+- !private ["Se", "count"]
+- !private ["Se", "distance"]
+- !private ["Se", "dropLast"]
+- !private ["Se", "endIndex"]
+- !private ["Se", "lowerBound"]
+- !private ["Se", "map"]
+- !private ["Se", "some"]
+- !private ["Se", "startIndex"]
+- !private ["Se", "upperBound"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "advanced"]
+- !private ["SE", "count"]
+- !private ["SE", "distance"]
+- !private ["SE", "dropLast"]
+- !private ["SE", "endIndex"]
+- !private ["SE", "lowerBound"]
+- !private ["SE", "map"]
+- !private ["SE", "some"]
+- !private ["SE", "startIndex"]
+- !private ["SE", "upperBound"]
+- !private ["SQ", "ByteBufferView"]
+- ["SQ", ""]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "capacity"]
+- !private ["SQ", "copyBytes"]
+- !private ["SQ", "count"]
+- !private ["SQ", "distance"]
+- !private ["SQ", "dropLast"]
+- !private ["SQ", "endIndex"]
+- !private ["SQ", "getInteger"]
+- !private ["SQ", "getSlice"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lowerBound"]
+- !private ["SQ", "map"]
+- !private ["SQ", "moveWriterIndex"]
+- !private ["SQ", "readerIndex"]
+- !private ["SQ", "setBytes"]
+- !private ["SQ", "setInteger"]
+- !private ["SQ", "some"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "upperBound"]
+- !private ["SQ", "withVeryUnsafeBytes"]
+- !private ["SQ", "writerIndex"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "advanced"]
+- !private ["s27ExpressibleByIntegerLiteralP", "distance"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "advanced"]
+- !private ["s17FixedWidthIntegerP", "distance"]
+- !private ["SH", "ByteBufferView"]
+- !private ["SH", ""]
+- !private ["SH", "advanced"]
+- !private ["SH", "capacity"]
+- !private ["SH", "copyBytes"]
+- !private ["SH", "count"]
+- !private ["SH", "distance"]
+- !private ["SH", "dropLast"]
+- !private ["SH", "endIndex"]
+- !private ["SH", "getInteger"]
+- !private ["SH", "getSlice"]
+- !private ["SH", "init"]
+- !private ["SH", "lowerBound"]
+- !private ["SH", "map"]
+- !private ["SH", "moveWriterIndex"]
+- !private ["SH", "readerIndex"]
+- !private ["SH", "setBytes"]
+- !private ["SH", "setInteger"]
+- !private ["SH", "some"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "upperBound"]
+- !private ["SH", "withVeryUnsafeBytes"]
+- !private ["SH", "writerIndex"]
+- !private ["Si", "advanced"]
+- !private ["Si", "distance"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "advanced"]
+- !private ["s25LosslessStringConvertibleP", "distance"]
+- !private ["s10MirrorPathP", "advanced"]
+- !private ["s10MirrorPathP", "distance"]
+- !private ["SM", "ByteBuffer"]
+- !private ["SM", "ByteBufferView"]
+- ["SM", "Default_Indices"]
+- ["SM", "Default_Iterator"]
+- ["SM", "Element"]
+- ["SM", "Index"]
+- ["SM", "Indices"]
+- ["SM", "Iterator"]
+- ["SM", "SubSequence"]
+- !private ["SM", "UInt8"]
+- !private ["SM", "UnsafeRawBufferPointer"]
+- ["SM", ""]
+- ["SM", "_Default_Indices"]
+- ["SM", "_Default_Iterator"]
+- !private ["SM", "_buffer"]
+- ["SM", "_copyContents"]
+- ["SM", "_copyToContiguousArray"]
+- ["SM", "_customContainsEquatableElement"]
+- ["SM", "_customIndexOfEquatableElement"]
+- ["SM", "_customLastIndexOfEquatableElement"]
+- ["SM", "_customRemoveLast"]
+- ["SM", "_failEarlyRangeCheck"]
+- !private ["SM", "_range"]
+- ["SM", "_withUnsafeMutableBufferPointerIfSupported"]
+- ["SM", "append"]
+- !private ["SM", "buffer"]
+- ["SM", "count"]
+- ["SM", "distance"]
+- ["SM", "endIndex"]
+- ["SM", "formIndex"]
+- ["SM", "index"]
+- ["SM", "indices"]
+- ["SM", "init"]
+- ["SM", "insert"]
+- ["SM", "isEmpty"]
+- ["SM", "makeIterator"]
+- ["SM", "partition"]
+- !private ["SM", "precondition"]
+- !private ["SM", "preconditionFailure"]
+- !private ["SM", "range"]
+- ["SM", "remove"]
+- ["SM", "removeAll"]
+- ["SM", "removeFirst"]
+- ["SM", "removeSubrange"]
+- ["SM", "replaceSubrange"]
+- ["SM", "reserveCapacity"]
+- ["SM", "startIndex"]
+- ["SM", "subscript"]
+- ["SM", "swapAt"]
+- ["SM", "underestimatedCount"]
+- ["SM", "withContiguousMutableStorageIfAvailable"]
+- ["SM", "withContiguousStorageIfAvailable"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "advanced"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "distance"]
+- !private ["Sj", ""]
+- !private ["Sj", "advanced"]
+- !private ["Sj", "distance"]
+- !private ["Sq", "map"]
+- !private ["Sq", "some"]
+- !private ["Sk", "ByteBuffer"]
+- !private ["Sk", "ByteBufferView"]
+- ["Sk", "Default_Indices"]
+- ["Sk", "Default_Iterator"]
+- ["Sk", "Element"]
+- ["Sk", "Index"]
+- ["Sk", "Indices"]
+- ["Sk", "Iterator"]
+- ["Sk", "SubSequence"]
+- !private ["Sk", "UInt8"]
+- !private ["Sk", "UnsafeRawBufferPointer"]
+- ["Sk", ""]
+- ["Sk", "_Default_Indices"]
+- ["Sk", "_Default_Iterator"]
+- !private ["Sk", "_buffer"]
+- ["Sk", "_copyContents"]
+- ["Sk", "_copyToContiguousArray"]
+- ["Sk", "_customContainsEquatableElement"]
+- ["Sk", "_customIndexOfEquatableElement"]
+- ["Sk", "_customLastIndexOfEquatableElement"]
+- ["Sk", "_customRemoveLast"]
+- ["Sk", "_failEarlyRangeCheck"]
+- !private ["Sk", "_range"]
+- ["Sk", "_withUnsafeMutableBufferPointerIfSupported"]
+- ["Sk", "append"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "bindMemory"]
+- !private ["Sk", "buffer"]
+- ["Sk", "count"]
+- ["Sk", "distance"]
+- !private ["Sk", "dropLast"]
+- ["Sk", "endIndex"]
+- !private ["Sk", "firstIndex"]
+- ["Sk", "formIndex"]
+- ["Sk", "index"]
+- ["Sk", "indices"]
+- ["Sk", "init"]
+- ["Sk", "insert"]
+- ["Sk", "isEmpty"]
+- !private ["Sk", "lastIndex"]
+- !private ["Sk", "lowerBound"]
+- ["Sk", "makeIterator"]
+- ["Sk", "partition"]
+- !private ["Sk", "precondition"]
+- !private ["Sk", "preconditionFailure"]
+- !private ["Sk", "range"]
+- ["Sk", "remove"]
+- ["Sk", "removeAll"]
+- ["Sk", "removeFirst"]
+- ["Sk", "removeSubrange"]
+- ["Sk", "replaceSubrange"]
+- ["Sk", "reserveCapacity"]
+- ["Sk", "startIndex"]
+- ["Sk", "subscript"]
+- ["Sk", "swapAt"]
+- ["Sk", "underestimatedCount"]
+- !private ["Sk", "upperBound"]
+- ["Sk", "withContiguousMutableStorageIfAvailable"]
+- ["Sk", "withContiguousStorageIfAvailable"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sn", "count"]
+- !private ["Sn", "dropLast"]
+- !private ["Sn", "endIndex"]
+- !private ["Sn", "lowerBound"]
+- !private ["Sn", "startIndex"]
+- !private ["Sn", "upperBound"]
+- !private ["SX", "count"]
+- !private ["SX", "dropLast"]
+- !private ["SX", "endIndex"]
+- !private ["SX", "lowerBound"]
+- !private ["SX", "startIndex"]
+- !private ["SX", "upperBound"]
+- !private ["Sm", "ByteBuffer"]
+- !private ["Sm", "ByteBufferView"]
+- ["Sm", "Default_Indices"]
+- ["Sm", "Default_Iterator"]
+- ["Sm", "Element"]
+- ["Sm", "Index"]
+- ["Sm", "Indices"]
+- ["Sm", "Iterator"]
+- ["Sm", "SubSequence"]
+- !private ["Sm", "UInt8"]
+- !private ["Sm", "UnsafeRawBufferPointer"]
+- ["Sm", ""]
+- ["Sm", "_Default_Indices"]
+- ["Sm", "_Default_Iterator"]
+- !private ["Sm", "_buffer"]
+- ["Sm", "_copyContents"]
+- ["Sm", "_copyToContiguousArray"]
+- ["Sm", "_customContainsEquatableElement"]
+- ["Sm", "_customIndexOfEquatableElement"]
+- ["Sm", "_customLastIndexOfEquatableElement"]
+- ["Sm", "_customRemoveLast"]
+- ["Sm", "_failEarlyRangeCheck"]
+- !private ["Sm", "_range"]
+- ["Sm", "_withUnsafeMutableBufferPointerIfSupported"]
+- ["Sm", "append"]
+- !private ["Sm", "buffer"]
+- ["Sm", "count"]
+- ["Sm", "distance"]
+- ["Sm", "endIndex"]
+- ["Sm", "formIndex"]
+- ["Sm", "index"]
+- ["Sm", "indices"]
+- ["Sm", "init"]
+- ["Sm", "insert"]
+- ["Sm", "isEmpty"]
+- ["Sm", "makeIterator"]
+- ["Sm", "partition"]
+- !private ["Sm", "precondition"]
+- !private ["Sm", "preconditionFailure"]
+- !private ["Sm", "range"]
+- ["Sm", "remove"]
+- ["Sm", "removeAll"]
+- ["Sm", "removeFirst"]
+- ["Sm", "removeSubrange"]
+- ["Sm", "replaceSubrange"]
+- ["Sm", "reserveCapacity"]
+- ["Sm", "startIndex"]
+- ["Sm", "subscript"]
+- ["Sm", "swapAt"]
+- ["Sm", "underestimatedCount"]
+- ["Sm", "withContiguousMutableStorageIfAvailable"]
+- ["Sm", "withContiguousStorageIfAvailable"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["s10SIMDScalarP", "advanced"]
+- !private ["s10SIMDScalarP", "distance"]
+- !private ["ST", "ByteBuffer"]
+- !private ["ST", "ByteBufferView"]
+- ["ST", "Default_Indices"]
+- ["ST", "Default_Iterator"]
+- ["ST", "Element"]
+- ["ST", "Index"]
+- ["ST", "Indices"]
+- ["ST", "Iterator"]
+- ["ST", "SubSequence"]
+- !private ["ST", "UInt8"]
+- !private ["ST", "UnsafeRawBufferPointer"]
+- ["ST", ""]
+- ["ST", "_Default_Indices"]
+- ["ST", "_Default_Iterator"]
+- !private ["ST", "_buffer"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_customIndexOfEquatableElement"]
+- ["ST", "_customLastIndexOfEquatableElement"]
+- ["ST", "_customRemoveLast"]
+- ["ST", "_failEarlyRangeCheck"]
+- !private ["ST", "_range"]
+- ["ST", "_withUnsafeMutableBufferPointerIfSupported"]
+- ["ST", "append"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "bindMemory"]
+- !private ["ST", "buffer"]
+- ["ST", "count"]
+- ["ST", "distance"]
+- !private ["ST", "dropLast"]
+- ["ST", "endIndex"]
+- !private ["ST", "firstIndex"]
+- ["ST", "formIndex"]
+- ["ST", "index"]
+- ["ST", "indices"]
+- ["ST", "init"]
+- ["ST", "insert"]
+- ["ST", "isEmpty"]
+- !private ["ST", "lastIndex"]
+- !private ["ST", "lowerBound"]
+- ["ST", "makeIterator"]
+- ["ST", "partition"]
+- !private ["ST", "precondition"]
+- !private ["ST", "preconditionFailure"]
+- !private ["ST", "range"]
+- ["ST", "remove"]
+- ["ST", "removeAll"]
+- ["ST", "removeFirst"]
+- ["ST", "removeSubrange"]
+- ["ST", "replaceSubrange"]
+- ["ST", "reserveCapacity"]
+- ["ST", "startIndex"]
+- ["ST", "subscript"]
+- ["ST", "swapAt"]
+- ["ST", "underestimatedCount"]
+- !private ["ST", "upperBound"]
+- ["ST", "withContiguousMutableStorageIfAvailable"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["SZ", "advanced"]
+- !private ["SZ", "distance"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "advanced"]
+- !private ["s13SignedNumericP", "distance"]
+- !private ["Sx", ""]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "distance"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["SW", "baseAddress"]
+- !private ["SW", "bindMemory"]
+- !private ["SW", "firstIndex"]
+- !private ["SW", "init"]
+- !private ["SW", "lastIndex"]
+- !private ["SV", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "distance"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "advanced"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "distance"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "bindMemory"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "lastIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "advanced"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "distance"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s8_PointerP", "advanced"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- !private "Sz"
+- "3NIO10ByteBufferV"
+- "3NIO14ByteBufferViewV"
+- !private "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "Sj"
+- !private "Sq"
+- "Sk"
+- !private "Sn"
+- !private "SX"
+- "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "SW"
+- !private "SV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "aeb1026a3034127fef5f34b62e95ffeb"

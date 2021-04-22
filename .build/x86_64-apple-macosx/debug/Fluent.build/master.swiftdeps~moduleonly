@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "322196e3915d43af7e32ffc608c54e90"
+build_time: [1616667055, 133751000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/Exports.swift": [1616666971, 24294624]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/Fluent+Cache.swift": [1616666971, 24471478]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/Fluent+History.swift": [1616666971, 24629372]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": [1616666971, 24771934]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": [1616666971, 24933116]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": [1616666971, 25113137]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": [1616666971, 25285915]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift": [1616666971, 25485975]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/ModelCredentialsAuthenticatable.swift": [1616666971, 25640486]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift": [1616666971, 25893243]

@@ -1,0 +1,1012 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PSQLConnection"
+- "CloseTarget"
+provides-nominal:
+- "11PostgresNIO14PSQLConnectionC"
+- "11PostgresNIO14PSQLConnectionC13ConfigurationV"
+- "11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV"
+- "11PostgresNIO14PSQLConnectionC13ConfigurationV14AuthenticationV"
+- "11PostgresNIO14PSQLConnectionC13ConfigurationV10ConnectionO"
+- "11PostgresNIO11CloseTargetO"
+provides-member:
+- ["11PostgresNIO14PSQLConnectionC", ""]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", ""]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", ""]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV14AuthenticationV", ""]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV10ConnectionO", ""]
+- ["11PostgresNIO11CloseTargetO", ""]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "sslServerHostname"]
+provides-dynamic-lookup:
+- "channel"
+- "close"
+- "closeFuture"
+- "connect"
+- "connectionID"
+- "eventLoop"
+- "execute"
+- "isClosed"
+- "jsonDecoder"
+- "logger"
+- "prepareStatement"
+- "query"
+depends-top-level:
+- !private "!"
+- !private "<="
+- "=="
+- "AF_INET"
+- "AF_INET6"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Authentication"
+- "Bool"
+- "ByteToMessageHandler"
+- "Channel"
+- "ClientBootstrap"
+- !private "CloseCommandContext"
+- "CloseTarget"
+- "Coders"
+- "Connection"
+- !private "CreatePreparedStatementContext"
+- !private "Dictionary"
+- "EventLoop"
+- "EventLoopFuture"
+- !private "ExecuteExtendedQueryContext"
+- "FloatLiteralType"
+- "Int"
+- !private "Int16"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- "Logger"
+- "MessageToByteHandler"
+- "NIOSSLClientHandler"
+- "NIOSSLContext"
+- "PSQLBackendMessage"
+- "PSQLChannelHandler"
+- "PSQLConnection"
+- "PSQLEncodable"
+- "PSQLError"
+- "PSQLEventsHandler"
+- "PSQLFrontendMessage"
+- "PSQLJSONDecoder"
+- "PSQLJSONEncoder"
+- "PSQLPreparedStatement"
+- "PSQLRows"
+- !private "PSQLTask"
+- "SocketAddress"
+- "String"
+- !private "StringLiteralType"
+- "TLSConfiguration"
+- !private "UUID"
+- "Void"
+- !private "assert"
+- !private "in6_addr"
+- !private "in_addr"
+- "inet_pton"
+- "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "max"]
+- !private ["Sa", "count"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "max"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV14AuthenticationV", "String"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV14AuthenticationV", "database"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV14AuthenticationV", "init"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV14AuthenticationV", "password"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV14AuthenticationV", "username"]
+- !private ["SK", "AF_INET"]
+- !private ["SK", "AF_INET6"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "error"]
+- !private ["SK", "in6_addr"]
+- !private ["SK", "in_addr"]
+- !private ["SK", "inet_pton"]
+- !private ["SK", "isIPAddress"]
+- !private ["SK", "withCString"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["Sz", "max"]
+- !private ["3NIO20ByteToMessageDecoderP", "init"]
+- !private ["3NIO20ByteToMessageHandlerC", "init"]
+- !private ["s7CVarArgP", "AF_INET"]
+- !private ["s7CVarArgP", "AF_INET6"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "in6_addr"]
+- !private ["s7CVarArgP", "in_addr"]
+- !private ["s7CVarArgP", "inet_pton"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isIPAddress"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "withCString"]
+- !private ["3NIO7ChannelP", "close"]
+- !private ["3NIO7ChannelP", "closeFuture"]
+- !private ["3NIO7ChannelP", "eventLoop"]
+- !private ["3NIO7ChannelP", "isActive"]
+- !private ["3NIO7ChannelP", "pipeline"]
+- !private ["3NIO7ChannelP", "write"]
+- !private ["3NIO14ChannelHandlerP", ""]
+- !private ["3NIO14ChannelHandlerP", "authenticateFuture"]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- !private ["3NIO14ChannelHandlerP", "readyForStartupFuture"]
+- !private ["3NIO21ChannelInboundHandlerP", "authenticateFuture"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- !private ["3NIO21ChannelInboundHandlerP", "readyForStartupFuture"]
+- !private ["3NIO21ChannelInboundInvokerP", ""]
+- !private ["3NIO21ChannelInboundInvokerP", "addHandler"]
+- !private ["3NIO21ChannelInboundInvokerP", "addHandlers"]
+- !private ["3NIO21ChannelInboundInvokerP", "handler"]
+- !private ["3NIO14ChannelInvokerP", "addHandler"]
+- !private ["3NIO14ChannelInvokerP", "addHandlers"]
+- !private ["3NIO14ChannelInvokerP", "handler"]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundInvokerP", ""]
+- !private ["3NIO22ChannelOutboundInvokerP", "addHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "addHandlers"]
+- !private ["3NIO22ChannelOutboundInvokerP", "close"]
+- !private ["3NIO22ChannelOutboundInvokerP", "closeFuture"]
+- !private ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "handler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "isActive"]
+- !private ["3NIO22ChannelOutboundInvokerP", "pipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "write"]
+- !private ["3NIO15ChannelPipelineC", "addHandler"]
+- !private ["3NIO15ChannelPipelineC", "addHandlers"]
+- !private ["3NIO15ChannelPipelineC", "handler"]
+- !private ["3NIO15ClientBootstrapC", "channelInitializer"]
+- !private ["3NIO15ClientBootstrapC", "connect"]
+- !private ["3NIO15ClientBootstrapC", "init"]
+- !private ["11PostgresNIO19CloseCommandContextC", "init"]
+- !private ["3NIO9CloseModeO", "all"]
+- ["11PostgresNIO11CloseTargetO", "String"]
+- ["11PostgresNIO11CloseTargetO", "portal"]
+- ["11PostgresNIO11CloseTargetO", "preparedStatement"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "Coders"]
+- !private ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "JSONDecoder"]
+- !private ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "JSONEncoder"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "PSQLJSONDecoder"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "PSQLJSONEncoder"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "foundation"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "init"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "jsonDecoder"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV", "jsonEncoder"]
+- !private ["Sl", "AF_INET"]
+- !private ["Sl", "AF_INET6"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "error"]
+- !private ["Sl", "in6_addr"]
+- !private ["Sl", "in_addr"]
+- !private ["Sl", "inet_pton"]
+- !private ["Sl", "isIPAddress"]
+- !private ["Sl", "withCString"]
+- !private ["SL", "AF_INET"]
+- !private ["SL", "AF_INET6"]
+- !private ["SL", ""]
+- !private ["SL", "error"]
+- !private ["SL", "in6_addr"]
+- !private ["SL", "in_addr"]
+- !private ["SL", "inet_pton"]
+- !private ["SL", "init"]
+- !private ["SL", "isIPAddress"]
+- !private ["SL", "max"]
+- !private ["SL", "withCString"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "Authentication"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "Coders"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "Connection"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "Int"]
+- !private ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "JSONDecoder"]
+- !private ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "JSONEncoder"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "PSQLJSONDecoder"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "PSQLJSONEncoder"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "SocketAddress"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "String"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "TLSConfiguration"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", ""]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "authentication"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "coders"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "connection"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "init"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "sslServerHostname"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV", "tlsConfiguration"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV10ConnectionO", "Int"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV10ConnectionO", "SocketAddress"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV10ConnectionO", "String"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV10ConnectionO", "resolved"]
+- ["11PostgresNIO14PSQLConnectionC13ConfigurationV10ConnectionO", "unresolved"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["11PostgresNIO30CreatePreparedStatementContextC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AF_INET"]
+- !private ["s28CustomDebugStringConvertibleP", "AF_INET6"]
+- !private ["s28CustomDebugStringConvertibleP", "Decoder"]
+- !private ["s28CustomDebugStringConvertibleP", "RowDescription"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "addHandlers"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "handler"]
+- !private ["s28CustomDebugStringConvertibleP", "in6_addr"]
+- !private ["s28CustomDebugStringConvertibleP", "in_addr"]
+- !private ["s28CustomDebugStringConvertibleP", "inet_pton"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isIPAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "withCString"]
+- !private ["s17CustomReflectableP", "AF_INET"]
+- !private ["s17CustomReflectableP", "AF_INET6"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "error"]
+- !private ["s17CustomReflectableP", "in6_addr"]
+- !private ["s17CustomReflectableP", "in_addr"]
+- !private ["s17CustomReflectableP", "inet_pton"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isIPAddress"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s17CustomReflectableP", "withCString"]
+- !private ["s23CustomStringConvertibleP", "AF_INET"]
+- !private ["s23CustomStringConvertibleP", "AF_INET6"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "in6_addr"]
+- !private ["s23CustomStringConvertibleP", "in_addr"]
+- !private ["s23CustomStringConvertibleP", "inet_pton"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isIPAddress"]
+- !private ["s23CustomStringConvertibleP", "makeAddressResolvingHost"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "withCString"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["Se", "AF_INET"]
+- !private ["Se", "AF_INET6"]
+- !private ["Se", "count"]
+- !private ["Se", "error"]
+- !private ["Se", "in6_addr"]
+- !private ["Se", "in_addr"]
+- !private ["Se", "inet_pton"]
+- !private ["Se", "init"]
+- !private ["Se", "isIPAddress"]
+- !private ["Se", "max"]
+- !private ["Se", "uuidString"]
+- !private ["Se", "withCString"]
+- !private ["11PostgresNIO18PSQLBackendMessageO7DecoderV", ""]
+- !private ["11PostgresNIO18PSQLBackendMessageO7DecoderV", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "AF_INET"]
+- !private ["SE", "AF_INET6"]
+- !private ["SE", "count"]
+- !private ["SE", "error"]
+- !private ["SE", "in6_addr"]
+- !private ["SE", "in_addr"]
+- !private ["SE", "inet_pton"]
+- !private ["SE", "init"]
+- !private ["SE", "isIPAddress"]
+- !private ["SE", "max"]
+- !private ["SE", "uuidString"]
+- !private ["SE", "withCString"]
+- !private ["11PostgresNIO19PSQLFrontendMessageO7EncoderV", ""]
+- !private ["11PostgresNIO19PSQLFrontendMessageO7EncoderV", "init"]
+- !private ["SQ", "AF_INET"]
+- !private ["SQ", "AF_INET6"]
+- !private ["SQ", ""]
+- !private ["SQ", "all"]
+- !private ["SQ", "connectionID"]
+- !private ["SQ", "count"]
+- !private ["SQ", "error"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatMapError"]
+- !private ["SQ", "flatMapErrorThrowing"]
+- !private ["SQ", "flatMapThrowing"]
+- !private ["SQ", "in6_addr"]
+- !private ["SQ", "in_addr"]
+- !private ["SQ", "inet_pton"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isIPAddress"]
+- !private ["SQ", "makeAddressResolvingHost"]
+- !private ["SQ", "map"]
+- !private ["SQ", "max"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "whenFailure"]
+- !private ["SQ", "withCString"]
+- !private ["s5ErrorP", "channel"]
+- !private ["s5ErrorP", "tooManyParameters"]
+- !private ["3NIO9EventLoopP", "flatSubmit"]
+- !private ["3NIO9EventLoopP", "makeFailedFuture"]
+- !private ["3NIO9EventLoopP", "makePromise"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO9EventLoopP", "submit"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "flatMapError"]
+- !private ["3NIO15EventLoopFutureC", "flatMapErrorThrowing"]
+- !private ["3NIO15EventLoopFutureC", "flatMapThrowing"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO15EventLoopFutureC", "whenFailure"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "flatSubmit"]
+- !private ["3NIO14EventLoopGroupP", "makeFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "makePromise"]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["3NIO14EventLoopGroupP", "submit"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["11PostgresNIO27ExecuteExtendedQueryContextC", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "AF_INET"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "AF_INET6"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "error"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "in6_addr"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "in_addr"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "inet_pton"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isIPAddress"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "AF_INET"]
+- !private ["s32ExpressibleByStringInterpolationP", "AF_INET6"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "error"]
+- !private ["s32ExpressibleByStringInterpolationP", "in6_addr"]
+- !private ["s32ExpressibleByStringInterpolationP", "in_addr"]
+- !private ["s32ExpressibleByStringInterpolationP", "inet_pton"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isIPAddress"]
+- !private ["s32ExpressibleByStringInterpolationP", "withCString"]
+- !private ["s26ExpressibleByStringLiteralP", "AF_INET"]
+- !private ["s26ExpressibleByStringLiteralP", "AF_INET6"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "error"]
+- !private ["s26ExpressibleByStringLiteralP", "in6_addr"]
+- !private ["s26ExpressibleByStringLiteralP", "in_addr"]
+- !private ["s26ExpressibleByStringLiteralP", "inet_pton"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isIPAddress"]
+- !private ["s26ExpressibleByStringLiteralP", "withCString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "AF_INET"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "AF_INET6"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "error"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "in6_addr"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "in_addr"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "inet_pton"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isIPAddress"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withCString"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- !private ["SH", "AF_INET"]
+- !private ["SH", "AF_INET6"]
+- !private ["SH", ""]
+- !private ["SH", "all"]
+- !private ["SH", "connectionID"]
+- !private ["SH", "count"]
+- !private ["SH", "error"]
+- !private ["SH", "in6_addr"]
+- !private ["SH", "in_addr"]
+- !private ["SH", "inet_pton"]
+- !private ["SH", "init"]
+- !private ["SH", "isIPAddress"]
+- !private ["SH", "makeAddressResolvingHost"]
+- !private ["SH", "max"]
+- !private ["SH", "uuidString"]
+- !private ["SH", "withCString"]
+- !private ["Si", ""]
+- !private ["Si", "init"]
+- !private ["s5Int16V", "max"]
+- !private ["10Foundation11JSONDecoderC", ""]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", ""]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["7Logging6LoggerV", "error"]
+- !private ["7Logging6LoggerV", "subscript"]
+- !private ["11PostgresNIO14PSQLConnectionC17LoggerMetaDataKeyO", "connectionID"]
+- !private ["11PostgresNIO14PSQLConnectionC17LoggerMetaDataKeyO", "error"]
+- !private ["s25LosslessStringConvertibleP", "AF_INET"]
+- !private ["s25LosslessStringConvertibleP", "AF_INET6"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "error"]
+- !private ["s25LosslessStringConvertibleP", "in6_addr"]
+- !private ["s25LosslessStringConvertibleP", "in_addr"]
+- !private ["s25LosslessStringConvertibleP", "inet_pton"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isIPAddress"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s25LosslessStringConvertibleP", "withCString"]
+- !private ["3NIO20MessageToByteEncoderP", "init"]
+- !private ["3NIO20MessageToByteHandlerC", "init"]
+- !private ["s10MirrorPathP", "AF_INET"]
+- !private ["s10MirrorPathP", "AF_INET6"]
+- !private ["s10MirrorPathP", "error"]
+- !private ["s10MirrorPathP", "in6_addr"]
+- !private ["s10MirrorPathP", "in_addr"]
+- !private ["s10MirrorPathP", "inet_pton"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isIPAddress"]
+- !private ["s10MirrorPathP", "withCString"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "max"]
+- !private ["3NIO29NIOClientTCPBootstrapProtocolP", "channelInitializer"]
+- !private ["3NIO29NIOClientTCPBootstrapProtocolP", "connect"]
+- !private ["3NIO29NIOClientTCPBootstrapProtocolP", "init"]
+- !private ["6NIOSSL19NIOSSLClientHandlerC", "init"]
+- !private ["6NIOSSL13NIOSSLContextC", "init"]
+- ["6NIOSSL13NIOSSLHandlerC", ""]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "isIPAddress"]
+- !private ["So8NSCodingP", "withCString"]
+- !private ["So9NSCopyingP", "isIPAddress"]
+- !private ["So9NSCopyingP", "withCString"]
+- !private ["So21NSItemProviderReadingP", "isIPAddress"]
+- !private ["So21NSItemProviderReadingP", "withCString"]
+- !private ["So21NSItemProviderWritingP", "isIPAddress"]
+- !private ["So21NSItemProviderWritingP", "withCString"]
+- !private ["So16NSMutableCopyingP", "isIPAddress"]
+- !private ["So16NSMutableCopyingP", "withCString"]
+- !private ["So8NSObjectC", "isIPAddress"]
+- !private ["So8NSObjectC", "withCString"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "isIPAddress"]
+- !private ["So8NSObjectP", "withCString"]
+- !private ["So14NSSecureCodingP", "isIPAddress"]
+- !private ["So14NSSecureCodingP", "withCString"]
+- !private ["So8NSStringC", "isIPAddress"]
+- !private ["So8NSStringC", "withCString"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "max"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "AF_INET"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "AF_INET6"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "error"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "in6_addr"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "in_addr"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "inet_pton"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "init"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "isIPAddress"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "max"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "uuidString"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "withCString"]
+- !private ["11PostgresNIO18PSQLBackendMessageO", "Decoder"]
+- !private ["11PostgresNIO18PSQLBackendMessageO", "RowDescription"]
+- !private ["11PostgresNIO18PSQLChannelHandlerC", ""]
+- !private ["11PostgresNIO18PSQLChannelHandlerC", "init"]
+- !private ["11PostgresNIO11PSQLCodableP", "AF_INET"]
+- !private ["11PostgresNIO11PSQLCodableP", "AF_INET6"]
+- ["11PostgresNIO11PSQLCodableP", ""]
+- !private ["11PostgresNIO11PSQLCodableP", "count"]
+- !private ["11PostgresNIO11PSQLCodableP", "error"]
+- !private ["11PostgresNIO11PSQLCodableP", "in6_addr"]
+- !private ["11PostgresNIO11PSQLCodableP", "in_addr"]
+- !private ["11PostgresNIO11PSQLCodableP", "inet_pton"]
+- !private ["11PostgresNIO11PSQLCodableP", "init"]
+- !private ["11PostgresNIO11PSQLCodableP", "isIPAddress"]
+- !private ["11PostgresNIO11PSQLCodableP", "max"]
+- !private ["11PostgresNIO11PSQLCodableP", "uuidString"]
+- !private ["11PostgresNIO11PSQLCodableP", "withCString"]
+- !private ["11PostgresNIO14PSQLConnectionC", "Authentication"]
+- ["11PostgresNIO14PSQLConnectionC", "Bool"]
+- !private ["11PostgresNIO14PSQLConnectionC", "ByteToMessageHandler"]
+- ["11PostgresNIO14PSQLConnectionC", "Channel"]
+- !private ["11PostgresNIO14PSQLConnectionC", "ClientBootstrap"]
+- !private ["11PostgresNIO14PSQLConnectionC", "CloseCommandContext"]
+- ["11PostgresNIO14PSQLConnectionC", "CloseTarget"]
+- !private ["11PostgresNIO14PSQLConnectionC", "Coders"]
+- ["11PostgresNIO14PSQLConnectionC", "Configuration"]
+- !private ["11PostgresNIO14PSQLConnectionC", "CreatePreparedStatementContext"]
+- ["11PostgresNIO14PSQLConnectionC", "EventLoop"]
+- ["11PostgresNIO14PSQLConnectionC", "EventLoopFuture"]
+- !private ["11PostgresNIO14PSQLConnectionC", "ExecuteExtendedQueryContext"]
+- ["11PostgresNIO14PSQLConnectionC", "Int"]
+- !private ["11PostgresNIO14PSQLConnectionC", "Int16"]
+- !private ["11PostgresNIO14PSQLConnectionC", "JSONDecoder"]
+- !private ["11PostgresNIO14PSQLConnectionC", "JSONEncoder"]
+- ["11PostgresNIO14PSQLConnectionC", "Logger"]
+- !private ["11PostgresNIO14PSQLConnectionC", "MessageToByteHandler"]
+- !private ["11PostgresNIO14PSQLConnectionC", "NIOSSLClientHandler"]
+- !private ["11PostgresNIO14PSQLConnectionC", "NIOSSLContext"]
+- !private ["11PostgresNIO14PSQLConnectionC", "PSQLBackendMessage"]
+- !private ["11PostgresNIO14PSQLConnectionC", "PSQLChannelHandler"]
+- ["11PostgresNIO14PSQLConnectionC", "PSQLConnection"]
+- ["11PostgresNIO14PSQLConnectionC", "PSQLEncodable"]
+- !private ["11PostgresNIO14PSQLConnectionC", "PSQLError"]
+- !private ["11PostgresNIO14PSQLConnectionC", "PSQLEventsHandler"]
+- !private ["11PostgresNIO14PSQLConnectionC", "PSQLFrontendMessage"]
+- ["11PostgresNIO14PSQLConnectionC", "PSQLJSONDecoder"]
+- ["11PostgresNIO14PSQLConnectionC", "PSQLJSONEncoder"]
+- ["11PostgresNIO14PSQLConnectionC", "PSQLPreparedStatement"]
+- ["11PostgresNIO14PSQLConnectionC", "PSQLRows"]
+- !private ["11PostgresNIO14PSQLConnectionC", "PSQLTask"]
+- ["11PostgresNIO14PSQLConnectionC", "SocketAddress"]
+- ["11PostgresNIO14PSQLConnectionC", "String"]
+- ["11PostgresNIO14PSQLConnectionC", "TLSConfiguration"]
+- !private ["11PostgresNIO14PSQLConnectionC", "UUID"]
+- ["11PostgresNIO14PSQLConnectionC", "Void"]
+- !private ["11PostgresNIO14PSQLConnectionC", "assert"]
+- ["11PostgresNIO14PSQLConnectionC", "channel"]
+- ["11PostgresNIO14PSQLConnectionC", "close"]
+- ["11PostgresNIO14PSQLConnectionC", "closeFuture"]
+- ["11PostgresNIO14PSQLConnectionC", "connect"]
+- ["11PostgresNIO14PSQLConnectionC", "connectionID"]
+- ["11PostgresNIO14PSQLConnectionC", "deinit"]
+- ["11PostgresNIO14PSQLConnectionC", "eventLoop"]
+- ["11PostgresNIO14PSQLConnectionC", "execute"]
+- ["11PostgresNIO14PSQLConnectionC", "init"]
+- ["11PostgresNIO14PSQLConnectionC", "isClosed"]
+- ["11PostgresNIO14PSQLConnectionC", "jsonDecoder"]
+- !private ["11PostgresNIO14PSQLConnectionC", "logger"]
+- ["11PostgresNIO14PSQLConnectionC", "prepareStatement"]
+- ["11PostgresNIO14PSQLConnectionC", "query"]
+- !private ["11PostgresNIO13PSQLDecodableP", "AF_INET"]
+- !private ["11PostgresNIO13PSQLDecodableP", "AF_INET6"]
+- ["11PostgresNIO13PSQLDecodableP", ""]
+- !private ["11PostgresNIO13PSQLDecodableP", "count"]
+- !private ["11PostgresNIO13PSQLDecodableP", "error"]
+- !private ["11PostgresNIO13PSQLDecodableP", "in6_addr"]
+- !private ["11PostgresNIO13PSQLDecodableP", "in_addr"]
+- !private ["11PostgresNIO13PSQLDecodableP", "inet_pton"]
+- !private ["11PostgresNIO13PSQLDecodableP", "init"]
+- !private ["11PostgresNIO13PSQLDecodableP", "isIPAddress"]
+- !private ["11PostgresNIO13PSQLDecodableP", "max"]
+- !private ["11PostgresNIO13PSQLDecodableP", "uuidString"]
+- !private ["11PostgresNIO13PSQLDecodableP", "withCString"]
+- !private ["11PostgresNIO13PSQLEncodableP", "AF_INET"]
+- !private ["11PostgresNIO13PSQLEncodableP", "AF_INET6"]
+- ["11PostgresNIO13PSQLEncodableP", ""]
+- !private ["11PostgresNIO13PSQLEncodableP", "count"]
+- !private ["11PostgresNIO13PSQLEncodableP", "error"]
+- !private ["11PostgresNIO13PSQLEncodableP", "in6_addr"]
+- !private ["11PostgresNIO13PSQLEncodableP", "in_addr"]
+- !private ["11PostgresNIO13PSQLEncodableP", "inet_pton"]
+- !private ["11PostgresNIO13PSQLEncodableP", "init"]
+- !private ["11PostgresNIO13PSQLEncodableP", "isIPAddress"]
+- !private ["11PostgresNIO13PSQLEncodableP", "max"]
+- !private ["11PostgresNIO13PSQLEncodableP", "uuidString"]
+- !private ["11PostgresNIO13PSQLEncodableP", "withCString"]
+- !private ["11PostgresNIO9PSQLErrorV", ""]
+- !private ["11PostgresNIO9PSQLErrorV", "channel"]
+- !private ["11PostgresNIO9PSQLErrorV", "tooManyParameters"]
+- !private ["11PostgresNIO17PSQLEventsHandlerC", ""]
+- !private ["11PostgresNIO17PSQLEventsHandlerC", "authenticateFuture"]
+- !private ["11PostgresNIO17PSQLEventsHandlerC", "init"]
+- !private ["11PostgresNIO17PSQLEventsHandlerC", "readyForStartupFuture"]
+- !private ["11PostgresNIO19PSQLFrontendMessageO", "Encoder"]
+- !private ["11PostgresNIO15PSQLJSONDecoderP", "init"]
+- !private ["11PostgresNIO15PSQLJSONEncoderP", "init"]
+- !private ["11PostgresNIO19PSQLLoggingMetadataV", ""]
+- !private ["11PostgresNIO21PSQLPreparedStatementV", "init"]
+- !private ["11PostgresNIO8PSQLTaskO", "closeCommand"]
+- !private ["11PostgresNIO8PSQLTaskO", "extendedQuery"]
+- !private ["11PostgresNIO8PSQLTaskO", "preparedStatement"]
+- !private ["3NIO15ChannelPipelineC8PositionO", "before"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "AF_INET"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "AF_INET6"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "count"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "error"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "in6_addr"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "in_addr"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "inet_pton"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "init"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "isIPAddress"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "max"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "uuidString"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "withCString"]
+- !private ["11PostgresNIO0A11JSONDecoderP", "init"]
+- !private ["11PostgresNIO0A11JSONEncoderP", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sm", "AF_INET"]
+- !private ["Sm", "AF_INET6"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "error"]
+- !private ["Sm", "in6_addr"]
+- !private ["Sm", "in_addr"]
+- !private ["Sm", "inet_pton"]
+- !private ["Sm", "isIPAddress"]
+- !private ["Sm", "withCString"]
+- !private ["SY", "connectionID"]
+- !private ["SY", "error"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["3NIO23RemovableChannelHandlerP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "max"]
+- !private ["ST", "AF_INET"]
+- !private ["ST", "AF_INET6"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "error"]
+- !private ["ST", "in6_addr"]
+- !private ["ST", "in_addr"]
+- !private ["ST", "inet_pton"]
+- !private ["ST", "isIPAddress"]
+- !private ["ST", "withCString"]
+- !private ["SZ", "init"]
+- !private ["SZ", "max"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "max"]
+- !private ["3NIO13SocketAddressO", "makeAddressResolvingHost"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["Sx", "max"]
+- !private ["SS", "AF_INET"]
+- !private ["SS", "AF_INET6"]
+- ["SS", "Bool"]
+- ["SS", ""]
+- !private ["SS", "error"]
+- !private ["SS", "in6_addr"]
+- !private ["SS", "in_addr"]
+- !private ["SS", "inet_pton"]
+- !private ["SS", "isIPAddress"]
+- !private ["SS", "withCString"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "AF_INET"]
+- !private ["Sy", "AF_INET6"]
+- !private ["Sy", "error"]
+- !private ["Sy", "in6_addr"]
+- !private ["Sy", "in_addr"]
+- !private ["Sy", "inet_pton"]
+- !private ["Sy", "isIPAddress"]
+- !private ["Sy", "withCString"]
+- !private ["s16TextOutputStreamP", "AF_INET"]
+- !private ["s16TextOutputStreamP", "AF_INET6"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "error"]
+- !private ["s16TextOutputStreamP", "in6_addr"]
+- !private ["s16TextOutputStreamP", "in_addr"]
+- !private ["s16TextOutputStreamP", "inet_pton"]
+- !private ["s16TextOutputStreamP", "isIPAddress"]
+- !private ["s16TextOutputStreamP", "withCString"]
+- !private ["s20TextOutputStreamableP", "AF_INET"]
+- !private ["s20TextOutputStreamableP", "AF_INET6"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "error"]
+- !private ["s20TextOutputStreamableP", "in6_addr"]
+- !private ["s20TextOutputStreamableP", "in_addr"]
+- !private ["s20TextOutputStreamableP", "inet_pton"]
+- !private ["s20TextOutputStreamableP", "isIPAddress"]
+- !private ["s20TextOutputStreamableP", "withCString"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["10Foundation4UUIDV", ""]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["3NIO22_ChannelInboundHandlerP", ""]
+- !private ["3NIO22_ChannelInboundHandlerP", "authenticateFuture"]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- !private ["3NIO22_ChannelInboundHandlerP", "readyForStartupFuture"]
+- !private ["3NIO23_ChannelOutboundHandlerP", ""]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "AF_INET"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "AF_INET6"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "error"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "in6_addr"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "in_addr"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "inet_pton"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isIPAddress"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "max"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withCString"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["3NIO23_EmittingChannelHandlerP", ""]
+- !private ["3NIO23_EmittingChannelHandlerP", "authenticateFuture"]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- !private ["3NIO23_EmittingChannelHandlerP", "readyForStartupFuture"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "AF_INET"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "AF_INET6"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "error"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "in6_addr"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "in_addr"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "inet_pton"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isIPAddress"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withCString"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "AF_INET"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "AF_INET6"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "error"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "in6_addr"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "in_addr"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "inet_pton"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isIPAddress"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withCString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "AF_INET"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "AF_INET6"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "error"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "in6_addr"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "in_addr"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "inet_pton"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isIPAddress"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withCString"]
+- !private ["s19_HasContiguousBytesP", "AF_INET"]
+- !private ["s19_HasContiguousBytesP", "AF_INET6"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "error"]
+- !private ["s19_HasContiguousBytesP", "in6_addr"]
+- !private ["s19_HasContiguousBytesP", "in_addr"]
+- !private ["s19_HasContiguousBytesP", "inet_pton"]
+- !private ["s19_HasContiguousBytesP", "isIPAddress"]
+- !private ["s19_HasContiguousBytesP", "withCString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isIPAddress"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withCString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isIPAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withCString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isIPAddress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "withCString"]
+- !private ["s21_ObjectiveCBridgeableP", "AF_INET"]
+- !private ["s21_ObjectiveCBridgeableP", "AF_INET6"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "error"]
+- !private ["s21_ObjectiveCBridgeableP", "in6_addr"]
+- !private ["s21_ObjectiveCBridgeableP", "in_addr"]
+- !private ["s21_ObjectiveCBridgeableP", "inet_pton"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isIPAddress"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["s21_ObjectiveCBridgeableP", "withCString"]
+- !private ["So8in6_addrV", "init"]
+- !private ["So7in_addrV", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "11PostgresNIO14PSQLConnectionC13ConfigurationV14AuthenticationV"
+- !private "SK"
+- !private "Sz"
+- !private "3NIO20ByteToMessageDecoderP"
+- !private "3NIO20ByteToMessageHandlerC"
+- !private "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- !private "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO22ChannelOutboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO15ChannelPipelineC"
+- !private "3NIO15ClientBootstrapC"
+- !private "11PostgresNIO19CloseCommandContextC"
+- !private "3NIO9CloseModeO"
+- "11PostgresNIO11CloseTargetO"
+- "11PostgresNIO14PSQLConnectionC13ConfigurationV6CodersV"
+- !private "Sl"
+- !private "SL"
+- "11PostgresNIO14PSQLConnectionC13ConfigurationV"
+- "11PostgresNIO14PSQLConnectionC13ConfigurationV10ConnectionO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "11PostgresNIO30CreatePreparedStatementContextC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "11PostgresNIO18PSQLBackendMessageO7DecoderV"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "11PostgresNIO19PSQLFrontendMessageO7EncoderV"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "11PostgresNIO27ExecuteExtendedQueryContextC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s5Int16V"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "7Logging6LoggerV"
+- !private "11PostgresNIO14PSQLConnectionC17LoggerMetaDataKeyO"
+- !private "s25LosslessStringConvertibleP"
+- !private "3NIO20MessageToByteEncoderP"
+- !private "3NIO20MessageToByteHandlerC"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "3NIO29NIOClientTCPBootstrapProtocolP"
+- !private "6NIOSSL19NIOSSLClientHandlerC"
+- !private "6NIOSSL13NIOSSLContextC"
+- "6NIOSSL13NIOSSLHandlerC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "11PostgresNIO16PSQLArrayElementP"
+- !private "11PostgresNIO18PSQLBackendMessageO"
+- !private "11PostgresNIO18PSQLChannelHandlerC"
+- "11PostgresNIO11PSQLCodableP"
+- "11PostgresNIO14PSQLConnectionC"
+- "11PostgresNIO13PSQLDecodableP"
+- "11PostgresNIO13PSQLEncodableP"
+- !private "11PostgresNIO9PSQLErrorV"
+- !private "11PostgresNIO17PSQLEventsHandlerC"
+- !private "11PostgresNIO19PSQLFrontendMessageO"
+- !private "11PostgresNIO15PSQLJSONDecoderP"
+- !private "11PostgresNIO15PSQLJSONEncoderP"
+- !private "11PostgresNIO19PSQLLoggingMetadataV"
+- !private "11PostgresNIO21PSQLPreparedStatementV"
+- !private "11PostgresNIO8PSQLTaskO"
+- !private "3NIO15ChannelPipelineC8PositionO"
+- !private "11PostgresNIO0A15DataConvertibleP"
+- !private "11PostgresNIO0A11JSONDecoderP"
+- !private "11PostgresNIO0A11JSONEncoderP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "3NIO23RemovableChannelHandlerP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "3NIO13SocketAddressO"
+- !private "Sx"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7Combine15TopLevelEncoderP"
+- !private "10Foundation4UUIDV"
+- !private "s14_ArrayProtocolP"
+- !private "3NIO22_ChannelInboundHandlerP"
+- !private "3NIO23_ChannelOutboundHandlerP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "3NIO23_EmittingChannelHandlerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So8in6_addrV"
+- !private "So7in_addrV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1d4e12d6dd7eea813f48255200b91f55"

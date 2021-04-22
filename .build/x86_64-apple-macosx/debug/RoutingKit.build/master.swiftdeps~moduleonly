@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "ab7e77f2b610cb013eaf46a472f0549e"
+build_time: [1616666985, 149432000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift": [1616666967, 663708133]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift": [1616666967, 663895417]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift": [1616666967, 664072487]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift": [1616666967, 664275119]

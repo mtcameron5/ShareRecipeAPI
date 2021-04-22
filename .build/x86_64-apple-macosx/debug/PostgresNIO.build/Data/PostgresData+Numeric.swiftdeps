@@ -1,0 +1,1037 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostgresNumeric"
+provides-nominal:
+- "11PostgresNIO0A7NumericV"
+provides-member:
+- ["11PostgresNIO0A7NumericV", ""]
+- ["11PostgresNIO0A4DataV", ""]
+- ["11PostgresNIO0A4DataV", "init"]
+- ["11PostgresNIO0A4DataV", "numeric"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&"
+- !private "+"
+- !private "+="
+- "-"
+- "..<"
+- !private "/"
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ByteBuffer"
+- !private "ByteBufferAllocator"
+- "Collection"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "Decimal"
+- "Double"
+- "ExpressibleByStringLiteral"
+- !private "ExtendedGraphemeClusterType"
+- !private "FloatLiteralType"
+- "Int"
+- "Int16"
+- !private "IntegerLiteralType"
+- "PostgresData"
+- "PostgresNumeric"
+- "String"
+- !private "StringLiteralType"
+- "SubSequence"
+- "Substring"
+- "Swift"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- !private "abs"
+- !private "fatalError"
+- !private "numericCast"
+- !private "stride"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "chunked"]
+- !private ["SK", "count"]
+- !private ["SK", "dropFirst"]
+- !private ["SK", "hasPrefix"]
+- !private ["SK", "index"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "reverseChunked"]
+- !private ["SK", "split"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "description"]
+- !private ["Sz", "init"]
+- !private ["3NIO10ByteBufferV", "readInteger"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- !private ["3NIO10ByteBufferV", "writeBuffer"]
+- !private ["3NIO10ByteBufferV", "writeInteger"]
+- !private ["3NIO19ByteBufferAllocatorV", "buffer"]
+- !private ["3NIO19ByteBufferAllocatorV", "init"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "index"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "split"]
+- !private ["s7CVarArgP", "startIndex"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "Element"]
+- !private ["Sl", "Index"]
+- ["Sl", "Int"]
+- ["Sl", "SubSequence"]
+- !private ["Sl", "Swift"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "chunked"]
+- !private ["Sl", "count"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "dropFirst"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "hasPrefix"]
+- !private ["Sl", "index"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reverseChunked"]
+- !private ["Sl", "split"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "stride"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "chunked"]
+- !private ["SL", "count"]
+- !private ["SL", "description"]
+- !private ["SL", "dropFirst"]
+- !private ["SL", "hasPrefix"]
+- !private ["SL", "index"]
+- !private ["SL", "init"]
+- !private ["SL", "reverseChunked"]
+- !private ["SL", "split"]
+- !private ["SL", "startIndex"]
+- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "ByteBufferAllocator"]
+- !private ["s28CustomDebugStringConvertibleP", "Decimal"]
+- ["s28CustomDebugStringConvertibleP", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["s28CustomDebugStringConvertibleP", "Default_StringLiteralType"]
+- ["s28CustomDebugStringConvertibleP", "Default_UnicodeScalarLiteralType"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- ["s28CustomDebugStringConvertibleP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "Int16"]
+- !private ["s28CustomDebugStringConvertibleP", "PostgresNumeric"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "StringLiteralType"]
+- ["s28CustomDebugStringConvertibleP", "UnicodeScalarLiteralType"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s28CustomDebugStringConvertibleP", "_Default_StringLiteralType"]
+- ["s28CustomDebugStringConvertibleP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s28CustomDebugStringConvertibleP", "abs"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "chunked"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "dscale"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "ndigits"]
+- !private ["s28CustomDebugStringConvertibleP", "numericCast"]
+- !private ["s28CustomDebugStringConvertibleP", "reverseChunked"]
+- !private ["s28CustomDebugStringConvertibleP", "sign"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "weight"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "chunked"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- !private ["s17CustomReflectableP", "hasPrefix"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reverseChunked"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "split"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "ByteBufferAllocator"]
+- !private ["s23CustomStringConvertibleP", "Decimal"]
+- ["s23CustomStringConvertibleP", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["s23CustomStringConvertibleP", "Default_StringLiteralType"]
+- ["s23CustomStringConvertibleP", "Default_UnicodeScalarLiteralType"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "Int16"]
+- !private ["s23CustomStringConvertibleP", "PostgresNumeric"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "StringLiteralType"]
+- ["s23CustomStringConvertibleP", "UnicodeScalarLiteralType"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s23CustomStringConvertibleP", "_Default_StringLiteralType"]
+- ["s23CustomStringConvertibleP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s23CustomStringConvertibleP", "abs"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "chunked"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- !private ["s23CustomStringConvertibleP", "dscale"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "hasPrefix"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "ndigits"]
+- !private ["s23CustomStringConvertibleP", "numeric"]
+- !private ["s23CustomStringConvertibleP", "numericCast"]
+- !private ["s23CustomStringConvertibleP", "readInteger"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "reverseChunked"]
+- !private ["s23CustomStringConvertibleP", "sign"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "weight"]
+- !private ["s23CustomStringConvertibleP", "writeBuffer"]
+- !private ["s23CustomStringConvertibleP", "writeInteger"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["So9NSDecimala", ""]
+- !private ["So9NSDecimala", "description"]
+- !private ["So9NSDecimala", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "description"]
+- !private ["Se", "index"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "numeric"]
+- !private ["Se", "split"]
+- !private ["Se", "startIndex"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", ""]
+- !private ["Sd", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "description"]
+- !private ["SE", "index"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "numeric"]
+- !private ["SE", "split"]
+- !private ["SE", "startIndex"]
+- !private ["SE", "subscript"]
+- !private ["3NIO10EndiannessO", "big"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "big"]
+- !private ["SQ", "chunked"]
+- !private ["SQ", "count"]
+- !private ["SQ", "description"]
+- !private ["SQ", "dropFirst"]
+- !private ["SQ", "hasPrefix"]
+- !private ["SQ", "index"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "numeric"]
+- !private ["SQ", "readInteger"]
+- !private ["SQ", "readableBytes"]
+- !private ["SQ", "reverseChunked"]
+- !private ["SQ", "split"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "writeBuffer"]
+- !private ["SQ", "writeInteger"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "ByteBufferAllocator"]
+- !private ["s27ExpressibleByBooleanLiteralP", "PostgresNumeric"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "value"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ByteBufferAllocator"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Decimal"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Default_UnicodeScalarLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Double"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Int"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Int16"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "PostgresNumeric"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "String"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "abs"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "chunked"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "debugDescription"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "description"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dropFirst"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dscale"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "fatalError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "index"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ndigits"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "numericCast"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "reverseChunked"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "sign"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "startIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "value"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "weight"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "numeric"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "chunked"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "dropFirst"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasPrefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "index"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "reverseChunked"]
+- !private ["s32ExpressibleByStringInterpolationP", "split"]
+- !private ["s32ExpressibleByStringInterpolationP", "startIndex"]
+- !private ["s32ExpressibleByStringInterpolationP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "ByteBufferAllocator"]
+- !private ["s26ExpressibleByStringLiteralP", "Decimal"]
+- ["s26ExpressibleByStringLiteralP", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Default_UnicodeScalarLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "Double"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "Int"]
+- !private ["s26ExpressibleByStringLiteralP", "Int16"]
+- !private ["s26ExpressibleByStringLiteralP", "PostgresNumeric"]
+- !private ["s26ExpressibleByStringLiteralP", "String"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "abs"]
+- !private ["s26ExpressibleByStringLiteralP", "chunked"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- ["s26ExpressibleByStringLiteralP", "debugDescription"]
+- ["s26ExpressibleByStringLiteralP", "description"]
+- !private ["s26ExpressibleByStringLiteralP", "dropFirst"]
+- !private ["s26ExpressibleByStringLiteralP", "dscale"]
+- !private ["s26ExpressibleByStringLiteralP", "fatalError"]
+- !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- !private ["s26ExpressibleByStringLiteralP", "index"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "ndigits"]
+- !private ["s26ExpressibleByStringLiteralP", "numericCast"]
+- !private ["s26ExpressibleByStringLiteralP", "reverseChunked"]
+- !private ["s26ExpressibleByStringLiteralP", "sign"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", "startIndex"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "value"]
+- !private ["s26ExpressibleByStringLiteralP", "weight"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ByteBufferAllocator"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Decimal"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Default_UnicodeScalarLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Double"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Int16"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "PostgresNumeric"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "String"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "abs"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "chunked"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "debugDescription"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "description"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dropFirst"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dscale"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "fatalError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "index"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ndigits"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "numericCast"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "reverseChunked"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "sign"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "startIndex"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "value"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "weight"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "big"]
+- !private ["SH", "chunked"]
+- !private ["SH", "count"]
+- !private ["SH", "description"]
+- !private ["SH", "dropFirst"]
+- !private ["SH", "hasPrefix"]
+- !private ["SH", "index"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "readInteger"]
+- !private ["SH", "readableBytes"]
+- !private ["SH", "reverseChunked"]
+- !private ["SH", "split"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "subscript"]
+- !private ["SH", "writeBuffer"]
+- !private ["SH", "writeInteger"]
+- !private ["Si", ""]
+- !private ["Si", "init"]
+- !private ["s5Int16V", ""]
+- !private ["s5Int16V", "description"]
+- !private ["s5Int16V", "init"]
+- !private ["s25LosslessStringConvertibleP", "Element"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "chunked"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "dropFirst"]
+- !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- !private ["s25LosslessStringConvertibleP", "index"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "reverseChunked"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["s25LosslessStringConvertibleP", "startIndex"]
+- !private ["s25LosslessStringConvertibleP", "subscript"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "index"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "split"]
+- !private ["s10MirrorPathP", "startIndex"]
+- !private ["s10MirrorPathP", "subscript"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "index"]
+- !private ["So8NSCodingP", "split"]
+- !private ["So8NSCodingP", "startIndex"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "index"]
+- !private ["So9NSCopyingP", "split"]
+- !private ["So9NSCopyingP", "startIndex"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "index"]
+- !private ["So21NSItemProviderReadingP", "split"]
+- !private ["So21NSItemProviderReadingP", "startIndex"]
+- !private ["So21NSItemProviderReadingP", "subscript"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "index"]
+- !private ["So21NSItemProviderWritingP", "split"]
+- !private ["So21NSItemProviderWritingP", "startIndex"]
+- !private ["So21NSItemProviderWritingP", "subscript"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "index"]
+- !private ["So16NSMutableCopyingP", "split"]
+- !private ["So16NSMutableCopyingP", "startIndex"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "index"]
+- !private ["So8NSObjectC", "split"]
+- !private ["So8NSObjectC", "startIndex"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "index"]
+- !private ["So8NSObjectP", "split"]
+- !private ["So8NSObjectP", "startIndex"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "index"]
+- !private ["So14NSSecureCodingP", "split"]
+- !private ["So14NSSecureCodingP", "startIndex"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "index"]
+- !private ["So8NSStringC", "split"]
+- !private ["So8NSStringC", "startIndex"]
+- !private ["So8NSStringC", "subscript"]
+- !private ["Sj", ""]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "count"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "description"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "index"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "init"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "readInteger"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "readableBytes"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "split"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "startIndex"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "subscript"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "writeBuffer"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "writeInteger"]
+- !private ["11PostgresNIO11PSQLCodableP", "ByteBufferAllocator"]
+- !private ["11PostgresNIO11PSQLCodableP", "PostgresNumeric"]
+- ["11PostgresNIO11PSQLCodableP", ""]
+- !private ["11PostgresNIO11PSQLCodableP", "append"]
+- !private ["11PostgresNIO11PSQLCodableP", "count"]
+- !private ["11PostgresNIO11PSQLCodableP", "description"]
+- !private ["11PostgresNIO11PSQLCodableP", "index"]
+- !private ["11PostgresNIO11PSQLCodableP", "init"]
+- !private ["11PostgresNIO11PSQLCodableP", "map"]
+- !private ["11PostgresNIO11PSQLCodableP", "readInteger"]
+- !private ["11PostgresNIO11PSQLCodableP", "readableBytes"]
+- !private ["11PostgresNIO11PSQLCodableP", "split"]
+- !private ["11PostgresNIO11PSQLCodableP", "startIndex"]
+- !private ["11PostgresNIO11PSQLCodableP", "subscript"]
+- !private ["11PostgresNIO11PSQLCodableP", "value"]
+- !private ["11PostgresNIO11PSQLCodableP", "writeBuffer"]
+- !private ["11PostgresNIO11PSQLCodableP", "writeInteger"]
+- !private ["11PostgresNIO13PSQLDecodableP", "ByteBufferAllocator"]
+- !private ["11PostgresNIO13PSQLDecodableP", "PostgresNumeric"]
+- ["11PostgresNIO13PSQLDecodableP", ""]
+- !private ["11PostgresNIO13PSQLDecodableP", "append"]
+- !private ["11PostgresNIO13PSQLDecodableP", "count"]
+- !private ["11PostgresNIO13PSQLDecodableP", "description"]
+- !private ["11PostgresNIO13PSQLDecodableP", "index"]
+- !private ["11PostgresNIO13PSQLDecodableP", "init"]
+- !private ["11PostgresNIO13PSQLDecodableP", "map"]
+- !private ["11PostgresNIO13PSQLDecodableP", "readInteger"]
+- !private ["11PostgresNIO13PSQLDecodableP", "readableBytes"]
+- !private ["11PostgresNIO13PSQLDecodableP", "split"]
+- !private ["11PostgresNIO13PSQLDecodableP", "startIndex"]
+- !private ["11PostgresNIO13PSQLDecodableP", "subscript"]
+- !private ["11PostgresNIO13PSQLDecodableP", "value"]
+- !private ["11PostgresNIO13PSQLDecodableP", "writeBuffer"]
+- !private ["11PostgresNIO13PSQLDecodableP", "writeInteger"]
+- !private ["11PostgresNIO13PSQLEncodableP", "ByteBufferAllocator"]
+- !private ["11PostgresNIO13PSQLEncodableP", "PostgresNumeric"]
+- ["11PostgresNIO13PSQLEncodableP", ""]
+- !private ["11PostgresNIO13PSQLEncodableP", "append"]
+- !private ["11PostgresNIO13PSQLEncodableP", "count"]
+- !private ["11PostgresNIO13PSQLEncodableP", "description"]
+- !private ["11PostgresNIO13PSQLEncodableP", "index"]
+- !private ["11PostgresNIO13PSQLEncodableP", "init"]
+- !private ["11PostgresNIO13PSQLEncodableP", "map"]
+- !private ["11PostgresNIO13PSQLEncodableP", "readInteger"]
+- !private ["11PostgresNIO13PSQLEncodableP", "readableBytes"]
+- !private ["11PostgresNIO13PSQLEncodableP", "split"]
+- !private ["11PostgresNIO13PSQLEncodableP", "startIndex"]
+- !private ["11PostgresNIO13PSQLEncodableP", "subscript"]
+- !private ["11PostgresNIO13PSQLEncodableP", "value"]
+- !private ["11PostgresNIO13PSQLEncodableP", "writeBuffer"]
+- !private ["11PostgresNIO13PSQLEncodableP", "writeInteger"]
+- !private ["11PostgresNIO0A4DataV", "ByteBufferAllocator"]
+- ["11PostgresNIO0A4DataV", "PostgresNumeric"]
+- ["11PostgresNIO0A4DataV", ""]
+- ["11PostgresNIO0A4DataV", "init"]
+- ["11PostgresNIO0A4DataV", "numeric"]
+- !private ["11PostgresNIO0A4DataV", "value"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "ByteBufferAllocator"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "PostgresNumeric"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "append"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "count"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "description"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "index"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "init"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "map"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "split"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "startIndex"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "subscript"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "value"]
+- !private ["11PostgresNIO0A8DataTypeV", "numeric"]
+- !private ["11PostgresNIO0A7NumericV", "Bool"]
+- ["11PostgresNIO0A7NumericV", "ByteBuffer"]
+- !private ["11PostgresNIO0A7NumericV", "ByteBufferAllocator"]
+- ["11PostgresNIO0A7NumericV", "Decimal"]
+- ["11PostgresNIO0A7NumericV", "Default_ExtendedGraphemeClusterLiteralType"]
+- ["11PostgresNIO0A7NumericV", "Default_StringLiteralType"]
+- ["11PostgresNIO0A7NumericV", "Default_UnicodeScalarLiteralType"]
+- ["11PostgresNIO0A7NumericV", "Double"]
+- ["11PostgresNIO0A7NumericV", "ExtendedGraphemeClusterLiteralType"]
+- !private ["11PostgresNIO0A7NumericV", "Int"]
+- ["11PostgresNIO0A7NumericV", "Int16"]
+- ["11PostgresNIO0A7NumericV", "String"]
+- ["11PostgresNIO0A7NumericV", "StringLiteralType"]
+- !private ["11PostgresNIO0A7NumericV", "Substring"]
+- ["11PostgresNIO0A7NumericV", "UnicodeScalarLiteralType"]
+- ["11PostgresNIO0A7NumericV", ""]
+- ["11PostgresNIO0A7NumericV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["11PostgresNIO0A7NumericV", "_Default_StringLiteralType"]
+- ["11PostgresNIO0A7NumericV", "_Default_UnicodeScalarLiteralType"]
+- !private ["11PostgresNIO0A7NumericV", "abs"]
+- ["11PostgresNIO0A7NumericV", "debugDescription"]
+- ["11PostgresNIO0A7NumericV", "decimal"]
+- ["11PostgresNIO0A7NumericV", "description"]
+- ["11PostgresNIO0A7NumericV", "double"]
+- ["11PostgresNIO0A7NumericV", "dscale"]
+- !private ["11PostgresNIO0A7NumericV", "fatalError"]
+- ["11PostgresNIO0A7NumericV", "init"]
+- ["11PostgresNIO0A7NumericV", "ndigits"]
+- !private ["11PostgresNIO0A7NumericV", "numericCast"]
+- ["11PostgresNIO0A7NumericV", "sign"]
+- ["11PostgresNIO0A7NumericV", "string"]
+- ["11PostgresNIO0A7NumericV", "value"]
+- ["11PostgresNIO0A7NumericV", "weight"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "Element"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "chunked"]
+- !private ["Sm", "count"]
+- !private ["Sm", "dropFirst"]
+- !private ["Sm", "hasPrefix"]
+- !private ["Sm", "index"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "reverseChunked"]
+- !private ["Sm", "split"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "numeric"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Index"]
+- ["ST", "Int"]
+- !private ["ST", "Iterator"]
+- ["ST", "SubSequence"]
+- !private ["ST", "Swift"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "chunked"]
+- !private ["ST", "count"]
+- !private ["ST", "distance"]
+- !private ["ST", "dropFirst"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "hasPrefix"]
+- !private ["ST", "index"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["ST", "reverseChunked"]
+- !private ["ST", "reversed"]
+- !private ["ST", "split"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "stride"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "description"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s8StrideToV", "map"]
+- !private ["s8StrideToV", "reversed"]
+- !private ["Sx", ""]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- !private ["SS", ""]
+- !private ["SS", "count"]
+- !private ["SS", "index"]
+- !private ["SS", "init"]
+- !private ["SS", "split"]
+- !private ["SS", "startIndex"]
+- !private ["SS", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "chunked"]
+- !private ["Sy", "count"]
+- !private ["Sy", "dropFirst"]
+- !private ["Sy", "hasPrefix"]
+- !private ["Sy", "index"]
+- !private ["Sy", "init"]
+- !private ["Sy", "reverseChunked"]
+- !private ["Sy", "split"]
+- !private ["Sy", "startIndex"]
+- !private ["Sy", "subscript"]
+- !private ["Ss", "chunked"]
+- !private ["Ss", "count"]
+- !private ["Ss", "dropFirst"]
+- !private ["Ss", "hasPrefix"]
+- !private ["Ss", "reverseChunked"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "chunked"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "dropFirst"]
+- !private ["s16TextOutputStreamP", "hasPrefix"]
+- !private ["s16TextOutputStreamP", "index"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "reverseChunked"]
+- !private ["s16TextOutputStreamP", "split"]
+- !private ["s16TextOutputStreamP", "startIndex"]
+- !private ["s16TextOutputStreamP", "subscript"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "chunked"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "dropFirst"]
+- !private ["s20TextOutputStreamableP", "hasPrefix"]
+- !private ["s20TextOutputStreamableP", "index"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "reverseChunked"]
+- !private ["s20TextOutputStreamableP", "split"]
+- !private ["s20TextOutputStreamableP", "startIndex"]
+- !private ["s20TextOutputStreamableP", "subscript"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "chunked"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "dropFirst"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasPrefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "index"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "reverseChunked"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "split"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "startIndex"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "index"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "startIndex"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "index"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "split"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "startIndex"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "index"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "startIndex"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "chunked"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "dropFirst"]
+- !private ["s19_HasContiguousBytesP", "hasPrefix"]
+- !private ["s19_HasContiguousBytesP", "index"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "reverseChunked"]
+- !private ["s19_HasContiguousBytesP", "split"]
+- !private ["s19_HasContiguousBytesP", "startIndex"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "split"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "startIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "index"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "split"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "index"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "split"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startIndex"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "chunked"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "dropFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reverseChunked"]
+- !private ["s21_ObjectiveCBridgeableP", "split"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "3NIO10ByteBufferV"
+- !private "3NIO19ByteBufferAllocatorV"
+- !private "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "So9NSDecimala"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- !private "3NIO10EndiannessO"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "SH"
+- !private "Si"
+- !private "s5Int16V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "11PostgresNIO16PSQLArrayElementP"
+- "11PostgresNIO11PSQLCodableP"
+- "11PostgresNIO13PSQLDecodableP"
+- "11PostgresNIO13PSQLEncodableP"
+- "11PostgresNIO0A4DataV"
+- !private "11PostgresNIO0A15DataConvertibleP"
+- !private "11PostgresNIO0A8DataTypeV"
+- "11PostgresNIO0A7NumericV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s8StrideToV"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "Ss"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "95758b53e570b81043e2187eabaacc9b"

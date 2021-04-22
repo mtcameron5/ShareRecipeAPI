@@ -1,0 +1,805 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC"
+- "9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV"
+- "9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO"
+provides-member:
+- ["9NIOExtras17NIOJSONRPCFramingO", ""]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", ""]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", ""]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", ""]
+- ["SS", ""]
+- ["9NIOExtras17NIOJSONRPCFramingO", "ContentLengthHeaderFrameEncoder"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "ContentLengthHeaderFrameDecoder"]
+- ["SS", "trimmed"]
+provides-dynamic-lookup:
+- "handlerAdded"
+- "scratchBuffer"
+- "write"
+depends-top-level:
+- "!"
+- !private "+"
+- !private "-"
+- !private "..<"
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ByteBuffer"
+- "ByteToMessageDecoder"
+- !private "ByteToMessageDecoderError"
+- "ChannelHandlerContext"
+- "ChannelOutboundHandler"
+- !private "DecodingError"
+- "DecodingState"
+- "Equatable"
+- "Error"
+- "EventLoopPromise"
+- !private "ExtendedGraphemeClusterType"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "NIOAny"
+- "NIOJSONRPCFraming"
+- "State"
+- "String"
+- !private "StringLiteralType"
+- "Substring"
+- !private "UInt32"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- "Void"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "firstIndex"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", "Substring"]
+- !private ["SK", ""]
+- !private ["SK", "distance"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "firstIndex"]
+- !private ["SK", "formIndex"]
+- !private ["SK", "index"]
+- !private ["SK", "indices"]
+- !private ["SK", "init"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "reversed"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "starts"]
+- !private ["SK", "subscript"]
+- !private ["SK", "trimmed"]
+- !private ["SK", "utf8"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["3NIO10ByteBufferV", "clear"]
+- !private ["3NIO10ByteBufferV", "moveReaderIndex"]
+- !private ["3NIO10ByteBufferV", "readSlice"]
+- !private ["3NIO10ByteBufferV", "readString"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- !private ["3NIO10ByteBufferV", "readableBytesView"]
+- !private ["3NIO10ByteBufferV", "writeStaticString"]
+- !private ["3NIO10ByteBufferV", "writeString"]
+- !private ["3NIO19ByteBufferAllocatorV", "buffer"]
+- !private ["3NIO14ByteBufferViewV", "firstIndex"]
+- !private ["3NIO14ByteBufferViewV", "startIndex"]
+- !private ["3NIO14ByteBufferViewV", "starts"]
+- !private ["3NIO20ByteToMessageDecoderP", "ByteToMessageDecoderError"]
+- !private ["3NIO20ByteToMessageDecoderP", "DecodingError"]
+- ["3NIO20ByteToMessageDecoderP", "InboundOut"]
+- !private ["3NIO20ByteToMessageDecoderP", "UInt32"]
+- !private ["3NIO20ByteToMessageDecoderP", "UInt8"]
+- ["3NIO20ByteToMessageDecoderP", ""]
+- ["3NIO20ByteToMessageDecoderP", "decode"]
+- ["3NIO20ByteToMessageDecoderP", "decodeLast"]
+- ["3NIO20ByteToMessageDecoderP", "decoderAdded"]
+- ["3NIO20ByteToMessageDecoderP", "decoderRemoved"]
+- !private ["3NIO20ByteToMessageDecoderP", "payloadLength"]
+- !private ["3NIO20ByteToMessageDecoderP", "processHeaderBlockEnd"]
+- ["3NIO20ByteToMessageDecoderP", "shouldReclaimBytes"]
+- !private ["3NIO20ByteToMessageDecoderP", "state"]
+- !private ["3NIO20ByteToMessageDecoderP", "wrapInboundOut"]
+- !private ["3NIO25ByteToMessageDecoderErrorO", "leftoverDataWhenDone"]
+- !private ["s7CVarArgP", "init"]
+- !private ["3NIO7ChannelP", "allocator"]
+- ["3NIO14ChannelHandlerP", "OutboundIn"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "String"]
+- ["3NIO14ChannelHandlerP", ""]
+- ["3NIO14ChannelHandlerP", "bind"]
+- ["3NIO14ChannelHandlerP", "close"]
+- ["3NIO14ChannelHandlerP", "connect"]
+- ["3NIO14ChannelHandlerP", "flush"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- ["3NIO14ChannelHandlerP", "read"]
+- ["3NIO14ChannelHandlerP", "register"]
+- !private ["3NIO14ChannelHandlerP", "scratchBuffer"]
+- ["3NIO14ChannelHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO14ChannelHandlerP", "unwrapOutboundIn"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- ["3NIO14ChannelHandlerP", "write"]
+- !private ["3NIO21ChannelHandlerContextC", "channel"]
+- !private ["3NIO21ChannelHandlerContextC", "fireChannelRead"]
+- !private ["3NIO21ChannelHandlerContextC", "write"]
+- !private ["3NIO21ChannelInboundInvokerP", ""]
+- !private ["3NIO21ChannelInboundInvokerP", "channel"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelRead"]
+- !private ["3NIO21ChannelInboundInvokerP", "write"]
+- !private ["3NIO14ChannelInvokerP", "channel"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelRead"]
+- !private ["3NIO14ChannelInvokerP", "write"]
+- ["3NIO22ChannelOutboundHandlerP", "OutboundIn"]
+- ["3NIO22ChannelOutboundHandlerP", "OutboundOut"]
+- !private ["3NIO22ChannelOutboundHandlerP", "String"]
+- ["3NIO22ChannelOutboundHandlerP", ""]
+- ["3NIO22ChannelOutboundHandlerP", "bind"]
+- ["3NIO22ChannelOutboundHandlerP", "close"]
+- ["3NIO22ChannelOutboundHandlerP", "connect"]
+- ["3NIO22ChannelOutboundHandlerP", "flush"]
+- ["3NIO22ChannelOutboundHandlerP", "handlerAdded"]
+- ["3NIO22ChannelOutboundHandlerP", "handlerRemoved"]
+- ["3NIO22ChannelOutboundHandlerP", "read"]
+- ["3NIO22ChannelOutboundHandlerP", "register"]
+- !private ["3NIO22ChannelOutboundHandlerP", "scratchBuffer"]
+- ["3NIO22ChannelOutboundHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO22ChannelOutboundHandlerP", "unwrapOutboundIn"]
+- ["3NIO22ChannelOutboundHandlerP", "wrapOutboundOut"]
+- ["3NIO22ChannelOutboundHandlerP", "write"]
+- !private ["3NIO22ChannelOutboundInvokerP", ""]
+- !private ["3NIO22ChannelOutboundInvokerP", "allocator"]
+- !private ["3NIO22ChannelOutboundInvokerP", "channel"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelRead"]
+- !private ["3NIO22ChannelOutboundInvokerP", "write"]
+- !private ["SJ", "isWhitespace"]
+- !private ["Sl", "Substring"]
+- !private ["Sl", ""]
+- !private ["Sl", "_copyToContiguousArray"]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "count"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "firstIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "reversed"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "starts"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "trimmed"]
+- !private ["Sl", "underestimatedCount"]
+- !private ["Sl", "utf8"]
+- !private ["SL", "Substring"]
+- !private ["SL", ""]
+- !private ["SL", "base"]
+- !private ["SL", "firstIndex"]
+- !private ["SL", "init"]
+- !private ["SL", "isWhitespace"]
+- !private ["SL", "lowercased"]
+- !private ["SL", "reversed"]
+- !private ["SL", "subscript"]
+- !private ["SL", "trimmed"]
+- !private ["SL", "utf8"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "Bool"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "ByteBuffer"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "ByteToMessageDecoderError"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "ChannelHandlerContext"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "DecodingError"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "DecodingState"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "Equatable"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "Error"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "InboundOut"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "Int"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "State"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "String"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "UInt32"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "UInt8"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", ""]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "decode"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "decodeLast"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "decoderAdded"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "decoderRemoved"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "init"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "payloadLength"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "processHeaderBlockEnd"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "shouldReclaimBytes"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "state"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV", "wrapInboundOut"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "ByteBuffer"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "ChannelHandlerContext"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "EventLoopPromise"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "NIOAny"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "OutboundIn"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "OutboundOut"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "String"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "Void"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", ""]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "bind"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "close"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "connect"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "deinit"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "flush"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "handlerAdded"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "handlerRemoved"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "init"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "read"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "register"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "scratchBuffer"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "triggerUserOutboundEvent"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "unwrapOutboundIn"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "wrapOutboundOut"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC", "write"]
+- !private ["s28CustomDebugStringConvertibleP", "Substring"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isWhitespace"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "trimmed"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "writeStaticString"]
+- !private ["s28CustomDebugStringConvertibleP", "writeString"]
+- !private ["s17CustomReflectableP", "Substring"]
+- !private ["s17CustomReflectableP", "clear"]
+- !private ["s17CustomReflectableP", "firstIndex"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isWhitespace"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "trimmed"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s17CustomReflectableP", "writeStaticString"]
+- !private ["s17CustomReflectableP", "writeString"]
+- !private ["s23CustomStringConvertibleP", "Substring"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "firstIndex"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isWhitespace"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "moveReaderIndex"]
+- !private ["s23CustomStringConvertibleP", "readSlice"]
+- !private ["s23CustomStringConvertibleP", "readString"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "readableBytesView"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "trimmed"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "writeStaticString"]
+- !private ["s23CustomStringConvertibleP", "writeString"]
+- !private ["Se", "Substring"]
+- !private ["Se", "clear"]
+- !private ["Se", "firstIndex"]
+- !private ["Se", "init"]
+- !private ["Se", "reversed"]
+- !private ["Se", "subscript"]
+- !private ["Se", "trimmed"]
+- !private ["Se", "utf8"]
+- !private ["Se", "writeStaticString"]
+- !private ["Se", "writeString"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "=="]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "String"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", ""]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "__derived_enum_equals"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "_code"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "_domain"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "_getEmbeddedNSError"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "_userInfo"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "code"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "domain"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "illegalContentLengthHeaderValue"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "missingContentLengthHeader"]
+- ["9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO", "userInfo"]
+- !private ["3NIO13DecodingStateO", "continue"]
+- !private ["3NIO13DecodingStateO", "needMoreData"]
+- !private ["SE", "Substring"]
+- !private ["SE", "clear"]
+- !private ["SE", "firstIndex"]
+- !private ["SE", "init"]
+- !private ["SE", "reversed"]
+- !private ["SE", "subscript"]
+- !private ["SE", "trimmed"]
+- !private ["SE", "utf8"]
+- !private ["SE", "writeStaticString"]
+- !private ["SE", "writeString"]
+- ["SQ", "=="]
+- !private ["SQ", "Substring"]
+- ["SQ", ""]
+- !private ["SQ", "__derived_enum_equals"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "base"]
+- !private ["SQ", "clear"]
+- ["SQ", "code"]
+- !private ["SQ", "continue"]
+- ["SQ", "domain"]
+- !private ["SQ", "firstIndex"]
+- !private ["SQ", "illegalContentLengthHeaderValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isWhitespace"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "missingContentLengthHeader"]
+- !private ["SQ", "moveReaderIndex"]
+- !private ["SQ", "needMoreData"]
+- !private ["SQ", "readSlice"]
+- !private ["SQ", "readString"]
+- !private ["SQ", "readableBytes"]
+- !private ["SQ", "readableBytesView"]
+- !private ["SQ", "reversed"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "trimmed"]
+- ["SQ", "userInfo"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "writeStaticString"]
+- !private ["SQ", "writeString"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- !private ["s5ErrorP", "__derived_enum_equals"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- !private ["s5ErrorP", "illegalContentLengthHeaderValue"]
+- !private ["s5ErrorP", "leftoverDataWhenDone"]
+- !private ["s5ErrorP", "missingContentLengthHeader"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Substring"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "firstIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isWhitespace"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "reversed"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trimmed"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "clear"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "writeStaticString"]
+- !private ["s23ExpressibleByNilLiteralP", "writeString"]
+- !private ["s32ExpressibleByStringInterpolationP", "Substring"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "firstIndex"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s32ExpressibleByStringInterpolationP", "reversed"]
+- !private ["s32ExpressibleByStringInterpolationP", "subscript"]
+- !private ["s32ExpressibleByStringInterpolationP", "trimmed"]
+- !private ["s32ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "Substring"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "firstIndex"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "reversed"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "trimmed"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Substring"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "firstIndex"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isWhitespace"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "reversed"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "trimmed"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Substring"]
+- !private ["SH", ""]
+- !private ["SH", "base"]
+- !private ["SH", "clear"]
+- !private ["SH", "continue"]
+- !private ["SH", "firstIndex"]
+- !private ["SH", "init"]
+- !private ["SH", "isWhitespace"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "moveReaderIndex"]
+- !private ["SH", "needMoreData"]
+- !private ["SH", "readSlice"]
+- !private ["SH", "readString"]
+- !private ["SH", "readableBytes"]
+- !private ["SH", "readableBytesView"]
+- !private ["SH", "reversed"]
+- !private ["SH", "subscript"]
+- !private ["SH", "trimmed"]
+- !private ["SH", "utf8"]
+- !private ["SH", "writeStaticString"]
+- !private ["SH", "writeString"]
+- !private ["s18ReversedCollectionV5IndexV", "base"]
+- !private ["Si", "init"]
+- !private ["s20LazySequenceProtocolP", "firstIndex"]
+- !private ["s25LosslessStringConvertibleP", "Substring"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "firstIndex"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isWhitespace"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "reversed"]
+- !private ["s25LosslessStringConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "trimmed"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s10MirrorPathP", "Substring"]
+- !private ["s10MirrorPathP", "firstIndex"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "reversed"]
+- !private ["s10MirrorPathP", "subscript"]
+- !private ["s10MirrorPathP", "trimmed"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["SM", "firstIndex"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "starts"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "Bool"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "ByteBuffer"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "ByteToMessageDecoder"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO", "ByteToMessageDecoderError"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "ChannelHandlerContext"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "ChannelOutboundHandler"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "ContentLengthHeaderFrameDecoder"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "ContentLengthHeaderFrameEncoder"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO", "DecodingError"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "DecodingState"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "Equatable"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "Error"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "EventLoopPromise"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "Int"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "NIOAny"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "String"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO", "UInt32"]
+- !private ["9NIOExtras17NIOJSONRPCFramingO", "UInt8"]
+- ["9NIOExtras17NIOJSONRPCFramingO", "Void"]
+- ["9NIOExtras17NIOJSONRPCFramingO", ""]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sq", "clear"]
+- !private ["Sq", "init"]
+- !private ["Sq", "writeStaticString"]
+- !private ["Sq", "writeString"]
+- !private ["Sk", "distance"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "firstIndex"]
+- !private ["Sk", "formIndex"]
+- !private ["Sk", "index"]
+- !private ["Sk", "indices"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "starts"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "Substring"]
+- !private ["Sm", ""]
+- !private ["Sm", "firstIndex"]
+- !private ["Sm", "init"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "reversed"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "starts"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "trimmed"]
+- !private ["Sm", "utf8"]
+- !private ["s18ReversedCollectionV", "firstIndex"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Substring"]
+- !private ["ST", ""]
+- !private ["ST", "_copyContents"]
+- !private ["ST", "_copyToContiguousArray"]
+- !private ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "firstIndex"]
+- !private ["ST", "init"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "reversed"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "starts"]
+- !private ["ST", "subscript"]
+- !private ["ST", "trimmed"]
+- !private ["ST", "underestimatedCount"]
+- !private ["ST", "utf8"]
+- !private ["ST", "withContiguousStorageIfAvailable"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["SS", "Substring"]
+- ["SS", ""]
+- !private ["SS", "firstIndex"]
+- !private ["SS", "init"]
+- !private ["SS", "reversed"]
+- !private ["SS", "subscript"]
+- ["SS", "trimmed"]
+- !private ["SS", "utf8"]
+- !private ["Sy", "Substring"]
+- !private ["Sy", "firstIndex"]
+- !private ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- !private ["Sy", "reversed"]
+- !private ["Sy", "subscript"]
+- !private ["Sy", "trimmed"]
+- !private ["Sy", "utf8"]
+- !private ["Ss", "lowercased"]
+- !private ["s16TextOutputStreamP", "Substring"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "firstIndex"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "reversed"]
+- !private ["s16TextOutputStreamP", "subscript"]
+- !private ["s16TextOutputStreamP", "trimmed"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "Substring"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "firstIndex"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isWhitespace"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "reversed"]
+- !private ["s20TextOutputStreamableP", "subscript"]
+- !private ["s20TextOutputStreamableP", "trimmed"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["s6UInt32V", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "firstIndex"]
+- ["3NIO23_ChannelOutboundHandlerP", "OutboundIn"]
+- ["3NIO23_ChannelOutboundHandlerP", "OutboundOut"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "String"]
+- ["3NIO23_ChannelOutboundHandlerP", ""]
+- ["3NIO23_ChannelOutboundHandlerP", "bind"]
+- ["3NIO23_ChannelOutboundHandlerP", "close"]
+- ["3NIO23_ChannelOutboundHandlerP", "connect"]
+- ["3NIO23_ChannelOutboundHandlerP", "flush"]
+- ["3NIO23_ChannelOutboundHandlerP", "handlerAdded"]
+- ["3NIO23_ChannelOutboundHandlerP", "handlerRemoved"]
+- ["3NIO23_ChannelOutboundHandlerP", "read"]
+- ["3NIO23_ChannelOutboundHandlerP", "register"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "scratchBuffer"]
+- ["3NIO23_ChannelOutboundHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO23_ChannelOutboundHandlerP", "unwrapOutboundIn"]
+- ["3NIO23_ChannelOutboundHandlerP", "wrapOutboundOut"]
+- ["3NIO23_ChannelOutboundHandlerP", "write"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Substring"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "firstIndex"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isWhitespace"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "reversed"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "trimmed"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s24_DestructorSafeContainerP", "firstIndex"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "String"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- ["3NIO23_EmittingChannelHandlerP", "bind"]
+- ["3NIO23_EmittingChannelHandlerP", "close"]
+- ["3NIO23_EmittingChannelHandlerP", "connect"]
+- ["3NIO23_EmittingChannelHandlerP", "flush"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- ["3NIO23_EmittingChannelHandlerP", "read"]
+- ["3NIO23_EmittingChannelHandlerP", "register"]
+- !private ["3NIO23_EmittingChannelHandlerP", "scratchBuffer"]
+- ["3NIO23_EmittingChannelHandlerP", "triggerUserOutboundEvent"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapOutboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "write"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Substring"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "firstIndex"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isWhitespace"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "reversed"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trimmed"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Substring"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "firstIndex"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "reversed"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "trimmed"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Substring"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "firstIndex"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isWhitespace"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "reversed"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "trimmed"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s19_HasContiguousBytesP", "Substring"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "trimmed"]
+- !private ["s19_HasContiguousBytesP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "clear"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "writeStaticString"]
+- !private ["s21_ObjectiveCBridgeableP", "writeString"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sz"
+- !private "3NIO10ByteBufferV"
+- !private "3NIO19ByteBufferAllocatorV"
+- !private "3NIO14ByteBufferViewV"
+- "3NIO20ByteToMessageDecoderP"
+- !private "3NIO25ByteToMessageDecoderErrorO"
+- !private "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- "3NIO22ChannelOutboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "SJ"
+- !private "Sl"
+- !private "SL"
+- "9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV"
+- "9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameEncoderC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "9NIOExtras17NIOJSONRPCFramingO31ContentLengthHeaderFrameDecoderV13DecodingErrorO"
+- !private "3NIO13DecodingStateO"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s18ReversedCollectionV5IndexV"
+- !private "Si"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- "9NIOExtras17NIOJSONRPCFramingO"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "s18ReversedCollectionV"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- !private "Sy"
+- !private "Ss"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "s5UInt8V"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- "3NIO23_ChannelOutboundHandlerP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "f3a7019960483b088148dc69d1f288b8"

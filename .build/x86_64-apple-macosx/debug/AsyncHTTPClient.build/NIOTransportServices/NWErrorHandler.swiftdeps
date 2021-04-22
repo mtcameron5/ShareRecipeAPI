@@ -1,0 +1,366 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "15AsyncHTTPClient0B0C12NWPOSIXErrorV"
+- "15AsyncHTTPClient0B0C10NWTLSErrorV"
+- "15AsyncHTTPClient0B0C14NWErrorHandlerC"
+provides-member:
+- ["15AsyncHTTPClient0B0C", ""]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", ""]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", ""]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", ""]
+- ["15AsyncHTTPClient0B0C", "NWPOSIXError"]
+- ["15AsyncHTTPClient0B0C", "NWTLSError"]
+- ["15AsyncHTTPClient0B0C", "NWErrorHandler"]
+provides-dynamic-lookup:
+- "errorCaught"
+- "translateError"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "ChannelHandlerContext"
+- "ChannelInboundHandler"
+- "CustomStringConvertible"
+- "Error"
+- "HTTPClient"
+- "HTTPClientResponsePart"
+- "NWError"
+- !private "NWErrorHandler"
+- !private "NWPOSIXError"
+- !private "NWTLSError"
+- "OSStatus"
+- "POSIXErrorCode"
+- "String"
+depends-member:
+- ["3NIO14ChannelHandlerP", "Default_InboundOut"]
+- ["3NIO14ChannelHandlerP", "Default_OutboundOut"]
+- ["3NIO14ChannelHandlerP", "InboundIn"]
+- ["3NIO14ChannelHandlerP", "InboundOut"]
+- !private ["3NIO14ChannelHandlerP", "NWErrorHandler"]
+- !private ["3NIO14ChannelHandlerP", "NWPOSIXError"]
+- !private ["3NIO14ChannelHandlerP", "NWTLSError"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- ["3NIO14ChannelHandlerP", ""]
+- ["3NIO14ChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO14ChannelHandlerP", "_Default_OutboundOut"]
+- ["3NIO14ChannelHandlerP", "channelActive"]
+- ["3NIO14ChannelHandlerP", "channelInactive"]
+- ["3NIO14ChannelHandlerP", "channelRead"]
+- ["3NIO14ChannelHandlerP", "channelReadComplete"]
+- ["3NIO14ChannelHandlerP", "channelRegistered"]
+- ["3NIO14ChannelHandlerP", "channelUnregistered"]
+- ["3NIO14ChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO14ChannelHandlerP", "errorCaught"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO14ChannelHandlerP", "translateError"]
+- ["3NIO14ChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO14ChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO14ChannelHandlerP", "wrapInboundOut"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelHandlerContextC", "fireErrorCaught"]
+- ["3NIO21ChannelInboundHandlerP", "Default_InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "Default_OutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "InboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "NWErrorHandler"]
+- !private ["3NIO21ChannelInboundHandlerP", "NWPOSIXError"]
+- !private ["3NIO21ChannelInboundHandlerP", "NWTLSError"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", ""]
+- ["3NIO21ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "_Default_OutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "channelActive"]
+- ["3NIO21ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO21ChannelInboundHandlerP", "channelRead"]
+- ["3NIO21ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO21ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO21ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO21ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO21ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO21ChannelInboundHandlerP", "translateError"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO21ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelInboundInvokerP", ""]
+- !private ["3NIO21ChannelInboundInvokerP", "fireErrorCaught"]
+- !private ["3NIO14ChannelInvokerP", "fireErrorCaught"]
+- !private ["3NIO22ChannelOutboundInvokerP", ""]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireErrorCaught"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- ["s28CustomDebugStringConvertibleP", "posix"]
+- ["s28CustomDebugStringConvertibleP", "tls"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- ["s23CustomStringConvertibleP", "code"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "domain"]
+- !private ["s23CustomStringConvertibleP", "errorCode"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "reason"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["SQ", "localizedDescription"]
+- ["SQ", "posix"]
+- ["SQ", "tls"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "domain"]
+- !private ["s5ErrorP", "errorCode"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s5ErrorP", "posix"]
+- !private ["s5ErrorP", "reason"]
+- !private ["s5ErrorP", "status"]
+- ["s5ErrorP", "tls"]
+- ["s5ErrorP", "userInfo"]
+- ["15AsyncHTTPClient0B0C", "ChannelHandlerContext"]
+- ["15AsyncHTTPClient0B0C", "ChannelInboundHandler"]
+- ["15AsyncHTTPClient0B0C", "CustomStringConvertible"]
+- ["15AsyncHTTPClient0B0C", "Error"]
+- ["15AsyncHTTPClient0B0C", "HTTPClientResponsePart"]
+- !private ["15AsyncHTTPClient0B0C", "NWError"]
+- ["15AsyncHTTPClient0B0C", "NWErrorHandler"]
+- ["15AsyncHTTPClient0B0C", "NWPOSIXError"]
+- ["15AsyncHTTPClient0B0C", "NWTLSError"]
+- ["15AsyncHTTPClient0B0C", "OSStatus"]
+- ["15AsyncHTTPClient0B0C", "POSIXErrorCode"]
+- ["15AsyncHTTPClient0B0C", "String"]
+- ["15AsyncHTTPClient0B0C", ""]
+- !private ["7Network7NWErrorO", "localizedDescription"]
+- ["7Network7NWErrorO", "posix"]
+- ["7Network7NWErrorO", "tls"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "ChannelHandlerContext"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "Default_InboundOut"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "Default_OutboundOut"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "Error"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "HTTPClientResponsePart"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "InboundIn"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "InboundOut"]
+- !private ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "NWError"]
+- !private ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "NWErrorHandler"]
+- !private ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "NWPOSIXError"]
+- !private ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "NWTLSError"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "OutboundOut"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", ""]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "_Default_InboundOut"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "_Default_OutboundOut"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "channelActive"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "channelInactive"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "channelRead"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "channelReadComplete"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "channelRegistered"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "channelUnregistered"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "channelWritabilityChanged"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "deinit"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "errorCaught"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "handlerAdded"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "handlerRemoved"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "init"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "translateError"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "unwrapInboundIn"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "userInboundEventTriggered"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "wrapInboundOut"]
+- ["15AsyncHTTPClient0B0C14NWErrorHandlerC", "wrapOutboundOut"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "POSIXErrorCode"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "String"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", ""]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "_code"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "_domain"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "_getEmbeddedNSError"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "_userInfo"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "code"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "description"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "domain"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "errorCode"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "init"]
+- !private ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "reason"]
+- ["15AsyncHTTPClient0B0C12NWPOSIXErrorV", "userInfo"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "OSStatus"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "String"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", ""]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "_code"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "_domain"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "_getEmbeddedNSError"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "_userInfo"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "code"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "description"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "domain"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "init"]
+- !private ["15AsyncHTTPClient0B0C10NWTLSErrorV", "reason"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "status"]
+- ["15AsyncHTTPClient0B0C10NWTLSErrorV", "userInfo"]
+- ["3NIO22_ChannelInboundHandlerP", "Default_InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "Default_OutboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "NWErrorHandler"]
+- !private ["3NIO22_ChannelInboundHandlerP", "NWPOSIXError"]
+- !private ["3NIO22_ChannelInboundHandlerP", "NWTLSError"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", ""]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_OutboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "channelActive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRead"]
+- ["3NIO22_ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO22_ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22_ChannelInboundHandlerP", "translateError"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapOutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "Default_InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "Default_OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "NWErrorHandler"]
+- !private ["3NIO23_EmittingChannelHandlerP", "NWPOSIXError"]
+- !private ["3NIO23_EmittingChannelHandlerP", "NWTLSError"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "channelActive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelInactive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRead"]
+- ["3NIO23_EmittingChannelHandlerP", "channelReadComplete"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRegistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelUnregistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO23_EmittingChannelHandlerP", "errorCaught"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23_EmittingChannelHandlerP", "translateError"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+depends-nominal:
+- "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelHandlerContextC"
+- "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s5ErrorP"
+- "15AsyncHTTPClient0B0C"
+- "7Network7NWErrorO"
+- "15AsyncHTTPClient0B0C14NWErrorHandlerC"
+- "15AsyncHTTPClient0B0C12NWPOSIXErrorV"
+- "15AsyncHTTPClient0B0C10NWTLSErrorV"
+- "3NIO22_ChannelInboundHandlerP"
+- "3NIO23_EmittingChannelHandlerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bdbb39a0d35ed36b867bc195e901df4d"

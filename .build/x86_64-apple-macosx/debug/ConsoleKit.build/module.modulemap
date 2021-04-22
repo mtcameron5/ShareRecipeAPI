@@ -1,0 +1,4 @@
+module ConsoleKit {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/ConsoleKit-Swift.h"
+    requires objc
+}

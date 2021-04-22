@@ -1,0 +1,898 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Registration"
+- "SockAddrProtocol"
+- "descriptionForAddress"
+- "BaseSocket"
+provides-nominal:
+- "3NIO12RegistrationP"
+- "3NIO16SockAddrProtocolP"
+- "So11sockaddr_inV"
+- "So12sockaddr_in6V"
+- "So11sockaddr_unV"
+- "So16sockaddr_storageV"
+- "3NIO10BaseSocketC"
+provides-member:
+- ["3NIO12RegistrationP", ""]
+- ["3NIO16SockAddrProtocolP", ""]
+- ["Sp", ""]
+- ["So11sockaddr_inV", ""]
+- ["So12sockaddr_in6V", ""]
+- ["So11sockaddr_unV", ""]
+- ["So16sockaddr_storageV", ""]
+- ["3NIO10BaseSocketC", ""]
+- ["Sp", "convert"]
+- ["So16sockaddr_storageV", "convert"]
+- ["So16sockaddr_storageV", "convert"]
+- ["So16sockaddr_storageV", "convert"]
+- ["So16sockaddr_storageV", "convert"]
+provides-dynamic-lookup:
+- "bind"
+- "cleanupSocket"
+- "close"
+- "description"
+- "descriptor"
+- "getOption"
+- "get_addr"
+- "ignoreSIGPIPE"
+- "isOpen"
+- "localAddress"
+- "makeSocket"
+- "remoteAddress"
+- "setNonBlocking"
+- "setOption"
+- "takeDescriptorOwnership"
+- "withUnsafeHandle"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "=="
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BaseSocket"
+- "BaseSocketProtocol"
+- "Bool"
+- "BooleanLiteralType"
+- "CInt"
+- "CastingPrecedence"
+- "CustomStringConvertible"
+- !private "EAFNOSUPPORT"
+- !private "EBADF"
+- !private "FloatLiteralType"
+- "INET6_ADDRSTRLEN"
+- "INET_ADDRSTRLEN"
+- "IOError"
+- "Int"
+- "Int32"
+- "Int8"
+- !private "IntegerLiteralType"
+- "MemoryLayout"
+- "NIOBSDSocket"
+- !private "Optional"
+- "Pointee"
+- "Registration"
+- "Selectable"
+- "SelectorEventSet"
+- "SockAddrProtocol"
+- "SocketAddress"
+- "String"
+- !private "StringLiteralType"
+- "UInt8"
+- "UnsafeMutableBufferPointer"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawBufferPointer"
+- "UnsafePointer"
+- "UnsafeRawPointer"
+- "Void"
+- !private "assert"
+- "descriptionForAddress"
+- !private "descriptor"
+- "doBind"
+- !private "fatalError"
+- !private "get_addr"
+- !private "pointee"
+- !private "precondition"
+- "sockaddr"
+- "sockaddr_in"
+- "sockaddr_in6"
+- "sockaddr_storage"
+- "sockaddr_un"
+- "socklen_t"
+- !private "withUnsafeBytes"
+- !private "withUnsafeMutableBytes"
+- !private "withUnsafePointer"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "callAsFunction"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["3NIO12NIOBSDSocketO13AddressFamilyV", ""]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "inet"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "inet6"]
+- !private ["3NIO12NIOBSDSocketO13AddressFamilyV", "init"]
+- !private ["3NIO12NIOBSDSocketO13AddressFamilyV", "rawValue"]
+- ["3NIO12NIOBSDSocketO13AddressFamilyV", "unix"]
+- !private ["Sa", "init"]
+- !private ["Sa", "withUnsafeMutableBufferPointer"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "callAsFunction"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["3NIO10BaseSocketC", "BaseSocket"]
+- ["3NIO10BaseSocketC", "Bool"]
+- !private ["3NIO10BaseSocketC", "CInt"]
+- !private ["3NIO10BaseSocketC", "EAFNOSUPPORT"]
+- !private ["3NIO10BaseSocketC", "EBADF"]
+- !private ["3NIO10BaseSocketC", "IOError"]
+- !private ["3NIO10BaseSocketC", "Int"]
+- !private ["3NIO10BaseSocketC", "Int32"]
+- !private ["3NIO10BaseSocketC", "MemoryLayout"]
+- ["3NIO10BaseSocketC", "NIOBSDSocket"]
+- !private ["3NIO10BaseSocketC", "Optional"]
+- ["3NIO10BaseSocketC", "SelectableType"]
+- ["3NIO10BaseSocketC", "SocketAddress"]
+- ["3NIO10BaseSocketC", "String"]
+- !private ["3NIO10BaseSocketC", "UInt8"]
+- ["3NIO10BaseSocketC", "UnsafeMutablePointer"]
+- !private ["3NIO10BaseSocketC", "UnsafeMutableRawBufferPointer"]
+- !private ["3NIO10BaseSocketC", "UnsafePointer"]
+- ["3NIO10BaseSocketC", "Void"]
+- ["3NIO10BaseSocketC", ""]
+- !private ["3NIO10BaseSocketC", "assert"]
+- ["3NIO10BaseSocketC", "bind"]
+- ["3NIO10BaseSocketC", "cleanupSocket"]
+- ["3NIO10BaseSocketC", "close"]
+- ["3NIO10BaseSocketC", "deinit"]
+- ["3NIO10BaseSocketC", "description"]
+- !private ["3NIO10BaseSocketC", "descriptor"]
+- !private ["3NIO10BaseSocketC", "doBind"]
+- !private ["3NIO10BaseSocketC", "fatalError"]
+- ["3NIO10BaseSocketC", "getOption"]
+- !private ["3NIO10BaseSocketC", "get_addr"]
+- ["3NIO10BaseSocketC", "ignoreSIGPIPE"]
+- ["3NIO10BaseSocketC", "init"]
+- ["3NIO10BaseSocketC", "isOpen"]
+- ["3NIO10BaseSocketC", "localAddress"]
+- ["3NIO10BaseSocketC", "makeSocket"]
+- !private ["3NIO10BaseSocketC", "precondition"]
+- ["3NIO10BaseSocketC", "remoteAddress"]
+- ["3NIO10BaseSocketC", "setNonBlocking"]
+- ["3NIO10BaseSocketC", "setOption"]
+- ["3NIO10BaseSocketC", "sockaddr"]
+- !private ["3NIO10BaseSocketC", "sockaddr_storage"]
+- ["3NIO10BaseSocketC", "socklen_t"]
+- ["3NIO10BaseSocketC", "takeDescriptorOwnership"]
+- ["3NIO10BaseSocketC", "withUnsafeHandle"]
+- !private ["3NIO18BaseSocketProtocolP", "BaseSocket"]
+- !private ["3NIO18BaseSocketProtocolP", "EAFNOSUPPORT"]
+- !private ["3NIO18BaseSocketProtocolP", "EBADF"]
+- !private ["3NIO18BaseSocketProtocolP", "IOError"]
+- !private ["3NIO18BaseSocketProtocolP", "MemoryLayout"]
+- !private ["3NIO18BaseSocketProtocolP", "NIOBSDSocket"]
+- !private ["3NIO18BaseSocketProtocolP", "Optional"]
+- ["3NIO18BaseSocketProtocolP", "SelectableType"]
+- !private ["3NIO18BaseSocketProtocolP", "UInt8"]
+- !private ["3NIO18BaseSocketProtocolP", "UnsafeMutableRawBufferPointer"]
+- ["3NIO18BaseSocketProtocolP", ""]
+- !private ["3NIO18BaseSocketProtocolP", "assert"]
+- ["3NIO18BaseSocketProtocolP", "bind"]
+- !private ["3NIO18BaseSocketProtocolP", "cleanupSocket"]
+- ["3NIO18BaseSocketProtocolP", "close"]
+- ["3NIO18BaseSocketProtocolP", "description"]
+- !private ["3NIO18BaseSocketProtocolP", "descriptor"]
+- !private ["3NIO18BaseSocketProtocolP", "doBind"]
+- !private ["3NIO18BaseSocketProtocolP", "fatalError"]
+- ["3NIO18BaseSocketProtocolP", "getOption"]
+- !private ["3NIO18BaseSocketProtocolP", "get_addr"]
+- !private ["3NIO18BaseSocketProtocolP", "ignoreSIGPIPE"]
+- ["3NIO18BaseSocketProtocolP", "isOpen"]
+- ["3NIO18BaseSocketProtocolP", "localAddress"]
+- !private ["3NIO18BaseSocketProtocolP", "precondition"]
+- ["3NIO18BaseSocketProtocolP", "remoteAddress"]
+- ["3NIO18BaseSocketProtocolP", "setOption"]
+- !private ["3NIO18BaseSocketProtocolP", "sockaddr_storage"]
+- !private ["3NIO18BaseSocketProtocolP", "socklen_t"]
+- !private ["3NIO18BaseSocketProtocolP", "takeDescriptorOwnership"]
+- ["3NIO18BaseSocketProtocolP", "withUnsafeHandle"]
+- !private ["SK", ""]
+- !private ["SK", "allocate"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "bindMemory"]
+- !private ["SK", "count"]
+- !private ["SK", "deallocate"]
+- !private ["SK", "init"]
+- !private ["SK", "initializeMemory"]
+- !private ["SK", "withUnsafeMutableBufferPointer"]
+- !private ["Sz", ""]
+- !private ["Sz", "callAsFunction"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "CInt"]
+- !private ["s7CVarArgP", "NIOBSDSocket"]
+- !private ["s7CVarArgP", "SocketAddress"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "deinitialize"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "sockaddr_in"]
+- !private ["s7CVarArgP", "sockaddr_in6"]
+- !private ["s7CVarArgP", "sockaddr_un"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["Sl", ""]
+- !private ["Sl", "allocate"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "bindMemory"]
+- !private ["Sl", "count"]
+- !private ["Sl", "deallocate"]
+- !private ["Sl", "init"]
+- !private ["Sl", "initializeMemory"]
+- !private ["Sl", "withUnsafeMutableBufferPointer"]
+- !private ["SL", "CInt"]
+- !private ["SL", "NIOBSDSocket"]
+- !private ["SL", "SocketAddress"]
+- !private ["SL", ""]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "callAsFunction"]
+- !private ["SL", "deinitialize"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["SL", "sockaddr_in"]
+- !private ["SL", "sockaddr_in6"]
+- !private ["SL", "sockaddr_un"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "CInt"]
+- !private ["s28CustomDebugStringConvertibleP", "NIOBSDSocket"]
+- !private ["s28CustomDebugStringConvertibleP", "SocketAddress"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deinitialize"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initializeMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "sockaddr_in"]
+- !private ["s28CustomDebugStringConvertibleP", "sockaddr_in6"]
+- !private ["s28CustomDebugStringConvertibleP", "sockaddr_un"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeMutableBufferPointer"]
+- !private ["s17CustomReflectableP", "CInt"]
+- !private ["s17CustomReflectableP", "NIOBSDSocket"]
+- !private ["s17CustomReflectableP", "SocketAddress"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "deinitialize"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "sockaddr_in"]
+- !private ["s17CustomReflectableP", "sockaddr_in6"]
+- !private ["s17CustomReflectableP", "sockaddr_un"]
+- !private ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "withUnsafeMutableBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "BaseSocket"]
+- !private ["s23CustomStringConvertibleP", "EAFNOSUPPORT"]
+- !private ["s23CustomStringConvertibleP", "EBADF"]
+- !private ["s23CustomStringConvertibleP", "IOError"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "NIOBSDSocket"]
+- !private ["s23CustomStringConvertibleP", "Optional"]
+- ["s23CustomStringConvertibleP", "SelectableType"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutableRawBufferPointer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- ["s23CustomStringConvertibleP", "bind"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- ["s23CustomStringConvertibleP", "close"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "descriptor"]
+- !private ["s23CustomStringConvertibleP", "doBind"]
+- !private ["s23CustomStringConvertibleP", "errnoCode"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "getOption"]
+- !private ["s23CustomStringConvertibleP", "get_addr"]
+- !private ["s23CustomStringConvertibleP", "ignoreSIGPIPE"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isOpen"]
+- ["s23CustomStringConvertibleP", "localAddress"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "protocol"]
+- ["s23CustomStringConvertibleP", "remoteAddress"]
+- ["s23CustomStringConvertibleP", "setOption"]
+- !private ["s23CustomStringConvertibleP", "sockaddr_storage"]
+- !private ["s23CustomStringConvertibleP", "socklen_t"]
+- !private ["s23CustomStringConvertibleP", "takeDescriptorOwnership"]
+- !private ["s23CustomStringConvertibleP", "unixDomainSocket"]
+- !private ["s23CustomStringConvertibleP", "v4"]
+- !private ["s23CustomStringConvertibleP", "v6"]
+- ["s23CustomStringConvertibleP", "withUnsafeHandle"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutableBufferPointer"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "init"]
+- !private ["Se", "some"]
+- !private ["Se", "withUnsafeMutableBufferPointer"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "init"]
+- !private ["SE", "some"]
+- !private ["SE", "withUnsafeMutableBufferPointer"]
+- !private ["SQ", "CInt"]
+- !private ["SQ", "NIOBSDSocket"]
+- !private ["SQ", "SocketAddress"]
+- ["SQ", ""]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "deinitialize"]
+- ["SQ", "inet"]
+- ["SQ", "inet6"]
+- !private ["SQ", "init"]
+- !private ["SQ", "ipv6"]
+- !private ["SQ", "ipv6_v6only"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "protocol"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "sockaddr_in"]
+- !private ["SQ", "sockaddr_in6"]
+- !private ["SQ", "sockaddr_un"]
+- !private ["SQ", "some"]
+- !private ["SQ", "tcp"]
+- !private ["SQ", "tcp_nodelay"]
+- ["SQ", "unix"]
+- !private ["SQ", "unixDomainSocket"]
+- !private ["SQ", "v4"]
+- !private ["SQ", "v6"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["SQ", "withUnsafeMutableBufferPointer"]
+- !private ["s5ErrorP", "errnoCode"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeMutableBufferPointer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "callAsFunction"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "callAsFunction"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "CInt"]
+- !private ["SH", "NIOBSDSocket"]
+- !private ["SH", "SocketAddress"]
+- !private ["SH", ""]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "deinitialize"]
+- ["SH", "inet"]
+- ["SH", "inet6"]
+- !private ["SH", "init"]
+- !private ["SH", "ipv6"]
+- !private ["SH", "ipv6_v6only"]
+- !private ["SH", "pointee"]
+- !private ["SH", "protocol"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "sockaddr_in"]
+- !private ["SH", "sockaddr_in6"]
+- !private ["SH", "sockaddr_un"]
+- !private ["SH", "some"]
+- !private ["SH", "tcp"]
+- !private ["SH", "tcp_nodelay"]
+- ["SH", "unix"]
+- !private ["SH", "unixDomainSocket"]
+- !private ["SH", "v4"]
+- !private ["SH", "v6"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["SH", "withUnsafeMutableBufferPointer"]
+- !private ["3NIO7IOErrorV", ""]
+- !private ["3NIO7IOErrorV", "errnoCode"]
+- !private ["3NIO7IOErrorV", "init"]
+- !private ["3NIO13SocketAddressO04IPv4C0V", "address"]
+- !private ["3NIO13SocketAddressO04IPv6C0V", "address"]
+- !private ["Si", "callAsFunction"]
+- !private ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "callAsFunction"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "alignment"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["s10MirrorPathP", "callAsFunction"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "allocate"]
+- !private ["SM", "baseAddress"]
+- !private ["SM", "bindMemory"]
+- !private ["SM", "count"]
+- !private ["SM", "deallocate"]
+- !private ["SM", "init"]
+- !private ["SM", "initializeMemory"]
+- !private ["SM", "withUnsafeMutableBufferPointer"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "callAsFunction"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- ["3NIO12NIOBSDSocketO", "AddressFamily"]
+- ["3NIO12NIOBSDSocketO", "Handle"]
+- ["3NIO12NIOBSDSocketO", "Option"]
+- ["3NIO12NIOBSDSocketO", "OptionLevel"]
+- ["3NIO12NIOBSDSocketO", "ProtocolFamily"]
+- ["3NIO12NIOBSDSocketO", "SocketType"]
+- !private ["3NIO12NIOBSDSocketO", ""]
+- !private ["3NIO12NIOBSDSocketO", "bind"]
+- !private ["3NIO12NIOBSDSocketO", "cleanupUnixDomainSocket"]
+- !private ["3NIO12NIOBSDSocketO", "close"]
+- !private ["3NIO12NIOBSDSocketO", "getpeername"]
+- !private ["3NIO12NIOBSDSocketO", "getsockname"]
+- !private ["3NIO12NIOBSDSocketO", "getsockopt"]
+- !private ["3NIO12NIOBSDSocketO", "inet_ntop"]
+- !private ["3NIO12NIOBSDSocketO", "invalidHandle"]
+- !private ["3NIO12NIOBSDSocketO", "setNonBlocking"]
+- !private ["3NIO12NIOBSDSocketO", "setsockopt"]
+- !private ["3NIO12NIOBSDSocketO", "socket"]
+- !private ["Sj", ""]
+- !private ["Sj", "callAsFunction"]
+- !private ["Sj", "init"]
+- !private ["3NIO12NIOBSDSocketO6OptionV", ""]
+- !private ["3NIO12NIOBSDSocketO6OptionV", "ipv6_v6only"]
+- !private ["3NIO12NIOBSDSocketO6OptionV", "tcp_nodelay"]
+- !private ["3NIO12NIOBSDSocketO11OptionLevelV", ""]
+- !private ["3NIO12NIOBSDSocketO11OptionLevelV", "ipv6"]
+- !private ["3NIO12NIOBSDSocketO11OptionLevelV", "tcp"]
+- !private ["Sq", "some"]
+- !private ["3NIO12NIOBSDSocketO14ProtocolFamilyV", ""]
+- !private ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "inet6"]
+- !private ["3NIO12NIOBSDSocketO14ProtocolFamilyV", "unix"]
+- !private ["Sk", "allocate"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "bindMemory"]
+- !private ["Sk", "count"]
+- !private ["Sk", "deallocate"]
+- !private ["Sk", "init"]
+- !private ["Sk", "initializeMemory"]
+- !private ["Sk", "withUnsafeMutableBufferPointer"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "withUnsafeMutableBufferPointer"]
+- ["SY", "inet"]
+- ["SY", "inet6"]
+- !private ["SY", "init"]
+- !private ["SY", "ipv6"]
+- !private ["SY", "ipv6_v6only"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "tcp"]
+- !private ["SY", "tcp_nodelay"]
+- ["SY", "unix"]
+- ["3NIO12RegistrationP", "SelectorEventSet"]
+- ["3NIO12RegistrationP", "interested"]
+- !private ["s10SIMDScalarP", "callAsFunction"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["3NIO10SelectableP", "BaseSocket"]
+- !private ["3NIO10SelectableP", "EAFNOSUPPORT"]
+- !private ["3NIO10SelectableP", "EBADF"]
+- !private ["3NIO10SelectableP", "IOError"]
+- !private ["3NIO10SelectableP", "MemoryLayout"]
+- !private ["3NIO10SelectableP", "NIOBSDSocket"]
+- !private ["3NIO10SelectableP", "Optional"]
+- ["3NIO10SelectableP", "SelectableType"]
+- !private ["3NIO10SelectableP", "UInt8"]
+- !private ["3NIO10SelectableP", "UnsafeMutableRawBufferPointer"]
+- ["3NIO10SelectableP", ""]
+- !private ["3NIO10SelectableP", "assert"]
+- ["3NIO10SelectableP", "bind"]
+- ["3NIO10SelectableP", "close"]
+- ["3NIO10SelectableP", "description"]
+- !private ["3NIO10SelectableP", "descriptor"]
+- !private ["3NIO10SelectableP", "doBind"]
+- !private ["3NIO10SelectableP", "fatalError"]
+- ["3NIO10SelectableP", "getOption"]
+- !private ["3NIO10SelectableP", "get_addr"]
+- !private ["3NIO10SelectableP", "ignoreSIGPIPE"]
+- ["3NIO10SelectableP", "isOpen"]
+- ["3NIO10SelectableP", "localAddress"]
+- !private ["3NIO10SelectableP", "precondition"]
+- ["3NIO10SelectableP", "remoteAddress"]
+- ["3NIO10SelectableP", "setOption"]
+- !private ["3NIO10SelectableP", "sockaddr_storage"]
+- !private ["3NIO10SelectableP", "socklen_t"]
+- !private ["3NIO10SelectableP", "takeDescriptorOwnership"]
+- ["3NIO10SelectableP", "withUnsafeHandle"]
+- !private ["ST", ""]
+- !private ["ST", "allocate"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "bindMemory"]
+- !private ["ST", "count"]
+- !private ["ST", "deallocate"]
+- !private ["ST", "init"]
+- !private ["ST", "initializeMemory"]
+- !private ["ST", "withUnsafeMutableBufferPointer"]
+- !private ["SZ", "callAsFunction"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "callAsFunction"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["3NIO16SockAddrProtocolP", "CInt"]
+- !private ["3NIO16SockAddrProtocolP", "INET6_ADDRSTRLEN"]
+- !private ["3NIO16SockAddrProtocolP", "INET_ADDRSTRLEN"]
+- ["3NIO16SockAddrProtocolP", "Int"]
+- !private ["3NIO16SockAddrProtocolP", "NIOBSDSocket"]
+- !private ["3NIO16SockAddrProtocolP", "SocketAddress"]
+- ["3NIO16SockAddrProtocolP", "UnsafeMutablePointer"]
+- ["3NIO16SockAddrProtocolP", "UnsafePointer"]
+- ["3NIO16SockAddrProtocolP", ""]
+- !private ["3NIO16SockAddrProtocolP", "addressDescription"]
+- !private ["3NIO16SockAddrProtocolP", "convert"]
+- !private ["3NIO16SockAddrProtocolP", "descriptionForAddress"]
+- !private ["3NIO16SockAddrProtocolP", "fatalError"]
+- !private ["3NIO16SockAddrProtocolP", "init"]
+- !private ["3NIO16SockAddrProtocolP", "precondition"]
+- !private ["3NIO16SockAddrProtocolP", "sin6_addr"]
+- !private ["3NIO16SockAddrProtocolP", "sin_addr"]
+- ["3NIO16SockAddrProtocolP", "sockaddr"]
+- !private ["3NIO16SockAddrProtocolP", "sockaddr_in"]
+- !private ["3NIO16SockAddrProtocolP", "sockaddr_in6"]
+- !private ["3NIO16SockAddrProtocolP", "sockaddr_un"]
+- !private ["3NIO16SockAddrProtocolP", "ss_family"]
+- ["3NIO16SockAddrProtocolP", "withMutableSockAddr"]
+- ["3NIO16SockAddrProtocolP", "withSockAddr"]
+- !private ["3NIO16SockAddrProtocolP", "withUnsafeBytes"]
+- !private ["3NIO16SockAddrProtocolP", "withUnsafeMutableBytes"]
+- !private ["3NIO16SockAddrProtocolP", "withUnsafePointer"]
+- !private ["3NIO13SocketAddressO", "init"]
+- !private ["3NIO13SocketAddressO", "protocol"]
+- !private ["3NIO13SocketAddressO", "unixDomainSocket"]
+- !private ["3NIO13SocketAddressO", "v4"]
+- !private ["3NIO13SocketAddressO", "v6"]
+- !private ["3NIO12NIOBSDSocketO10SocketTypeV", ""]
+- !private ["3NIO12NIOBSDSocketO10SocketTypeV", "init"]
+- !private ["3NIO12NIOBSDSocketO10SocketTypeV", "rawValue"]
+- !private ["Sx", "CInt"]
+- !private ["Sx", "NIOBSDSocket"]
+- !private ["Sx", "SocketAddress"]
+- !private ["Sx", ""]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "callAsFunction"]
+- !private ["Sx", "deinitialize"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "sockaddr_in"]
+- !private ["Sx", "sockaddr_in6"]
+- !private ["Sx", "sockaddr_un"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["3NIO13SocketAddressO04UnixbC0V", "address"]
+- !private ["Sr", "baseAddress"]
+- !private ["Sp", "CInt"]
+- !private ["Sp", "NIOBSDSocket"]
+- ["Sp", "SocketAddress"]
+- ["Sp", ""]
+- ["Sp", "convert"]
+- !private ["Sp", "deinitialize"]
+- !private ["Sp", "pointee"]
+- ["Sp", "sockaddr"]
+- !private ["Sp", "sockaddr_in"]
+- !private ["Sp", "sockaddr_in6"]
+- !private ["Sp", "sockaddr_un"]
+- !private ["Sp", "withMemoryRebound"]
+- !private ["Sw", "allocate"]
+- !private ["Sw", "baseAddress"]
+- !private ["Sw", "bindMemory"]
+- !private ["Sw", "count"]
+- !private ["Sw", "deallocate"]
+- !private ["Sw", "initializeMemory"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["SP", "pointee"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["SW", "baseAddress"]
+- !private ["SW", "count"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "withUnsafeMutableBufferPointer"]
+- ["3NIO18_BSDSocketProtocolP", "AddressFamily"]
+- ["3NIO18_BSDSocketProtocolP", "Handle"]
+- ["3NIO18_BSDSocketProtocolP", "Option"]
+- ["3NIO18_BSDSocketProtocolP", "OptionLevel"]
+- ["3NIO18_BSDSocketProtocolP", "ProtocolFamily"]
+- ["3NIO18_BSDSocketProtocolP", "SocketType"]
+- !private ["3NIO18_BSDSocketProtocolP", "bind"]
+- !private ["3NIO18_BSDSocketProtocolP", "cleanupUnixDomainSocket"]
+- !private ["3NIO18_BSDSocketProtocolP", "close"]
+- !private ["3NIO18_BSDSocketProtocolP", "getpeername"]
+- !private ["3NIO18_BSDSocketProtocolP", "getsockname"]
+- !private ["3NIO18_BSDSocketProtocolP", "getsockopt"]
+- !private ["3NIO18_BSDSocketProtocolP", "inet_ntop"]
+- !private ["3NIO18_BSDSocketProtocolP", "invalidHandle"]
+- !private ["3NIO18_BSDSocketProtocolP", "setNonBlocking"]
+- !private ["3NIO18_BSDSocketProtocolP", "setsockopt"]
+- !private ["3NIO18_BSDSocketProtocolP", "socket"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "CInt"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "NIOBSDSocket"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "SocketAddress"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "callAsFunction"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deinitialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "sockaddr_in"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "sockaddr_in6"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "sockaddr_un"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeMutableBufferPointer"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "callAsFunction"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "allocate"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "bindMemory"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "deallocate"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "initializeMemory"]
+- !private ["s19_HasContiguousBytesP", "withUnsafeMutableBufferPointer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "callAsFunction"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeMutableBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s8_PointerP", "CInt"]
+- !private ["s8_PointerP", "NIOBSDSocket"]
+- !private ["s8_PointerP", "SocketAddress"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "deinitialize"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "sockaddr_in"]
+- !private ["s8_PointerP", "sockaddr_in6"]
+- !private ["s8_PointerP", "sockaddr_un"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["So8sockaddrV", "sa_family"]
+- !private ["So11sockaddr_inV", "INET_ADDRSTRLEN"]
+- ["So11sockaddr_inV", "Int"]
+- ["So11sockaddr_inV", "String"]
+- ["So11sockaddr_inV", "UnsafeMutablePointer"]
+- ["So11sockaddr_inV", "UnsafePointer"]
+- ["So11sockaddr_inV", ""]
+- ["So11sockaddr_inV", "addressDescription"]
+- !private ["So11sockaddr_inV", "descriptionForAddress"]
+- !private ["So11sockaddr_inV", "sin_addr"]
+- ["So11sockaddr_inV", "sockaddr"]
+- ["So11sockaddr_inV", "withMutableSockAddr"]
+- ["So11sockaddr_inV", "withSockAddr"]
+- !private ["So11sockaddr_inV", "withUnsafeBytes"]
+- !private ["So11sockaddr_inV", "withUnsafeMutableBytes"]
+- !private ["So11sockaddr_inV", "withUnsafePointer"]
+- !private ["So12sockaddr_in6V", "INET6_ADDRSTRLEN"]
+- ["So12sockaddr_in6V", "Int"]
+- ["So12sockaddr_in6V", "String"]
+- ["So12sockaddr_in6V", "UnsafeMutablePointer"]
+- ["So12sockaddr_in6V", "UnsafePointer"]
+- ["So12sockaddr_in6V", ""]
+- ["So12sockaddr_in6V", "addressDescription"]
+- !private ["So12sockaddr_in6V", "descriptionForAddress"]
+- !private ["So12sockaddr_in6V", "sin6_addr"]
+- ["So12sockaddr_in6V", "sockaddr"]
+- ["So12sockaddr_in6V", "withMutableSockAddr"]
+- ["So12sockaddr_in6V", "withSockAddr"]
+- !private ["So12sockaddr_in6V", "withUnsafeBytes"]
+- !private ["So12sockaddr_in6V", "withUnsafeMutableBytes"]
+- !private ["So12sockaddr_in6V", "withUnsafePointer"]
+- !private ["So16sockaddr_storageV", "CInt"]
+- ["So16sockaddr_storageV", "Int"]
+- !private ["So16sockaddr_storageV", "NIOBSDSocket"]
+- ["So16sockaddr_storageV", "SocketAddress"]
+- ["So16sockaddr_storageV", "UnsafeMutablePointer"]
+- ["So16sockaddr_storageV", "UnsafePointer"]
+- ["So16sockaddr_storageV", ""]
+- ["So16sockaddr_storageV", "convert"]
+- !private ["So16sockaddr_storageV", "fatalError"]
+- !private ["So16sockaddr_storageV", "init"]
+- !private ["So16sockaddr_storageV", "precondition"]
+- ["So16sockaddr_storageV", "sockaddr"]
+- ["So16sockaddr_storageV", "sockaddr_in"]
+- ["So16sockaddr_storageV", "sockaddr_in6"]
+- ["So16sockaddr_storageV", "sockaddr_un"]
+- !private ["So16sockaddr_storageV", "ss_family"]
+- ["So16sockaddr_storageV", "withMutableSockAddr"]
+- ["So16sockaddr_storageV", "withSockAddr"]
+- !private ["So16sockaddr_storageV", "withUnsafeBytes"]
+- !private ["So16sockaddr_storageV", "withUnsafeMutableBytes"]
+- !private ["So16sockaddr_storageV", "withUnsafePointer"]
+- ["So11sockaddr_unV", "Int"]
+- ["So11sockaddr_unV", "UnsafeMutablePointer"]
+- ["So11sockaddr_unV", "UnsafePointer"]
+- ["So11sockaddr_unV", ""]
+- ["So11sockaddr_unV", "sockaddr"]
+- ["So11sockaddr_unV", "withMutableSockAddr"]
+- ["So11sockaddr_unV", "withSockAddr"]
+- !private ["So11sockaddr_unV", "withUnsafeBytes"]
+- !private ["So11sockaddr_unV", "withUnsafeMutableBytes"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "3NIO12NIOBSDSocketO13AddressFamilyV"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "3NIO10BaseSocketC"
+- "3NIO18BaseSocketProtocolP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "3NIO7IOErrorV"
+- !private "3NIO13SocketAddressO04IPv4C0V"
+- !private "3NIO13SocketAddressO04IPv6C0V"
+- !private "Si"
+- !private "s5Int32V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- "3NIO12NIOBSDSocketO"
+- !private "Sj"
+- !private "3NIO12NIOBSDSocketO6OptionV"
+- !private "3NIO12NIOBSDSocketO11OptionLevelV"
+- !private "Sq"
+- !private "3NIO12NIOBSDSocketO14ProtocolFamilyV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "3NIO12RegistrationP"
+- !private "s10SIMDScalarP"
+- "3NIO10SelectableP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "3NIO16SockAddrProtocolP"
+- !private "3NIO13SocketAddressO"
+- !private "3NIO12NIOBSDSocketO10SocketTypeV"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "3NIO13SocketAddressO04UnixbC0V"
+- !private "Sr"
+- "Sp"
+- !private "Sw"
+- !private "Sv"
+- !private "SP"
+- !private "SW"
+- !private "SV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- "3NIO18_BSDSocketProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "So8sockaddrV"
+- "So11sockaddr_inV"
+- "So12sockaddr_in6V"
+- "So16sockaddr_storageV"
+- "So11sockaddr_unV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "63c1bcc68f6e80cfa6aeeb206521bbd0"

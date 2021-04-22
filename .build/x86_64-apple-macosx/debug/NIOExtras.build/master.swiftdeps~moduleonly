@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "4dc3e7d75b8ab2a77d4a97cf976e55d6"
+build_time: [1616667022, 290234000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugInboundEventsHandler.swift": [1616666964, 271252995]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugOutboundEventsHandler.swift": [1616666964, 271478994]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/FixedLengthFrameDecoder.swift": [1616666964, 271685947]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming+ContentLengthHeader.swift": [1616666964, 271915192]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming.swift": [1616666964, 272138230]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldBasedFrameDecoder.swift": [1616666964, 272390938]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldPrepender.swift": [1616666964, 272670059]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LineBasedFrameDecoder.swift": [1616666964, 273056780]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOExtrasError.swift": [1616666964, 273479902]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOLengthFieldBitLength.swift": [1616666964, 274642949]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/PCAPRingBuffer.swift": [1616666964, 275218534]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/QuiescingHelper.swift": [1616666964, 275843812]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/RequestResponseHandler.swift": [1616666964, 276373726]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/NIOExtras/WritePCAPHandler.swift": [1616666964, 277051471]

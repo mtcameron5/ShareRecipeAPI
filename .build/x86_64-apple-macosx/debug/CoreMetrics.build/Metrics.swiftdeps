@@ -1,0 +1,656 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Counter"
+- "Recorder"
+- "Gauge"
+- "TimeUnit"
+- "Timer"
+- "MetricsSystem"
+- "MetricsFactory"
+- "CounterHandler"
+- "RecorderHandler"
+- "TimerHandler"
+- "MultiplexMetricsHandler"
+- "NOOPMetricsHandler"
+provides-nominal:
+- "11CoreMetrics7CounterC"
+- "11CoreMetrics8RecorderC"
+- "11CoreMetrics5GaugeC"
+- "11CoreMetrics8TimeUnitV"
+- "11CoreMetrics5TimerC"
+- "11CoreMetrics0B6SystemO"
+- "11CoreMetrics0B7FactoryP"
+- "11CoreMetrics14CounterHandlerP"
+- "11CoreMetrics15RecorderHandlerP"
+- "11CoreMetrics12TimerHandlerP"
+- "11CoreMetrics09MultiplexB7HandlerC"
+- "11CoreMetrics18NOOPMetricsHandlerC"
+provides-member:
+- ["11CoreMetrics7CounterC", ""]
+- ["11CoreMetrics8RecorderC", ""]
+- ["11CoreMetrics5GaugeC", ""]
+- ["11CoreMetrics8TimeUnitV", ""]
+- ["11CoreMetrics5TimerC", ""]
+- ["11CoreMetrics0B6SystemO", ""]
+- ["11CoreMetrics0B7FactoryP", ""]
+- ["11CoreMetrics14CounterHandlerP", ""]
+- ["11CoreMetrics15RecorderHandlerP", ""]
+- ["11CoreMetrics12TimerHandlerP", ""]
+- ["11CoreMetrics09MultiplexB7HandlerC", ""]
+- ["11CoreMetrics18NOOPMetricsHandlerC", ""]
+- ["11CoreMetrics7CounterC", "init"]
+- ["11CoreMetrics7CounterC", "destroy"]
+- ["11CoreMetrics8RecorderC", "init"]
+- ["11CoreMetrics8RecorderC", "destroy"]
+- ["11CoreMetrics5TimerC", "init"]
+- ["11CoreMetrics5TimerC", "init"]
+- ["11CoreMetrics5TimerC", "destroy"]
+- ["11CoreMetrics12TimerHandlerP", "preferDisplayUnit"]
+provides-dynamic-lookup:
+- "aggregate"
+- "counters"
+- "description"
+- "destroy"
+- "destroyCounter"
+- "destroyRecorder"
+- "destroyTimer"
+- "dimensions"
+- "factories"
+- "handler"
+- "increment"
+- "instance"
+- "label"
+- "makeCounter"
+- "makeRecorder"
+- "makeTimer"
+- "record"
+- "recordMicroseconds"
+- "recordMilliseconds"
+- "recordNanoseconds"
+- "recordSeconds"
+- "recorders"
+- "reset"
+- "timers"
+depends-top-level:
+- "!"
+- "*"
+- !private "<"
+- !private "<="
+- "=="
+- !private ">"
+- !private ">="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BinaryFloatingPoint"
+- "BinaryInteger"
+- "Bool"
+- "BooleanLiteralType"
+- "Code"
+- "Counter"
+- "CounterHandler"
+- "CustomStringConvertible"
+- "Double"
+- "Equatable"
+- "FloatLiteralType"
+- "Gauge"
+- "Int64"
+- "IntegerLiteralType"
+- "MetricsFactory"
+- "MetricsSystem"
+- "MultiplexMetricsHandler"
+- !private "MuxCounter"
+- !private "MuxRecorder"
+- !private "MuxTimer"
+- "NOOPMetricsHandler"
+- "ReadWriteLock"
+- "Recorder"
+- "RecorderHandler"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TimeUnit"
+- "Timer"
+- "TimerHandler"
+- "UInt64"
+- !private "UnicodeScalarType"
+- !private "assert"
+- "precondition"
+- !private "type"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "IntegerLiteralType"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "max"]
+- !private ["s18AdditiveArithmeticP", "multipliedReportingOverflow"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "forEach"]
+- !private ["SK", "map"]
+- !private ["SB", "IntegerLiteralType"]
+- !private ["SB", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["Sz", "max"]
+- !private ["Sz", "multipliedReportingOverflow"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "multipliedReportingOverflow"]
+- !private ["Sl", ""]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "map"]
+- !private ["SL", "IntegerLiteralType"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "max"]
+- !private ["SL", "multipliedReportingOverflow"]
+- ["11CoreMetrics7CounterC", "BinaryInteger"]
+- ["11CoreMetrics7CounterC", "CounterHandler"]
+- !private ["11CoreMetrics7CounterC", "Int64"]
+- !private ["11CoreMetrics7CounterC", "MetricsSystem"]
+- ["11CoreMetrics7CounterC", "String"]
+- ["11CoreMetrics7CounterC", ""]
+- ["11CoreMetrics7CounterC", "deinit"]
+- ["11CoreMetrics7CounterC", "description"]
+- ["11CoreMetrics7CounterC", "destroy"]
+- ["11CoreMetrics7CounterC", "dimensions"]
+- ["11CoreMetrics7CounterC", "handler"]
+- ["11CoreMetrics7CounterC", "increment"]
+- ["11CoreMetrics7CounterC", "init"]
+- ["11CoreMetrics7CounterC", "label"]
+- ["11CoreMetrics7CounterC", "reset"]
+- ["11CoreMetrics14CounterHandlerP", "Int64"]
+- ["11CoreMetrics14CounterHandlerP", "NOOPMetricsHandler"]
+- ["11CoreMetrics14CounterHandlerP", ""]
+- !private ["11CoreMetrics14CounterHandlerP", "counters"]
+- ["11CoreMetrics14CounterHandlerP", "destroyCounter"]
+- ["11CoreMetrics14CounterHandlerP", "destroyRecorder"]
+- ["11CoreMetrics14CounterHandlerP", "destroyTimer"]
+- ["11CoreMetrics14CounterHandlerP", "increment"]
+- ["11CoreMetrics14CounterHandlerP", "init"]
+- ["11CoreMetrics14CounterHandlerP", "instance"]
+- ["11CoreMetrics14CounterHandlerP", "makeCounter"]
+- ["11CoreMetrics14CounterHandlerP", "makeRecorder"]
+- ["11CoreMetrics14CounterHandlerP", "makeTimer"]
+- ["11CoreMetrics14CounterHandlerP", "preferDisplayUnit"]
+- ["11CoreMetrics14CounterHandlerP", "record"]
+- ["11CoreMetrics14CounterHandlerP", "recordNanoseconds"]
+- ["11CoreMetrics14CounterHandlerP", "reset"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "multipliedReportingOverflow"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "multipliedReportingOverflow"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "MetricsSystem"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "aggregate"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "dimensions"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "handler"]
+- !private ["s23CustomStringConvertibleP", "increment"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "multipliedReportingOverflow"]
+- !private ["s23CustomStringConvertibleP", "recordNanoseconds"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "max"]
+- !private ["Se", "multipliedReportingOverflow"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "init"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "max"]
+- !private ["SE", "multipliedReportingOverflow"]
+- ["SQ", "=="]
+- !private ["SQ", "IntegerLiteralType"]
+- ["SQ", "TimeUnit"]
+- ["SQ", ""]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "assert"]
+- !private ["SQ", "code"]
+- ["SQ", "days"]
+- !private ["SQ", "forEach"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "hours"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "max"]
+- ["SQ", "microseconds"]
+- ["SQ", "milliseconds"]
+- ["SQ", "minutes"]
+- !private ["SQ", "multipliedReportingOverflow"]
+- ["SQ", "nanoseconds"]
+- ["SQ", "scaleFromNanoseconds"]
+- ["SQ", "seconds"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByFloatLiteralP", "IntegerLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s27ExpressibleByIntegerLiteralP", "multipliedReportingOverflow"]
+- !private ["s23ExpressibleByNilLiteralP", "multipliedReportingOverflow"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- !private ["s17FixedWidthIntegerP", "multipliedReportingOverflow"]
+- !private ["SF", "IntegerLiteralType"]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- ["11CoreMetrics5GaugeC", "String"]
+- ["11CoreMetrics5GaugeC", "deinit"]
+- ["11CoreMetrics5GaugeC", "init"]
+- ["SH", "=="]
+- !private ["SH", "IntegerLiteralType"]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "days"]
+- !private ["SH", "forEach"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "hours"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "max"]
+- ["SH", "microseconds"]
+- ["SH", "milliseconds"]
+- ["SH", "minutes"]
+- !private ["SH", "multipliedReportingOverflow"]
+- ["SH", "nanoseconds"]
+- ["SH", "seconds"]
+- !private ["s6HasherV", "combine"]
+- !private ["s5Int64V", "init"]
+- !private ["s5Int64V", "max"]
+- !private ["s5Int64V", "multipliedReportingOverflow"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s25LosslessStringConvertibleP", "multipliedReportingOverflow"]
+- ["11CoreMetrics0B7FactoryP", "Bool"]
+- ["11CoreMetrics0B7FactoryP", "CounterHandler"]
+- !private ["11CoreMetrics0B7FactoryP", "MuxCounter"]
+- !private ["11CoreMetrics0B7FactoryP", "MuxRecorder"]
+- !private ["11CoreMetrics0B7FactoryP", "MuxTimer"]
+- ["11CoreMetrics0B7FactoryP", "NOOPMetricsHandler"]
+- ["11CoreMetrics0B7FactoryP", "RecorderHandler"]
+- ["11CoreMetrics0B7FactoryP", "String"]
+- ["11CoreMetrics0B7FactoryP", "TimerHandler"]
+- ["11CoreMetrics0B7FactoryP", ""]
+- ["11CoreMetrics0B7FactoryP", "destroyCounter"]
+- ["11CoreMetrics0B7FactoryP", "destroyRecorder"]
+- ["11CoreMetrics0B7FactoryP", "destroyTimer"]
+- !private ["11CoreMetrics0B7FactoryP", "factories"]
+- ["11CoreMetrics0B7FactoryP", "increment"]
+- ["11CoreMetrics0B7FactoryP", "init"]
+- ["11CoreMetrics0B7FactoryP", "instance"]
+- ["11CoreMetrics0B7FactoryP", "makeCounter"]
+- ["11CoreMetrics0B7FactoryP", "makeRecorder"]
+- ["11CoreMetrics0B7FactoryP", "makeTimer"]
+- ["11CoreMetrics0B7FactoryP", "preferDisplayUnit"]
+- ["11CoreMetrics0B7FactoryP", "record"]
+- ["11CoreMetrics0B7FactoryP", "recordNanoseconds"]
+- ["11CoreMetrics0B7FactoryP", "reset"]
+- ["11CoreMetrics0B6SystemO", "MetricsFactory"]
+- ["11CoreMetrics0B6SystemO", "NOOPMetricsHandler"]
+- ["11CoreMetrics0B6SystemO", "ReadWriteLock"]
+- !private ["11CoreMetrics0B6SystemO", "_factory"]
+- ["11CoreMetrics0B6SystemO", "bootstrap"]
+- ["11CoreMetrics0B6SystemO", "bootstrapInternal"]
+- ["11CoreMetrics0B6SystemO", "factory"]
+- !private ["11CoreMetrics0B6SystemO", "initialized"]
+- !private ["11CoreMetrics0B6SystemO", "lock"]
+- !private ["11CoreMetrics0B6SystemO", "precondition"]
+- ["11CoreMetrics0B6SystemO", "withWriterLock"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "Bool"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "CounterHandler"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "Double"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "Int64"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "MetricsFactory"]
+- !private ["11CoreMetrics09MultiplexB7HandlerC", "MuxCounter"]
+- !private ["11CoreMetrics09MultiplexB7HandlerC", "MuxRecorder"]
+- !private ["11CoreMetrics09MultiplexB7HandlerC", "MuxTimer"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "RecorderHandler"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "String"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "TimerHandler"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "deinit"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "destroyCounter"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "destroyRecorder"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "destroyTimer"]
+- !private ["11CoreMetrics09MultiplexB7HandlerC", "factories"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "init"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "makeCounter"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "makeRecorder"]
+- ["11CoreMetrics09MultiplexB7HandlerC", "makeTimer"]
+- !private ["SM", "forEach"]
+- !private ["SM", "map"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "Bool"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "CounterHandler"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "Double"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "Int64"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "NOOPMetricsHandler"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "RecorderHandler"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "String"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "TimerHandler"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", ""]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "deinit"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "destroyCounter"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "destroyRecorder"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "destroyTimer"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "increment"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "init"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "instance"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "makeCounter"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "makeRecorder"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "makeTimer"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "preferDisplayUnit"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "record"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "recordNanoseconds"]
+- ["11CoreMetrics18NOOPMetricsHandlerC", "reset"]
+- !private ["Sj", "IntegerLiteralType"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "max"]
+- !private ["Sj", "multipliedReportingOverflow"]
+- !private ["Sq", "multipliedReportingOverflow"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "map"]
+- ["11CoreMetrics13ReadWriteLockC", "init"]
+- !private ["11CoreMetrics13ReadWriteLockC", "withReaderLock"]
+- !private ["11CoreMetrics13ReadWriteLockC", "withWriterLock"]
+- ["11CoreMetrics8RecorderC", "BinaryFloatingPoint"]
+- ["11CoreMetrics8RecorderC", "BinaryInteger"]
+- ["11CoreMetrics8RecorderC", "Bool"]
+- !private ["11CoreMetrics8RecorderC", "Double"]
+- !private ["11CoreMetrics8RecorderC", "Int64"]
+- !private ["11CoreMetrics8RecorderC", "MetricsSystem"]
+- ["11CoreMetrics8RecorderC", "RecorderHandler"]
+- ["11CoreMetrics8RecorderC", "String"]
+- ["11CoreMetrics8RecorderC", ""]
+- ["11CoreMetrics8RecorderC", "aggregate"]
+- ["11CoreMetrics8RecorderC", "deinit"]
+- ["11CoreMetrics8RecorderC", "description"]
+- ["11CoreMetrics8RecorderC", "destroy"]
+- ["11CoreMetrics8RecorderC", "dimensions"]
+- ["11CoreMetrics8RecorderC", "handler"]
+- ["11CoreMetrics8RecorderC", "init"]
+- ["11CoreMetrics8RecorderC", "label"]
+- ["11CoreMetrics8RecorderC", "record"]
+- !private ["11CoreMetrics8RecorderC", "type"]
+- ["11CoreMetrics15RecorderHandlerP", "Double"]
+- ["11CoreMetrics15RecorderHandlerP", "Int64"]
+- ["11CoreMetrics15RecorderHandlerP", "NOOPMetricsHandler"]
+- ["11CoreMetrics15RecorderHandlerP", ""]
+- ["11CoreMetrics15RecorderHandlerP", "destroyCounter"]
+- ["11CoreMetrics15RecorderHandlerP", "destroyRecorder"]
+- ["11CoreMetrics15RecorderHandlerP", "destroyTimer"]
+- ["11CoreMetrics15RecorderHandlerP", "increment"]
+- ["11CoreMetrics15RecorderHandlerP", "init"]
+- ["11CoreMetrics15RecorderHandlerP", "instance"]
+- ["11CoreMetrics15RecorderHandlerP", "makeCounter"]
+- ["11CoreMetrics15RecorderHandlerP", "makeRecorder"]
+- ["11CoreMetrics15RecorderHandlerP", "makeTimer"]
+- ["11CoreMetrics15RecorderHandlerP", "preferDisplayUnit"]
+- ["11CoreMetrics15RecorderHandlerP", "record"]
+- ["11CoreMetrics15RecorderHandlerP", "recordNanoseconds"]
+- !private ["11CoreMetrics15RecorderHandlerP", "recorders"]
+- ["11CoreMetrics15RecorderHandlerP", "reset"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "max"]
+- !private ["s10SIMDScalarP", "multipliedReportingOverflow"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "forEach"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["SZ", "init"]
+- !private ["SZ", "max"]
+- !private ["SZ", "multipliedReportingOverflow"]
+- !private ["s13SignedNumericP", "IntegerLiteralType"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "max"]
+- !private ["s13SignedNumericP", "multipliedReportingOverflow"]
+- !private ["Sx", "IntegerLiteralType"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["Sx", "max"]
+- !private ["Sx", "multipliedReportingOverflow"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["11CoreMetrics8TimeUnitV", "=="]
+- ["11CoreMetrics8TimeUnitV", "Code"]
+- ["11CoreMetrics8TimeUnitV", "Equatable"]
+- ["11CoreMetrics8TimeUnitV", "TimeUnit"]
+- ["11CoreMetrics8TimeUnitV", "UInt64"]
+- ["11CoreMetrics8TimeUnitV", ""]
+- ["11CoreMetrics8TimeUnitV", "__derived_struct_equals"]
+- !private ["11CoreMetrics8TimeUnitV", "assert"]
+- !private ["11CoreMetrics8TimeUnitV", "code"]
+- ["11CoreMetrics8TimeUnitV", "days"]
+- ["11CoreMetrics8TimeUnitV", "hours"]
+- ["11CoreMetrics8TimeUnitV", "init"]
+- ["11CoreMetrics8TimeUnitV", "microseconds"]
+- ["11CoreMetrics8TimeUnitV", "milliseconds"]
+- ["11CoreMetrics8TimeUnitV", "minutes"]
+- ["11CoreMetrics8TimeUnitV", "nanoseconds"]
+- ["11CoreMetrics8TimeUnitV", "scaleFromNanoseconds"]
+- ["11CoreMetrics8TimeUnitV", "seconds"]
+- ["11CoreMetrics5TimerC", "BinaryFloatingPoint"]
+- ["11CoreMetrics5TimerC", "BinaryInteger"]
+- !private ["11CoreMetrics5TimerC", "Double"]
+- ["11CoreMetrics5TimerC", "Int64"]
+- !private ["11CoreMetrics5TimerC", "MetricsSystem"]
+- ["11CoreMetrics5TimerC", "String"]
+- ["11CoreMetrics5TimerC", "TimeUnit"]
+- ["11CoreMetrics5TimerC", "TimerHandler"]
+- ["11CoreMetrics5TimerC", ""]
+- ["11CoreMetrics5TimerC", "deinit"]
+- ["11CoreMetrics5TimerC", "description"]
+- ["11CoreMetrics5TimerC", "destroy"]
+- ["11CoreMetrics5TimerC", "dimensions"]
+- ["11CoreMetrics5TimerC", "handler"]
+- ["11CoreMetrics5TimerC", "init"]
+- ["11CoreMetrics5TimerC", "label"]
+- ["11CoreMetrics5TimerC", "recordMicroseconds"]
+- ["11CoreMetrics5TimerC", "recordMilliseconds"]
+- ["11CoreMetrics5TimerC", "recordNanoseconds"]
+- ["11CoreMetrics5TimerC", "recordSeconds"]
+- ["11CoreMetrics12TimerHandlerP", "Int64"]
+- ["11CoreMetrics12TimerHandlerP", "NOOPMetricsHandler"]
+- ["11CoreMetrics12TimerHandlerP", "TimeUnit"]
+- ["11CoreMetrics12TimerHandlerP", ""]
+- ["11CoreMetrics12TimerHandlerP", "destroyCounter"]
+- ["11CoreMetrics12TimerHandlerP", "destroyRecorder"]
+- ["11CoreMetrics12TimerHandlerP", "destroyTimer"]
+- ["11CoreMetrics12TimerHandlerP", "increment"]
+- ["11CoreMetrics12TimerHandlerP", "init"]
+- ["11CoreMetrics12TimerHandlerP", "instance"]
+- ["11CoreMetrics12TimerHandlerP", "makeCounter"]
+- ["11CoreMetrics12TimerHandlerP", "makeRecorder"]
+- ["11CoreMetrics12TimerHandlerP", "makeTimer"]
+- ["11CoreMetrics12TimerHandlerP", "preferDisplayUnit"]
+- ["11CoreMetrics12TimerHandlerP", "record"]
+- ["11CoreMetrics12TimerHandlerP", "recordNanoseconds"]
+- ["11CoreMetrics12TimerHandlerP", "reset"]
+- !private ["11CoreMetrics12TimerHandlerP", "timers"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "max"]
+- !private ["s15_CVarArgAlignedP", "multipliedReportingOverflow"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "max"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "multipliedReportingOverflow"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "multipliedReportingOverflow"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "multipliedReportingOverflow"]
+- !private ["s21_ObjectiveCBridgeableP", "multipliedReportingOverflow"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "11CoreMetrics7CounterC"
+- "11CoreMetrics14CounterHandlerP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "11CoreMetrics5GaugeC"
+- "SH"
+- !private "s6HasherV"
+- !private "s5Int64V"
+- !private "s25LosslessStringConvertibleP"
+- "11CoreMetrics0B7FactoryP"
+- "11CoreMetrics0B6SystemO"
+- "11CoreMetrics09MultiplexB7HandlerC"
+- !private "SM"
+- "11CoreMetrics18NOOPMetricsHandlerC"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "11CoreMetrics13ReadWriteLockC"
+- "11CoreMetrics8RecorderC"
+- "11CoreMetrics15RecorderHandlerP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "11CoreMetrics8TimeUnitV"
+- "11CoreMetrics5TimerC"
+- "11CoreMetrics12TimerHandlerP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "e9217261e3fef2763cad3251ca0490c2"

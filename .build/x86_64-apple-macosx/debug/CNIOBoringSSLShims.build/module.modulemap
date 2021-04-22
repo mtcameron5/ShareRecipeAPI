@@ -1,0 +1,4 @@
+module CNIOBoringSSLShims {
+    umbrella header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSLShims/include/CNIOBoringSSLShims.h"
+    export *
+}

@@ -1,0 +1,764 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPMediaType"
+- "fileExtensionMediaTypeMapping"
+- "=="
+provides-nominal:
+- "5Vapor13HTTPMediaTypeV"
+provides-member:
+- ["5Vapor13HTTPMediaTypeV", ""]
+- ["5Vapor13HTTPMediaTypeV", "any"]
+- ["5Vapor13HTTPMediaTypeV", "plainText"]
+- ["5Vapor13HTTPMediaTypeV", "html"]
+- ["5Vapor13HTTPMediaTypeV", "css"]
+- ["5Vapor13HTTPMediaTypeV", "urlEncodedForm"]
+- ["5Vapor13HTTPMediaTypeV", "formData"]
+- ["5Vapor13HTTPMediaTypeV", "formData"]
+- ["5Vapor13HTTPMediaTypeV", "multipart"]
+- ["5Vapor13HTTPMediaTypeV", "json"]
+- ["5Vapor13HTTPMediaTypeV", "jsonAPI"]
+- ["5Vapor13HTTPMediaTypeV", "xml"]
+- ["5Vapor13HTTPMediaTypeV", "dtd"]
+- ["5Vapor13HTTPMediaTypeV", "pdf"]
+- ["5Vapor13HTTPMediaTypeV", "zip"]
+- ["5Vapor13HTTPMediaTypeV", "tar"]
+- ["5Vapor13HTTPMediaTypeV", "gzip"]
+- ["5Vapor13HTTPMediaTypeV", "bzip2"]
+- ["5Vapor13HTTPMediaTypeV", "binary"]
+- ["5Vapor13HTTPMediaTypeV", "gif"]
+- ["5Vapor13HTTPMediaTypeV", "jpeg"]
+- ["5Vapor13HTTPMediaTypeV", "png"]
+- ["5Vapor13HTTPMediaTypeV", "svg"]
+- ["5Vapor13HTTPMediaTypeV", "audio"]
+- ["5Vapor13HTTPMediaTypeV", "midi"]
+- ["5Vapor13HTTPMediaTypeV", "mp3"]
+- ["5Vapor13HTTPMediaTypeV", "wave"]
+- ["5Vapor13HTTPMediaTypeV", "ogg"]
+- ["5Vapor13HTTPMediaTypeV", "avi"]
+- ["5Vapor13HTTPMediaTypeV", "mpeg"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "&&"
+- !private "+="
+- !private "..."
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CustomStringConvertible"
+- "Dictionary"
+- "Equatable"
+- !private "ExtendedGraphemeClusterType"
+- !private "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPMediaType"
+- "Hashable"
+- "Hasher"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- "fileExtensionMediaTypeMapping"
+- !private "parameters"
+- !private "serialize"
+- !private "subType"
+- !private "type"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "callAsFunction"]
+- ["5Vapor15AnyOptionalTypeP", ""]
+- !private ["5Vapor15AnyOptionalTypeP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "subscript"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "callAsFunction"]
+- ["SK", "Directive"]
+- ["SK", ""]
+- !private ["SK", "caseInsensitiveCompare"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "hash"]
+- !private ["SK", "init"]
+- !private ["SK", "split"]
+- !private ["SK", "subscript"]
+- !private ["SK", "trimmingCharacters"]
+- !private ["Sz", ""]
+- !private ["Sz", "callAsFunction"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "caseInsensitiveCompare"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "hash"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "trimmingCharacters"]
+- !private ["10Foundation12CharacterSetV", "whitespaces"]
+- !private ["5Vapor22CodingKeyRepresentableP", "callAsFunction"]
+- !private ["5Vapor22CodingKeyRepresentableP", "caseInsensitiveCompare"]
+- !private ["5Vapor22CodingKeyRepresentableP", "hash"]
+- !private ["5Vapor22CodingKeyRepresentableP", "init"]
+- !private ["5Vapor22CodingKeyRepresentableP", "trimmingCharacters"]
+- ["Sl", "Directive"]
+- ["Sl", ""]
+- !private ["Sl", "caseInsensitiveCompare"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "hash"]
+- !private ["Sl", "init"]
+- !private ["Sl", "split"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "trimmingCharacters"]
+- !private ["SL", ""]
+- !private ["SL", "callAsFunction"]
+- !private ["SL", "caseInsensitiveCompare"]
+- !private ["SL", "hash"]
+- !private ["SL", "init"]
+- !private ["SL", "split"]
+- !private ["SL", "trimmingCharacters"]
+- !private ["So18NSComparisonResultV", "=="]
+- !private ["So18NSComparisonResultV", "RawValue"]
+- !private ["So18NSComparisonResultV", "orderedSame"]
+- !private ["5Vapor7ContentP", "callAsFunction"]
+- !private ["5Vapor7ContentP", "caseInsensitiveCompare"]
+- !private ["5Vapor7ContentP", "count"]
+- !private ["5Vapor7ContentP", "first"]
+- !private ["5Vapor7ContentP", "hash"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "subscript"]
+- !private ["5Vapor7ContentP", "trimmingCharacters"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "Directive"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "caseInsensitiveCompare"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "hash"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "trimmingCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "whitespaces"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "caseInsensitiveCompare"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "hash"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "split"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "trimmingCharacters"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Directive"]
+- ["s23CustomStringConvertibleP", "HTTPMediaType"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "caseInsensitiveCompare"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fileExtensionMediaTypeMapping"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "parameter"]
+- !private ["s23CustomStringConvertibleP", "parameters"]
+- !private ["s23CustomStringConvertibleP", "serialize"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- !private ["s23CustomStringConvertibleP", "subType"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "whitespaces"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "Directive"]
+- ["Se", ""]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "caseInsensitiveCompare"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- !private ["Se", "hash"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "trimmingCharacters"]
+- !private ["Se", "whitespaces"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE9DirectiveV", "parameter"]
+- !private ["8NIOHTTP111HTTPHeadersV5VaporE9DirectiveV", "value"]
+- ["SE", "Directive"]
+- ["SE", ""]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "caseInsensitiveCompare"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- !private ["SE", "hash"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "trimmingCharacters"]
+- !private ["SE", "whitespaces"]
+- ["SQ", "=="]
+- ["SQ", "Directive"]
+- ["SQ", "HTTPMediaType"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "caseInsensitiveCompare"]
+- !private ["SQ", "count"]
+- ["SQ", "description"]
+- !private ["SQ", "fileExtensionMediaTypeMapping"]
+- !private ["SQ", "first"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "orderedSame"]
+- !private ["SQ", "parameter"]
+- !private ["SQ", "parameters"]
+- !private ["SQ", "serialize"]
+- !private ["SQ", "split"]
+- !private ["SQ", "subType"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "trimmingCharacters"]
+- !private ["SQ", "type"]
+- !private ["SQ", "value"]
+- !private ["SQ", "whitespaces"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "whitespaces"]
+- ["s30ExpressibleByDictionaryLiteralP", "Directive"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "caseInsensitiveCompare"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hash"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "caseInsensitiveCompare"]
+- !private ["s32ExpressibleByStringInterpolationP", "hash"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "split"]
+- !private ["s32ExpressibleByStringInterpolationP", "trimmingCharacters"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "caseInsensitiveCompare"]
+- !private ["s26ExpressibleByStringLiteralP", "hash"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", "trimmingCharacters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "caseInsensitiveCompare"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hash"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s17FixedWidthIntegerP", "callAsFunction"]
+- ["8NIOHTTP111HTTPHeadersV", "Directive"]
+- ["5Vapor13HTTPMediaTypeV", "=="]
+- ["5Vapor13HTTPMediaTypeV", "Bool"]
+- ["5Vapor13HTTPMediaTypeV", "HTTPHeaders"]
+- ["5Vapor13HTTPMediaTypeV", "HTTPMediaType"]
+- ["5Vapor13HTTPMediaTypeV", "Hasher"]
+- ["5Vapor13HTTPMediaTypeV", "String"]
+- ["5Vapor13HTTPMediaTypeV", ""]
+- ["5Vapor13HTTPMediaTypeV", "_rawHashValue"]
+- ["5Vapor13HTTPMediaTypeV", "any"]
+- ["5Vapor13HTTPMediaTypeV", "audio"]
+- ["5Vapor13HTTPMediaTypeV", "avi"]
+- ["5Vapor13HTTPMediaTypeV", "binary"]
+- ["5Vapor13HTTPMediaTypeV", "bzip2"]
+- ["5Vapor13HTTPMediaTypeV", "css"]
+- ["5Vapor13HTTPMediaTypeV", "description"]
+- ["5Vapor13HTTPMediaTypeV", "dtd"]
+- ["5Vapor13HTTPMediaTypeV", "fileExtension"]
+- !private ["5Vapor13HTTPMediaTypeV", "fileExtensionMediaTypeMapping"]
+- ["5Vapor13HTTPMediaTypeV", "formData"]
+- ["5Vapor13HTTPMediaTypeV", "gif"]
+- ["5Vapor13HTTPMediaTypeV", "gzip"]
+- ["5Vapor13HTTPMediaTypeV", "hash"]
+- ["5Vapor13HTTPMediaTypeV", "hashValue"]
+- ["5Vapor13HTTPMediaTypeV", "html"]
+- ["5Vapor13HTTPMediaTypeV", "init"]
+- ["5Vapor13HTTPMediaTypeV", "jpeg"]
+- ["5Vapor13HTTPMediaTypeV", "json"]
+- ["5Vapor13HTTPMediaTypeV", "jsonAPI"]
+- ["5Vapor13HTTPMediaTypeV", "midi"]
+- ["5Vapor13HTTPMediaTypeV", "mp3"]
+- ["5Vapor13HTTPMediaTypeV", "mpeg"]
+- ["5Vapor13HTTPMediaTypeV", "multipart"]
+- ["5Vapor13HTTPMediaTypeV", "ogg"]
+- ["5Vapor13HTTPMediaTypeV", "parameters"]
+- ["5Vapor13HTTPMediaTypeV", "pdf"]
+- ["5Vapor13HTTPMediaTypeV", "plainText"]
+- ["5Vapor13HTTPMediaTypeV", "png"]
+- ["5Vapor13HTTPMediaTypeV", "serialize"]
+- ["5Vapor13HTTPMediaTypeV", "subType"]
+- ["5Vapor13HTTPMediaTypeV", "svg"]
+- ["5Vapor13HTTPMediaTypeV", "tar"]
+- ["5Vapor13HTTPMediaTypeV", "type"]
+- ["5Vapor13HTTPMediaTypeV", "urlEncodedForm"]
+- ["5Vapor13HTTPMediaTypeV", "wave"]
+- ["5Vapor13HTTPMediaTypeV", "xml"]
+- ["5Vapor13HTTPMediaTypeV", "zip"]
+- ["SH", "=="]
+- ["SH", "HTTPMediaType"]
+- !private ["SH", "RawValue"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "caseInsensitiveCompare"]
+- !private ["SH", "count"]
+- ["SH", "description"]
+- !private ["SH", "fileExtensionMediaTypeMapping"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "orderedSame"]
+- !private ["SH", "parameters"]
+- !private ["SH", "serialize"]
+- !private ["SH", "split"]
+- !private ["SH", "subType"]
+- !private ["SH", "subscript"]
+- !private ["SH", "trimmingCharacters"]
+- !private ["SH", "type"]
+- !private ["SH", "whitespaces"]
+- !private ["Si", "callAsFunction"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "callAsFunction"]
+- !private ["s25LosslessStringConvertibleP", "caseInsensitiveCompare"]
+- !private ["s25LosslessStringConvertibleP", "hash"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["s25LosslessStringConvertibleP", "trimmingCharacters"]
+- !private ["s10MirrorPathP", "callAsFunction"]
+- !private ["s10MirrorPathP", "caseInsensitiveCompare"]
+- !private ["s10MirrorPathP", "hash"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "trimmingCharacters"]
+- !private ["12MultipartKit0A15PartConvertibleP", "callAsFunction"]
+- !private ["12MultipartKit0A15PartConvertibleP", "caseInsensitiveCompare"]
+- !private ["12MultipartKit0A15PartConvertibleP", "hash"]
+- !private ["12MultipartKit0A15PartConvertibleP", "init"]
+- !private ["12MultipartKit0A15PartConvertibleP", "trimmingCharacters"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "callAsFunction"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "caseInsensitiveCompare"]
+- !private ["So8NSCodingP", "hash"]
+- !private ["So8NSCodingP", "trimmingCharacters"]
+- !private ["So9NSCopyingP", "caseInsensitiveCompare"]
+- !private ["So9NSCopyingP", "hash"]
+- !private ["So9NSCopyingP", "trimmingCharacters"]
+- !private ["So21NSItemProviderReadingP", "caseInsensitiveCompare"]
+- !private ["So21NSItemProviderReadingP", "hash"]
+- !private ["So21NSItemProviderReadingP", "trimmingCharacters"]
+- !private ["So21NSItemProviderWritingP", "caseInsensitiveCompare"]
+- !private ["So21NSItemProviderWritingP", "hash"]
+- !private ["So21NSItemProviderWritingP", "trimmingCharacters"]
+- !private ["So16NSMutableCopyingP", "caseInsensitiveCompare"]
+- !private ["So16NSMutableCopyingP", "hash"]
+- !private ["So16NSMutableCopyingP", "trimmingCharacters"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "caseInsensitiveCompare"]
+- !private ["So8NSObjectC", "hash"]
+- !private ["So8NSObjectC", "stringByTrimmingCharactersInSet"]
+- !private ["So8NSObjectC", "trimmingCharacters"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "caseInsensitiveCompare"]
+- !private ["So8NSObjectP", "hash"]
+- !private ["So8NSObjectP", "stringByTrimmingCharactersInSet"]
+- !private ["So8NSObjectP", "trimmingCharacters"]
+- !private ["So14NSSecureCodingP", "caseInsensitiveCompare"]
+- !private ["So14NSSecureCodingP", "hash"]
+- !private ["So14NSSecureCodingP", "trimmingCharacters"]
+- !private ["So8NSStringC", "caseInsensitiveCompare"]
+- !private ["So8NSStringC", "hash"]
+- !private ["So8NSStringC", "trimmingCharacters"]
+- !private ["Sj", ""]
+- !private ["Sj", "callAsFunction"]
+- !private ["Sq", "init"]
+- !private ["5Vapor12OptionalTypeP", "init"]
+- ["Sk", "Directive"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "caseInsensitiveCompare"]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- !private ["Sm", "hash"]
+- !private ["Sm", "init"]
+- !private ["Sm", "split"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "trimmingCharacters"]
+- !private ["SY", "=="]
+- !private ["SY", "RawValue"]
+- !private ["SY", "orderedSame"]
+- !private ["10Foundation20ReferenceConvertibleP", "whitespaces"]
+- ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "callAsFunction"]
+- !private ["5Vapor16RequestDecodableP", "caseInsensitiveCompare"]
+- !private ["5Vapor16RequestDecodableP", "count"]
+- !private ["5Vapor16RequestDecodableP", "first"]
+- !private ["5Vapor16RequestDecodableP", "hash"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "subscript"]
+- !private ["5Vapor16RequestDecodableP", "trimmingCharacters"]
+- ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "callAsFunction"]
+- !private ["5Vapor17ResponseEncodableP", "caseInsensitiveCompare"]
+- !private ["5Vapor17ResponseEncodableP", "count"]
+- !private ["5Vapor17ResponseEncodableP", "first"]
+- !private ["5Vapor17ResponseEncodableP", "hash"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "subscript"]
+- !private ["5Vapor17ResponseEncodableP", "trimmingCharacters"]
+- !private ["s10SIMDScalarP", "callAsFunction"]
+- ["ST", "Directive"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "caseInsensitiveCompare"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "hash"]
+- !private ["ST", "init"]
+- !private ["ST", "split"]
+- !private ["ST", "subscript"]
+- !private ["ST", "trimmingCharacters"]
+- !private ["s10SetAlgebraP", "whitespaces"]
+- !private ["SZ", "callAsFunction"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "callAsFunction"]
+- !private ["Sx", ""]
+- !private ["Sx", "callAsFunction"]
+- !private ["SS", ""]
+- !private ["SS", "caseInsensitiveCompare"]
+- !private ["SS", "hash"]
+- !private ["SS", "init"]
+- !private ["SS", "trimmingCharacters"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "caseInsensitiveCompare"]
+- !private ["Sy", "hash"]
+- !private ["Sy", "init"]
+- !private ["Sy", "split"]
+- !private ["Sy", "trimmingCharacters"]
+- !private ["Ss", "split"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "caseInsensitiveCompare"]
+- !private ["s16TextOutputStreamP", "hash"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "split"]
+- !private ["s16TextOutputStreamP", "trimmingCharacters"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "caseInsensitiveCompare"]
+- !private ["s20TextOutputStreamableP", "hash"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "split"]
+- !private ["s20TextOutputStreamableP", "trimmingCharacters"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "callAsFunction"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "caseInsensitiveCompare"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "hash"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "init"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "trimmingCharacters"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "callAsFunction"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "caseInsensitiveCompare"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hash"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "split"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "trimmingCharacters"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "caseInsensitiveCompare"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hash"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "callAsFunction"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "caseInsensitiveCompare"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hash"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "trimmingCharacters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "caseInsensitiveCompare"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hash"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s19_HasContiguousBytesP", "caseInsensitiveCompare"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "hash"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "split"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "trimmingCharacters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "callAsFunction"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "caseInsensitiveCompare"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hash"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "trimmingCharacters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "caseInsensitiveCompare"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hash"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trimmingCharacters"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "caseInsensitiveCompare"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hash"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trimmingCharacters"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "caseInsensitiveCompare"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "hash"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "split"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "trimmingCharacters"]
+- !private ["s21_ObjectiveCBridgeableP", "whitespaces"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "5Vapor15AnyOptionalTypeP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "5Vapor22CodingKeyRepresentableP"
+- "Sl"
+- !private "SL"
+- !private "So18NSComparisonResultV"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "8NIOHTTP111HTTPHeadersV5VaporE9DirectiveV"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "8NIOHTTP111HTTPHeadersV"
+- "5Vapor13HTTPMediaTypeV"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "12MultipartKit0A15PartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "Sq"
+- !private "5Vapor12OptionalTypeP"
+- "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "5Vapor16RequestDecodableP"
+- "5Vapor17ResponseEncodableP"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "Ss"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "5Vapor27URLQueryFragmentConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/CMultipartParser/include/multipartparser.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e763590ad789c8c83fada5685815ec3c"

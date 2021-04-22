@@ -1,0 +1,352 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Sb"
+provides-member:
+- ["Sb", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "ByteBuffer"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "PSQLCastingError"
+- "PSQLCodable"
+- "PSQLDataType"
+- "PSQLDecodingContext"
+- "PSQLEncodingContext"
+- !private "Self"
+- "TernaryPrecedence"
+- !private "UInt8"
+- !private "~="
+depends-member:
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "PSQLCastingError"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "Self"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "UInt8"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "decode"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "encode"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "encodeRaw"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "psqlType"]
+- ["Sb", "Bool"]
+- ["Sb", "ByteBuffer"]
+- !private ["Sb", "PSQLCastingError"]
+- ["Sb", "PSQLDataType"]
+- ["Sb", "PSQLDecodingContext"]
+- ["Sb", "PSQLEncodingContext"]
+- !private ["Sb", "Self"]
+- !private ["Sb", "UInt8"]
+- ["Sb", ""]
+- ["Sb", "decode"]
+- ["Sb", "encode"]
+- ["Sb", "encodeRaw"]
+- ["Sb", "psqlType"]
+- !private ["3NIO10ByteBufferV", "readInteger"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- !private ["3NIO10ByteBufferV", "writeInteger"]
+- !private ["s7CVarArgP", "PSQLCastingError"]
+- !private ["s7CVarArgP", "Self"]
+- !private ["s7CVarArgP", "UInt8"]
+- ["s7CVarArgP", "decode"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeRaw"]
+- ["s7CVarArgP", "psqlType"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s17CustomReflectableP", "PSQLCastingError"]
+- !private ["s17CustomReflectableP", "Self"]
+- !private ["s17CustomReflectableP", "UInt8"]
+- ["s17CustomReflectableP", "decode"]
+- ["s17CustomReflectableP", "encode"]
+- ["s17CustomReflectableP", "encodeRaw"]
+- ["s17CustomReflectableP", "psqlType"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s23CustomStringConvertibleP", "PSQLCastingError"]
+- !private ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- ["s23CustomStringConvertibleP", "decode"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeRaw"]
+- ["s23CustomStringConvertibleP", "psqlType"]
+- !private ["s23CustomStringConvertibleP", "readInteger"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "writeInteger"]
+- !private ["Se", "PSQLCastingError"]
+- !private ["Se", "Self"]
+- !private ["Se", "UInt8"]
+- ["Se", "decode"]
+- ["Se", "encode"]
+- ["Se", "encodeRaw"]
+- ["Se", "psqlType"]
+- ["Se", "some"]
+- !private ["SE", "PSQLCastingError"]
+- !private ["SE", "Self"]
+- !private ["SE", "UInt8"]
+- ["SE", "decode"]
+- ["SE", "encode"]
+- ["SE", "encodeRaw"]
+- ["SE", "psqlType"]
+- ["SE", "some"]
+- !private ["SQ", "=="]
+- !private ["SQ", "PSQLCastingError"]
+- !private ["SQ", "Self"]
+- !private ["SQ", "UInt8"]
+- ["SQ", ""]
+- !private ["SQ", "bool"]
+- ["SQ", "decode"]
+- ["SQ", "encode"]
+- ["SQ", "encodeRaw"]
+- ["SQ", "psqlType"]
+- !private ["SQ", "readInteger"]
+- !private ["SQ", "readableBytes"]
+- ["SQ", "some"]
+- !private ["SQ", "writeInteger"]
+- !private ["s5ErrorP", "failure"]
+- !private ["s27ExpressibleByBooleanLiteralP", "PSQLCastingError"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Self"]
+- !private ["s27ExpressibleByBooleanLiteralP", "UInt8"]
+- ["s27ExpressibleByBooleanLiteralP", "decode"]
+- ["s27ExpressibleByBooleanLiteralP", "encode"]
+- ["s27ExpressibleByBooleanLiteralP", "encodeRaw"]
+- ["s27ExpressibleByBooleanLiteralP", "psqlType"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["SH", "PSQLCastingError"]
+- !private ["SH", "Self"]
+- !private ["SH", "UInt8"]
+- ["SH", "decode"]
+- ["SH", "encode"]
+- ["SH", "encodeRaw"]
+- ["SH", "psqlType"]
+- !private ["SH", "readInteger"]
+- !private ["SH", "readableBytes"]
+- ["SH", "some"]
+- !private ["SH", "writeInteger"]
+- !private ["s25LosslessStringConvertibleP", "PSQLCastingError"]
+- !private ["s25LosslessStringConvertibleP", "Self"]
+- !private ["s25LosslessStringConvertibleP", "UInt8"]
+- ["s25LosslessStringConvertibleP", "decode"]
+- ["s25LosslessStringConvertibleP", "encode"]
+- ["s25LosslessStringConvertibleP", "encodeRaw"]
+- ["s25LosslessStringConvertibleP", "psqlType"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "PSQLCastingError"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "Self"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "UInt8"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "decode"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "encode"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "encodeRaw"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "psqlType"]
+- ["Sq", "some"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "PSQLCastingError"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "Self"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "UInt8"]
+- ["11PostgresNIO16PSQLArrayElementP", "decode"]
+- ["11PostgresNIO16PSQLArrayElementP", "encode"]
+- ["11PostgresNIO16PSQLArrayElementP", "encodeRaw"]
+- ["11PostgresNIO16PSQLArrayElementP", "psqlType"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "readInteger"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "readableBytes"]
+- !private ["11PostgresNIO16PSQLArrayElementP", "writeInteger"]
+- !private ["11PostgresNIO16PSQLCastingErrorV", ""]
+- !private ["11PostgresNIO16PSQLCastingErrorV", "failure"]
+- !private ["11PostgresNIO11PSQLCodableP", "PSQLCastingError"]
+- ["11PostgresNIO11PSQLCodableP", "RawValue"]
+- !private ["11PostgresNIO11PSQLCodableP", "Self"]
+- !private ["11PostgresNIO11PSQLCodableP", "UInt8"]
+- ["11PostgresNIO11PSQLCodableP", ""]
+- ["11PostgresNIO11PSQLCodableP", "decode"]
+- ["11PostgresNIO11PSQLCodableP", "encode"]
+- ["11PostgresNIO11PSQLCodableP", "encodeRaw"]
+- ["11PostgresNIO11PSQLCodableP", "psqlType"]
+- !private ["11PostgresNIO11PSQLCodableP", "readInteger"]
+- !private ["11PostgresNIO11PSQLCodableP", "readableBytes"]
+- ["11PostgresNIO11PSQLCodableP", "some"]
+- !private ["11PostgresNIO11PSQLCodableP", "writeInteger"]
+- !private ["11PostgresNIO12PSQLDataTypeV", ""]
+- !private ["11PostgresNIO12PSQLDataTypeV", "bool"]
+- !private ["11PostgresNIO13PSQLDecodableP", "PSQLCastingError"]
+- ["11PostgresNIO13PSQLDecodableP", "RawValue"]
+- !private ["11PostgresNIO13PSQLDecodableP", "Self"]
+- !private ["11PostgresNIO13PSQLDecodableP", "UInt8"]
+- ["11PostgresNIO13PSQLDecodableP", ""]
+- ["11PostgresNIO13PSQLDecodableP", "decode"]
+- ["11PostgresNIO13PSQLDecodableP", "encode"]
+- ["11PostgresNIO13PSQLDecodableP", "encodeRaw"]
+- ["11PostgresNIO13PSQLDecodableP", "psqlType"]
+- !private ["11PostgresNIO13PSQLDecodableP", "readInteger"]
+- !private ["11PostgresNIO13PSQLDecodableP", "readableBytes"]
+- ["11PostgresNIO13PSQLDecodableP", "some"]
+- !private ["11PostgresNIO13PSQLDecodableP", "writeInteger"]
+- ["11PostgresNIO13PSQLEncodableP", "Element"]
+- !private ["11PostgresNIO13PSQLEncodableP", "PSQLCastingError"]
+- ["11PostgresNIO13PSQLEncodableP", "RawValue"]
+- !private ["11PostgresNIO13PSQLEncodableP", "Self"]
+- !private ["11PostgresNIO13PSQLEncodableP", "UInt8"]
+- ["11PostgresNIO13PSQLEncodableP", ""]
+- ["11PostgresNIO13PSQLEncodableP", "decode"]
+- ["11PostgresNIO13PSQLEncodableP", "encode"]
+- ["11PostgresNIO13PSQLEncodableP", "encodeRaw"]
+- ["11PostgresNIO13PSQLEncodableP", "psqlType"]
+- !private ["11PostgresNIO13PSQLEncodableP", "readInteger"]
+- !private ["11PostgresNIO13PSQLEncodableP", "readableBytes"]
+- ["11PostgresNIO13PSQLEncodableP", "some"]
+- !private ["11PostgresNIO13PSQLEncodableP", "writeInteger"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "PSQLCastingError"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "Self"]
+- !private ["11PostgresNIO0A15DataConvertibleP", "UInt8"]
+- ["11PostgresNIO0A15DataConvertibleP", "decode"]
+- ["11PostgresNIO0A15DataConvertibleP", "encode"]
+- ["11PostgresNIO0A15DataConvertibleP", "encodeRaw"]
+- ["11PostgresNIO0A15DataConvertibleP", "psqlType"]
+- ["11PostgresNIO0A15DataConvertibleP", "some"]
+- ["SY", "RawValue"]
+- !private ["SY", "bool"]
+- ["ST", "Element"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "PSQLCastingError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Self"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UInt8"]
+- ["s30_CustomPlaygroundQuickLookableP", "decode"]
+- ["s30_CustomPlaygroundQuickLookableP", "encode"]
+- ["s30_CustomPlaygroundQuickLookableP", "encodeRaw"]
+- ["s30_CustomPlaygroundQuickLookableP", "psqlType"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "PSQLCastingError"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "Self"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "UInt8"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "decode"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "encode"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "encodeRaw"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "psqlType"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "PSQLCastingError"]
+- !private ["s21_ObjectiveCBridgeableP", "Self"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt8"]
+- ["s21_ObjectiveCBridgeableP", "decode"]
+- ["s21_ObjectiveCBridgeableP", "encode"]
+- ["s21_ObjectiveCBridgeableP", "encodeRaw"]
+- ["s21_ObjectiveCBridgeableP", "psqlType"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+depends-nominal:
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "Sb"
+- !private "3NIO10ByteBufferV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- "Sq"
+- "11PostgresNIO16PSQLArrayElementP"
+- !private "11PostgresNIO16PSQLCastingErrorV"
+- "11PostgresNIO11PSQLCodableP"
+- !private "11PostgresNIO12PSQLDataTypeV"
+- "11PostgresNIO13PSQLDecodableP"
+- "11PostgresNIO13PSQLEncodableP"
+- "11PostgresNIO0A15DataConvertibleP"
+- "SY"
+- "ST"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a450a39e83becc244e0bba9fc4bda492"

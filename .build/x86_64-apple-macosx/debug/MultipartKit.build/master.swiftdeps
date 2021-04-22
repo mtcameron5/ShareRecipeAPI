@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "0cbb7140eb3d7b5c5bb4d9a8f7e2795a"
+build_time: [1616667028, 731837000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/BasicCodingKey.swift": [1616666970, 243356977]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/Exports.swift": [1616666970, 243581076]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder.swift": [1616666970, 244236889]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder.swift": [1616666970, 244491459]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartError.swift": [1616666970, 244667038]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartParser.swift": [1616666970, 245949190]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartPart.swift": [1616666970, 246601602]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartPartConvertible.swift": [1616666970, 247113985]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartSerializer.swift": [1616666970, 247747498]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/multipart-kit/Sources/MultipartKit/Utilities.swift": [1616666970, 248193529]

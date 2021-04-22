@@ -1,0 +1,4 @@
+module _NIO1APIShims {
+    header "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/_NIO1APIShims-Swift.h"
+    requires objc
+}

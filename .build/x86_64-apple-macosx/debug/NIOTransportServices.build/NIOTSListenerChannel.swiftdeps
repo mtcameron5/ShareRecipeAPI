@@ -1,0 +1,1050 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NIOTSListenerChannel"
+provides-nominal:
+- "20NIOTransportServices20NIOTSListenerChannelC"
+- "20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO"
+provides-member:
+- ["20NIOTransportServices20NIOTSListenerChannelC", ""]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", ""]
+provides-dynamic-lookup:
+- "_addressCache"
+- "_addressCacheLock"
+- "_channelCore"
+- "_pipeline"
+- "allocator"
+- "allowLocalEndpointReuse"
+- "alreadyConfigured0"
+- "autoRead"
+- "beginActivating0"
+- "bindComplete0"
+- "bindPromise"
+- "channelRead0"
+- "childChannelQoS"
+- "childLoopGroup"
+- "childTCPOptions"
+- "childTLSOptions"
+- "closeFuture"
+- "closePromise"
+- "connectionQueue"
+- "doClose0"
+- "doHalfClose0"
+- "enablePeerToPeer"
+- "errorCaught0"
+- "flush0"
+- "getOption"
+- "getOption0"
+- "isActive0"
+- "isWritable"
+- "localAddress"
+- "localAddress0"
+- "newConnectionHandler"
+- "nwListener"
+- "outstandingRead"
+- "parent"
+- "pipeline"
+- "read0"
+- "readIfNeeded0"
+- "remoteAddress"
+- "remoteAddress0"
+- "reuseAddress"
+- "reusePort"
+- "setOption"
+- "setOption0"
+- "state"
+- "stateUpdateHandler"
+- "supportedActivationType"
+- "tcpOptions"
+- "tlsOptions"
+- "triggerUserOutboundEvent0"
+- "tsEventLoop"
+- "write0"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "=="
+- "ActivationType"
+- "ActiveChannelSubstate"
+- "ActiveSubstate"
+- "AddressCache"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ByteBufferAllocator"
+- "CastingPrecedence"
+- "Channel"
+- "ChannelCore"
+- !private "ChannelError"
+- "ChannelOption"
+- "ChannelOptions"
+- "ChannelPipeline"
+- "ChannelState"
+- "DispatchQoS"
+- "DispatchQueue"
+- "Error"
+- "EventLoopFuture"
+- "EventLoopGroup"
+- "EventLoopPromise"
+- !private "FloatLiteralType"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- "ListenerActiveSubstate"
+- "Lock"
+- "NIOAny"
+- "NIOAtomic"
+- "NIOTSChannelOptions"
+- !private "NIOTSConnectionChannel"
+- !private "NIOTSErrors"
+- "NIOTSEventLoop"
+- "NIOTSListenerChannel"
+- "NIOTSNetworkEvents"
+- "NWConnection"
+- "NWEndpoint"
+- "NWListener"
+- !private "NWParameters"
+- "NWProtocolTCP"
+- "NWProtocolTLS"
+- !private "SOL_SOCKET"
+- !private "SO_REUSEADDR"
+- !private "SO_REUSEPORT"
+- "SocketAddress"
+- "SocketOptionValue"
+- "StateManagedChannel"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "Void"
+- !private "assert"
+- !private "autoRead"
+- !private "eventLoop"
+- !private "executeAndComplete"
+- !private "fatalError"
+- "getOption0"
+- !private "preconditionFailure"
+- "setOption0"
+- !private "||"
+- !private "~="
+depends-member:
+- ["20NIOTransportServices14ActivationTypeO", "bind"]
+- ["20NIOTransportServices21ActiveChannelSubstateP", "=="]
+- ["20NIOTransportServices21ActiveChannelSubstateP", ""]
+- ["20NIOTransportServices21ActiveChannelSubstateP", "_rawHashValue"]
+- !private ["20NIOTransportServices21ActiveChannelSubstateP", "active"]
+- ["20NIOTransportServices21ActiveChannelSubstateP", "hash"]
+- ["20NIOTransportServices21ActiveChannelSubstateP", "hashValue"]
+- ["20NIOTransportServices21ActiveChannelSubstateP", "init"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["20NIOTransportServices12AddressCacheV", "init"]
+- !private ["20NIOTransportServices12AddressCacheV", "local"]
+- !private ["20NIOTransportServices12AddressCacheV", "remote"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["3NIO14ChannelOptionsV5TypesO14AutoReadOptionV", "Value"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["20NIOTransportServices18NIOTSNetworkEventsO16BindToNWEndpointV", "endpoint"]
+- ["3NIO19ByteBufferAllocatorV", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["3NIO7ChannelP", "ActiveSubstate"]
+- ["3NIO7ChannelP", "AddressCache"]
+- ["3NIO7ChannelP", "ByteBufferAllocator"]
+- !private ["3NIO7ChannelP", "ChannelError"]
+- !private ["3NIO7ChannelP", "ChannelPipeline"]
+- !private ["3NIO7ChannelP", "Int32"]
+- ["3NIO7ChannelP", "Lock"]
+- !private ["3NIO7ChannelP", "NIOAny"]
+- !private ["3NIO7ChannelP", "NIOTSConnectionChannel"]
+- !private ["3NIO7ChannelP", "NIOTSErrors"]
+- !private ["3NIO7ChannelP", "NWListener"]
+- !private ["3NIO7ChannelP", "NWParameters"]
+- !private ["3NIO7ChannelP", "SOL_SOCKET"]
+- !private ["3NIO7ChannelP", "SO_REUSEADDR"]
+- !private ["3NIO7ChannelP", "SO_REUSEPORT"]
+- !private ["3NIO7ChannelP", "SocketAddress"]
+- ["3NIO7ChannelP", ""]
+- !private ["3NIO7ChannelP", "_addressCache"]
+- !private ["3NIO7ChannelP", "_addressCacheLock"]
+- ["3NIO7ChannelP", "_channelCore"]
+- !private ["3NIO7ChannelP", "_pipeline"]
+- !private ["3NIO7ChannelP", "addressCache"]
+- !private ["3NIO7ChannelP", "addressCacheLock"]
+- ["3NIO7ChannelP", "allocator"]
+- !private ["3NIO7ChannelP", "allowLocalEndpointReuse"]
+- ["3NIO7ChannelP", "alreadyConfigured0"]
+- !private ["3NIO7ChannelP", "assert"]
+- !private ["3NIO7ChannelP", "autoRead"]
+- ["3NIO7ChannelP", "becomeActive0"]
+- ["3NIO7ChannelP", "beginActivating0"]
+- ["3NIO7ChannelP", "bind"]
+- ["3NIO7ChannelP", "bind0"]
+- !private ["3NIO7ChannelP", "bindComplete0"]
+- !private ["3NIO7ChannelP", "bindPromise"]
+- ["3NIO7ChannelP", "channelCore"]
+- ["3NIO7ChannelP", "channelRead0"]
+- !private ["3NIO7ChannelP", "childChannelQoS"]
+- !private ["3NIO7ChannelP", "childLoopGroup"]
+- !private ["3NIO7ChannelP", "childTCPOptions"]
+- !private ["3NIO7ChannelP", "childTLSOptions"]
+- ["3NIO7ChannelP", "close"]
+- ["3NIO7ChannelP", "close0"]
+- ["3NIO7ChannelP", "closeFuture"]
+- ["3NIO7ChannelP", "closePromise"]
+- !private ["3NIO7ChannelP", "closed"]
+- ["3NIO7ChannelP", "connect"]
+- ["3NIO7ChannelP", "connect0"]
+- !private ["3NIO7ChannelP", "connectionQueue"]
+- ["3NIO7ChannelP", "doClose0"]
+- ["3NIO7ChannelP", "doHalfClose0"]
+- !private ["3NIO7ChannelP", "enablePeerToPeer"]
+- ["3NIO7ChannelP", "errorCaught0"]
+- ["3NIO7ChannelP", "eventLoop"]
+- !private ["3NIO7ChannelP", "executeAndComplete"]
+- !private ["3NIO7ChannelP", "fatalError"]
+- ["3NIO7ChannelP", "flush"]
+- ["3NIO7ChannelP", "flush0"]
+- ["3NIO7ChannelP", "getOption"]
+- !private ["3NIO7ChannelP", "getOption0"]
+- !private ["3NIO7ChannelP", "init"]
+- ["3NIO7ChannelP", "isActive"]
+- ["3NIO7ChannelP", "isActive0"]
+- ["3NIO7ChannelP", "isWritable"]
+- ["3NIO7ChannelP", "localAddress"]
+- ["3NIO7ChannelP", "localAddress0"]
+- !private ["3NIO7ChannelP", "newConnectionHandler"]
+- !private ["3NIO7ChannelP", "nwListener"]
+- ["3NIO7ChannelP", "parent"]
+- ["3NIO7ChannelP", "pipeline"]
+- !private ["3NIO7ChannelP", "preconditionFailure"]
+- ["3NIO7ChannelP", "read"]
+- ["3NIO7ChannelP", "read0"]
+- ["3NIO7ChannelP", "readIfNeeded0"]
+- ["3NIO7ChannelP", "register"]
+- ["3NIO7ChannelP", "register0"]
+- ["3NIO7ChannelP", "registerAlreadyConfigured0"]
+- ["3NIO7ChannelP", "remoteAddress"]
+- ["3NIO7ChannelP", "remoteAddress0"]
+- !private ["3NIO7ChannelP", "reuseAddress"]
+- !private ["3NIO7ChannelP", "reusePort"]
+- ["3NIO7ChannelP", "setOption"]
+- !private ["3NIO7ChannelP", "setOption0"]
+- ["3NIO7ChannelP", "state"]
+- !private ["3NIO7ChannelP", "stateUpdateHandler"]
+- ["3NIO7ChannelP", "supportedActivationType"]
+- ["3NIO7ChannelP", "syncOptions"]
+- !private ["3NIO7ChannelP", "tcpOptions"]
+- !private ["3NIO7ChannelP", "tlsOptions"]
+- ["3NIO7ChannelP", "triggerUserOutboundEvent"]
+- ["3NIO7ChannelP", "triggerUserOutboundEvent0"]
+- ["3NIO7ChannelP", "tsEventLoop"]
+- !private ["3NIO7ChannelP", "unwrapData"]
+- ["3NIO7ChannelP", "write"]
+- ["3NIO7ChannelP", "write0"]
+- ["3NIO7ChannelP", "writeAndFlush"]
+- ["3NIO11ChannelCoreP", "ActiveSubstate"]
+- ["3NIO11ChannelCoreP", "AddressCache"]
+- ["3NIO11ChannelCoreP", "ByteBufferAllocator"]
+- !private ["3NIO11ChannelCoreP", "ChannelError"]
+- !private ["3NIO11ChannelCoreP", "ChannelPipeline"]
+- !private ["3NIO11ChannelCoreP", "Int32"]
+- ["3NIO11ChannelCoreP", "Lock"]
+- !private ["3NIO11ChannelCoreP", "NIOAny"]
+- !private ["3NIO11ChannelCoreP", "NIOTSConnectionChannel"]
+- !private ["3NIO11ChannelCoreP", "NIOTSErrors"]
+- !private ["3NIO11ChannelCoreP", "NWListener"]
+- !private ["3NIO11ChannelCoreP", "NWParameters"]
+- !private ["3NIO11ChannelCoreP", "SOL_SOCKET"]
+- !private ["3NIO11ChannelCoreP", "SO_REUSEADDR"]
+- !private ["3NIO11ChannelCoreP", "SO_REUSEPORT"]
+- !private ["3NIO11ChannelCoreP", "SocketAddress"]
+- ["3NIO11ChannelCoreP", ""]
+- !private ["3NIO11ChannelCoreP", "_addressCache"]
+- !private ["3NIO11ChannelCoreP", "_addressCacheLock"]
+- ["3NIO11ChannelCoreP", "_channelCore"]
+- !private ["3NIO11ChannelCoreP", "_pipeline"]
+- !private ["3NIO11ChannelCoreP", "addressCache"]
+- !private ["3NIO11ChannelCoreP", "addressCacheLock"]
+- ["3NIO11ChannelCoreP", "allocator"]
+- !private ["3NIO11ChannelCoreP", "allowLocalEndpointReuse"]
+- ["3NIO11ChannelCoreP", "alreadyConfigured0"]
+- !private ["3NIO11ChannelCoreP", "assert"]
+- !private ["3NIO11ChannelCoreP", "autoRead"]
+- ["3NIO11ChannelCoreP", "becomeActive0"]
+- ["3NIO11ChannelCoreP", "beginActivating0"]
+- ["3NIO11ChannelCoreP", "bind"]
+- ["3NIO11ChannelCoreP", "bind0"]
+- !private ["3NIO11ChannelCoreP", "bindComplete0"]
+- !private ["3NIO11ChannelCoreP", "bindPromise"]
+- ["3NIO11ChannelCoreP", "channelCore"]
+- ["3NIO11ChannelCoreP", "channelRead0"]
+- !private ["3NIO11ChannelCoreP", "childChannelQoS"]
+- !private ["3NIO11ChannelCoreP", "childLoopGroup"]
+- !private ["3NIO11ChannelCoreP", "childTCPOptions"]
+- !private ["3NIO11ChannelCoreP", "childTLSOptions"]
+- ["3NIO11ChannelCoreP", "close"]
+- ["3NIO11ChannelCoreP", "close0"]
+- ["3NIO11ChannelCoreP", "closeFuture"]
+- ["3NIO11ChannelCoreP", "closePromise"]
+- !private ["3NIO11ChannelCoreP", "closed"]
+- ["3NIO11ChannelCoreP", "connect"]
+- ["3NIO11ChannelCoreP", "connect0"]
+- !private ["3NIO11ChannelCoreP", "connectionQueue"]
+- ["3NIO11ChannelCoreP", "doClose0"]
+- ["3NIO11ChannelCoreP", "doHalfClose0"]
+- !private ["3NIO11ChannelCoreP", "enablePeerToPeer"]
+- ["3NIO11ChannelCoreP", "errorCaught0"]
+- ["3NIO11ChannelCoreP", "eventLoop"]
+- !private ["3NIO11ChannelCoreP", "executeAndComplete"]
+- !private ["3NIO11ChannelCoreP", "fatalError"]
+- ["3NIO11ChannelCoreP", "flush"]
+- ["3NIO11ChannelCoreP", "flush0"]
+- ["3NIO11ChannelCoreP", "getOption"]
+- !private ["3NIO11ChannelCoreP", "getOption0"]
+- !private ["3NIO11ChannelCoreP", "init"]
+- ["3NIO11ChannelCoreP", "isActive"]
+- ["3NIO11ChannelCoreP", "isActive0"]
+- ["3NIO11ChannelCoreP", "isWritable"]
+- ["3NIO11ChannelCoreP", "localAddress"]
+- ["3NIO11ChannelCoreP", "localAddress0"]
+- !private ["3NIO11ChannelCoreP", "newConnectionHandler"]
+- !private ["3NIO11ChannelCoreP", "nwListener"]
+- ["3NIO11ChannelCoreP", "parent"]
+- ["3NIO11ChannelCoreP", "pipeline"]
+- !private ["3NIO11ChannelCoreP", "preconditionFailure"]
+- ["3NIO11ChannelCoreP", "read"]
+- ["3NIO11ChannelCoreP", "read0"]
+- ["3NIO11ChannelCoreP", "readIfNeeded0"]
+- ["3NIO11ChannelCoreP", "register"]
+- ["3NIO11ChannelCoreP", "register0"]
+- ["3NIO11ChannelCoreP", "registerAlreadyConfigured0"]
+- ["3NIO11ChannelCoreP", "remoteAddress"]
+- ["3NIO11ChannelCoreP", "remoteAddress0"]
+- !private ["3NIO11ChannelCoreP", "reuseAddress"]
+- !private ["3NIO11ChannelCoreP", "reusePort"]
+- ["3NIO11ChannelCoreP", "setOption"]
+- !private ["3NIO11ChannelCoreP", "setOption0"]
+- ["3NIO11ChannelCoreP", "state"]
+- !private ["3NIO11ChannelCoreP", "stateUpdateHandler"]
+- ["3NIO11ChannelCoreP", "supportedActivationType"]
+- ["3NIO11ChannelCoreP", "syncOptions"]
+- !private ["3NIO11ChannelCoreP", "tcpOptions"]
+- !private ["3NIO11ChannelCoreP", "tlsOptions"]
+- ["3NIO11ChannelCoreP", "triggerUserOutboundEvent"]
+- ["3NIO11ChannelCoreP", "triggerUserOutboundEvent0"]
+- ["3NIO11ChannelCoreP", "tsEventLoop"]
+- !private ["3NIO11ChannelCoreP", "unwrapData"]
+- ["3NIO11ChannelCoreP", "write"]
+- ["3NIO11ChannelCoreP", "write0"]
+- ["3NIO11ChannelCoreP", "writeAndFlush"]
+- !private ["3NIO12ChannelErrorO", "ioOnClosedChannel"]
+- !private ["3NIO12ChannelErrorO", "operationUnsupported"]
+- !private ["3NIO21ChannelInboundInvokerP", ""]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelRead"]
+- !private ["3NIO21ChannelInboundInvokerP", "fireChannelReadComplete"]
+- !private ["3NIO21ChannelInboundInvokerP", "init"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelRead"]
+- !private ["3NIO14ChannelInvokerP", "fireChannelReadComplete"]
+- !private ["3NIO14ChannelInvokerP", "init"]
+- ["3NIO13ChannelOptionP", "Value"]
+- !private ["3NIO13ChannelOptionP", "level"]
+- !private ["3NIO13ChannelOptionP", "name"]
+- !private ["3NIO14ChannelOptionsV", "Types"]
+- ["3NIO22ChannelOutboundInvokerP", "ActiveSubstate"]
+- ["3NIO22ChannelOutboundInvokerP", "AddressCache"]
+- ["3NIO22ChannelOutboundInvokerP", "ByteBufferAllocator"]
+- !private ["3NIO22ChannelOutboundInvokerP", "ChannelError"]
+- !private ["3NIO22ChannelOutboundInvokerP", "ChannelPipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "Int32"]
+- ["3NIO22ChannelOutboundInvokerP", "Lock"]
+- !private ["3NIO22ChannelOutboundInvokerP", "NIOAny"]
+- !private ["3NIO22ChannelOutboundInvokerP", "NIOTSConnectionChannel"]
+- !private ["3NIO22ChannelOutboundInvokerP", "NIOTSErrors"]
+- !private ["3NIO22ChannelOutboundInvokerP", "NWListener"]
+- !private ["3NIO22ChannelOutboundInvokerP", "NWParameters"]
+- !private ["3NIO22ChannelOutboundInvokerP", "SOL_SOCKET"]
+- !private ["3NIO22ChannelOutboundInvokerP", "SO_REUSEADDR"]
+- !private ["3NIO22ChannelOutboundInvokerP", "SO_REUSEPORT"]
+- !private ["3NIO22ChannelOutboundInvokerP", "SocketAddress"]
+- ["3NIO22ChannelOutboundInvokerP", ""]
+- !private ["3NIO22ChannelOutboundInvokerP", "_addressCache"]
+- !private ["3NIO22ChannelOutboundInvokerP", "_addressCacheLock"]
+- ["3NIO22ChannelOutboundInvokerP", "_channelCore"]
+- !private ["3NIO22ChannelOutboundInvokerP", "_pipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "addressCache"]
+- !private ["3NIO22ChannelOutboundInvokerP", "addressCacheLock"]
+- ["3NIO22ChannelOutboundInvokerP", "allocator"]
+- !private ["3NIO22ChannelOutboundInvokerP", "allowLocalEndpointReuse"]
+- ["3NIO22ChannelOutboundInvokerP", "alreadyConfigured0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "assert"]
+- !private ["3NIO22ChannelOutboundInvokerP", "autoRead"]
+- ["3NIO22ChannelOutboundInvokerP", "becomeActive0"]
+- ["3NIO22ChannelOutboundInvokerP", "beginActivating0"]
+- ["3NIO22ChannelOutboundInvokerP", "bind"]
+- ["3NIO22ChannelOutboundInvokerP", "bind0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "bindComplete0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "bindPromise"]
+- ["3NIO22ChannelOutboundInvokerP", "channelCore"]
+- ["3NIO22ChannelOutboundInvokerP", "channelRead0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "childChannelQoS"]
+- !private ["3NIO22ChannelOutboundInvokerP", "childLoopGroup"]
+- !private ["3NIO22ChannelOutboundInvokerP", "childTCPOptions"]
+- !private ["3NIO22ChannelOutboundInvokerP", "childTLSOptions"]
+- ["3NIO22ChannelOutboundInvokerP", "close"]
+- ["3NIO22ChannelOutboundInvokerP", "close0"]
+- ["3NIO22ChannelOutboundInvokerP", "closeFuture"]
+- ["3NIO22ChannelOutboundInvokerP", "closePromise"]
+- !private ["3NIO22ChannelOutboundInvokerP", "closed"]
+- ["3NIO22ChannelOutboundInvokerP", "connect"]
+- ["3NIO22ChannelOutboundInvokerP", "connect0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "connectionQueue"]
+- ["3NIO22ChannelOutboundInvokerP", "doClose0"]
+- ["3NIO22ChannelOutboundInvokerP", "doHalfClose0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "enablePeerToPeer"]
+- ["3NIO22ChannelOutboundInvokerP", "errorCaught0"]
+- ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "executeAndComplete"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fatalError"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelRead"]
+- !private ["3NIO22ChannelOutboundInvokerP", "fireChannelReadComplete"]
+- ["3NIO22ChannelOutboundInvokerP", "flush"]
+- ["3NIO22ChannelOutboundInvokerP", "flush0"]
+- ["3NIO22ChannelOutboundInvokerP", "getOption"]
+- !private ["3NIO22ChannelOutboundInvokerP", "getOption0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "init"]
+- ["3NIO22ChannelOutboundInvokerP", "isActive"]
+- ["3NIO22ChannelOutboundInvokerP", "isActive0"]
+- ["3NIO22ChannelOutboundInvokerP", "isWritable"]
+- ["3NIO22ChannelOutboundInvokerP", "localAddress"]
+- ["3NIO22ChannelOutboundInvokerP", "localAddress0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "newConnectionHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "nwListener"]
+- ["3NIO22ChannelOutboundInvokerP", "parent"]
+- ["3NIO22ChannelOutboundInvokerP", "pipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "preconditionFailure"]
+- ["3NIO22ChannelOutboundInvokerP", "read"]
+- ["3NIO22ChannelOutboundInvokerP", "read0"]
+- ["3NIO22ChannelOutboundInvokerP", "readIfNeeded0"]
+- ["3NIO22ChannelOutboundInvokerP", "register"]
+- ["3NIO22ChannelOutboundInvokerP", "register0"]
+- ["3NIO22ChannelOutboundInvokerP", "registerAlreadyConfigured0"]
+- ["3NIO22ChannelOutboundInvokerP", "remoteAddress"]
+- ["3NIO22ChannelOutboundInvokerP", "remoteAddress0"]
+- !private ["3NIO22ChannelOutboundInvokerP", "reuseAddress"]
+- !private ["3NIO22ChannelOutboundInvokerP", "reusePort"]
+- ["3NIO22ChannelOutboundInvokerP", "setOption"]
+- !private ["3NIO22ChannelOutboundInvokerP", "setOption0"]
+- ["3NIO22ChannelOutboundInvokerP", "state"]
+- !private ["3NIO22ChannelOutboundInvokerP", "stateUpdateHandler"]
+- ["3NIO22ChannelOutboundInvokerP", "supportedActivationType"]
+- ["3NIO22ChannelOutboundInvokerP", "syncOptions"]
+- !private ["3NIO22ChannelOutboundInvokerP", "tcpOptions"]
+- !private ["3NIO22ChannelOutboundInvokerP", "tlsOptions"]
+- ["3NIO22ChannelOutboundInvokerP", "triggerUserOutboundEvent"]
+- ["3NIO22ChannelOutboundInvokerP", "triggerUserOutboundEvent0"]
+- ["3NIO22ChannelOutboundInvokerP", "tsEventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "unwrapData"]
+- ["3NIO22ChannelOutboundInvokerP", "write"]
+- ["3NIO22ChannelOutboundInvokerP", "write0"]
+- ["3NIO22ChannelOutboundInvokerP", "writeAndFlush"]
+- !private ["3NIO15ChannelPipelineC", "fireChannelRead"]
+- !private ["3NIO15ChannelPipelineC", "fireChannelReadComplete"]
+- !private ["3NIO15ChannelPipelineC", "init"]
+- ["20NIOTransportServices12ChannelStateO", "idle"]
+- !private ["3NIO9CloseModeO", "all"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Service"]
+- ["s28CustomDebugStringConvertibleP", "State"]
+- !private ["s28CustomDebugStringConvertibleP", "allowLocalEndpointReuse"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "fireChannelRead"]
+- !private ["s28CustomDebugStringConvertibleP", "fireChannelReadComplete"]
+- ["s28CustomDebugStringConvertibleP", "hostPort"]
+- !private ["s28CustomDebugStringConvertibleP", "includePeerToPeer"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "newConnectionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "parameters"]
+- !private ["s28CustomDebugStringConvertibleP", "port"]
+- !private ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "requiredInterface"]
+- !private ["s28CustomDebugStringConvertibleP", "requiredLocalEndpoint"]
+- ["s28CustomDebugStringConvertibleP", "service"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "stateUpdateHandler"]
+- ["s28CustomDebugStringConvertibleP", "unix"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "newPort"]
+- !private ["s23CustomStringConvertibleP", "port"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- ["SQ", "Value"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "active"]
+- !private ["SQ", "all"]
+- ["SQ", "bind"]
+- ["SQ", "cancelled"]
+- !private ["SQ", "endpoint"]
+- ["SQ", "failed"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "hostPort"]
+- ["SQ", "init"]
+- !private ["SQ", "ioOnClosedChannel"]
+- !private ["SQ", "level"]
+- !private ["SQ", "name"]
+- !private ["SQ", "newPort"]
+- !private ["SQ", "operationUnsupported"]
+- !private ["SQ", "port"]
+- !private ["SQ", "rawValue"]
+- ["SQ", "ready"]
+- ["SQ", "service"]
+- ["SQ", "setup"]
+- ["SQ", "unix"]
+- ["SQ", "waiting"]
+- !private ["SQ", "whenFailure"]
+- ["s5ErrorP", ""]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "ioOnClosedChannel"]
+- !private ["s5ErrorP", "operationUnsupported"]
+- ["3NIO9EventLoopP", ""]
+- !private ["3NIO9EventLoopP", "assertInEventLoop"]
+- !private ["3NIO9EventLoopP", "channelQueue"]
+- !private ["3NIO9EventLoopP", "execute"]
+- !private ["3NIO9EventLoopP", "inEventLoop"]
+- !private ["3NIO9EventLoopP", "makePromise"]
+- !private ["3NIO9EventLoopP", "submit"]
+- !private ["3NIO15EventLoopFutureC", "whenFailure"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "assertInEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "channelQueue"]
+- !private ["3NIO14EventLoopGroupP", "execute"]
+- !private ["3NIO14EventLoopGroupP", "inEventLoop"]
+- !private ["3NIO14EventLoopGroupP", "makePromise"]
+- !private ["3NIO14EventLoopGroupP", "next"]
+- !private ["3NIO14EventLoopGroupP", "submit"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "rawValue"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "active"]
+- !private ["SH", "all"]
+- ["SH", "bind"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "hostPort"]
+- ["SH", "init"]
+- !private ["SH", "newPort"]
+- !private ["SH", "port"]
+- !private ["SH", "rawValue"]
+- ["SH", "service"]
+- ["SH", "unix"]
+- !private ["s6HasherV", "combine"]
+- !private ["s5Int32V", "init"]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", "=="]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", ""]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", "__derived_enum_equals"]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", "_rawHashValue"]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", "active"]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", "hash"]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", "hashValue"]
+- ["20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO", "init"]
+- ["21NIOConcurrencyHelpers4LockC", "init"]
+- !private ["21NIOConcurrencyHelpers4LockC", "withLock"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["3NIO6NIOAnyV", "init"]
+- ["21NIOConcurrencyHelpers9NIOAtomicC", "makeAtomic"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["20NIOTransportServices19NIOTSChannelOptionsV", "Types"]
+- !private ["20NIOTransportServices22NIOTSConnectionChannelC", ""]
+- !private ["20NIOTransportServices22NIOTSConnectionChannelC", "close"]
+- !private ["20NIOTransportServices22NIOTSConnectionChannelC", "eventLoop"]
+- !private ["20NIOTransportServices22NIOTSConnectionChannelC", "init"]
+- !private ["20NIOTransportServices22NIOTSConnectionChannelC", "registerAlreadyConfigured0"]
+- !private ["20NIOTransportServices19NIOTSChannelOptionsV5TypesO017NIOTSEnablePeerToG6OptionV", "Value"]
+- !private ["20NIOTransportServices10NIOTSErrorP", "init"]
+- !private ["20NIOTransportServices11NIOTSErrorsO", "UnableToResolveEndpoint"]
+- !private ["20NIOTransportServices14NIOTSEventLoopC", ""]
+- !private ["20NIOTransportServices14NIOTSEventLoopC", "channelQueue"]
+- !private ["20NIOTransportServices14NIOTSEventLoopC", "makePromise"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ActivationType"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ActiveChannelSubstate"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ActiveSubstate"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "AddressCache"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "Bool"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ByteBufferAllocator"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "Channel"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ChannelCore"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "ChannelError"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ChannelOption"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "ChannelOptions"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ChannelPipeline"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ChannelState"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "DispatchQoS"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "DispatchQueue"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "Error"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "EventLoopFuture"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "EventLoopGroup"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "EventLoopPromise"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "Int32"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "ListenerActiveSubstate"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "Lock"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "NIOAny"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "NIOAtomic"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "NIOTSChannelOptions"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "NIOTSConnectionChannel"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "NIOTSErrors"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "NIOTSEventLoop"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "NIOTSNetworkEvents"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "NWConnection"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "NWEndpoint"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "NWListener"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "NWParameters"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "NWProtocolTCP"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "NWProtocolTLS"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "SOL_SOCKET"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "SO_REUSEADDR"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "SO_REUSEPORT"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "SocketAddress"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "SocketOptionValue"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "Void"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", ""]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "_addressCache"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "_addressCacheLock"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "_channelCore"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "_pipeline"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "addressCache"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "addressCacheLock"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "allocator"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "allowLocalEndpointReuse"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "alreadyConfigured0"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "assert"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "autoRead"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "becomeActive0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "beginActivating0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "bind"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "bind0"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "bindComplete0"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "bindPromise"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "channelCore"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "channelRead0"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "childChannelQoS"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "childLoopGroup"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "childTCPOptions"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "childTLSOptions"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "close"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "close0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "closeFuture"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "closePromise"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "closed"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "connect"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "connect0"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "connectionQueue"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "deinit"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "doClose0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "doHalfClose0"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "enablePeerToPeer"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "errorCaught0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "eventLoop"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "executeAndComplete"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "fatalError"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "flush"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "flush0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "getOption"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "getOption0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "init"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "isActive"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "isActive0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "isWritable"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "localAddress"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "localAddress0"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "newConnectionHandler"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "nwListener"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "outstandingRead"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "parent"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "pipeline"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "preconditionFailure"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "read"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "read0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "readIfNeeded0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "register"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "register0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "registerAlreadyConfigured0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "remoteAddress"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "remoteAddress0"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "reuseAddress"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "reusePort"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "setOption"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "setOption0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "state"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "stateUpdateHandler"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "supportedActivationType"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "syncOptions"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "tcpOptions"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "tlsOptions"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "triggerUserOutboundEvent"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "triggerUserOutboundEvent0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "tsEventLoop"]
+- !private ["20NIOTransportServices20NIOTSListenerChannelC", "unwrapData"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "write"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "write0"]
+- ["20NIOTransportServices20NIOTSListenerChannelC", "writeAndFlush"]
+- !private ["20NIOTransportServices17NIOTSNetworkEventP", "endpoint"]
+- !private ["20NIOTransportServices18NIOTSNetworkEventsO", "BindToNWEndpoint"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["7Network10NWEndpointO", "hostPort"]
+- ["7Network10NWEndpointO", "service"]
+- ["7Network10NWEndpointO", "unix"]
+- !private ["7Network10NWListenerC", "Service"]
+- ["7Network10NWListenerC", "State"]
+- !private ["7Network10NWListenerC", "cancel"]
+- !private ["7Network10NWListenerC", "init"]
+- !private ["7Network10NWListenerC", "newConnectionHandler"]
+- !private ["7Network10NWListenerC", "parameters"]
+- !private ["7Network10NWListenerC", "port"]
+- !private ["7Network10NWListenerC", "service"]
+- !private ["7Network10NWListenerC", "start"]
+- !private ["7Network10NWListenerC", "stateUpdateHandler"]
+- !private ["7Network12NWParametersC", "allowLocalEndpointReuse"]
+- !private ["7Network12NWParametersC", "includePeerToPeer"]
+- !private ["7Network12NWParametersC", "init"]
+- !private ["7Network12NWParametersC", "requiredInterface"]
+- !private ["7Network12NWParametersC", "requiredLocalEndpoint"]
+- ["7Network10NWProtocolC", "Options"]
+- ["7Network17NWProtocolOptionsC", ""]
+- !private ["7Network17NWProtocolOptionsC", "applyChannelOption"]
+- !private ["7Network17NWProtocolOptionsC", "valueFor"]
+- ["7Network13NWProtocolTCPC", "Options"]
+- ["7Network13NWProtocolTLSC", "Options"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["7Network13NWProtocolTCPC7OptionsC", "applyChannelOption"]
+- !private ["7Network13NWProtocolTCPC7OptionsC", "valueFor"]
+- !private ["7Network10NWEndpointO4PortV", "rawValue"]
+- !private ["20NIOTransportServices12QoSEventLoopP", "channelQueue"]
+- !private ["20NIOTransportServices12QoSEventLoopP", "makePromise"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["7Network10NWListenerC7ServiceV", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["3NIO13SocketAddressO", "init"]
+- !private ["3NIO13SocketAddressO", "newPort"]
+- !private ["3NIO13SocketAddressO", "port"]
+- !private ["3NIO14ChannelOptionsV5TypesO12SocketOptionV", "level"]
+- !private ["3NIO14ChannelOptionsV5TypesO12SocketOptionV", "name"]
+- ["7Network10NWListenerC5StateO", "cancelled"]
+- ["7Network10NWListenerC5StateO", "failed"]
+- ["7Network10NWListenerC5StateO", "ready"]
+- ["7Network10NWListenerC5StateO", "setup"]
+- ["7Network10NWListenerC5StateO", "waiting"]
+- ["20NIOTransportServices19StateManagedChannelP", "ActiveSubstate"]
+- ["20NIOTransportServices19StateManagedChannelP", "AddressCache"]
+- ["20NIOTransportServices19StateManagedChannelP", "ByteBufferAllocator"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "ChannelError"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "ChannelPipeline"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "Int32"]
+- ["20NIOTransportServices19StateManagedChannelP", "Lock"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "NIOAny"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "NIOTSConnectionChannel"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "NIOTSErrors"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "NWListener"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "NWParameters"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "SOL_SOCKET"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "SO_REUSEADDR"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "SO_REUSEPORT"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "SocketAddress"]
+- ["20NIOTransportServices19StateManagedChannelP", ""]
+- !private ["20NIOTransportServices19StateManagedChannelP", "_addressCache"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "_addressCacheLock"]
+- ["20NIOTransportServices19StateManagedChannelP", "_channelCore"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "_pipeline"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "addressCache"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "addressCacheLock"]
+- ["20NIOTransportServices19StateManagedChannelP", "allocator"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "allowLocalEndpointReuse"]
+- ["20NIOTransportServices19StateManagedChannelP", "alreadyConfigured0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "assert"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "autoRead"]
+- ["20NIOTransportServices19StateManagedChannelP", "becomeActive0"]
+- ["20NIOTransportServices19StateManagedChannelP", "beginActivating0"]
+- ["20NIOTransportServices19StateManagedChannelP", "bind"]
+- ["20NIOTransportServices19StateManagedChannelP", "bind0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "bindComplete0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "bindPromise"]
+- ["20NIOTransportServices19StateManagedChannelP", "channelCore"]
+- ["20NIOTransportServices19StateManagedChannelP", "channelRead0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "childChannelQoS"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "childLoopGroup"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "childTCPOptions"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "childTLSOptions"]
+- ["20NIOTransportServices19StateManagedChannelP", "close"]
+- ["20NIOTransportServices19StateManagedChannelP", "close0"]
+- ["20NIOTransportServices19StateManagedChannelP", "closeFuture"]
+- ["20NIOTransportServices19StateManagedChannelP", "closePromise"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "closed"]
+- ["20NIOTransportServices19StateManagedChannelP", "connect"]
+- ["20NIOTransportServices19StateManagedChannelP", "connect0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "connectionQueue"]
+- ["20NIOTransportServices19StateManagedChannelP", "doClose0"]
+- ["20NIOTransportServices19StateManagedChannelP", "doHalfClose0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "enablePeerToPeer"]
+- ["20NIOTransportServices19StateManagedChannelP", "errorCaught0"]
+- ["20NIOTransportServices19StateManagedChannelP", "eventLoop"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "executeAndComplete"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "fatalError"]
+- ["20NIOTransportServices19StateManagedChannelP", "flush"]
+- ["20NIOTransportServices19StateManagedChannelP", "flush0"]
+- ["20NIOTransportServices19StateManagedChannelP", "getOption"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "getOption0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "init"]
+- ["20NIOTransportServices19StateManagedChannelP", "isActive"]
+- ["20NIOTransportServices19StateManagedChannelP", "isActive0"]
+- ["20NIOTransportServices19StateManagedChannelP", "isWritable"]
+- ["20NIOTransportServices19StateManagedChannelP", "localAddress"]
+- ["20NIOTransportServices19StateManagedChannelP", "localAddress0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "newConnectionHandler"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "nwListener"]
+- ["20NIOTransportServices19StateManagedChannelP", "parent"]
+- ["20NIOTransportServices19StateManagedChannelP", "pipeline"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "preconditionFailure"]
+- ["20NIOTransportServices19StateManagedChannelP", "read"]
+- ["20NIOTransportServices19StateManagedChannelP", "read0"]
+- ["20NIOTransportServices19StateManagedChannelP", "readIfNeeded0"]
+- ["20NIOTransportServices19StateManagedChannelP", "register"]
+- ["20NIOTransportServices19StateManagedChannelP", "register0"]
+- ["20NIOTransportServices19StateManagedChannelP", "registerAlreadyConfigured0"]
+- ["20NIOTransportServices19StateManagedChannelP", "remoteAddress"]
+- ["20NIOTransportServices19StateManagedChannelP", "remoteAddress0"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "reuseAddress"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "reusePort"]
+- ["20NIOTransportServices19StateManagedChannelP", "setOption"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "setOption0"]
+- ["20NIOTransportServices19StateManagedChannelP", "state"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "stateUpdateHandler"]
+- ["20NIOTransportServices19StateManagedChannelP", "supportedActivationType"]
+- ["20NIOTransportServices19StateManagedChannelP", "syncOptions"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "tcpOptions"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "tlsOptions"]
+- ["20NIOTransportServices19StateManagedChannelP", "triggerUserOutboundEvent"]
+- ["20NIOTransportServices19StateManagedChannelP", "triggerUserOutboundEvent0"]
+- ["20NIOTransportServices19StateManagedChannelP", "tsEventLoop"]
+- !private ["20NIOTransportServices19StateManagedChannelP", "unwrapData"]
+- ["20NIOTransportServices19StateManagedChannelP", "write"]
+- ["20NIOTransportServices19StateManagedChannelP", "write0"]
+- ["20NIOTransportServices19StateManagedChannelP", "writeAndFlush"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["3NIO14ChannelOptionsV5TypesO", "AutoReadOption"]
+- !private ["20NIOTransportServices19NIOTSChannelOptionsV5TypesO", "NIOTSAllowLocalEndpointReuse"]
+- !private ["20NIOTransportServices19NIOTSChannelOptionsV5TypesO", "NIOTSEnablePeerToPeerOption"]
+- !private ["3NIO14ChannelOptionsV5TypesO", "SocketOption"]
+- !private ["20NIOTransportServices11NIOTSErrorsO23UnableToResolveEndpointV", ""]
+- !private ["20NIOTransportServices11NIOTSErrorsO23UnableToResolveEndpointV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "20NIOTransportServices14ActivationTypeO"
+- "20NIOTransportServices21ActiveChannelSubstateP"
+- !private "s18AdditiveArithmeticP"
+- "20NIOTransportServices12AddressCacheV"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "3NIO14ChannelOptionsV5TypesO14AutoReadOptionV"
+- !private "Sz"
+- !private "20NIOTransportServices18NIOTSNetworkEventsO16BindToNWEndpointV"
+- "3NIO19ByteBufferAllocatorV"
+- !private "s7CVarArgP"
+- "3NIO7ChannelP"
+- "3NIO11ChannelCoreP"
+- !private "3NIO12ChannelErrorO"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- "3NIO13ChannelOptionP"
+- !private "3NIO14ChannelOptionsV"
+- "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO15ChannelPipelineC"
+- "20NIOTransportServices12ChannelStateO"
+- !private "3NIO9CloseModeO"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "s5Int32V"
+- "20NIOTransportServices20NIOTSListenerChannelC22ListenerActiveSubstateO"
+- "21NIOConcurrencyHelpers4LockC"
+- !private "s25LosslessStringConvertibleP"
+- !private "3NIO6NIOAnyV"
+- "21NIOConcurrencyHelpers9NIOAtomicC"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "20NIOTransportServices19NIOTSChannelOptionsV"
+- !private "20NIOTransportServices22NIOTSConnectionChannelC"
+- !private "20NIOTransportServices19NIOTSChannelOptionsV5TypesO017NIOTSEnablePeerToG6OptionV"
+- !private "20NIOTransportServices10NIOTSErrorP"
+- !private "20NIOTransportServices11NIOTSErrorsO"
+- !private "20NIOTransportServices14NIOTSEventLoopC"
+- "20NIOTransportServices20NIOTSListenerChannelC"
+- !private "20NIOTransportServices17NIOTSNetworkEventP"
+- !private "20NIOTransportServices18NIOTSNetworkEventsO"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "7Network10NWEndpointO"
+- "7Network10NWListenerC"
+- !private "7Network12NWParametersC"
+- "7Network10NWProtocolC"
+- "7Network17NWProtocolOptionsC"
+- "7Network13NWProtocolTCPC"
+- "7Network13NWProtocolTLSC"
+- !private "Sj"
+- !private "7Network13NWProtocolTCPC7OptionsC"
+- !private "7Network10NWEndpointO4PortV"
+- !private "20NIOTransportServices12QoSEventLoopP"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "7Network10NWListenerC7ServiceV"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "3NIO13SocketAddressO"
+- !private "3NIO14ChannelOptionsV5TypesO12SocketOptionV"
+- "7Network10NWListenerC5StateO"
+- "20NIOTransportServices19StateManagedChannelP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "3NIO14ChannelOptionsV5TypesO"
+- !private "20NIOTransportServices19NIOTSChannelOptionsV5TypesO"
+- !private "3NIO14ChannelOptionsV5TypesO"
+- !private "20NIOTransportServices11NIOTSErrorsO23UnableToResolveEndpointV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Leaf.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/LeafKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d724980c0e8c79f16dac6c4ab6a9170c"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "ce12fe92a26a9f334a5001909cbc9518"
+build_time: [1616667022, 289723000]
+inputs:
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/ByteBuffer-foundation.swift": [1616666965, 973183016]
+  "/Users/cameronaugustine/Documents/vapor/ShareRecipeAPI/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/Codable+ByteBuffer.swift": [1616666965, 973353818]

@@ -10,15 +10,19 @@ final class RecipeTests: XCTestCase {
     let recipePrepTime = "10 Minutes"
     let recipeCookTime = "15 Minutes"
     var user: User!
-
+    let fileName = "someFile.png"
+    var path: String = ""
+    
     var app: Application!
     
     override func setUpWithError() throws {
-      app = try Application.testable()
+        app = try Application.testable()
+        path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first! + "/" + fileName
+        print(path)
     }
 
     override func tearDown() {
-      app.shutdown()
+        app.shutdown()
     }
     
     func testRecipesCanBeRetrievedFromAPI() throws {
@@ -36,7 +40,8 @@ final class RecipeTests: XCTestCase {
     
     func testRecipeCanBeSavedWithAPI() throws {
         user = try User.create(on: app.db)
-        let createRecipeData = CreateRecipeData(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, image: "")
+        // TODO: Upload Image
+        let createRecipeData = CreateRecipeData(name: recipeName, ingredients: recipeIngredients, directions: recipeDirections, servings: recipeServings, prepTime: recipePrepTime, cookTime: recipeCookTime, image: path.data(using: .utf8)!)
         
         try app.test(.POST, recipesURI, loggedInUser: user, beforeRequest: { request in
             try request.content.encode(createRecipeData)
@@ -165,7 +170,10 @@ final class RecipeTests: XCTestCase {
     
     func testMustBeLoggedInToAttemptToUpdateRecipe() throws {
         let recipe = try Recipe.create(on: app.db)
-        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: "")
+        let fileName = "someFile.png"
+        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first! + "/" + fileName
+        print(path)
+        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: path.data(using: .utf8)!)
         
         try app.test(.PUT, "\(recipesURI)\(recipe.id!)", beforeRequest: { request in
             try request.content.encode(updatedRecipe)
@@ -195,7 +203,7 @@ final class RecipeTests: XCTestCase {
         let someUser = try User.create(username: "noncreator", admin: false, on: app.db)
         let recipe = try Recipe.create(on: app.db)
         
-        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: "")
+        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: path.data(using: .utf8)!)
         try app.test(.PUT, "\(recipesURI)\(recipe.id!)", loggedInUser: someUser, beforeRequest: { request in
             try request.content.encode(updatedRecipe)
         }, afterResponse: { response in
@@ -273,7 +281,7 @@ final class RecipeTests: XCTestCase {
         })
 
         
-        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: "")
+        let updatedRecipe = CreateRecipeData(name: "Beef Curry", ingredients: ["Gourmet Ingredients"], directions: ["Cook Gourmet Ingredients"], servings: 12, prepTime: "30 Minutes", cookTime: "30 Minutes", image: path.data(using: .utf8)!)
         
         try app.test(.PUT, "\(recipesURI)\(recipe.id!)", loggedInUser: user,  beforeRequest: { request in
             try request.content.encode(updatedRecipe)

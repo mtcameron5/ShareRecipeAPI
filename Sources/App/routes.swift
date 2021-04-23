@@ -2,6 +2,8 @@ import Fluent
 import Vapor
 
 func routes(_ app: Application) throws {
+    
+    app.routes.defaultMaxBodySize = "4000kb"
     let usersController = UsersController()
     try app.register(collection: usersController)
     

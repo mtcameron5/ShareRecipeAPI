@@ -63,7 +63,7 @@ public func configure(_ app: Application) throws {
     app.migrations.add(CreateUserUsedRecipePivot())
     app.migrations.add(CreateUserRatesRecipePivot())
     app.migrations.add(CreateTokenMigration())
-    app.migrations.add(CreateAdminUser())
+//    app.migrations.add(CreateAdminUser())
 
 //  For production AddAdminToUsers and CreateAdminUser was previously used to alter the production databases, which wasn't necessary previously
 //    if app.environment != .testing {

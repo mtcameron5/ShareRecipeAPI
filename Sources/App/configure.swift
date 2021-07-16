@@ -47,14 +47,7 @@ public func configure(_ app: Application) throws {
                     databaseName),
             as: .psql)
     }
-    app.databases.use(.postgres(
-        hostname: Environment.get("DATABASE_HOST") ?? "localhost",
-        port: databasePort,
-//        username: "vapor_username",
-        username: Environment.get("DATABASE_USERNAME") ?? "vapor_username",
-        password: Environment.get("DATABASE_PASSWORD") ?? "vapor_password",
-        database: Environment.get("DATABASE_NAME") ?? databaseName
-    ), as: .psql)
+
     
 //    Increase payload
     app.routes.defaultMaxBodySize = "10mb"
@@ -69,15 +62,6 @@ public func configure(_ app: Application) throws {
     app.migrations.add(CreateUserRatesRecipePivot())
     app.migrations.add(CreateTokenMigration())
 //    app.migrations.add(CreateAdminUser())
-
-//  For production AddAdminToUsers and CreateAdminUser was previously used to alter the production databases, which wasn't necessary previously
-//    if app.environment != .testing {
-//        app.migrations.add(AddAdminToUsers())
-//        app.migrations.add(CreateAdminUser())
-////        app.migrations.add(AddPasswordToUserWithDefaultValue())
-//    }
-    
-//    app.http.server.configuration.hostname = "0.0.0.0"
 
     app.logger.logLevel = .debug
     try app.autoMigrate().wait()

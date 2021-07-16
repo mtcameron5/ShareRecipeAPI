@@ -28,9 +28,6 @@ final class Recipe: Model {
     @Field(key: "cookTime")
     var cookTime: String
     
-    @Field(key: "recipePicture")
-    var recipePicture: String
-    
     @Siblings(through: UserLikesRecipePivot.self, from: \.$recipe, to: \.$user)
     var usersThatLikeRecipe: [User]
     
@@ -49,7 +46,7 @@ final class Recipe: Model {
     init() { }
     
 
-    init(id: UUID? = nil, name: String, ingredients: [String], servings: Int, prepTime: String, cookTime: String, directions: [String], userID: User.IDValue, recipePicture: String = "") {
+    init(id: UUID? = nil, name: String, ingredients: [String], servings: Int, prepTime: String, cookTime: String, directions: [String], userID: User.IDValue) {
         self.id = id
         self.name = name
         self.ingredients = ingredients
@@ -58,7 +55,6 @@ final class Recipe: Model {
         self.servings = servings
         self.prepTime = prepTime
         self.cookTime = cookTime
-        self.recipePicture = recipePicture
     }
 }
 

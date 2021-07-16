@@ -54,18 +54,20 @@ struct RecipesController: RouteCollection {
     func createHandler(_ req: Request) throws -> EventLoopFuture<Recipe> {
         let data = try req.content.decode(CreateRecipeData.self)
         let user = try req.auth.require(User.self)
-        let name = "\(data.name)-\(UUID()).jpg"
-        let path = req.application.directory.workingDirectory + imageFolder + name
-        return req.fileio.writeFile(.init(data: data.image), at: path).flatMap {
-            do {
-                let recipe = try Recipe(name: data.name, ingredients: data.ingredients, servings: data.servings, prepTime: data.prepTime, cookTime: data.cookTime, directions: data.directions, userID: user.requireID(), recipePicture: name)
-                return recipe.save(on: req.db).map { recipe }
-            } catch {
-                return req.eventLoop.future(error: error)
-            }
-
-        }
+        let recipe = try Recipe(name: data.name, ingredients: data.ingredients, servings: data.servings, prepTime: data.prepTime, cookTime: data.cookTime, directions: data.directions, userID: user.requireID())
+        return recipe.save(on: req.db).map { recipe }
     }
+//        let name = "\(data.name)-\(UUID()).jpg"
+//        let path = req.application.directory.workingDirectory + imageFolder + name
+//        return req.fileio.writeFile(.init(data: data.image), at: path).flatMap {
+//            do {
+//
+//                return recipe.save(on: req.db).map { recipe }
+//            } catch {
+//                return req.eventLoop.future(error: error)
+//            }
+//
+//        }
     
     func updateHandler(_ req: Request) throws -> EventLoopFuture<Recipe> {
         let updateData = try req.content.decode(CreateRecipeData.self)
@@ -197,6 +199,5 @@ struct CreateRecipeData: Content {
     let servings: Int
     let prepTime: String
     let cookTime: String
-    let image: Data
 }
 

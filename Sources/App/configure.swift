@@ -7,9 +7,12 @@ public func configure(_ app: Application) throws {
     // uncomment to serve files from /Public folder
     // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
     app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
-
+    app.middleware.use(app.sessions.middleware)
+    
     let databaseName: String
     let databasePort: Int
+    
+    
     if (app.environment == .testing) {
         databaseName = "vapor-test"
         if let testPort = Environment.get("DATABASE_PORT") {
@@ -44,15 +47,17 @@ public func configure(_ app: Application) throws {
                     databaseName),
             as: .psql)
     }
-//    app.databases.use(.postgres(
-//        hostname: Environment.get("DATABASE_HOST") ?? "localhost",
-//        port: databasePort,
-//        username: Environment.get("DATABASE_USERNAME") ?? "vapor_username",
-//        password: Environment.get("DATABASE_PASSWORD") ?? "vapor_password",
-//        database: Environment.get("DATABASE_NAME") ?? databaseName
-//    ), as: .psql)
+    app.databases.use(.postgres(
+        hostname: Environment.get("DATABASE_HOST") ?? "localhost",
+        port: databasePort,
+//        username: "vapor_username",
+        username: Environment.get("DATABASE_USERNAME") ?? "vapor_username",
+        password: Environment.get("DATABASE_PASSWORD") ?? "vapor_password",
+        database: Environment.get("DATABASE_NAME") ?? databaseName
+    ), as: .psql)
     
-
+//    Increase payload
+    app.routes.defaultMaxBodySize = "10mb"
     app.migrations.add(CreateUser())
     app.migrations.add(CreateCategory())
     app.migrations.add(CreateRecipe())
@@ -71,6 +76,8 @@ public func configure(_ app: Application) throws {
 //        app.migrations.add(CreateAdminUser())
 ////        app.migrations.add(AddPasswordToUserWithDefaultValue())
 //    }
+    
+    app.http.server.configuration.hostname = "0.0.0.0"
 
     app.logger.logLevel = .debug
     try app.autoMigrate().wait()

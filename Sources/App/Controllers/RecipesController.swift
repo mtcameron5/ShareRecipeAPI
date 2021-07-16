@@ -21,15 +21,13 @@ struct RecipesController: RouteCollection {
         recipeRoutes.get("sorted", use: getSortedHandler)
         recipeRoutes.get(":recipeID", "categories", use: getCategoriesOfRecipe)
         recipeRoutes.get(":recipeID", "categories", ":categoryID", use: getCategoryOfRecipeHandler)
-        
+        recipeRoutes.post(":recipeID", "addRecipePicture", use: addRecipePictureHandler)
+//        recipeRoutes.on(.POST, ":recipeID", "addRecipePicture", body: .collect(maxSize: "10mb"), use: addRecipePictureHandler)
         let tokenAuthMiddleWare = Token.authenticator()
         let guardAuthMiddleware = User.guardMiddleware()
         let tokenAuthGroup = recipeRoutes.grouped(tokenAuthMiddleWare, guardAuthMiddleware)
-
-
         tokenAuthGroup.post(use: createHandler)
-//
-        tokenAuthGroup.on(.POST, ":recipeID", "addRecipePicture", body: .collect(maxSize: "10mb"), use: addRecipePictureHandler)
+  
         tokenAuthGroup.put(":recipeID", use: updateHandler)
         tokenAuthGroup.delete(":recipeID", use: deleteHandler)
         tokenAuthGroup.post(":recipeID", "categories", ":categoryID", use: addCategoryHandler)
@@ -60,7 +58,7 @@ struct RecipesController: RouteCollection {
         return recipe.save(on: req.db).map { recipe }
     }
     
-    func addRecipePictureHandler(_ req: Request) throws -> EventLoopFuture<Response> {
+    func addRecipePictureHandler(_ req: Request) throws -> EventLoopFuture<Recipe> {
         let data = try req.content.decode(ImageUploadData.self)
         return Recipe.find(req.parameters.get("recipeID"), on: req.db)
             .unwrap(or: Abort(.notFound))
@@ -73,28 +71,21 @@ struct RecipesController: RouteCollection {
                 }
                 
                 let name = "\(recipeID)-\(UUID()).jpg"
-                let path = req.application.directory.workingDirectory + imageFolder + name
                 
+                print("Name: ", name)
+                
+                let path = req.application.directory.workingDirectory + imageFolder + name
+                print("Path: ", path)
+                print("===========")
+                print("req.application.directory.workingDirectory", req.application.directory.workingDirectory)
                 return req.fileio
                     .writeFile(.init(data: data.picture), at: path)
                     .flatMap {
                         recipe.recipePicture = name
-                        let redirect = req.redirect(to: "/recipes/\(recipeID)")
-                        return recipe.save(on: req.db).transform(to: redirect)
+                        return recipe.save(on: req.db).map({ recipe })
                     }
             }
     }
-//        let name = "\(data.name)-\(UUID()).jpg"
-//        let path = req.application.directory.workingDirectory + imageFolder + name
-//        return req.fileio.writeFile(.init(data: data.image), at: path).flatMap {
-//            do {
-//
-//                return recipe.save(on: req.db).map { recipe }
-//            } catch {
-//                return req.eventLoop.future(error: error)
-//            }
-//
-//        }
     
     func updateHandler(_ req: Request) throws -> EventLoopFuture<Recipe> {
         let updateData = try req.content.decode(CreateRecipeData.self)

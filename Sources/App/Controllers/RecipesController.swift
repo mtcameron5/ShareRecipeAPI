@@ -28,6 +28,8 @@ struct RecipesController: RouteCollection {
 
 
         tokenAuthGroup.post(use: createHandler)
+//
+        tokenAuthGroup.on(.POST, ":recipeID", "addRecipePicture", body: .collect(maxSize: "10mb"), use: addRecipePictureHandler)
         tokenAuthGroup.put(":recipeID", use: updateHandler)
         tokenAuthGroup.delete(":recipeID", use: deleteHandler)
         tokenAuthGroup.post(":recipeID", "categories", ":categoryID", use: addCategoryHandler)
@@ -56,6 +58,31 @@ struct RecipesController: RouteCollection {
         let user = try req.auth.require(User.self)
         let recipe = try Recipe(name: data.name, ingredients: data.ingredients, servings: data.servings, prepTime: data.prepTime, cookTime: data.cookTime, directions: data.directions, userID: user.requireID())
         return recipe.save(on: req.db).map { recipe }
+    }
+    
+    func addRecipePictureHandler(_ req: Request) throws -> EventLoopFuture<Response> {
+        let data = try req.content.decode(ImageUploadData.self)
+        return Recipe.find(req.parameters.get("recipeID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+            .flatMap { recipe in
+                let recipeID: UUID
+                do {
+                    recipeID = try recipe.requireID()
+                } catch {
+                    return req.eventLoop.future(error: error)
+                }
+                
+                let name = "\(recipeID)-\(UUID()).jpg"
+                let path = req.application.directory.workingDirectory + imageFolder + name
+                
+                return req.fileio
+                    .writeFile(.init(data: data.picture), at: path)
+                    .flatMap {
+                        recipe.recipePicture = name
+                        let redirect = req.redirect(to: "/recipes/\(recipeID)")
+                        return recipe.save(on: req.db).transform(to: redirect)
+                    }
+            }
     }
 //        let name = "\(data.name)-\(UUID()).jpg"
 //        let path = req.application.directory.workingDirectory + imageFolder + name
@@ -201,3 +228,6 @@ struct CreateRecipeData: Content {
     let cookTime: String
 }
 
+struct ImageUploadData: Content {
+    var picture: Data
+}

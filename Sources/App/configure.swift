@@ -77,7 +77,7 @@ public func configure(_ app: Application) throws {
 ////        app.migrations.add(AddPasswordToUserWithDefaultValue())
 //    }
     
-    app.http.server.configuration.hostname = "0.0.0.0"
+//    app.http.server.configuration.hostname = "0.0.0.0"
 
     app.logger.logLevel = .debug
     try app.autoMigrate().wait()

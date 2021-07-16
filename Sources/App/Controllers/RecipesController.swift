@@ -21,7 +21,11 @@ struct RecipesController: RouteCollection {
         recipeRoutes.get("sorted", use: getSortedHandler)
         recipeRoutes.get(":recipeID", "categories", use: getCategoriesOfRecipe)
         recipeRoutes.get(":recipeID", "categories", ":categoryID", use: getCategoryOfRecipeHandler)
+        
+        // find recipe picture and upload recipe picture handlers
+        recipeRoutes.get(":recipeID", "recipePicture", use: getRecipePictureHandler)
         recipeRoutes.post(":recipeID", "addRecipePicture", use: addRecipePictureHandler)
+        
 //        recipeRoutes.on(.POST, ":recipeID", "addRecipePicture", body: .collect(maxSize: "10mb"), use: addRecipePictureHandler)
         let tokenAuthMiddleWare = Token.authenticator()
         let guardAuthMiddleware = User.guardMiddleware()
@@ -84,6 +88,19 @@ struct RecipesController: RouteCollection {
                         recipe.recipePicture = name
                         return recipe.save(on: req.db).map({ recipe })
                     }
+            }
+    }
+    
+    func getRecipePictureHandler(_ req: Request) throws -> EventLoopFuture<Response> {
+        Recipe.find(req.parameters.get("recipeID"), on: req.db)
+            .unwrap(or: Abort(.notFound))
+            .flatMapThrowing { recipe in
+                guard let filename = recipe.recipePicture else {
+                    throw Abort(.notFound)
+                }
+                let path = req.application.directory
+                    .workingDirectory + imageFolder + filename
+                return req.fileio.streamFile(at: path)
             }
     }
     

@@ -98,8 +98,8 @@ struct RecipesController: RouteCollection {
                 guard let filename = recipe.recipePicture else {
                     throw Abort(.notFound)
                 }
-                let path = req.application.directory
-                    .workingDirectory + imageFolder + filename
+                let path = req.application.directory.workingDirectory + imageFolder + filename
+                print(path)
                 return req.fileio.streamFile(at: path)
             }
     }

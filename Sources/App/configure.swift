@@ -48,11 +48,11 @@ public func configure(_ app: Application) throws {
 //            as: .psql)
 //    }
     app.databases.use(.postgres(
-      hostname: Environment.get("DATABASE_HOST") ?? "localhost",
+      hostname: Environment.get("DATABASE_HOST") ?? "cookbook.csz3uua8puuc.us-west-2.rds.amazonaws.com",
       port: databasePort,
-      username: Environment.get("DATABASE_USERNAME") ?? "vapor_username",
-      password: Environment.get("DATABASE_PASSWORD") ?? "vapor_password",
-      database: Environment.get("DATABASE_NAME") ?? databaseName
+      username: Environment.get("DATABASE_USERNAME") ?? "cookbook",
+      password: Environment.get("DATABASE_PASSWORD") ?? "Please89793$$$",
+      database: Environment.get("DATABASE_NAME") ?? "cookbook"
     ), as: .psql)
 
     

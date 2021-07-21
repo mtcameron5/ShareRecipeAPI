@@ -25,35 +25,19 @@ public func configure(_ app: Application) throws {
         databasePort = 5432
     }
 
-//    if var config = Environment.get("DATABASE_URL")
-//        .flatMap(URL.init)
-//        .flatMap(PostgresConfiguration.init) {
-//        config.tlsConfiguration = .forClient(
-//            certificateVerification: .none)
-//        app.databases.use(.postgres(
-//            configuration: config
-//        ), as: .psql)
-//    } else {
-//        app.databases.use(
-//            .postgres(
-//                hostname: Environment.get("DATABASE_HOST") ??
-//                    "localhost",
-//                port: databasePort,
-//                username: Environment.get("DATABASE_USERNAME") ??
-//                    "vapor_username",
-//                password: Environment.get("DATABASE_PASSWORD") ??
-//                    "vapor_password",
-//                database: Environment.get("DATABASE_NAME") ??
-//                    databaseName),
-//            as: .psql)
-//    }
-    app.databases.use(.postgres(
-      hostname: Environment.get("DATABASE_HOST") ?? "cookbook.csz3uua8puuc.us-west-2.rds.amazonaws.com",
-      port: databasePort,
-      username: Environment.get("DATABASE_USERNAME") ?? "cookbook",
-      password: Environment.get("DATABASE_PASSWORD") ?? "Please89793$$$",
-      database: Environment.get("DATABASE_NAME") ?? "cookbook"
-    ), as: .psql)
+ 
+    app.databases.use(
+        .postgres(
+            hostname: Environment.get("DATABASE_HOST") ??
+                "localhost",
+            port: databasePort,
+            username: Environment.get("DATABASE_USERNAME") ??
+                "vapor_username",
+            password: Environment.get("DATABASE_PASSWORD") ??
+                "vapor_password",
+            database: Environment.get("DATABASE_NAME") ??
+                databaseName),
+        as: .psql)
 
     
 //    Increase payload
